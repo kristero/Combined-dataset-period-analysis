@@ -11,6 +11,7 @@ from astropy.timeseries import LombScargle
 from scipy.signal import find_peaks
 import pandas as pd
 from matplotlib import colormaps
+import os
 
 class AsteroidLSPipeline():
     """
@@ -28,9 +29,10 @@ class AsteroidLSPipeline():
     - Period bounds are given in *hours* (as in your notebook).
       frequency [cycles/day] = 24 / period_hours
     """
-    def __init__(self, all_sheets, Asteroid_number):
+    def __init__(self, all_sheets, Asteroid_number, base_dir=r"C:\Users\kn18001\Documents\Asteroids\Combined-dataset-period-analysis"):
         self.all_sheets = all_sheets
         self.Asteroid_number = Asteroid_number
+        self.base_dir = base_dir
 
     def removeOutliers(self, xdatas, ydatas, outlierConstant, x_threshold=5):
         # Compute quartiles of the y–data
@@ -95,9 +97,11 @@ class AsteroidLSPipeline():
         ts, ys, remove_idx= self.removeOutliers(t_rel, y, outlier_param)
         return ts, ys
 
-    def LS_initiate(self, ts, ys, nterms= 2, maxf =1/(0.5/24), minf = 1/(50/24), samples_per_peak=15, save_bool = False, 
-                    path_to_LS = r"C:\Users\nagai\Documents\LS_data\\"):
+    def LS_initiate(self, ts, ys, nterms= 2, maxf =1/(0.5/24), minf = 1/(50/24), samples_per_peak=15, save_bool = False,
+                    path_to_LS = None):
         self.nterms = nterms
+        if isinstance(save_bool, str):
+            save_bool = save_bool.strip().lower() in ("true", "1", "yes", "y")
         # Lomb scargle periodgramma
         ls = LombScargle(ts, ys, nterms=nterms)
         self.ls = ls
@@ -108,8 +112,9 @@ class AsteroidLSPipeline():
         frequency, power = ls.autopower(minimum_frequency=minf, maximum_frequency= maxf,samples_per_peak=samples_per_peak)
 
         if save_bool:
-            path_to_LS = r"C:\Users\nagai\Documents\LS_data\\"
-            filename = path_to_LS + f"{self.Asteroid_number}_LS_results_n=2.pkl"
+            path_to_LS = path_to_LS or os.path.join(self.base_dir, "LS_data")
+            os.makedirs(path_to_LS, exist_ok=True)
+            filename = os.path.join(path_to_LS, f"{self.Asteroid_number}_LS_results_n=2.pkl")
             
             # Save
             with open(filename, "wb") as file:

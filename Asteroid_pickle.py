@@ -27,10 +27,11 @@ class DatasetGenerator():
     produces the combined dataset later to be used for the light curve analysis
     """
 
-    def __init__(self, path, file_name, Asteroid_number, reduced_obs):
+    def __init__(self, path, file_name, Asteroid_number, reduced_obs, base_dir=r"C:\Users\kn18001\Documents\Asteroids\Combined-dataset-period-analysis", file_path_ph=None):
         self.path = path
         self.file_name = file_name
-        self.file_path_ph = r"C:\Users\nagai\Downloads\phases_and_phi.txt"
+        self.base_dir = base_dir
+        self.file_path_ph = file_path_ph or os.path.join(self.base_dir, "phases_and_phi.txt")
         self.Asteroid_number = Asteroid_number
         self.reduced_obs = reduced_obs
         self.filter_bias = {"B": 0.11,
@@ -401,8 +402,8 @@ class DatasetGenerator():
             plt.show()
             return H_val_22, G1_val2, G2_val2
 
-    def all_obs_comb(self, H_val_2, G1_val = 1, G2_val = 0, method = "HG1G2", save_figure = False, save_figures = "path",
-                     save_path = r"C:\Users\nagai\Documents\Asteroids_BF_2\\", save_file = False):
+    def all_obs_comb(self, H_val_2, G1_val = 1, G2_val = 0, method = "HG1G2", save_figure = False, save_figures = None,
+                     save_path = None, save_file = False, ref_redchi = None, chi2_factor = 3.0):
 
         i = 0
         plt.figure(dpi =300, figsize = (10, 10))
@@ -448,6 +449,12 @@ class DatasetGenerator():
                 G2_val_obs = results2.params["G2"].value
                 
                 #print (sheet_name, "G1 = {}, G2 = {}".format(G1_val_obs, G2_val_obs))
+                red_chi2 = results2.redchi
+                if ref_redchi is None:
+                    ref_redchi = red_chi2
+                    print(f"Reference reduced chi^2 set to {ref_redchi:.3f} (from {sheet_name})")
+                chi2_status = "PASS" if red_chi2 <= chi2_factor * ref_redchi else "FAIL"
+                print(f"{sheet_name}: HG1G2 reduced chi^2 = {red_chi2:.3f} [{chi2_status}]")
             
             
                 mag_analy_2_obs = self.hg1g2_phase_function(ph_an_obs, H_val_2_obs, G1_val_obs, G2_val_obs)
@@ -493,13 +500,15 @@ class DatasetGenerator():
             dict_sheets[sheet_name] = np.array([H_reduced, time_idx_removed, Ph])
             i+=1
         if save_figure:
+            save_figures = save_figures or self.base_dir
             print ("Saving figure!")
-            plt.savefig(save_figures + "{}_data_reduction_plot_flat.png".format(self.Asteroid_number))
+            plt.savefig(os.path.join(save_figures, "{}_data_reduction_plot_flat.png".format(self.Asteroid_number)))
             plt.show()
 
         if save_file:
+            save_path = save_path or self.base_dir
             print (f"Saving the file in location: {save_path}")
             #%%
-            with open(save_path + '{}_data_compile_fix_G1G2.pkl'.format(self.Asteroid_number), 'wb') as file:
+            with open(os.path.join(save_path, '{}_data_compile_fix_G1G2.pkl'.format(self.Asteroid_number)), 'wb') as file:
                 pickle.dump(dict_sheets, file)
         return dict_sheets
