@@ -56,30 +56,63 @@ class DatasetGenerator():
                "C": 0.351
               }
 
-    def removeOutliers(self, xdatas, ydatas, outlierConstant, x_threshold=5):
-        # Compute quartiles of the y–data
-        Q1, Q3 = np.percentile(ydatas, [25, 75])
-        IQR = Q3 - Q1
-        
-        # Inlier bounds in y
-        lower_bound = Q1 - outlierConstant * IQR
-        upper_bound = Q3 + outlierConstant * IQR
-        
-        # “Good by y” mask
-        good_y = (ydatas >= lower_bound) & (ydatas <= upper_bound)
-        # “Always keep” mask for x < threshold
-        always_keep = xdatas < x_threshold
-        
-        # Final mask: either inlier by y *or* x below threshold
-        mask = good_y | always_keep
-        
-        # Filtered data
+    def removeOutliers(self, xdatas, ydatas, outlierConstant=3.0, x_threshold=5):
+        """
+        Remove outliers by sigma-clipping inside phase-angle bins.
+
+        Parameters:
+            xdatas: phase angles (deg)
+            ydatas: magnitudes
+            outlierConstant: sigma threshold (default 3.0)
+            x_threshold: kept for backward compatibility (unused)
+        """
+        xdatas = np.asarray(xdatas, dtype=float)
+        ydatas = np.asarray(ydatas, dtype=float)
+
+        valid = np.isfinite(xdatas) & np.isfinite(ydatas)
+        mask = np.zeros_like(valid, dtype=bool)
+
+        if not np.any(valid):
+            return xdatas[mask], ydatas[mask], np.arange(len(xdatas))
+
+        sigma_clip = float(outlierConstant)
+        low_phase_limit_deg = 7.0
+        low_phase_sigma = 5.0
+        phase_bin_deg = 5.0
+
+        x_valid = xdatas[valid]
+        y_valid = ydatas[valid]
+        idx_valid = np.where(valid)[0]
+
+        # Build 5-degree bins covering the full phase-angle range in data.
+        x_min = np.floor(np.min(x_valid) / phase_bin_deg) * phase_bin_deg
+        x_max = np.ceil(np.max(x_valid) / phase_bin_deg) * phase_bin_deg
+        if x_max == x_min:
+            x_max = x_min + phase_bin_deg
+        edges = np.arange(x_min, x_max + phase_bin_deg, phase_bin_deg)
+        bin_idx = np.digitize(x_valid, edges, right=False) - 1
+
+        keep_valid = np.ones_like(y_valid, dtype=bool)
+        n_bins = len(edges) - 1
+        for b in range(n_bins):
+            in_bin = np.where(bin_idx == b)[0]
+            if len(in_bin) < 2:
+                continue
+            y_bin = y_valid[in_bin]
+            mu = np.mean(y_bin)
+            sigma = np.std(y_bin, ddof=1)
+            if not np.isfinite(sigma) or sigma == 0:
+                continue
+            # For phase angles below 7 deg, apply a looser 5-sigma criterion.
+            x_bin = x_valid[in_bin]
+            thresholds = np.where(x_bin < low_phase_limit_deg, low_phase_sigma, sigma_clip)
+            keep_valid[in_bin] = np.abs(y_bin - mu) <= thresholds * sigma
+
+        mask[idx_valid] = keep_valid
+
         x_filtered = xdatas[mask]
         y_filtered = ydatas[mask]
-        
-        # Outlier indices (only those NOT in mask)
         removed_indices = np.where(~mask)[0]
-        
         return x_filtered, y_filtered, removed_indices
 
     #%%
@@ -123,8 +156,8 @@ class DatasetGenerator():
     
         Parameters:
         - H (float): Absolute magnitude of the asteroid.
-        - G1 (float): Slope parameter 1 of the asteroid (0 ≤ G1 ≤ 1).
-        - G2 (float): Slope parameter 2 of the asteroid (0 ≤ G2 ≤ 1).
+        - G1 (float): Slope parameter 1 of the asteroid (0  G1  1).
+        - G2 (float): Slope parameter 2 of the asteroid (0  G2  1).
         - alpha (float or array-like): Phase angle(s) in degrees.
     
         Returns:
@@ -275,7 +308,7 @@ class DatasetGenerator():
     
         Parameters:
         - H (float): Absolute magnitude of the asteroid.
-        - G (float): Slope parameter of the asteroid (0 ≤ G ≤ 1).
+        - G (float): Slope parameter of the asteroid (0  G  1).
         - alpha (float or array-like): Phase angle(s) in degrees.
     
         Returns:
@@ -319,7 +352,7 @@ class DatasetGenerator():
         return mag_samples
     
 
-    def reference_obs_comp(self, sheet_name, method = "HG1G2"): 
+    def reference_obs_comp(self, sheet_name, method = "HG1G2", return_errors=False): 
         '''
         Computing both the outlier removing and also the H G_1 G_2 values
 
@@ -329,6 +362,7 @@ class DatasetGenerator():
         Output: 
             H: absolute mag
             G_1, G_2: slope parameters
+            optional errors if return_errors=True
         '''
         # sheet_name= nosaukums worksheetam
         df = pd.read_excel(self.path+self.file_name, index_col=None, sheet_name=sheet_name)
@@ -395,11 +429,15 @@ class DatasetGenerator():
             
             print ("Absolute magnitude: {:.2f}".format(H_val_22))
             print ("G1 = {:.3f}, G2 = {:.7f}".format(G1_val2, G2_val2))
+            print ("Parameter errors: dH = {:.4f}, dG1 = {:.4f}, dG2 = {:.4f}".format(H_err_22, G1_err2, G2_err2))
+            print ("G1 = {:.3f} +/- {:.4f}, G2 = {:.7f} +/- {:.4f}".format(G1_val2, G1_err2, G2_val2, G2_err2))
             
             plt.plot(ph_an2, mag_analy_22, label = "H ={:.2f}, G1 = {:.2f}, G2 = {:.2f}".format(H_val_22, G1_val2, G2_val2), c = "black")
             plt.scatter(Ph_r, H_r, label = "T08o: reference observatory", c= "goldenrod")
             plt.gca().invert_yaxis()
             plt.show()
+            if return_errors:
+                return H_val_22, G1_val2, G2_val2, H_err_22, G1_err2, G2_err2
             return H_val_22, G1_val2, G2_val2
 
     def all_obs_comb(self, H_val_2, G1_val = 1, G2_val = 0, method = "HG1G2", save_figure = False, save_figures = None,
@@ -512,3 +550,236 @@ class DatasetGenerator():
             with open(os.path.join(save_path, '{}_data_compile_fix_G1G2.pkl'.format(self.Asteroid_number)), 'wb') as file:
                 pickle.dump(dict_sheets, file)
         return dict_sheets
+
+    def compare_phase_curve_fit_strategies(
+        self,
+        reference_sheet="T08o1",
+        outlier_param=1.8,
+        phase_margin_deg=2.0,
+        save_figures=False,
+        save_dir=None,
+    ):
+        """
+        Build 3 plots for HG1G2 phase-curve fitting strategies:
+
+        1) Free-fit per observatory: H, G1, G2 all free.
+        2) Reference-fixed fit: fit reference sheet first, then fix G1/G2 to reference for all observatories.
+        3) Chi2 comparison bar plot (free-fit vs reference-fixed) by observatory.
+
+        Returns:
+            pandas.DataFrame with observatory code and chi2/reduced-chi2 for both approaches.
+        """
+
+        def _load_observatory_data(sheet_name):
+            df = pd.read_excel(self.path + self.file_name, index_col=None, sheet_name=sheet_name)
+            df = df.dropna(subset=["magred"])
+
+            mag = np.array(df["mag"])
+            phase = np.array(df["Ph"])
+            sol_dis = np.array(df.iloc[:, 3])
+            geo_dis = np.array(df.iloc[:, 4])
+            H = mag - 5 * np.log10(geo_dis * sol_dis)
+
+            # Apply single-band correction when filter code is available in sheet name.
+            try:
+                filter_name = sheet_name[-1]
+                H = H + self.filter_bias[filter_name]
+            except Exception:
+                pass
+
+            phase_clean, H_clean, _ = self.removeOutliers(np.array(phase), np.array(H), outlier_param)
+            return phase_clean, H_clean
+
+        if reference_sheet is None:
+            raise ValueError("reference_sheet must be provided, e.g. 'T08o1'.")
+
+        obs_list = list(self.reduced_obs)
+        if reference_sheet not in obs_list:
+            obs_list = [reference_sheet] + obs_list
+
+        # Fit reference observatory first to get fixed G1/G2 strategy values.
+        Ph_ref, H_ref = _load_observatory_data(reference_sheet)
+        ref_result = self.fit(Ph_ref, H_ref, method="HG1G2")
+        ref_H = ref_result.params["H"].value
+        ref_G1 = ref_result.params["G1"].value
+        ref_G2 = ref_result.params["G2"].value
+        ref_H_err = ref_result.params["H"].stderr or 0.0
+        ref_G1_err = ref_result.params["G1"].stderr or 0.0
+        ref_G2_err = ref_result.params["G2"].stderr or 0.0
+
+        print(
+            f"Reference {reference_sheet}: H={ref_H:.3f} +/- {ref_H_err:.4f}, "
+            f"G1={ref_G1:.4f} +/- {ref_G1_err:.4f}, G2={ref_G2:.4f} +/- {ref_G2_err:.4f}"
+        )
+
+        # Containers for plotting/reporting.
+        records = []
+
+        cmap = colormaps["tab20"]
+        colors = cmap(np.linspace(0, 1, max(len(obs_list), 2)))
+        markers = ["o", "s", "^", "D", "v", "P", "X", ">", "<", "*", "h", "8"]
+
+        # -------- Plot 1: all observatories free fit (H, G1, G2 free) --------
+        fig1 = plt.figure(figsize=(10, 8), dpi=300)
+        ax1 = plt.gca()
+
+        for i, sheet_name in enumerate(obs_list):
+            Ph, H = _load_observatory_data(sheet_name)
+            ph_grid = np.linspace(0, max(Ph) + phase_margin_deg, 120)
+
+            res_free = self.fit(Ph, H, method="HG1G2")
+            H_free = res_free.params["H"].value
+            G1_free = res_free.params["G1"].value
+            G2_free = res_free.params["G2"].value
+            H_free_err = res_free.params["H"].stderr or 0.0
+            G1_free_err = res_free.params["G1"].stderr or 0.0
+            G2_free_err = res_free.params["G2"].stderr or 0.0
+
+            y_free = self.hg1g2_phase_function(ph_grid, H_free, G1_free, G2_free)
+            marker = markers[i % len(markers)]
+            ax1.scatter(
+                Ph,
+                H,
+                s=20,
+                marker=marker,
+                color=colors[i],
+                alpha=0.30,
+                edgecolors="none",
+                zorder=1,
+            )
+            ax1.plot(
+                ph_grid,
+                y_free,
+                lw=1.1,
+                color=colors[i],
+                label=(
+                    f"{sheet_name}: H={H_free:.2f}+/-{H_free_err:.2f}, "
+                    f"G1={G1_free:.3f}+/-{G1_free_err:.3f}, "
+                    f"G2={G2_free:.3f}+/-{G2_free_err:.3f}"
+                ),
+            )
+
+            # Approach 2 (fixed G1/G2 from reference)
+            res_fix = self.fit(Ph, H, method="HG1G2", G1=ref_G1, G2=ref_G2)
+            H_fix = res_fix.params["H"].value
+            H_fix_err = res_fix.params["H"].stderr or 0.0
+
+            records.append(
+                {
+                    "observatory": sheet_name,
+                    "H_free": H_free,
+                    "G1_free": G1_free,
+                    "G2_free": G2_free,
+                    "H_free_err": H_free_err,
+                    "G1_free_err": G1_free_err,
+                    "G2_free_err": G2_free_err,
+                    "chi2_free": float(res_free.chisqr),
+                    "redchi_free": float(res_free.redchi),
+                    "H_fix": H_fix,
+                    "H_fix_err": H_fix_err,
+                    "G1_fix": ref_G1,
+                    "G2_fix": ref_G2,
+                    "chi2_fix": float(res_fix.chisqr),
+                    "redchi_fix": float(res_fix.redchi),
+                }
+            )
+
+        ax1.set_xlabel("Phase (deg)")
+        ax1.set_ylabel("Reduced magnitude")
+        ax1.invert_yaxis()
+        ax1.grid(alpha=0.25, linestyle=":")
+        ax1.legend(fontsize=7, ncol=1, frameon=False)
+        ax1.set_title("Free HG1G2 fits per observatory (H, G1, G2 free)")
+        plt.tight_layout()
+
+        # -------- Plot 2: reference curve + fixed G1/G2 fits for others --------
+        fig2 = plt.figure(figsize=(10, 8), dpi=300)
+        ax2 = plt.gca()
+
+        Ph_ref_plot, H_ref_plot = _load_observatory_data(reference_sheet)
+        ph_ref_grid = np.linspace(0, max(Ph_ref_plot) + phase_margin_deg, 120)
+        y_ref = self.hg1g2_phase_function(ph_ref_grid, ref_H, ref_G1, ref_G2)
+        ax2.scatter(
+            Ph_ref_plot,
+            H_ref_plot,
+            s=24,
+            marker="o",
+            color="black",
+            alpha=0.22,
+            edgecolors="none",
+            zorder=1,
+        )
+        ax2.plot(
+            ph_ref_grid,
+            y_ref,
+            color="black",
+            lw=2.0,
+            label=(
+                f"Reference {reference_sheet}: H={ref_H:.2f}+/-{ref_H_err:.2f}, "
+                f"G1={ref_G1:.3f}+/-{ref_G1_err:.3f}, G2={ref_G2:.3f}+/-{ref_G2_err:.3f}"
+            ),
+        )
+
+        for i, rec in enumerate(records):
+            Ph, H = _load_observatory_data(rec["observatory"])
+            ph_grid = np.linspace(0, max(Ph) + phase_margin_deg, 120)
+            y_fix = self.hg1g2_phase_function(ph_grid, rec["H_fix"], rec["G1_fix"], rec["G2_fix"])
+            marker = markers[i % len(markers)]
+            ax2.scatter(
+                Ph,
+                H,
+                s=20,
+                marker=marker,
+                color=colors[i],
+                alpha=0.30,
+                edgecolors="none",
+                zorder=1,
+            )
+            ax2.plot(
+                ph_grid,
+                y_fix,
+                lw=1.1,
+                color=colors[i],
+                alpha=0.9,
+                label=(
+                    f"{rec['observatory']}: H={rec['H_fix']:.2f}+/-{rec['H_fix_err']:.2f}, "
+                    f"G1={rec['G1_fix']:.3f}, G2={rec['G2_fix']:.3f}"
+                ),
+            )
+
+        ax2.set_xlabel("Phase (deg)")
+        ax2.set_ylabel("Reduced magnitude")
+        ax2.invert_yaxis()
+        ax2.grid(alpha=0.25, linestyle=":")
+        ax2.legend(fontsize=7, ncol=1, frameon=False)
+        ax2.set_title(f"Reference-fixed HG1G2 fits (G1,G2 fixed to {reference_sheet})")
+        plt.tight_layout()
+
+        # -------- Plot 3: reduced chi2 comparison (bar chart over observatories) --------
+        df_cmp = pd.DataFrame.from_records(records)
+        x = np.arange(len(df_cmp))
+        width = 0.4
+
+        fig3 = plt.figure(figsize=(11, 4.8), dpi=300)
+        ax3 = plt.gca()
+        ax3.bar(x - width / 2, df_cmp["redchi_free"], width=width, label="reduced chi2: free HG1G2", color="#4C78A8")
+        ax3.bar(x + width / 2, df_cmp["redchi_fix"], width=width, label="reduced chi2: reference-fixed HG1G2", color="#F58518")
+        ax3.set_xticks(x)
+        ax3.set_xticklabels(df_cmp["observatory"], rotation=45, ha="right")
+        ax3.set_ylabel("Reduced chi2")
+        ax3.set_xlabel("Observatory")
+        ax3.set_title("Reduced chi2 comparison by observatory")
+        ax3.grid(axis="y", alpha=0.25, linestyle=":")
+        ax3.legend(frameon=False)
+        plt.tight_layout()
+
+        if save_figures:
+            out_dir = save_dir or self.base_dir
+            os.makedirs(out_dir, exist_ok=True)
+            fig1.savefig(os.path.join(out_dir, f"{self.Asteroid_number}_phase_free_fits.pdf"), dpi=600)
+            fig2.savefig(os.path.join(out_dir, f"{self.Asteroid_number}_phase_reference_fixed_fits.pdf"), dpi=600)
+            fig3.savefig(os.path.join(out_dir, f"{self.Asteroid_number}_chi2_comparison.pdf"), dpi=600)
+            print(f"Saved comparison figures to: {out_dir}")
+
+        return df_cmp
+
