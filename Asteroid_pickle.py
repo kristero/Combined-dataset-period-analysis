@@ -5,13 +5,19 @@ import astropy.units as u
 import os
 import pandas as pd
 from astroquery.jplsbdb import SBDB
+from astroquery.jplhorizons import Horizons
 import pickle
+from astropy.time import Time
 
-import phunk
+try:
+    import phunk  # optional, not used directly in this module
+except ImportError:  # pragma: no cover
+    phunk = None
 from sbpy import photometry as phot
 import lmfit
 from scipy.interpolate import CubicSpline
 from scipy import stats
+from scipy.signal import find_peaks
 
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
@@ -27,13 +33,24 @@ class DatasetGenerator():
     produces the combined dataset later to be used for the light curve analysis
     """
 
-    def __init__(self, path, file_name, Asteroid_number, reduced_obs, base_dir=r"C:\Users\kn18001\Documents\Asteroids\Combined-dataset-period-analysis", file_path_ph=None):
+    def __init__(self, path, file_name, Asteroid_number, reduced_obs, base_dir=r"C:\Users\kn18001\Documents\Asteroids\Combined-dataset-period-analysis", file_path_ph=None,
+                 bias_mode="band", dephocus_level="g90", band_phase=None):
         self.path = path
         self.file_name = file_name
         self.base_dir = base_dir
         self.file_path_ph = file_path_ph or os.path.join(self.base_dir, "phases_and_phi.txt")
         self.Asteroid_number = Asteroid_number
         self.reduced_obs = reduced_obs
+        # bias_mode: "band"     -> one band offset per dataset (filter_bias below),
+        #            "dephocus" -> DePhOCUS offset per measurement from station, band and star catalog
+        #                          (Hoffmann et al. 2025; see dephocus.py), giving magnitudes in the V band.
+        self.bias_mode = bias_mode
+        self.dephocus_level = dephocus_level
+        # band_phase: optional {band: (G1, G2)}; datasets of these bands use their own slope parameters
+        # in steps 4-6 instead of the reference values (wavelength dependent phase curves).
+        self.band_phase = band_phase or {}
+        self.bias_log = {}
+        self.delta_H = {}
         self.filter_bias = {"B": 0.11,
               "g": -0.325,
               "c": -0.017, 
@@ -55,6 +72,79 @@ class DatasetGenerator():
                "u": -2.436,
                "C": 0.351
               }
+
+    @staticmethod
+    def _band(sheet_name):
+        """Photometric band of a sheet name such as 'T08o' or 'T08o1' (4th character)."""
+        return sheet_name[3] if len(sheet_name) > 3 else ""
+
+    @staticmethod
+    def _light_time(df):
+        """Light-time corrected emission time, epoch - Delta/c, with one absolute reference for all datasets.
+        Column 3 of the workbooks is the geocentric distance Delta (AU); 4.99/36/24 day = 1 AU / c.
+        The JDc2/Jdc2 columns of the workbooks are not used, as they have the opposite sign."""
+        return np.asarray(df["epoch"], dtype=float) - np.asarray(df.iloc[:, 3], dtype=float) * 4.99 / 36 / 24
+
+    def _bias(self, sheet_name, df):
+        """Magnitude offsets of the rows of one sheet (band offset or DePhOCUS offset per measurement)."""
+        band = self._band(sheet_name)
+        if self.bias_mode == "dephocus":
+            import dephocus
+            d, cats, src = dephocus.sheet_offsets(int(str(self.Asteroid_number).split("_")[0]), sheet_name,
+                                                  np.asarray(df["epoch"], dtype=float),
+                                                  np.asarray(df["mag"], dtype=float), level=self.dephocus_level)
+            self.bias_log[sheet_name] = {"mean": float(np.mean(d)), "std": float(np.std(d)),
+                                         "rules": {k: int(np.sum(src == k)) for k in set(src)}}
+            return d
+        return np.full(len(df), self.filter_bias.get(band, 0.0))
+
+    def _slopes(self, sheet_name, G1_val, G2_val):
+        """Slope parameters used for one dataset: its band's own values if given, else the reference ones."""
+        return self.band_phase.get(self._band(sheet_name), (G1_val, G2_val))
+
+    def fit_band_slopes(self, H_ref, G1_ref, G2_ref, reference_sheet, min_n=150, min_phase=10.0, min_range=15.0,
+                        n_iter=3, outlier_sigma=1.8):
+        """Wavelength dependent phase curves: free G1, G2 for every band other than the reference band.
+
+        The datasets of one band are pooled after removing their own magnitude offsets (fitted with the
+        current slope parameters), and G1, G2 are fitted to the pooled data. This is iterated n_iter times.
+        A band is fitted only if it has at least min_n measurements, reaches phase angles below min_phase
+        and covers at least min_range degrees; otherwise it keeps the reference values."""
+        ref_band = self._band(reference_sheet)
+        by_band = {}
+        for s in self.reduced_obs:
+            b = self._band(s)
+            if b and b != ref_band:
+                by_band.setdefault(b, []).append(s)
+        out = {}
+        for b, sheets in by_band.items():
+            data = []
+            for s in sheets:
+                df = pd.read_excel(self.path + self.file_name, index_col=None, sheet_name=s).dropna(subset=["magred"])
+                H = np.asarray(df["mag"], float) - 5 * np.log10(np.asarray(df.iloc[:, 4], float) * np.asarray(df.iloc[:, 3], float))
+                H = H + self._bias(s, df)
+                ph, h, _ = self.removeOutliers(np.asarray(df["Ph"], float), H, outlier_sigma)
+                data.append((np.asarray(ph), np.asarray(h)))
+            ph_all = np.concatenate([d[0] for d in data])
+            info = {"sheets": sheets, "n": int(len(ph_all)), "phase_min": float(ph_all.min()),
+                    "phase_max": float(ph_all.max())}
+            if len(ph_all) < min_n or ph_all.min() > min_phase or ph_all.max() - ph_all.min() < min_range:
+                info.update(fitted=False, G1=G1_ref, G2=G2_ref)
+                out[b] = info
+                continue
+            G1b, G2b = G1_ref, G2_ref
+            for _ in range(n_iter):
+                y_all = []
+                for ph, h in data:
+                    r = self.fit(ph, h, method="HG1G2", G1=G1b, G2=G2b)
+                    y_all.append(h - (r.params["H"].value - H_ref))
+                res = self.fit(ph_all, np.concatenate(y_all), method="HG1G2")
+                G1b, G2b = float(res.params["G1"].value), float(res.params["G2"].value)
+            info.update(fitted=True, G1=G1b, G2=G2b, G1_err=float(res.params["G1"].stderr or 0),
+                        G2_err=float(res.params["G2"].stderr or 0), H=float(res.params["H"].value))
+            out[b] = info
+        self.band_phase = {b: (v["G1"], v["G2"]) for b, v in out.items() if v["fitted"]}
+        return out
 
     def removeOutliers(self, xdatas, ydatas, outlierConstant=3.0, x_threshold=5):
         """
@@ -256,20 +346,24 @@ class DatasetGenerator():
     
         if method == "HG":
             #params['G'].vary = False
-            if G1 and G2 == None:
-                params.add("G", value=G1, min=0, max=1.0, vary = False) 
+            if G1 is not None and G2 is None:
+                params.add("G", value=G1, min=0, max=1.0, vary = False)
             else:
                 params.add("G", value=0.15, min=0, max=1.0)
         elif method == "HG1G2":
-            if G1:
-                params.add("G1", value=G1, min=0, max=1.0, vary = False)    
+            if G1 is not None and G2 is not None:
+                # Slope parameters fixed to the reference values; only H is free.
+                params.add("G1", value=G1, min=0, max=1.0, vary=False)
+                params.add("G2", value=G2, min=0, max=1.0, vary=False)
+            elif G1 is not None:
+                params.add("G1", value=G1, min=0, max=1.0, vary=False)
+                params.add("G2", value=0.2, min=0, max=max(1e-6, 1.0 - float(G1)))
             else:
-                params.add("G1", value=0.15, min=0, max=1.0)  # Free parameter
-            if G2:
-                params.add("G2", value = G2, min=0, max = 1.0, vary = False)
-            else:    
-                print ("Not fixed")
-                params.add("G2", value = 0.2, min=0, max = 1.0)        # Dependent parameter ensuring G1 + G2 <= 1
+                # Free fit with the physical constraints 0 <= G1, 0 <= G2 and G1 + G2 <= 1:
+                # G2 is parametrised as (1 - G1) * g2frac with 0 <= g2frac <= 1.
+                params.add("G1", value=0.15, min=0, max=1.0)
+                params.add("g2frac", value=0.25, min=0, max=1.0)
+                params.add("G2", expr="(1 - G1) * g2frac")
     
         # Set default magnitude errors if not provided
         if mag_errors is None:
@@ -377,18 +471,11 @@ class DatasetGenerator():
         
         
         H = mag - 5*np.log10(geo_dis*sol_dis)
-        try: 
-            time_red = df["Jdc2"]
-        except:
-            time_red = time+(sol_dis- sol_dis[0])*4.99/36/24
-        
-        try:
-            filter_name = sheet_name[-1]
-            H = H + self.filter_bias[filter_name]
-        except:
-            H= H
-        
-        Ph_r, H_r, remove_idx = self.removeOutliers(np.array(Ph), np.array(H), 1.5)
+        time_red = self._light_time(df)
+        bias = self._bias(sheet_name, df)
+        H = H + bias
+
+        Ph_r, H_r, remove_idx = self.removeOutliers(np.array(Ph), np.array(H), 3)
         plt.scatter(Ph, H, c = "goldenrod", s = 16)
         plt.scatter(Ph, mag, marker = "o", s = 16, c = "darkgoldenrod")
         plt.scatter(np.array(Ph)[remove_idx], np.array(H)[remove_idx], s = 25, c = "red", marker = "x")
@@ -399,17 +486,7 @@ class DatasetGenerator():
 
         ##### Computing HG1G2 params ##################
         
-        H2 = mag - 5*np.log10(geo_dis*sol_dis)
-        try: 
-            time_red2 = df["Jdc2"]
-        except:
-            time_red2 = time+(sol_dis- sol_dis[0])*4.99/36/24
-        
-        try:
-            filter_name2 = sheet_name[-1]
-            H2 = H2 + self.filter_bias[filter_name2]
-        except:
-            H2 = H2
+        H2 = mag - 5*np.log10(geo_dis*sol_dis) + bias
         
         ph_an2 = np.linspace(0, max(Ph) + 2, 100)
         
@@ -440,12 +517,192 @@ class DatasetGenerator():
                 return H_val_22, G1_val2, G2_val2, H_err_22, G1_err2, G2_err2
             return H_val_22, G1_val2, G2_val2
 
+    def _find_opposition_epochs_horizons(self, t, observer_code="500@399", step_days=1, min_elong_deg=170.0, min_separation_days=120.0):
+        t = np.asarray(t, dtype=float)
+        if t.size == 0:
+            return np.array([], dtype=float)
+
+        start_jd = float(np.min(t)) - 40.0
+        stop_jd = float(np.max(t)) + 40.0
+        start_iso = Time(start_jd, format="jd").utc.iso.split(".")[0]
+        stop_iso = Time(stop_jd, format="jd").utc.iso.split(".")[0]
+        step_txt = f"{int(step_days)}d"
+
+        eph = Horizons(
+            id=str(self.Asteroid_number),
+            location=observer_code,
+            epochs={"start": start_iso, "stop": stop_iso, "step": step_txt},
+        ).ephemerides()
+
+        jd = np.asarray(eph["datetime_jd"], dtype=float)
+        elong = np.asarray(eph["elong"], dtype=float)
+        finite = np.isfinite(jd) & np.isfinite(elong)
+        jd = jd[finite]
+        elong = elong[finite]
+        if jd.size < 5:
+            return np.array([], dtype=float)
+
+        min_dist_samples = max(1, int(np.ceil(float(min_separation_days) / float(step_days))))
+        peaks, _ = find_peaks(elong, height=float(min_elong_deg), distance=min_dist_samples)
+        if len(peaks) == 0:
+            peaks, _ = find_peaks(elong, distance=min_dist_samples, prominence=1.0)
+        if len(peaks) == 0:
+            return np.array([], dtype=float)
+        return np.sort(jd[peaks])
+
+    def _assign_opposition_ids(self, t, opposition_jd):
+        t = np.asarray(t, dtype=float)
+        opposition_jd = np.asarray(opposition_jd, dtype=float)
+        if t.size == 0:
+            return np.array([], dtype=int)
+        if opposition_jd.size <= 1:
+            return np.zeros_like(t, dtype=int)
+        bounds = 0.5 * (opposition_jd[:-1] + opposition_jd[1:])
+        return np.digitize(t, bounds, right=False).astype(int)
+
+    def _split_by_gap(self, t, min_gap_days=120.0):
+        t = np.asarray(t, dtype=float)
+        if t.size == 0:
+            return np.array([], dtype=int)
+        order = np.argsort(t)
+        t_sorted = t[order]
+        gaps = np.diff(t_sorted)
+        starts = np.where(gaps > float(min_gap_days))[0] + 1
+        gid_sorted = np.zeros_like(t_sorted, dtype=int)
+        start = 0
+        gid = 0
+        for s in starts:
+            gid_sorted[start:s] = gid
+            gid += 1
+            start = s
+        gid_sorted[start:] = gid
+        gid_out = np.empty_like(gid_sorted)
+        gid_out[order] = gid_sorted
+        return gid_out
+
+    def _load_sheet_for_calibration(self, sheet_name, outlier_sigma=1.8):
+        df = pd.read_excel(self.path + self.file_name, index_col=None, sheet_name=sheet_name)
+        df = df.dropna(subset=["magred"])
+
+        mag = np.array(df["mag"], dtype=float)
+        time = np.array(df["epoch"], dtype=float)
+        ph = np.array(df["Ph"], dtype=float)
+        sol_dis = np.array(df.iloc[:, 3], dtype=float)
+        geo_dis = np.array(df.iloc[:, 4], dtype=float)
+
+        H = mag - 5 * np.log10(geo_dis * sol_dis) + self._bias(sheet_name, df)
+        time_red = self._light_time(df)
+
+        ph_f, H_f, remove_idx = self.removeOutliers(ph, H, outlier_sigma)
+        time_f = np.delete(time_red, remove_idx)
+        return np.asarray(ph_f, dtype=float), np.asarray(H_f, dtype=float), np.asarray(time_f, dtype=float)
+
     def all_obs_comb(self, H_val_2, G1_val = 1, G2_val = 0, method = "HG1G2", save_figure = False, save_figures = None,
-                     save_path = None, save_file = False, ref_redchi = None, chi2_factor = 3.0):
+                     save_path = None, save_file = False, ref_redchi = None, chi2_factor = 3.0,
+                     calibrate_by_opposition = False, opposition_method = "horizons",
+                     reference_sheet_prefix = "T08o", min_obs_per_opp_chunk = 10,
+                     observer_code = "500@399", horizons_step_days = 1, min_gap_days = 120.0):
 
         i = 0
         plt.figure(dpi =300, figsize = (10, 10))
         dict_sheets = {}
+        if calibrate_by_opposition:
+            cached = {}
+            all_times = []
+            for sheet_name in self.reduced_obs:
+                try:
+                    ph_s, h_s, t_s = self._load_sheet_for_calibration(sheet_name, outlier_sigma=1.8)
+                    if len(h_s) == 0:
+                        continue
+                    cached[sheet_name] = (ph_s, h_s, t_s)
+                    all_times.append(t_s)
+                except Exception as e:
+                    print(f"Skipping {sheet_name} for opposition calibration: {e}")
+
+            if len(cached) == 0:
+                raise ValueError("No valid sheets available for opposition calibration.")
+
+            t_all = np.concatenate(all_times)
+            opp_epochs = None
+            if opposition_method == "horizons":
+                try:
+                    opp_epochs = self._find_opposition_epochs_horizons(
+                        t_all,
+                        observer_code=observer_code,
+                        step_days=horizons_step_days,
+                        min_elong_deg=170.0,
+                        min_separation_days=min_gap_days,
+                    )
+                except Exception as e:
+                    print(f"Horizons opposition detection failed; falling back to gap split: {e}")
+                    opp_epochs = None
+
+            sheet_chunks = {}
+            for sheet_name, (ph_s, h_s, t_s) in cached.items():
+                if opp_epochs is not None and len(opp_epochs) > 0:
+                    gid = self._assign_opposition_ids(t_s, opp_epochs)
+                else:
+                    gid = self._split_by_gap(t_s, min_gap_days=min_gap_days)
+                sheet_chunks[sheet_name] = (ph_s, h_s, t_s, gid)
+
+            for sheet_name, (ph_s, h_s, t_s, gid_s) in sheet_chunks.items():
+                for gid in np.unique(gid_s):
+                    m = gid_s == gid
+                    n_chunk = int(np.sum(m))
+                    if n_chunk < int(min_obs_per_opp_chunk):
+                        print(f"{sheet_name}_opp{int(gid)}: discarded (n={n_chunk} < {int(min_obs_per_opp_chunk)})")
+                        continue
+
+                    ph_c = ph_s[m]
+                    h_c = h_s[m]
+                    t_c = t_s[m]
+
+                    # Keep the original all_obs_comb correction logic:
+                    # use one global reference phase-curve model and fit each
+                    # opposition chunk against it with fixed slope params.
+                    if method == "HG1G2":
+                        fit_obs = self.fit(ph_c, h_c, method=method, G1=G1_val, G2=G2_val)
+                    else:
+                        fit_obs = self.fit(ph_c, h_c, method=method, G1=G1_val, G2=None)
+                    if method == "HG1G2":
+                        H_obs = float(fit_obs.params["H"].value)
+                        G1_obs = float(fit_obs.params["G1"].value)
+                        G2_obs = float(fit_obs.params["G2"].value)
+                        H_model_ref = self.hg1g2_phase_function(ph_c, H_val_2, G1_val, G2_val)
+                        H_model_obs = self.hg1g2_phase_function(ph_c, H_obs, G1_obs, G2_obs)
+                    else:
+                        H_obs = float(fit_obs.params["H"].value)
+                        G1_obs = float(fit_obs.params["G"].value)
+                        H_model_ref = self.hg_phase_function(H_val_2, G1_val, ph_c)
+                        H_model_obs = self.hg_phase_function(H_obs, G1_obs, ph_c)
+
+                    diff_for_H = H_model_ref - H_model_obs
+                    H_corr = h_c + diff_for_H
+                    H_reduced = H_corr - (H_model_obs - H_obs)
+
+                    key = f"{sheet_name}_opp{int(gid)}"
+                    dict_sheets[key] = np.array([H_reduced, t_c, ph_c], dtype=object)
+                    plt.scatter(ph_c, H_reduced, label=key)
+                    print(f"{key}: calibrated separately, n={len(H_reduced)}")
+
+            plt.legend()
+            plt.xlabel("Phase")
+            plt.ylabel("Mag")
+            plt.tight_layout()
+
+            if save_figure:
+                save_figures = save_figures or self.base_dir
+                print ("Saving figure!")
+                plt.savefig(os.path.join(save_figures, "{}_data_reduction_plot_flat.png".format(self.Asteroid_number)))
+                plt.show()
+
+            if save_file:
+                save_path = save_path or self.base_dir
+                print (f"Saving the file in location: {save_path}")
+                with open(os.path.join(save_path, '{}_data_compile_fix_G1G2.pkl'.format(self.Asteroid_number)), 'wb') as file:
+                    pickle.dump(dict_sheets, file)
+            return dict_sheets
+
         for sheet_name in self.reduced_obs:
             try:
                 filter_name = sheet_name[-1]
@@ -464,27 +721,24 @@ class DatasetGenerator():
             except Exception as e:
                 print (f"Error with the magnitude: {e}")
                 return None
-            try: 
-                time_red = df["Jdc2"]
-            except:
-                time_red = time+(sol_dis- sol_dis[0])*4.99/36/24
-        
-            try:
-                H = H + self.filter_bias[filter_name] 
-            except:
-                H = H
-            
+            time_red = self._light_time(df)
+            H = H + self._bias(sheet_name, df)
+
             ph_an_obs = np.linspace(0, max(Ph) + 2, 100)
-        
+
             Ph, H, remove_idx = self.removeOutliers(np.array(Ph), np.array(H), 1.8)
-        
-        
+
+
             if method == "HG1G2":
-                results2 = self.fit(Ph, H, method=method, G1 = G1_val, G2 = G2_val)
-            
+                G1_s, G2_s = self._slopes(sheet_name, G1_val, G2_val)
+                results2 = self.fit(Ph, H, method=method, G1 = G1_s, G2 = G2_s)
+
                 H_val_2_obs = results2.params["H"].value
                 G1_val_obs = results2.params["G1"].value
                 G2_val_obs = results2.params["G2"].value
+                self.delta_H[sheet_name] = {"dH": float(H_val_2_obs - H_val_2), "n": int(len(H)),
+                                            "G1": float(G1_val_obs), "G2": float(G2_val_obs),
+                                            "redchi": float(results2.redchi)}
                 
                 #print (sheet_name, "G1 = {}, G2 = {}".format(G1_val_obs, G2_val_obs))
                 red_chi2 = results2.redchi
@@ -518,15 +772,12 @@ class DatasetGenerator():
                 H_model = self.hg_phase_function(H_val_2, G1_val, Ph)
                 # Computing the HG1G2 current observatory model
                 H_current_model = self.hg_phase_function(H_val_2_obs, G1_val_obs, Ph)
-            # The difference between best and current obs
-            diff_for_H = H_model - H_current_model
-        
-            # applyin gthe correction
-            H_corr = H + diff_for_H
-        
-            #Phase correction
+            # Shift to the reference level (step 5): m - Delta H, with Delta H = H_obs - H_ref.
+            # (Equal to the former H + (H_model - H_current_model) when the slope parameters are equal.)
+            H_corr = H - (H_val_2_obs - H_val_2)
+
+            # Phase correction (step 6) with the slope parameters used for this dataset
             H_reduced = H_corr - (H_current_model - H_val_2_obs)
-            #H_reduced = H_corr
             
             plt.scatter(Ph, H_reduced, label = sheet_name)
             plt.legend()
@@ -578,14 +829,7 @@ class DatasetGenerator():
             phase = np.array(df["Ph"])
             sol_dis = np.array(df.iloc[:, 3])
             geo_dis = np.array(df.iloc[:, 4])
-            H = mag - 5 * np.log10(geo_dis * sol_dis)
-
-            # Apply single-band correction when filter code is available in sheet name.
-            try:
-                filter_name = sheet_name[-1]
-                H = H + self.filter_bias[filter_name]
-            except Exception:
-                pass
+            H = mag - 5 * np.log10(geo_dis * sol_dis) + self._bias(sheet_name, df)
 
             phase_clean, H_clean, _ = self.removeOutliers(np.array(phase), np.array(H), outlier_param)
             return phase_clean, H_clean
@@ -615,8 +859,8 @@ class DatasetGenerator():
         # Containers for plotting/reporting.
         records = []
 
-        cmap = colormaps["tab20"]
-        colors = cmap(np.linspace(0, 1, max(len(obs_list), 2)))
+        cmap = colormaps["YlOrBr"]
+        colors = cmap(np.linspace(0.55, 0.98, max(len(obs_list), 2)))
         markers = ["o", "s", "^", "D", "v", "P", "X", ">", "<", "*", "h", "8"]
 
         # -------- Plot 1: all observatories free fit (H, G1, G2 free) --------
@@ -684,7 +928,7 @@ class DatasetGenerator():
                 }
             )
 
-        ax1.set_xlabel("Phase (deg)")
+        ax1.set_xlabel("Phase angle (deg)")
         ax1.set_ylabel("Reduced magnitude")
         ax1.invert_yaxis()
         ax1.grid(alpha=0.25, linestyle=":")
@@ -747,7 +991,7 @@ class DatasetGenerator():
                 ),
             )
 
-        ax2.set_xlabel("Phase (deg)")
+        ax2.set_xlabel("Phase angle (deg)")
         ax2.set_ylabel("Reduced magnitude")
         ax2.invert_yaxis()
         ax2.grid(alpha=0.25, linestyle=":")
@@ -783,3 +1027,239 @@ class DatasetGenerator():
 
         return df_cmp
 
+    def plot_phase_curve_summary_2x2(
+        self,
+        reference_sheet="T08o1",
+        comparison_sheet=None,
+        outlier_param=1.8,
+        ref_outlier_param=None,
+        use_auto_outliers=True,
+        manual_outliers_by_sheet=None,
+        show_outliers=True,
+        phase_margin_deg=2.0,
+        save_figures=False,
+        save_dir=None,
+        dpi=300,
+    ):
+        """
+        Build a 2x2 phase-curve summary figure:
+        - top-left: reference observatory (corrected, raw, outliers)
+        - top-right: reference HG1G2 and one comparison observatory HG1G2
+        - bottom-left: all observatories after cross-observatory correction
+        - bottom-right: all observatories after phase correction flattening
+        Notes:
+        - 3-sigma outlier removal is applied to every observatory sheet
+          (reference and all shifted/non-reference observatories).
+        """
+
+        manual_outliers_by_sheet = manual_outliers_by_sheet or {}
+
+        def _load_raw_and_corrected(sheet_name, combine=False):
+            df = pd.read_excel(self.path + self.file_name, index_col=None, sheet_name=sheet_name)
+            if "magred" in df.columns:
+                df = df.dropna(subset=["magred"])
+            else:
+                needed = [c for c in ["mag", "Ph"] if c in df.columns]
+                if len(needed) == 0:
+                    raise KeyError(
+                        f"{sheet_name}: none of the expected columns are present. "
+                        "Expected at least one of ['magred', 'mag', 'Ph']."
+                    )
+                df = df.dropna(subset=needed)
+
+            mag = np.array(df["mag"], dtype=float)
+            phase = np.array(df["Ph"], dtype=float)
+            sol_dis = np.array(df.iloc[:, 3], dtype=float)
+            geo_dis = np.array(df.iloc[:, 4], dtype=float)
+            h_abs = mag - 5 * np.log10(geo_dis * sol_dis) + self._bias(sheet_name, df)
+
+            n = len(phase)
+            remove_idx_auto = np.array([], dtype=int)
+            if use_auto_outliers:
+                # Step 2 limits: 3 sigma for the reference fit, 1.8 sigma for the combination
+                # (ref_outlier_param / outlier_param), 5 sigma below 7 deg in both cases.
+                sig = ref_outlier_param if (sheet_name == reference_sheet and ref_outlier_param and not combine) else outlier_param
+                _, _, remove_idx_auto = self.removeOutliers(np.array(phase), np.array(h_abs), sig)
+            remove_idx_manual = np.asarray(manual_outliers_by_sheet.get(sheet_name, []), dtype=int)
+            remove_idx_manual = remove_idx_manual[(remove_idx_manual >= 0) & (remove_idx_manual < n)]
+            remove_idx = np.unique(np.concatenate([remove_idx_auto, remove_idx_manual])).astype(int)
+
+            keep_mask = np.ones(n, dtype=bool)
+            keep_mask[remove_idx] = False
+            return {
+                "phase_all": phase,
+                "mag_all": mag,
+                "h_all": h_abs,
+                "phase_keep": np.asarray(phase[keep_mask], dtype=float),
+                "h_keep": np.asarray(h_abs[keep_mask], dtype=float),
+                "remove_idx": remove_idx,
+            }
+
+        obs_list = list(self.reduced_obs)
+        if reference_sheet not in obs_list:
+            obs_list = [reference_sheet] + obs_list
+
+        if comparison_sheet is None:
+            comparison_sheet = "G96V" if "G96V" in obs_list else next((o for o in obs_list if o != reference_sheet), reference_sheet)
+
+        ref_data = _load_raw_and_corrected(reference_sheet)
+        cmp_data = _load_raw_and_corrected(comparison_sheet)
+        if ref_data["phase_keep"].size == 0:
+            raise ValueError(f"No usable points left for reference_sheet={reference_sheet}.")
+        if cmp_data["phase_keep"].size == 0:
+            raise ValueError(f"No usable points left for comparison_sheet={comparison_sheet}.")
+
+        ref_fit = self.fit(ref_data["phase_keep"], ref_data["h_keep"], method="HG1G2")
+        ref_h = float(ref_fit.params["H"].value)
+        ref_g1 = float(ref_fit.params["G1"].value)
+        ref_g2 = float(ref_fit.params["G2"].value)
+
+        # Fix G1/G2 for the comparison observatory (reference values, or its band's own values).
+        cmp_s1, cmp_s2 = self._slopes(comparison_sheet, ref_g1, ref_g2)
+        cmp_fit = self.fit(cmp_data["phase_keep"], cmp_data["h_keep"], method="HG1G2", G1=cmp_s1, G2=cmp_s2)
+        cmp_h = float(cmp_fit.params["H"].value)
+        cmp_g1 = float(cmp_fit.params["G1"].value)
+        cmp_g2 = float(cmp_fit.params["G2"].value)
+        cmp_h_shifted = cmp_data["h_keep"] - (cmp_h - ref_h)
+
+        cmap = colormaps["YlOrBr"]
+        colors = cmap(np.linspace(0.01, 0.98, max(len(obs_list), 2)))
+        markers = ["o", "s", "^", "D", "v", "P", "X", ">", "<", "*", "h", "8"]
+
+        label_fontsize = 16
+        tick_fontsize = 14
+        legend_fontsize = 14
+
+        fig, axs = plt.subplots(2, 2, figsize=(14, 11), dpi=dpi, constrained_layout=True)
+        fig.set_constrained_layout_pads(wspace=0.02, hspace=0.04)
+        ax_a, ax_b, ax_c, ax_d = axs[0, 0], axs[0, 1], axs[1, 0], axs[1, 1]
+
+        # Panel A: corrected / raw / outliers for reference observatory.
+        ax_a.scatter(ref_data["phase_keep"], ref_data["h_keep"], s=20, color="goldenrod", alpha=0.95, label="Corrected data")
+        ax_a.scatter(ref_data["phase_all"], ref_data["mag_all"], s=20, color="darkgoldenrod", alpha=0.9, label="Raw data")
+        if show_outliers and ref_data["remove_idx"].size > 0:
+            ax_a.scatter(
+                ref_data["phase_all"][ref_data["remove_idx"]],
+                ref_data["h_all"][ref_data["remove_idx"]],
+                s=35,
+                color="red",
+                marker="x",
+                linewidths=1.2,
+                label="Outliers",
+            )
+        ax_a.invert_yaxis()
+        ax_a.legend(loc="best", frameon=True, fontsize=legend_fontsize)
+
+        # Panel B: reference + comparison observatory (unshifted and shifted).
+        ref_grid = np.linspace(0.0, max(ref_data["phase_keep"]) + phase_margin_deg, 150)
+        cmp_grid = np.linspace(0.0, max(cmp_data["phase_keep"]) + phase_margin_deg, 150)
+        ax_b.scatter(ref_data["phase_keep"], ref_data["h_keep"], s=28, color="goldenrod", alpha=0.90, label=f"{reference_sheet}: reference observatory")
+        # ax_b.scatter(cmp_data["phase_keep"], cmp_data["h_keep"], s=28, color="#a66a00", alpha=0.35, label=f"{comparison_sheet}: unshifted observatory")
+        ax_b.scatter(cmp_data["phase_keep"], cmp_h_shifted, s=28, color="#8a5a00", alpha=0.95, label=f"{comparison_sheet}: shifted observatory")
+        ax_b.plot(ref_grid, self.hg1g2_phase_function(ref_grid, ref_h, ref_g1, ref_g2), color="black", lw=1.8, label=f"H={ref_h:.2f}, G1={ref_g1:.2f}, G2={ref_g2:.2f}")
+        ax_b.plot(cmp_grid, self.hg1g2_phase_function(cmp_grid, cmp_h, cmp_g1, cmp_g2), color="gray", lw=1.5, label=f"H={cmp_h:.2f}, G1={cmp_g1:.2f}, G2={cmp_g2:.2f} (fixed)")
+        ax_b.invert_yaxis()
+        ax_b.legend(loc="best", frameon=True, fontsize=legend_fontsize)
+
+        # Panels C/D: all observatories before and after phase flattening.
+        x_all = []
+        y_corr_all = []
+        y_flat_all = []
+        for i, sheet_name in enumerate(obs_list):
+            d = _load_raw_and_corrected(sheet_name, combine=True)
+            if d["phase_keep"].size == 0:
+                continue
+
+            s1, s2 = self._slopes(sheet_name, ref_g1, ref_g2)
+            fit_obs = self.fit(d["phase_keep"], d["h_keep"], method="HG1G2", G1=s1, G2=s2)
+            h_obs = float(fit_obs.params["H"].value)
+            g1_obs = float(fit_obs.params["G1"].value)
+            g2_obs = float(fit_obs.params["G2"].value)
+
+            h_model_obs = self.hg1g2_phase_function(d["phase_keep"], h_obs, g1_obs, g2_obs)
+            h_corr = d["h_keep"] - (h_obs - ref_h)
+            h_flat = h_corr - (h_model_obs - h_obs)
+
+            marker = markers[i % len(markers)]
+            color = colors[i % len(colors)]
+            ax_c.scatter(d["phase_keep"], h_corr, s=32, marker=marker, color=color, alpha=0.95, label = sheet_name)
+            ax_d.scatter(d["phase_keep"], h_flat, s=32, marker=marker, color=color, alpha=0.95, label=sheet_name)
+
+            x_all.append(np.asarray(d["phase_keep"], dtype=float))
+            y_corr_all.append(np.asarray(h_corr, dtype=float))
+            y_flat_all.append(np.asarray(h_flat, dtype=float))
+
+        ax_c.invert_yaxis()
+
+        ax_d.invert_yaxis()
+        ax_d.legend(
+            loc="upper left",
+            bbox_to_anchor=(1.02, 1.0),
+            borderaxespad=0.0,
+            frameon=True,
+            fontsize=legend_fontsize,
+        )
+
+        if len(x_all) > 0:
+            x_max = float(np.nanmax(np.concatenate(x_all))) + float(phase_margin_deg)
+            ax_a.set_xlim(0.0, x_max)
+            ax_b.set_xlim(0.0, x_max)
+            ax_c.set_xlim(0.0, x_max)
+            ax_d.set_xlim(0.0, x_max)
+
+        if len(y_corr_all) > 0:
+            y_corr = np.concatenate(y_corr_all)
+            y_corr_min = float(np.nanmin(y_corr))
+            y_corr_max = float(np.nanmax(y_corr))
+            y_pad = 0.08 * max(0.1, y_corr_max - y_corr_min)
+            ax_c.set_ylim(y_corr_max + y_pad, y_corr_min - y_pad)
+
+        if len(y_flat_all) > 0:
+            y_flat = np.concatenate(y_flat_all)
+            y_flat_min = float(np.nanmin(y_flat))
+            y_flat_max = float(np.nanmax(y_flat))
+            y_pad = 0.08 * max(0.1, y_flat_max - y_flat_min)
+            ax_d.set_ylim(y_flat_max + y_pad, y_flat_min - y_pad)
+
+        # Keep subplot geometry uniform across all panels; add panel letters.
+        for ax, letter in zip([ax_a, ax_b, ax_c, ax_d], ["a)", "b)", "c)", "d)"]):
+            ax.set_box_aspect(1)
+            ax.grid(alpha=0.22, linestyle=":")
+            ax.tick_params(axis="both", labelsize=tick_fontsize)
+            ax.text(-0.16, 1.02, letter, transform=ax.transAxes, fontsize=label_fontsize + 4,
+                    fontweight="bold", ha="left", va="bottom")
+
+        # Shared labels only once (with fallback for older Matplotlib).
+        ax_a.set_xlabel("")
+        ax_b.set_xlabel("")
+        ax_c.set_xlabel("")
+        ax_d.set_xlabel("")
+        ax_a.set_ylabel("")
+        ax_b.set_ylabel("")
+        ax_c.set_ylabel("")
+        ax_d.set_ylabel("")
+        if hasattr(fig, "supxlabel"):
+            fig.supxlabel("Phase angle (deg)", fontsize=label_fontsize)
+        else:
+            fig.text(0.5, 0.02, "Phase angle (deg)", ha="center", va="bottom", fontsize=label_fontsize)
+        if hasattr(fig, "supylabel"):
+            fig.supylabel("Magnitude", fontsize=label_fontsize)
+        else:
+            fig.text(0.02, 0.5, "Magnitude", ha="left", va="center", rotation=90, fontsize=label_fontsize)
+
+        # sigma_label = f"{outlier_param:g}"
+        # fig.suptitle(
+        #     f"{sigma_label}\u03c3 outlier removal applied to all observatories (reference and shifted)",
+        #     fontsize=11,
+        #     y=1.02,
+        # )
+
+
+        if save_figures:
+            out_dir = save_dir or self.base_dir
+            os.makedirs(out_dir, exist_ok=True)
+            out_path = os.path.join(out_dir, f"{self.Asteroid_number}_phase_curve_summary_2x2.pdf")
+            fig.savefig(out_path, dpi=600)
+            print(f"Saved summary figure to: {out_path}")
+
+        return fig, axs

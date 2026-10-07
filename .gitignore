@@ -1,0 +1,11 @@
+__pycache__/
+
+# Local outputs: manuscript, response letter, figures, results and caches
+paper_figures/
+LS_data/
+bias_apply_test_outputs/
+2607_phase_curve_summary_2x2.pdf
+Good_gaussian_fit.png
+
+# Raw MPC ADES downloads (recreate with mpc_catalog/fetch_mpc_obs.py)
+mpc_catalog/raw/
