@@ -129,45 +129,49 @@ def main(argv):
 
 def figure(out_dir):
     """Appendix figure: (a) periodogram 0.5-1500 h, (b) light curve folded at the double-wave long period,
-    (c) the 2020 TESS measurements (C57G) against time."""
+    (c) the 2020 TESS measurements (C57G) against time. Same style as the power spectrum and light curve
+    figures of the paper (fig_style.py)."""
+    import fig_style
     d = np.load(os.path.join(out_dir, "3173_paper_data.npz"))
-    t, y = d["t"], d["y"]
+    t, y, sheet = d["t"], d["y"], d["sheet"]
     res = json.load(open(os.path.join(out_dir, "appendix_3173.json")))
     base = float(t.max() - t.min())
     ls = LombScargle(t, y, nterms=2)
-    f1, f2 = np.arange(24 / 1500, 24 / 240, 1 / (20 * base)), np.arange(24 / 240, 48, 1 / (5 * base))
+    f1, f2 = np.arange(24 / 1500, 24 / 240, 1 / (20 * base)), np.arange(24 / 240, 48, 1 / (10 * base))
     p = np.concatenate([ls.power(g, method="fastchi2", assume_regular_frequency=True) for g in (f1, f2)])
     f = np.concatenate([f1, f2])
-    plt.rcParams.update({"font.family": "serif", "font.size": 8, "pdf.fonttype": 42})
-    fig, ax = plt.subplots(1, 3, figsize=(7.2, 2.5), constrained_layout=True)
-    ax[0].plot(24 / f, p, lw=0.4, color="#8c510a")
-    ax[0].set_xscale("log")
-    ax[0].set_xlabel("Period (hours)")
+    fig_style.set_rc()
+    fig, ax = plt.subplots(1, 3, figsize=(7.2, 2.9), constrained_layout=True)
+    # (a) the peaks discussed in the text: 22.99/45.98 h, the 49.9 h alternative and the long periods
+    pk = [res["paper"]["at"][str(P)] for P in (22.99, 45.98, 49.9, 571.7, 1143.0)]
+    fig_style.spectrum_panel(fig, ax[0], f, p, [q[0] for q in pk], [q[1] for q in pk], "Peaks",
+                             ticks=(1, 10, 100, 1000))
+    ax[0].text(0.02, 0.97, "(a)", transform=ax[0].transAxes, ha="left", va="top", fontsize=8)
+    ax[0].set_xlabel("Rotational period (hours)")
     ax[0].set_ylabel("Power")
-    for P, dx, ha in ((22.99, -4, "right"), (45.98, 4, "left"), (49.9, 4, "left"), (571.7, -4, "right"), (1143.0, 4, "left")):
-        Pb, wb = res["paper"]["at"][str(P)]
-        ax[0].annotate(f"{Pb:.0f}" if Pb > 100 else f"{Pb:.1f}", (Pb, wb), textcoords="offset points",
-                       xytext=(dx, 2), ha=ha, fontsize=6)
-    ax[0].set_ylim(0, 0.5)
-    ax[0].set_title("(a)", loc="left")
+    # (b) light curve folded with the long period, one color and marker per dataset (order of the paper figure)
     P_long = res["paper"]["at"]["1143.0"][0]
-    ph = ((t * 24 / P_long) % 1) * 360
     a = lc_amplitude.fourier_amplitude(t, y, P_long, nterms=4, n_boot=2)
-    ax[1].scatter(ph, y, s=2, color="#d8b365", alpha=0.6, edgecolors="none")
-    ax[1].plot(a["model_phase"] * 360, a["model_mag"], "--", color="black", lw=0.9)
-    ax[1].invert_yaxis()
-    ax[1].set_xlim(0, 360)
+    A, A_err = res["paper"]["amplitude_n4"][f"{P_long:.2f}"]
+    order = [s for s in pf.CONFIG[NUM]["sheets"] if s in set(sheet.tolist())]
+    groups = [(s, ((t[sheet == s] * 24 / P_long) % 1) * 360, y[sheet == s]) for s in order]
+    fig_style.light_curve_panel(ax[1], groups, a["model_phase"] * 360, a["model_mag"],
+                                f"(b)  P = {P_long:.0f} h\nA = {A:.2f} $\\pm$ {A_err:.2f} mag", ncol=4, size=6)
     ax[1].set_xlabel("Rotational phase (deg)")
     ax[1].set_ylabel("Reduced magnitude")
-    ax[1].set_title(f"(b) P = {P_long:.0f} h", loc="left")
+    # (c) the TESS measurements of 2020
     dt = np.load(os.path.join(out_dir, "3173_tess_data.npz"))
     jd = dt["t"] + float(dt["t0"])
     m = (dt["sheet"] == "C57G") & (jd < 2459300)
-    ax[2].scatter(jd[m] - 2459100, dt["y"][m], s=3, color="#35978f", edgecolors="none")
+    ax[2].scatter(jd[m] - 2459100, dt["y"][m], marker="o", s=6, color=fig_style.palette(1)[0], edgecolors="none",
+                  alpha=0.9)
+    ax[2].text(0.02, 0.97, "(c) TESS 2020", transform=ax[2].transAxes, ha="left", va="top", fontsize=8,
+               bbox=dict(facecolor="white", alpha=0.85, edgecolor="none", pad=1.5))
     ax[2].invert_yaxis()
+    ax[2].minorticks_on()
+    ax[2].grid(which="both", axis="y", linestyle=":", linewidth=0.4, alpha=0.6)
     ax[2].set_xlabel("JD - 2459100")
     ax[2].set_ylabel("Reduced magnitude")
-    ax[2].set_title("(c) TESS 2020", loc="left")
     fig.savefig(os.path.join(out_dir, "3173_long_period_appendix.pdf"))
     fig.savefig(os.path.join(out_dir, "3173_long_period_appendix.png"), dpi=200)
 
