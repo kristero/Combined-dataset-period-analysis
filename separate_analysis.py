@@ -36,37 +36,27 @@ from scipy.signal import find_peaks
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_1 = os.path.join(REPO_DIR, "..", "Asteroid_data", "12asteroidudatiicaruspubl")
 DATA_2 = os.path.join(REPO_DIR, "..", "Asteroid_data", "12asteroidudatiicaruspubl2")
+DATA_RB = os.path.join(REPO_DIR, "..", "Asteroid_data", "rev3")   # rebuilt workbooks (build_workbooks.py)
 OUT = os.path.join(REPO_DIR, "paper_figures", "separate")
 F_MIN, F_MAX = 24.0 / 240.0, 24.0 / 0.5          # cycles/day of the rotation frequency
 WIDTH = 0.03                                      # +/- 3 % candidate interval
 C_DAY = 4.99 / 36 / 24                            # 1 AU / c in days
 
-# Datasets of Table 2 and the candidate periods (h) of Section 4.
+# Workbooks and the candidate periods (h) of Section 4. ds="ALL": every dataset of the rebuilt workbook,
+# which holds all datasets of Table 2 (one observatory in one band, at least 70 measurements).
 S_CONFIG = {
-    1951: dict(wb=(DATA_1, "1951-excelBF.xlsx"), cand=[5.302],
-               ds="703G 703V C57G H45R I41g I41r M22o T05c T05o T05w T08c T08o W68o"),
-    1963: dict(wb=(DATA_1, "1963-excelBF.xlsx"), cand=[18.160],
-               ds="689V 703G 703V I41r M22o T05c T05o T05w T08o W68c W68o"),
-    2134: dict(wb=(DATA_1, "2134-excelBF.xlsx"), cand=[4.114],
-               ds="703G 703V C57G G45r I41g I41r T05c T05o T08o W68o"),
-    2150: dict(wb=(DATA_1, "2150-excelBF.xlsx"), cand=[6.125],
-               ds="703G 703V C57G G45r I41r M22o T05c T05o T08c T08o W68o"),
-    2607: dict(wb=(DATA_1, "2607-excelBF.xlsx"), cand=[2.94],
-               ds="703G 703V D29R F51w G45r G96G G96V T05c T05o T08o"),
-    2968: dict(wb=(DATA_1, "2968-excelBF.xlsx"), cand=[4.56, 4.16, 3.83],
-               ds="703G 703V F51w G45r G45G G96G T05c T05o T08c T08o"),
-    2971: dict(wb=(DATA_1, "2971-excelBF.xlsx"), cand=[4.49, 4.80],
-               ds="703G 703V C57G F51w G45r G96G I41r M22o T05c T05o T08o W68o"),
-    3081: dict(wb=(DATA_1, "3081-excelBD.xlsx"), cand=[8.007],
-               ds="703G 703V C57G D29R G96G G96V M22o T05c T05o T08o W68o"),
-    3173: dict(wb=(DATA_2, "3173-excelBF.xlsx"), cand=[46.0, 50.0],
-               ds="703G 703V C57G D29R G45r G96G I41r M22o T05c T05o T08o W68o"),
-    3473: dict(wb=(DATA_2, "3473-excelBF.xlsx"), cand=[9.074],
-               ds="691V 703G 703V C57G D29R G45r G96G G96V I41r M22o T05c T05o T08o W68o"),
-    3716: dict(wb=(DATA_2, "3716-excelBF.xlsx"), cand=[10.47, 13.40, 18.60, 30.40],
-               ds="703G 703V D29R F52w G45r G96G G96V M22o P07G T05c T05o T08o W68o"),
-    4303: dict(wb=(DATA_2, "4303-excelBF.xlsx"), cand=[6.136],
-               ds="703G 703V C57G D29R F51w G45r G96G G96V M22o P07G T05c T05o T08o W68o"),
+    1951: dict(wb=(DATA_RB, "1951-excelRB.xlsx"), cand=[5.302], ds="ALL"),
+    1963: dict(wb=(DATA_RB, "1963-excelRB.xlsx"), cand=[18.160], ds="ALL"),
+    2134: dict(wb=(DATA_RB, "2134-excelRB.xlsx"), cand=[4.114], ds="ALL"),
+    2150: dict(wb=(DATA_RB, "2150-excelRB.xlsx"), cand=[6.125], ds="ALL"),
+    2607: dict(wb=(DATA_RB, "2607-excelRB.xlsx"), cand=[2.94], ds="ALL"),
+    2968: dict(wb=(DATA_RB, "2968-excelRB.xlsx"), cand=[4.56, 4.16, 3.83], ds="ALL"),
+    2971: dict(wb=(DATA_RB, "2971-excelRB.xlsx"), cand=[4.49, 4.80], ds="ALL"),
+    3081: dict(wb=(DATA_RB, "3081-excelRB.xlsx"), cand=[8.007], ds="ALL"),
+    3173: dict(wb=(DATA_RB, "3173-excelRB.xlsx"), cand=[46.0, 50.0], ds="ALL"),
+    3473: dict(wb=(DATA_RB, "3473-excelRB.xlsx"), cand=[9.074], ds="ALL"),
+    3716: dict(wb=(DATA_RB, "3716-excelRB.xlsx"), cand=[10.47, 13.40, 18.60, 30.40], ds="ALL"),
+    4303: dict(wb=(DATA_RB, "4303-excelRB.xlsx"), cand=[6.136], ds="ALL"),
 }
 
 
@@ -227,7 +217,8 @@ def run(num):
     xls = pd.ExcelFile(wb_path)
     jobs = []
     missing = []
-    for ds in cfg["ds"].split():
+    names = cfg["ds"].split() if cfg["ds"] != "ALL" else [s.replace("T08o1", "T08o") for s in xls.sheet_names]
+    for ds in names:
         s = _sheet_name(xls, ds)
         if s is None:
             missing.append(ds)
@@ -271,8 +262,8 @@ def figure(nums=(2607, 2968, 2971, 3081, 3173, 3473, 3716, 4303), out_name="S_me
     import matplotlib.pyplot as plt
     from matplotlib import colors as mcolors
     S = {n: json.load(open(os.path.join(OUT, f"{n}.json"))) for n in nums}
-    order = ["703G", "703V", "691V", "689V", "D29R", "F51w", "F52w", "G45G", "G45r", "G96G", "G96V", "T05c", "T05o",
-             "T08c", "T08o", "C57G", "I41r", "M22o", "W68o", "P07G", "H45R"]
+    order = ["703G", "703V", "691V", "689V", "704V", "D29R", "F51w", "F52w", "G45G", "G45r", "G96G", "G96V", "T05c",
+             "T05o", "T05w", "T08c", "T08o", "T08w", "C57G", "I41g", "I41r", "M22o", "W68c", "W68o", "P07G", "H45R", "Y00R"]
     used_cols = [c for c in order if any(c in S[n]["datasets"] for n in nums)]
     cols = used_cols + ["Final"]
     cmap = plt.get_cmap("YlOrBr")

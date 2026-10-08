@@ -42,6 +42,9 @@ import lc_amplitude
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR_1 = os.path.join(REPO_DIR, "..", "Asteroid_data", "12asteroidudatiicaruspubl")
 DATA_DIR_2 = os.path.join(REPO_DIR, "..", "Asteroid_data", "12asteroidudatiicaruspubl2")
+# Rebuilt workbooks of the second revision (build_workbooks.py): the datasets of the workbooks above plus the
+# datasets with at least 70 measurements that were missing from them; 3081 is built from the MPC records.
+DATA_DIR_RB = os.path.join(REPO_DIR, "..", "Asteroid_data", "rev3")
 OUT_DIR = os.path.join(REPO_DIR, "paper_figures")
 
 # Run options (set from the command line in main):
@@ -78,53 +81,55 @@ LS_CACHE_DIR = os.path.join(OUT_DIR, "ls_cache")   # periodograms are cached her
 # ----------------------------------------------------------------------------
 CONFIG = {
     2607: dict(
-        workbook=os.path.join(DATA_DIR_1, "2607-excelBF.xlsx"),
-        sheets=["G96G", "G96V", "T05c", "T05o", "T08o", "F51w", "G45r", "D29R", "703G", "703V"],
+        workbook=os.path.join(DATA_DIR_RB, "2607-excelRB.xlsx"),
+        # D29R exceeds the limit of criterion 2 and reduces the power of the period (inclusion_test.py)
+        sheets=["G96G", "G96V", "T05c", "T05o", "T08o", "F51w", "G45r", "703G", "703V"],
         reference="T08o", periods=[2.936], nterms_lc=[2],
         peak_height=0.10,   # 2.94 h and 1.47 h (w = 0.13-0.14 after the light-time fix); their aliases (2.62/1.31 h at w = 0.07) are not labelled
         phase_fit_comparison=True, summary_2x2=True,
     ),
     2968: dict(
-        workbook=os.path.join(DATA_DIR_1, "2968-excelBF.xlsx"),
-        sheets=["G45G", "G45r", "G96G", "F51w", "T08c", "T08o", "703G", "703V", "T05c", "T05o"],
+        workbook=os.path.join(DATA_DIR_RB, "2968-excelRB.xlsx"),
+        # G45G exceeds the limit of criterion 2 and reduces the power of the period (inclusion_test.py)
+        sheets=["G45r", "G96G", "F51w", "T08c", "T08o", "703G", "703V", "T05c", "T05o"],
         reference="T08o", periods=[4.560], nterms_lc=[2],
     ),
     2971: dict(
-        workbook=os.path.join(DATA_DIR_1, "2971-excelBF.xlsx"),
+        workbook=os.path.join(DATA_DIR_RB, "2971-excelRB.xlsx"),
         sheets=["703G", "703V", "M22o", "T05c", "T05o", "G96G", "G45r", "F51w", "I41r", "T08o1", "W68o"],
         reference="T08o1", periods=[4.491], nterms_lc=[2],
         peak_height=0.07,   # 4.49 h and 2.25 h (w = 0.08); daily aliases 4.95/2.48/4.11 h (w <= 0.06) not labelled
     ),
     3081: dict(
-        workbook=os.path.join(DATA_DIR_1, "3081-excelBD.xlsx"),   # only a BD workbook exists for 3081
-        sheets=["703G", "703V", "T05c", "T05o", "G96G", "G96V", "D29R", "T08o", "W68o", "M22o"],
+        workbook=os.path.join(DATA_DIR_RB, "3081-excelRB.xlsx"),   # built from the MPC records (full data)
+        sheets=["703G", "703V", "T05c", "T05o", "G96G", "G96V", "D29R", "T08o", "W68o", "M22o", "I41r"],
         reference="T08o", periods=[8.007], nterms_lc=[4], nterms_ps=[2],
         peak_height=0.30,   # 8.01 h and 4.00 h (w = 0.40); daily aliases (w <= 0.19) and 24/12 h (w = 0.11) not labelled
         window=[8.007, 4.00, 24.0],
     ),
     3173: dict(
-        workbook=os.path.join(DATA_DIR_2, "3173-excelBF.xlsx"),
-        sheets=["T05c", "T05o", "703G", "703V", "T08o", "D29R", "G45r", "G96G", "W68o"],
+        workbook=os.path.join(DATA_DIR_RB, "3173-excelRB.xlsx"),
+        sheets=["T05c", "T05o", "703G", "703V", "T08o", "D29R", "G45r", "G96G", "W68o", "F51w"],
         reference="T08o", periods=[45.983], nterms_lc=[2],
         peak_height=0.15,   # keeps 45.98/22.99 h (w = 0.28), the 49.9/24.9 h alternative (w = 0.19) and 12.2 h (w = 0.18)
         window=[45.983, 49.98, 24.98, 22.99], opposition=dict(periods=[45.983, 49.98], min_period_hours=60.0),
     ),
     3473: dict(
-        workbook=os.path.join(DATA_DIR_2, "3473-excelBF.xlsx"),
+        workbook=os.path.join(DATA_DIR_RB, "3473-excelRB.xlsx"),
         # I41r removed: its measurements form a separate branch 0.5 mag below the other datasets
         sheets=["C57G", "T08o", "703V", "703G", "G96V", "T05o", "T05c", "W68o", "D29R", "G96G", "G45r", "M22o", "691V"],
         reference="T08o", periods=[9.074], nterms_lc=[2],
         peak_height=0.05,   # 9.07 h and 4.54 h (w = 0.18); daily aliases 7.63/3.81 h (w = 0.04) not labelled
     ),
     3716: dict(
-        workbook=os.path.join(DATA_DIR_2, "3716-excelBF.xlsx"),
-        sheets=["P07G", "G45r", "D29R", "W68o", "T08o", "703G", "703V", "M22o", "G96G", "G96V", "F52w", "T05c", "T05o"],
+        workbook=os.path.join(DATA_DIR_RB, "3716-excelRB.xlsx"),
+        sheets=["P07G", "G45r", "D29R", "W68o", "T08o", "703G", "703V", "M22o", "G96G", "G96V", "F52w", "T05c", "T05o", "F51w"],
         reference="T08o", periods=[10.474], nterms_lc=[2],
         peak_height=0.15,   # 10.47/5.24 h (w = 0.21) and the daily alias 13.41/6.70 h (w = 0.17); 8.59/4.30 h (w = 0.13) not labelled
         window=[10.474, 13.407, 5.24, 6.70],
     ),
     4303: dict(
-        workbook=os.path.join(DATA_DIR_2, "4303-excelBF.xlsx"),
+        workbook=os.path.join(DATA_DIR_RB, "4303-excelRB.xlsx"),
         sheets=["P07G", "D29R", "703G", "703V", "M22o", "C57G", "W68o", "G96G", "G96V", "G45r", "F51w", "T08o", "T05c", "T05o"],
         reference="T08o", periods=[6.136], nterms_lc=[2],
         peak_height=0.20,   # 6.14 h and 3.07 h (w = 0.55-0.57); all daily aliases have w <= 0.05
@@ -135,24 +140,25 @@ CONFIG = {
     # --- asteroids with known rotation periods, used to test the method (Table 3) ---------
     # Their figures go to the response folder only (paper=False).
     1951: dict(
-        workbook=os.path.join(DATA_DIR_1, "1951-excelBF.xlsx"), paper=False,
-        sheets=["703G", "703V", "C57G", "H45R", "I41g", "I41r", "M22o", "T05c", "T05o", "T05w", "T08c", "T08o", "W68o"],
+        workbook=os.path.join(DATA_DIR_RB, "1951-excelRB.xlsx"), paper=False,
+        # T05w exceeds the limit of criterion 2 and reduces the power of the period (inclusion_test.py)
+        sheets=["703G", "703V", "C57G", "H45R", "I41g", "I41r", "M22o", "T05c", "T05o", "T08c", "T08o", "W68o"],
         reference="T08o", periods=[5.300], nterms_lc=[2],
     ),
     1963: dict(
-        workbook=os.path.join(DATA_DIR_1, "1963-excelBF.xlsx"), paper=False,
-        # C57G2 sheet of this workbook has no phase-angle column and cannot be used;
-        # I41g (69) and M22c (68) have fewer than 70 measurements in the workbook and are not used
-        sheets=["689V", "703G", "703V", "I41r", "M22o", "T05c", "T05o", "T05w", "T08o", "W68c", "W68o"],
+        workbook=os.path.join(DATA_DIR_RB, "1963-excelRB.xlsx"), paper=False,
+        # C57G: the TESS sheet C57G2 of the original workbook (phase angle in an unnamed column), copied by
+        # build_workbooks.py; I41g (69) and M22c (68) have fewer than 70 measurements and are not used
+        sheets=["689V", "703G", "703V", "C57G", "I41r", "M22o", "T05c", "T05o", "T05w", "T08o", "W68c", "W68o"],
         reference="T08o", periods=[18.164], nterms_lc=[2],
     ),
     2134: dict(
-        workbook=os.path.join(DATA_DIR_1, "2134-excelBF.xlsx"), paper=False,
+        workbook=os.path.join(DATA_DIR_RB, "2134-excelRB.xlsx"), paper=False,
         sheets=["703G", "703V", "C57G", "G45r", "I41g", "I41r", "T05c", "T05o", "T08o", "W68o"],
         reference="T08o", periods=[4.114], nterms_lc=[2],
     ),
     2150: dict(
-        workbook=os.path.join(DATA_DIR_1, "2150-excelBF.xlsx"), paper=False,
+        workbook=os.path.join(DATA_DIR_RB, "2150-excelRB.xlsx"), paper=False,
         sheets=["703G", "703V", "C57G", "G45r", "I41r", "M22o", "T05c", "T05o", "T08c", "T08o", "W68o"],
         reference="T08o", periods=[6.125], nterms_lc=[2],
     ),
