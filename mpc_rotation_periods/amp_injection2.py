@@ -20,14 +20,18 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 AMPS = (0.10, 0.25, 0.50)
 KEYS = ("COMB_F4", "APP_TPL_med", "APP_TPL_wmean", "APP_TPL_max10", "APP_FS_med", "APP_FS_max", "APP_VAR_med",
         "APP_VAR_max", "APP_VARs_med", "APP_VARs_max")
+# (2150) left the test sample in the revision (retired.json); its light-curve shape stays a template, folded at its
+# period from before the swap (adopted_retired.json)
+RETIRED_A = os.path.join(ROOT, "adopted_retired.json")
 
 
 def templates():
     import amp_data as D
     import amp_methods as M
+    old = json.load(open(RETIRED_A, encoding="utf-8")) if os.path.exists(RETIRED_A) else {}
     T = {}
     for n in ("2150", "4303", "1820"):
-        d = D.load("paper", n)
+        d = D.load("paper", n, P=None if n in D.ADOPTED else old[n]["P"])
         X = np.hstack([np.ones((len(d["t"]), 1)), M.fourier_design(d["t"], d["P"], 8)])
         c, *_ = M.fit_clipped(X, d["y"])
         a, _ = M.ptp_coef(c[1:], 8)

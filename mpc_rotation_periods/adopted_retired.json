@@ -1,0 +1,152 @@
+{
+ "1951": {
+  "table": 2,
+  "P": 5.299537957964116,
+  "sigma_P": 0.00019,
+  "quality": "A",
+  "alternatives": [
+   10.5964,
+   2.64977
+  ],
+  "alternative_notes": {
+   "10.5964": "Double period. Much lower power (0.086), and the fold is not coherent (four-term amp 0.13 vs 0.17).",
+   "2.64977": "Half period. Single wave (1/1), power 0.210."
+  },
+  "review_rationale": "5.2995 h is the strongest peak (0.286, weighted 0.292) and wins 100% of bootstraps in both periodograms. The fold is double-peaked with unequal minima (2/2, amp 0.17 mag). TESS alone gives 5.299 h as its dominant peak (0.493, 2nd/1st 0.51). Both groups, 9/9 leave-one-out subsets and 6/7 single datasets agree. The double (10.60 h) and half (2.65 h) are weaker, and neither folds better.",
+  "paper_note": "",
+  "concerns": "TESS alone shows extra peaks at 0.84-1.23 h, probably systematics. T05c alone gives a spurious long-period trend.",
+  "agrees_with_algorithm": true,
+  "nterms": 2,
+  "source": "review",
+  "syn_sid_scale": 0.001953611867807457,
+  "baseline_days": 3042.471619650256,
+  "P_review": 5.29954,
+  "quality_rule": "A",
+  "quality_reason": "rule",
+  "retired": true,
+  "convex_only": false
+ },
+ "1963": {
+  "table": 2,
+  "P": 18.165262245357127,
+  "sigma_P": 0.00069,
+  "quality": "A",
+  "alternatives": [
+   9.08262,
+   18.04536,
+   36.33301
+  ],
+  "alternative_notes": {
+   "9.08262": "Half-period member of the same family. The fold is a single wave (1/1), so it is not the rotation period.",
+   "18.04536": "Nearby alias (0.7 % away). Power 0.080, family bootstrap wins 0.00 (u and w), fold amplitude 0.16 mag. Rejected.",
+   "36.33301": "Double period. Power 0.0097 is below the 5-sigma threshold of 0.013. Rejected."
+  },
+  "review_rationale": "18.1653 h is the strongest peak (power 0.254, about 20 times the 5-sigma threshold). Its four-term fold is clearly double-peaked (2/2, amplitude 0.27 mag). The equally strong 9.0826 h member folds into a single wave. The family bootstrap fraction is 1.00 in both the unweighted and weighted periodograms, and the checks agree: both longitude groups, TESS alone (18.155/9.079 h) and 12/12 leave-one-out runs. The 18.045 h alias (power 0.080) never wins a resampling, and 36.33 h (power 0.0097) is below the threshold.",
+  "paper_note": "",
+  "concerns": "Single datasets 689V and T05w alone give spurious long periods (1130 h and 1251 h). These never beat the primary solution in the bootstrap.",
+  "agrees_with_algorithm": true,
+  "nterms": 2,
+  "source": "review",
+  "syn_sid_scale": 0.00996306373392512,
+  "baseline_days": 9948.56614244217,
+  "P_review": 18.16526,
+  "quality_rule": "A",
+  "quality_reason": "rule",
+  "retired": true,
+  "convex_only": true
+ },
+ "2134": {
+  "table": 2,
+  "P": 4.114927363882112,
+  "sigma_P": 0.00037,
+  "quality": "B",
+  "alternatives": [
+   4.1142,
+   3.7894,
+   48.08619,
+   24.04406,
+   1.00065,
+   1137.79
+  ],
+  "alternative_notes": {
+   "4.1142": "Neighbouring comb tooth (power ratio 0.98). It is the maximum of the noise-weighted periodogram. Only 55 % of resamplings stay in one tooth.",
+   "48.08619": "Day-commensurate (2f is close to 1 c/d). Double-peaked but incoherent fold (amplitude 0.13 mag). Family bootstrap wins 0.25 (u) and 0.31 (w). No support from TESS.",
+   "24.04406": "Single-wave member of the 48.09 h family and day-commensurate. Almost every single ground dataset prefers it. Most likely per-apparition (synodic-cycle) residuals aliased to 1 c/d.",
+   "1.00065": "Family wins 0.10. TESS alone peaks at 1.001 h, which is the second harmonic at the 30-min TESS cadence: a sampling artifact.",
+   "1137.79": "Beats the primary candidates in 98 % of bootstraps, but it is produced by TESS (C57G) trends. It disappears without C57G, where 24.04 h wins. Artifact under R1."
+  },
+  "review_rationale": "No solution is secure. The strongest peak in the primary range, 4.1149 h (power 0.066, 5-sigma threshold 0.010), folds double-peaked but with only 0.11 mag amplitude. Its family fraction is 0.66 (u) and 0.58 (w), and no longitude group, leave-one-out run or single dataset reproduces it (0/2, 0/11, 0/8). The 24.04/48.09 h family is day-commensurate, has no TESS support and folds incoherently, so R4 rejects it. The 1137.8 h peak comes from TESS trends. The 4.115 h candidate is kept only as the best non-artifact solution.",
+  "paper_note": "Ambiguous: the best candidate, 4.115 h, has low amplitude (about 0.1 mag) and no subset confirms it; the day-commensurate 24.04/48.09 h peaks and the TESS-driven ~1140 h peak are considered artifacts.",
+  "concerns": "Low power and amplitude. The single ground datasets all peak at exactly 24.044 h, which points to nightly or apparition zero-point systematics. TESS (4 short visits) is dominated by trends and a 1.001 h cadence artifact. 704V was screened out (chi2).",
+  "agrees_with_algorithm": true,
+  "nterms": 2,
+  "source": "verify",
+  "verify_verdict": "upheld",
+  "verify_reason": "The period of 4.11493 h holds up. I am raising the quality from C to B because the reviewer's claims of 'no TESS support' and 'no subset confirms it' are wrong. My checks were run in scratchpad with exact chi2 Lomb-Scargle. (1) TESS alone, which has no daily aliases: after detrending each visit, the strongest peak in 0.8-240 h is 4.1177 h (power 0.090), with its half 2.061 h second. The 1.0007 h peak disappears (0.006), and 24.04 h (0.018) and the daily alias 3.79 h (0.015) are negligible. Each usable visit peaks on its own at 4.114-4.120 h: 2018 at 4.114/2.057, 2020 at 4.120 and 2023 at 4.117. These visits used different cadences (30 and 20 min), so the peak is not a cadence effect. The TESS folds are double-peaked with minima near phases 0.25 and 0.75, but the data are quantized at 0.1 mag. (2) ZTF I41r alone has its top peaks at 2.0568 and 4.1142 h. (3) Ground data with the per-dataset nightly median removed: the 24.04/48.09 h family vanishes (0.006/0.004), which proves it comes from nightly zero-point offsets and rejects it under R4. The top peaks there are 2.0571 and 4.1142 h. The daily alias 3.789 h is weaker (0.026 vs 0.035), and TESS rules it out. (4) 1.00065 h is a TESS sampling artifact: 2f is about 48 c/d, the 30-min sampling frequency. 1137.8 h comes from TESS trends and is rejected under R1. (5) The double, 8.23 h, has power 0.0076, below the threshold. The 2.057 h fold is single-wave and the 4.115 h fold is double-peaked (2/2), so R2 selects 4.115 h. The quality is B rather than A because the family bootstrap fractions (0.66 u, 0.58 w) are pulled down by the artifact families, the amplitude is only about 0.11-0.16 mag, and the comb tooth is uncertain. The noise-weighted and nightly-demeaned ground data prefer the 4.1142 h tooth, and only 55 % of resamplings stay in one tooth. So sigma_P is the scatter over all teeth, 0.00037 h, which is larger than P^2/(2dT) = 4.1e-5 h. Note for the pipeline: its single-dataset periodograms appear to use fastchi2, which I found returns power > 1 on small subsets (for example 703G gave 1.56 with fastchi2 and 0.42 with exact chi2). That probably explains why every single dataset was reported at exactly 24.044 h.",
+  "syn_sid_scale": 0.0004493802787924629,
+  "baseline_days": 8557.885903139599,
+  "P_review": 4.11493,
+  "quality_rule": "B",
+  "quality_reason": "rule",
+  "retired": true,
+  "convex_only": true
+ },
+ "2150": {
+  "table": 2,
+  "P": 6.124087489643353,
+  "sigma_P": 0.0001,
+  "quality": "A",
+  "alternatives": [
+   3.06204,
+   5.43115,
+   7.0214
+  ],
+  "alternative_notes": {
+   "3.06204": "Half-period member. Single-wave fold, so it is not the rotation period.",
+   "5.43115": "Daily alias (rotation frequency differs by 0.5 c/d). Power 0.235, amplitude 0.36 mag, family bootstrap wins 0.00. Rejected.",
+   "7.0214": "Daily alias on the other side (0.5 c/d). Power 0.18. Rejected."
+  },
+  "review_rationale": "6.1241 h is the strongest peak (power 0.622, 39 times the threshold). Its fold is a clean, double-peaked light curve with 0.57 mag amplitude, and 3.0620 h is its single-wave half. The family bootstrap fraction is 1.00 (u and w). Both longitude groups and 12/12 leave-one-out runs agree, and 8/10 single datasets agree. The daily aliases at 5.431 h and 7.021 h reach at most 0.24 power and never win a resampling.",
+  "paper_note": "",
+  "concerns": "C57G (TESS), 704V, W68c and T05w were screened out at the G1/G2 boundary, so there is no TESS check. T08o alone prefers the 5.43 h alias family.",
+  "agrees_with_algorithm": true,
+  "nterms": 2,
+  "source": "review",
+  "syn_sid_scale": 0.0016176879886171498,
+  "baseline_days": 7754.493150272407,
+  "P_review": 6.12409,
+  "quality_rule": "A",
+  "quality_reason": "rule",
+  "retired": true,
+  "convex_only": false
+ },
+ "2318": {
+  "table": 2,
+  "P": 5.457034123116742,
+  "sigma_P": 7.4e-05,
+  "quality": "A",
+  "alternatives": [
+   2.72852,
+   6.15855,
+   5.01029
+  ],
+  "alternative_notes": {
+   "2.72852": "Strongest peak (power 0.449) but a single-wave fold (1/1). Half of the adopted period.",
+   "6.15855": "Daily alias of 5.457 h (rotation frequency differs by 0.50 c/d). Power 0.086, amplitude 0.21 mag, family wins 0.00. The europe_africa group prefers it only weakly (ratio 0.92).",
+   "5.01029": "Alias peak. Power 0.084, family wins 0.00. Rejected."
+  },
+  "review_rationale": "The strongest peak, 2.7285 h (power 0.450), folds into a single wave. 5.4570 h has comparable power (0.426) and a clearly double-peaked fold with unequal minima (amplitude 0.50 mag), so R2 gives P = 5.45703 h. The family bootstrap fraction is 1.00 in both periodograms, and all 14 leave-one-out runs agree. The americas and asia_australia groups (D29R, 17 yr) break the daily alias in favour of this family. Only the small europe_africa group (465 points) prefers the 6.1585 h alias, and only weakly (ratio 0.92), at one-fifth of the power.",
+  "paper_note": "The rotation period is twice the strongest (single-wave) periodogram peak.",
+  "concerns": "C57G (TESS) screened out at the G1/G2 boundary and 704V by chi2. Single datasets W68o, M22o, 703V, F51w and G45r individually prefer the 6.1585 h daily alias.",
+  "agrees_with_algorithm": true,
+  "nterms": 2,
+  "source": "review",
+  "syn_sid_scale": 0.001008779689054878,
+  "baseline_days": 8413.650471363217,
+  "P_review": 5.45703,
+  "quality_rule": "A",
+  "quality_reason": "rule",
+  "retired": true,
+  "convex_only": false
+ }
+}

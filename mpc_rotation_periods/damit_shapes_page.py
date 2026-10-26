@@ -580,6 +580,10 @@ def main(argv):
     ap.add_argument("--recompute", action="store_true")
     ap.add_argument("--workers", type=int, default=4)
     args = ap.parse_args(argv)
+    # retired test asteroids whose convex models stay in the table (damit_paper_table.py, adopted_retired.json)
+    ra = os.path.join(ROOT, "adopted_retired.json")
+    if os.path.exists(ra):
+        MF.ADOPTED.update({n: a for n, a in json.load(open(ra)).items() if a.get("convex_only") and n not in MF.ADOPTED})
     models = json.load(open(TABLE))["models"]
     if args.only:
         keep = set(args.only.split(","))

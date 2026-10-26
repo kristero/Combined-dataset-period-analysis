@@ -1,13 +1,83 @@
 {
  "accuracy": {
-  "n": 74,
-  "median_dP": 0.14431864129800104,
-  "p68_dP": 0.21421220759871168,
-  "p68_dP_within1": 0.20014774751570896,
-  "n_within1": 68
+  "n": 78,
+  "median_dP": 0.1411094315175208,
+  "p68_dP": 0.2132296919543021,
+  "p68_dP_within1": 0.1899171717618581,
+  "n_within1": 71
  },
- "k_unc": 0.2,
+ "k_unc": 0.19,
  "models": [
+  {
+   "num": "486",
+   "table": 2,
+   "quality": "A",
+   "P_adopted": 65.28583077941505,
+   "sigma_adopted": 0.0083,
+   "P_sid": 65.15137705,
+   "sigma_sid": 0.0015793205175298685,
+   "dP": 0.008312213250157203,
+   "poles": [
+    [
+     229.2,
+     57.500000000000014
+    ]
+   ],
+   "dark_pct": 0.0,
+   "rms": 0.060897,
+   "published_poles": [
+    [
+     227.0,
+     59.0
+    ],
+    [
+     31.0,
+     30.0
+    ]
+   ],
+   "areas": "areas_best",
+   "rel_diff": -0.002059462640053451,
+   "poles_source": "polished"
+  },
+  {
+   "num": "1600",
+   "table": 2,
+   "quality": "B",
+   "P_adopted": 3.200978256534935,
+   "sigma_adopted": 0.00017,
+   "P_sid": 3.20144203,
+   "sigma_sid": 7.212816425715764e-06,
+   "dP": 3.7962191714293495e-05,
+   "poles": [
+    [
+     38.00000000000001,
+     -84.2
+    ]
+   ],
+   "dark_pct": 0.39,
+   "rms": 0.041257,
+   "published_poles": [
+    [
+     356.0,
+     7.0
+    ],
+    [
+     219.0,
+     54.0
+    ],
+    [
+     356.0,
+     7.0
+    ],
+    [
+     219.0,
+     54.0
+    ]
+   ],
+   "areas": "areas_best",
+   "rel_diff": 0.00014488491576534506,
+   "poles_source": "polished"
+  },
   {
    "num": "1798",
    "table": 2,
@@ -15,7 +85,7 @@
    "P_adopted": 3.506679786544696,
    "sigma_adopted": 0.00035,
    "P_sid": 3.50628193,
-   "sigma_sid": 6.324991481116631e-06,
+   "sigma_sid": 6.008741907060799e-06,
    "dP": 3.162495740558315e-05,
    "poles": [
     [
@@ -37,7 +107,7 @@
    "P_adopted": 14.051836125626199,
    "sigma_adopted": 0.0016,
    "P_sid": 14.04489154,
-   "sigma_sid": 9.765943777465041e-05,
+   "sigma_sid": 9.277646588591789e-05,
    "dP": 0.0004882971888732521,
    "poles": [
     [
@@ -76,7 +146,7 @@
    "P_adopted": 8.909036966078999,
    "sigma_adopted": 0.00022,
    "P_sid": 8.91158165,
-   "sigma_sid": 4.467166936678359e-05,
+   "sigma_sid": 4.243808589844441e-05,
    "dP": 0.00022335834683391795,
    "poles": [
     [
@@ -103,7 +173,7 @@
    "P_adopted": 18.165262245357127,
    "sigma_adopted": 0.00069,
    "P_sid": 18.1653627,
-   "sigma_sid": 0.00013820266378841004,
+   "sigma_sid": 0.00013129253059898953,
    "dP": 0.0006910133189420502,
    "poles": [
     [
@@ -134,7 +204,7 @@
    "P_adopted": 4.114927363882112,
    "sigma_adopted": 0.00037,
    "P_sid": 4.11491954,
-   "sigma_sid": 8.244132474383376e-06,
+   "sigma_sid": 7.831925850664207e-06,
    "dP": 4.122066237191688e-05,
    "poles": [
     [
@@ -156,7 +226,7 @@
    "P_adopted": 12.296393396969368,
    "sigma_adopted": 0.00043,
    "P_sid": 12.29141289,
-   "sigma_sid": 8.540302038329604e-05,
+   "sigma_sid": 8.113286936413123e-05,
    "dP": 0.0004270151019164802,
    "poles": [
     [
@@ -178,7 +248,7 @@
    "P_adopted": 13.481981662023687,
    "sigma_adopted": 0.00052,
    "P_sid": 13.48773667,
-   "sigma_sid": 0.00010363972940136005,
+   "sigma_sid": 9.845774293129204e-05,
    "dP": 0.0005181986470068002,
    "poles": [
     [
@@ -204,7 +274,7 @@
    "P_adopted": 4.4908231415231965,
    "sigma_adopted": 0.00029,
    "P_sid": 4.49013599,
-   "sigma_sid": 1.0782293245434892e-05,
+   "sigma_sid": 1.0243178583163148e-05,
    "dP": 5.391146622717446e-05,
    "poles": [
     [
@@ -220,39 +290,13 @@
    "poles_source": "polished"
   },
   {
-   "num": "3716",
-   "table": 3,
-   "quality": "B",
-   "P_adopted": 10.474341812309438,
-   "sigma_adopted": 0.0012,
-   "P_sid": 10.47096562,
-   "sigma_sid": 6.0268263251765947e-05,
-   "dP": 0.0003013413162588297,
-   "poles": [
-    [
-     58.60000000000001,
-     58.2
-    ],
-    [
-     230.0,
-     69.09999999999998
-    ]
-   ],
-   "dark_pct": 0.0,
-   "rms": 0.113212,
-   "published_poles": [],
-   "areas": "areas_mirror_3",
-   "rel_diff": -0.0003223297816642918,
-   "poles_source": "polished"
-  },
-  {
    "num": "4048",
    "table": 3,
    "quality": "A",
    "P_adopted": 49.196412000373016,
    "sigma_adopted": 0.006,
    "P_sid": 49.11350586,
-   "sigma_sid": 0.0011922844663722805,
+   "sigma_sid": 0.0011326702430536665,
    "dP": 0.005961422331861402,
    "poles": [
     [
@@ -272,39 +316,13 @@
    "poles_source": "polished"
   },
   {
-   "num": "4239",
-   "table": 3,
-   "quality": "A",
-   "P_adopted": 23.13818050658784,
-   "sigma_adopted": 0.0011,
-   "P_sid": 23.15727922,
-   "sigma_sid": 0.00022932369401051762,
-   "dP": 0.001146618470052588,
-   "poles": [
-    [
-     282.5,
-     -62.40000000000001
-    ],
-    [
-     100.7,
-     -60.7
-    ]
-   ],
-   "dark_pct": 0.36,
-   "rms": 0.188173,
-   "published_poles": [],
-   "areas": "areas_best",
-   "rel_diff": 0.0008254198469374656,
-   "poles_source": "polished"
-  },
-  {
    "num": "4270",
    "table": 4,
    "quality": "A",
    "P_adopted": 10.868352101529585,
    "sigma_adopted": 0.00032,
    "P_sid": 10.86839689,
-   "sigma_sid": 6.437038598213628e-05,
+   "sigma_sid": 6.115186668302946e-05,
    "dP": 0.00032185192991068134,
    "poles": [
     [
@@ -326,7 +344,7 @@
    "P_adopted": 6.7811121467036575,
    "sigma_adopted": 0.00012,
    "P_sid": 6.78294843,
-   "sigma_sid": 2.3285748803156987e-05,
+   "sigma_sid": 2.2121461362999136e-05,
    "dP": 0.00011642874401578493,
    "poles": [
     [
@@ -348,7 +366,7 @@
    "P_adopted": 5.09055744666004,
    "sigma_adopted": 5.3e-05,
    "P_sid": 5.0907298,
-   "sigma_sid": 1.0523449411714596e-05,
+   "sigma_sid": 9.997276941128866e-06,
    "dP": 5.2617247058572976e-05,
    "poles": [
     [
@@ -362,6 +380,98 @@
    "areas": "areas_best",
    "rel_diff": 3.3857458984791754e-05,
    "poles_source": "polished"
+  }
+ ],
+ "rejected": [
+  {
+   "num": "870",
+   "table": 2,
+   "quality": "B",
+   "P_adopted": 171.72154304694178,
+   "sigma_adopted": 0.37,
+   "P_sid": 171.73113927,
+   "sigma_sid": 0.01514540302259216,
+   "dP": 0.07971264748732716,
+   "poles": [
+    [
+     13.9,
+     19.5
+    ],
+    [
+     191.9,
+     34.89999999999999
+    ]
+   ],
+   "dark_pct": 0.39,
+   "rms": 0.115373,
+   "published_poles": [
+    [
+     96.0,
+     30.0
+    ],
+    [
+     283.0,
+     35.0
+    ]
+   ],
+   "areas": "areas_best",
+   "rel_diff": 5.588246464569255e-05,
+   "poles_source": "polished",
+   "reason": "best pole (13.9, +19.5): spin axis 89 deg from the axis of maximum moment of inertia (testswap_checks.json); the polyhedra of the mirror solution (191.9, +34.9) and of its unrefined start solutions could not be built (minkowski fails), so no physical model is confirmed. The adopted 171.7 h period is wrong (published 122.17 h, Hanus et al. 2016)"
+  },
+  {
+   "num": "3716",
+   "table": 3,
+   "quality": "B",
+   "P_adopted": 10.474341812309438,
+   "sigma_adopted": 0.0012,
+   "P_sid": 10.47096562,
+   "sigma_sid": 5.725485008917765e-05,
+   "dP": 0.0003013413162588297,
+   "poles": [
+    [
+     58.60000000000001,
+     58.2
+    ],
+    [
+     230.0,
+     69.09999999999998
+    ]
+   ],
+   "dark_pct": 0.0,
+   "rms": 0.113212,
+   "published_poles": [],
+   "areas": "areas_mirror_3",
+   "rel_diff": -0.0003223297816642918,
+   "poles_source": "polished",
+   "reason": "spin axis 80-89 deg from the axis of maximum moment of inertia for both mirror poles (review_inertia2.json)"
+  },
+  {
+   "num": "4239",
+   "table": 3,
+   "quality": "A",
+   "P_adopted": 23.13818050658784,
+   "sigma_adopted": 0.0011,
+   "P_sid": 23.15727922,
+   "sigma_sid": 0.00021785750930999173,
+   "dP": 0.001146618470052588,
+   "poles": [
+    [
+     282.5,
+     -62.40000000000001
+    ],
+    [
+     100.7,
+     -60.7
+    ]
+   ],
+   "dark_pct": 0.36,
+   "rms": 0.188173,
+   "published_poles": [],
+   "areas": "areas_best",
+   "rel_diff": 0.0008254198469374656,
+   "poles_source": "polished",
+   "reason": "spin axis 80-89 deg from the axis of maximum moment of inertia (best pole; mirror pole: unrefined solutions within 10 deg; review_inertia2.json)"
   }
  ]
 }

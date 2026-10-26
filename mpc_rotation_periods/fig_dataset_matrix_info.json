@@ -1,128 +1,129 @@
 {
- "n_datasets": 765,
+ "n_datasets": 776,
  "categories": {
-  "alias": 188,
-  "family": 485,
-  "other": 56,
-  "day": 36
+  "family": 486,
+  "other": 66,
+  "day": 35,
+  "alias": 189
  },
- "n_datasets_resolved": 676,
+ "n_datasets_resolved": 687,
  "categories_resolved": {
-  "alias": 168,
-  "family": 436,
-  "other": 36,
-  "day": 36
+  "family": 437,
+  "other": 46,
+  "day": 35,
+  "alias": 169
  },
- "n_datasets_all_types": 783,
+ "n_datasets_all_types": 797,
  "chance_rates": {
-  "other": 0.9732450980392157,
-  "day": 0.010980392156862745,
-  "alias": 0.015774509803921567
+  "other": 0.9719903846153846,
+  "day": 0.011009615384615385,
+  "alias": 0.017
  },
  "by_type": {
   "T05c": {
    "n_ast": 50,
-   "alias": 19,
-   "other": 2,
-   "day": 1,
-   "family": 28
-  },
-  "T05o": {
-   "n_ast": 50,
-   "alias": 17,
-   "family": 28,
-   "day": 3,
-   "other": 2
-  },
-  "T05w": {
-   "n_ast": 5,
-   "alias": 2,
-   "other": 1,
-   "family": 2
-  },
-  "T08c": {
-   "n_ast": 14,
-   "day": 1,
-   "family": 8,
-   "alias": 5
-  },
-  "T08o": {
-   "n_ast": 51,
-   "family": 27,
-   "day": 4,
-   "alias": 19,
-   "other": 1
-  },
-  "M22c": {
-   "n_ast": 16,
-   "alias": 6,
-   "other": 2,
-   "day": 1,
-   "family": 7
-  },
-  "M22o": {
-   "n_ast": 46,
-   "family": 35,
-   "day": 4,
-   "alias": 6,
-   "other": 1
-  },
-  "W68c": {
-   "n_ast": 22,
-   "alias": 5,
-   "family": 13,
+   "family": 26,
+   "alias": 20,
    "day": 2,
    "other": 2
   },
-  "W68o": {
+  "T05o": {
    "n_ast": 51,
-   "alias": 10,
-   "family": 35,
+   "family": 28,
+   "other": 3,
+   "alias": 18,
+   "day": 2
+  },
+  "T05w": {
+   "n_ast": 5,
+   "other": 1,
+   "alias": 2,
+   "family": 2
+  },
+  "T08c": {
+   "n_ast": 13,
+   "family": 7,
+   "day": 1,
+   "alias": 5
+  },
+  "T08o": {
+   "n_ast": 52,
+   "family": 27,
+   "other": 2,
    "day": 4,
+   "alias": 19
+  },
+  "M22c": {
+   "n_ast": 15,
+   "family": 7,
+   "alias": 5,
+   "other": 2,
+   "day": 1
+  },
+  "M22o": {
+   "n_ast": 47,
+   "family": 36,
+   "alias": 7,
+   "day": 3,
+   "other": 1
+  },
+  "W68c": {
+   "n_ast": 21,
+   "family": 13,
+   "alias": 5,
+   "day": 1,
    "other": 2
   },
-  "R17w": {
-   "n_ast": 34,
-   "family": 29,
+  "W68o": {
+   "n_ast": 52,
+   "family": 35,
    "other": 2,
+   "alias": 11,
+   "day": 4
+  },
+  "R17w": {
+   "n_ast": 36,
+   "family": 28,
+   "other": 5,
    "alias": 3
   },
   "703G": {
-   "n_ast": 9,
-   "alias": 1,
-   "family": 7,
-   "other": 1
+   "n_ast": 11,
+   "family": 8,
+   "other": 2,
+   "alias": 1
   },
   "703bG": {
    "n_ast": 47,
-   "alias": 9,
    "family": 31,
-   "day": 3,
-   "other": 4
+   "other": 4,
+   "alias": 10,
+   "day": 2
   },
   "703V": {
    "n_ast": 42,
+   "family": 26,
    "day": 4,
-   "alias": 11,
-   "family": 25,
+   "alias": 10,
    "other": 2
   },
   "G96bG": {
    "n_ast": 8,
-   "family": 6,
-   "alias": 2
+   "family": 5,
+   "alias": 2,
+   "other": 1
   },
   "G96V": {
-   "n_ast": 24,
+   "n_ast": 25,
+   "other": 4,
    "family": 11,
    "alias": 9,
-   "other": 3,
    "day": 1
   },
   "F51w": {
-   "n_ast": 34,
-   "family": 19,
-   "alias": 14,
+   "n_ast": 32,
+   "family": 18,
+   "alias": 13,
    "day": 1
   },
   "F52w": {
@@ -131,41 +132,43 @@
    "alias": 7
   },
   "I41g": {
-   "n_ast": 4,
-   "family": 4
+   "n_ast": 5,
+   "family": 4,
+   "day": 1
   },
   "I41r": {
-   "n_ast": 29,
-   "family": 26,
-   "day": 2,
-   "other": 1
+   "n_ast": 32,
+   "family": 27,
+   "other": 2,
+   "alias": 1,
+   "day": 2
   },
   "C57G": {
-   "n_ast": 27,
-   "family": 23,
-   "other": 2,
+   "n_ast": 29,
+   "family": 26,
+   "other": 1,
    "alias": 1,
    "day": 1
   },
   "G45r": {
-   "n_ast": 41,
-   "alias": 12,
-   "other": 3,
-   "day": 3,
-   "family": 23
+   "n_ast": 40,
+   "other": 4,
+   "day": 4,
+   "alias": 10,
+   "family": 22
   },
   "P07G": {
    "n_ast": 29,
-   "alias": 4,
    "family": 21,
+   "alias": 4,
    "day": 1,
    "other": 3
   },
   "D29R": {
-   "n_ast": 27,
-   "family": 19,
-   "alias": 6,
-   "other": 2
+   "n_ast": 29,
+   "other": 3,
+   "family": 20,
+   "alias": 6
   }
  }
 }

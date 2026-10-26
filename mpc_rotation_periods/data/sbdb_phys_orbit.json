@@ -10229,6 +10229,16 @@
     "sigma": "1.1"
    },
    {
+    "title": "rotation period",
+    "desc": "body rotation period (synodic)",
+    "notes": "REFERENCE LIST:[Binzel, R.P. (1987) Icarus 72, 135-208.], [Pilcher, F. (2015) Minor Planet Bull. 42, 190-192.], [Hanus, J.; Durech, J.; Oszkiewicz, D.A.; Behrend, R.; et al. (2016) Astron. Astrophys. 586, A108.], [Athanasopoulos D.; Hanus J.; Avdellidou C.; Bonamico R.; Delbo M.; et al. (2022) Astron. Astrophys. 666, A116.]",
+    "value": "84.94",
+    "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+    "units": "h",
+    "sigma": null,
+    "name": "rot_per"
+   },
+   {
     "name": "albedo",
     "sigma": "0.003",
     "ref": "IRAS-A-FPA-3-RDR-IMPS-V6.0",
@@ -10315,6 +10325,16 @@
     "sigma": "0.396",
     "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[mainbelt] (http://adsabs.harvard.edu/abs/2014ApJ...791..121M)",
     "value": "22.781"
+   },
+   {
+    "name": "rot_per",
+    "notes": "REFERENCE LIST:[Warner, B.D. (2006) Minor Planet Bull. 33, 82-84.], [Cooney, Jr.; W.R.; Gross, J.; Terrell, D.; Reddy, V.; Dyvig, R. (2007) Minor Planet Bull. 34, 47-48.], [Hanus, J.; Durech, J.; Broz, M.; Warner, B.D.; et al. (2011) Astron. Astrophys. 530, A134.], [McNeill, A.; Mommert, M.; Trilling, D.E.; Llama, J.; Skiff, B. (2019) Ap. J. Suppl. Series 245, id.29.], [Pal, A.; Szakats, R.; Kiss, C.; Bodi, A.; et al. (2020) Ap. J. Supl. Ser. 247, id.26.], [Colazo, M.; Santos, F.; Fornari, C.; Scotta, D.; et al. (2021) Minor Planet Bull. 48, 391-393.], [Dose, E.V. (2021) Minor Planet Bull. 48, 375-380.]",
+    "desc": "body rotation period (synodic)",
+    "value": "65.15",
+    "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+    "sigma": null,
+    "title": "rotation period",
+    "units": "h"
    },
    {
     "notes": null,
@@ -10491,6 +10511,16 @@
     "units": "km"
    },
    {
+    "units": "h",
+    "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+    "name": "rot_per",
+    "title": "rotation period",
+    "notes": "REFERENCE LIST:[Pilcher, F.; Alvarez, E.M.; Ferrero, A.; Klinglesmith III, D.A.; Vargas, A.; Oey, J. (2014) Minor Planet Bull. 41, 70.], [Hanus, J.; Durech, J.; Oszkiewicz, D.A.; Behrend, R.; et al. (2016) Astron. Astrophys. 586, A108.]",
+    "value": "122.3",
+    "sigma": null,
+    "desc": "body rotation period (synodic)"
+   },
+   {
     "desc": "geometric albedo",
     "value": "0.216",
     "sigma": "0.040",
@@ -10650,6 +10680,16 @@
     "desc": "effective body diameter",
     "name": "diameter",
     "notes": null
+   },
+   {
+    "notes": "REFERENCE LIST:[Warner, B.D. (1999) Minor Planet Bull. 26, 31-33.], [Behrend, R. (2005) Observatoire de Geneve web site, http://obswww.unige.ch/~behrend/page_cou.html], [Licchelli, D. (2006) Minor Planet Bull. 33, 50-51.], [Warner, B.D.; Pray, D.P.; Dyvig, R.; Reddy, V. (2006) Minor Planet Bull. 33, 45-46.], [Higgins, D. (2008) Minor Planet Bull. 35, 30-32.], [Warner, B.D.; Higgins, D.; Pray, D.P.; Dyvig, R.; et al. (2008) Minor Planet Bull. 35, 13-14.], [Warner, B.D. (2009) Minor Planet Bull. 36, 109-116.], [Behrend, R. (2010) Observatoire de Geneve web site, http://obswww.unige.ch/~behrend/page_cou.html], [Lucas, M.P.; Ryan, J.; Fauerbach, M.; Grasso, S. (2011) Minor Planet Bull. 38, 218-220.], [Warner, B.D. (2011) Minor Planet Bull. 38, 52-54.], [Warner, B.D. (2011) Minor Planet Bull. 38, 82-86.], [Warner, B.D. (2014) Minor Planet Bull. 41, 144-155.], [Stephens, R.D. (2016) Minor Planet Bull. 43, 52-56.], [Benishek, V.; Pilcher, F.; Pray, D.P. (2019) Minor Planet Bull. 46, 358-359.], [Pravec, P.; Wolf, M.; Sarounova, L. (2019) http://www.asu.cas.cz/~ppravec/neo.htm], [Stephens, R.D.; Warner, B.D. (2019) Minor Planet Bull. 46, 180-187.], [Wang, Y.-B.; Xu, Y. (2021) Astron. Nach. 342, 914-925.]",
+    "name": "rot_per",
+    "desc": "body rotation period (synodic)",
+    "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+    "value": "3.2011",
+    "sigma": null,
+    "title": "rotation period",
+    "units": "h"
    },
    {
     "notes": null,
@@ -10968,6 +11008,16 @@
     "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[mainbelt] (http://adsabs.harvard.edu/abs/2012ApJ...759L...8M)"
    },
    {
+    "title": "rotation period",
+    "notes": "REFERENCE LIST:[Baker, R.E.; Benishek, V.; Pilcher, F.; Higgins, D. (2010) Minor Planet Bull. 37, 81-83.], [Higgins, D.J. (2011) http://www.david-higgins.com/Astronomy/asteroid/lightcurves.htm], [Behrend, R. (2020) Observatoire de Geneve web site, http://obswww.unige.ch/~behrend/page_cou.html], [Athanasopoulos D.; Hanus J.; Avdellidou C.; Bonamico R.; Delbo M.; et al. (2022) Astron. Astrophys. 666, A116.]",
+    "sigma": null,
+    "units": "h",
+    "desc": "body rotation period (synodic)",
+    "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+    "value": "9.114",
+    "name": "rot_per"
+   },
+   {
     "title": "geometric albedo",
     "notes": null,
     "sigma": "0.006",
@@ -11166,6 +11216,16 @@
     "sigma": "0.216",
     "ref": "urn:nasa:pds:neowise_diameters_albedos::2.0[mainbelt] (http://adsabs.harvard.edu/abs/2011ApJ...741...68M)",
     "name": "diameter"
+   },
+   {
+    "units": "h",
+    "value": "27.8182",
+    "title": "rotation period",
+    "notes": "REFERENCE LIST:[Skiff, B.A. (2011) Posting on CALL web site. https://minplanobs.org/MPInfo/php/call.php], [Clark, M. (2012) Minor Planet Bull. 39, 63-65.], [Ferrero, A. (2012) Minor Planet Bull. 39, 65-67.], [Owings, L.E. (2012) Minor Planet Bull. 39, 22-23.], [Li, B.; Zhao, H.; Han. X.L.; Annable, L.R.; et al. (2013) Minor Planet Bull. 40, 62-63.], [Pal, A.; Szakats, R.; Kiss, C.; Bodi, A.; et al. (2020) Ap. J. Supl. Ser. 247, id.26.], [Skiff, B.A.; McLelland, K.P.; Sanborn, J.J.; Koehn, B.W. (2023) Minor Planet Bull. 50, 74-101.]",
+    "ref": "LCDB (Rev. 2023-October); Warner et al., 2009",
+    "sigma": null,
+    "name": "rot_per",
+    "desc": "body rotation period (synodic)"
    },
    {
     "units": null,

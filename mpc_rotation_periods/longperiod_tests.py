@@ -34,7 +34,10 @@ sys.path.insert(0, ROOT)
 import ls_longperiod as L  # noqa: E402
 
 TARGETS = {"3216": [632.0], "3173": [1191.0], "1944": [922.9, 929.7], "3459": [537.5], "4371": [226.7],
-           "4129": [288.8], "4331": [146.8], "4478": [64.86], "4482": [105.36]}
+           "4129": [288.8], "4331": [146.8], "4478": [64.86], "4482": [105.36],
+           # test asteroid with P > 100 h (revision): DAMIT favours the adopted period; the extra candidate is the
+           # window-scan minimum in the competing family (longperiod_damit.json, window ls3)
+           "870": [122.16]}
 P_INJ = [150.0, 300.0, 450.0, 600.0, 900.0, 1200.0, 1500.0]
 N_INJ, N_NULL = 40, 100
 

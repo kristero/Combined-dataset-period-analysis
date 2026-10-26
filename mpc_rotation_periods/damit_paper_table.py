@@ -15,6 +15,13 @@ from make_tables import tex_name  # noqa: E402
 R = os.path.join(ROOT, "damit_runs")
 S = json.load(open(os.path.join(ROOT, "damit_comparison.json")))
 A = json.load(open(os.path.join(ROOT, "adopted.json")))
+# retired test asteroids whose convex models stay in the table (retired.json: convex_only), with their periods from
+# before the swap; the other retired asteroids are left out
+RA = os.path.join(ROOT, "adopted_retired.json")
+A.update({n: a for n, a in (json.load(open(RA)) if os.path.exists(RA) else {}).items() if a.get("convex_only")})
+# models rejected by the principal-axis check (damit_rejected.json): listed separately, not in the table or figure
+RJ = os.path.join(ROOT, "damit_rejected.json")
+REJECTED = {k: v for k, v in (json.load(open(RJ)) if os.path.exists(RJ) else {}).items() if not k.startswith("_")}
 poles = json.load(open(os.path.join(ROOT, "data", "lcdb_poles.json")))
 EXCLUDE = {n for n, a in A.items() if a.get("status") == "undetermined"}   # no period determined
 
@@ -27,9 +34,11 @@ k_unc = round(max(acc["p68_dP_within1"], 0.1), 2)
 
 tab = []
 for d in sorted(os.listdir(R), key=lambda s: (s.split("_")[0], int(s.split("_")[1]) if s.split("_")[1].isdigit() else 0)):
-    if not d.startswith("paper_"):
+    if not d.startswith("paper_") or len(d.split("_")) != 2:      # auxiliary runs such as paper_2503_half
         continue
     n = d.split("_")[1]
+    if n not in A:
+        continue
     e = json.load(open(os.path.join(R, d, "eval.json")))
     C = e["C"]
     # pole solutions: the refined (polished) best solution and the refined competing solutions within the threshold
@@ -53,7 +62,11 @@ for d in sorted(os.listdir(R), key=lambda s: (s.split("_")[0], int(s.split("_")[
                 "sigma_adopted": A[n].get("sigma_P"), "P_sid": W0["P"], "sigma_sid": k_unc * dP, "dP": dP,
                 "poles": sols, "dark_pct": dark, "rms": W0["dev"], "published_poles": pub, "areas": W0["areas"],
                 "rel_diff": (W0["P"] - A[n]["P"]) / A[n]["P"], "poles_source": "polished" if M else "start solutions"})
-json.dump({"accuracy": acc, "k_unc": k_unc, "models": tab}, open(os.path.join(ROOT, "damit_paper_table.json"), "w"), indent=1)
+rejected = [dict(t, reason=REJECTED[t["num"]]["reason"]) for t in tab if t["num"] in REJECTED]
+tab = [t for t in tab if t["num"] not in REJECTED]
+json.dump({"accuracy": acc, "k_unc": k_unc, "models": tab, "rejected": rejected},
+          open(os.path.join(ROOT, "damit_paper_table.json"), "w"), indent=1)
+print("rejected by the principal-axis check:", [t["num"] for t in rejected])
 
 
 def fmt_P(P, s):

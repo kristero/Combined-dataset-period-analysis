@@ -1,0 +1,6 @@
+{
+ "_note": "Convex models that pass the period, pole and dark-facet criteria but are rejected by the principal-axis check (spin axis far from the axis of maximum moment of inertia of the uniform-density polyhedron; review_checks.json principal_axis, review_inertia2.json, testswap_checks.json). damit_paper_table.py keeps them out of the table and the shape figure.",
+ "3716": {"reason": "spin axis 80-89 deg from the axis of maximum moment of inertia for both mirror poles (review_inertia2.json)"},
+ "4239": {"reason": "spin axis 80-89 deg from the axis of maximum moment of inertia (best pole; mirror pole: unrefined solutions within 10 deg; review_inertia2.json)"},
+ "870": {"reason": "best pole (13.9, +19.5): spin axis 89 deg from the axis of maximum moment of inertia (testswap_checks.json); the polyhedra of the mirror solution (191.9, +34.9) and of its unrefined start solutions could not be built (minkowski fails), so no physical model is confirmed. The adopted 171.7 h period is wrong (published 122.17 h, Hanus et al. 2016)"}
+}

@@ -23,8 +23,8 @@ def stats(keys):
 val = [k for k in R if k.startswith("val:")]
 paper = [k for k in R if k.startswith("paper:")]
 resolved = [k for k in paper if k.split(":")[1] not in UNDET]
-out = dict(undetermined=UNDET, all_177=stats(val + paper), resolved_171=stats(val + resolved),
-           paper_57=stats(paper), paper_resolved_51=stats(resolved),
+out = dict(undetermined=UNDET, all=stats(val + paper), resolved=stats(val + resolved),
+           paper=stats(paper), paper_resolved=stats(resolved),
            n_apparitions_resolved=[int(np.min([R[k]["n_app"] for k in resolved])), int(np.median([R[k]["n_app"] for k in resolved])),
                                    int(np.max([R[k]["n_app"] for k in resolved]))])
 json.dump(out, open(os.path.join(ROOT, "review_amp_resolved.json"), "w"), indent=1)

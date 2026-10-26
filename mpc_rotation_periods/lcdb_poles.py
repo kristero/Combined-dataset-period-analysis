@@ -21,6 +21,9 @@ hdr = next(l for l in lines if l.startswith("Number"))
 iL1, iSid, iMod, iQ = hdr.index("L1"), hdr.index("Sid Per"), hdr.index("Mod"), hdr.index(" Q ") + 1
 nums = set(json.load(open(os.path.join(ROOT, "adopted.json"), encoding="utf-8")))
 nums |= {s["num"] for s in json.load(open(os.path.join(ROOT, "validation", "sample.json"), encoding="utf-8"))["sample"]}
+# retired test asteroids whose convex models stay in the paper (adopted_retired.json, convex_only)
+_ra = os.path.join(ROOT, "adopted_retired.json")
+nums |= {n for n, a in (json.load(open(_ra, encoding="utf-8")) if os.path.exists(_ra) else {}).items() if a.get("convex_only")}
 
 
 def num_or_none(s):

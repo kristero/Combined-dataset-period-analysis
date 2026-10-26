@@ -1,4 +1,70 @@
 {
+ "249": {
+  "quantized_datasets": [
+   "703G",
+   "703V",
+   "C57G",
+   "G45r"
+  ],
+  "n_quantized": 3820,
+  "n_rest": 2379,
+  "preferred_P": 85.22114184244144,
+  "agrees_with_adopted_family": true,
+  "quality": "A",
+  "ratio_second_to_first": 0.9902851731758313
+ },
+ "486": {
+  "quantized_datasets": [
+   "703V",
+   "C57G"
+  ],
+  "n_quantized": 1728,
+  "n_rest": 2608,
+  "preferred_P": 32.642911871696576,
+  "agrees_with_adopted_family": true,
+  "quality": "A",
+  "ratio_second_to_first": 0.9879730271797719
+ },
+ "870": {
+  "quantized_datasets": [
+   "703G",
+   "703V",
+   "C57G",
+   "G45r",
+   "G96V",
+   "P07G",
+   "T05w"
+  ],
+  "n_quantized": 5549,
+  "n_rest": 2992,
+  "preferred_P": 61.32369842575392,
+  "agrees_with_adopted_family": false,
+  "quality": "B",
+  "ratio_second_to_first": 0.9851017942582756
+ },
+ "1600": {
+  "quantized_datasets": [
+   "C57G",
+   "D29R"
+  ],
+  "n_quantized": 2812,
+  "n_rest": 2789,
+  "preferred_P": 3.200978256534935,
+  "agrees_with_adopted_family": true,
+  "quality": "B",
+  "ratio_second_to_first": 0.9783766569274605
+ },
+ "1700": {
+  "quantized_datasets": [
+   "Z22R"
+  ],
+  "n_quantized": 94,
+  "n_rest": 2440,
+  "preferred_P": 11.25683559142041,
+  "agrees_with_adopted_family": false,
+  "quality": "C",
+  "ratio_second_to_first": 0.9793684202881868
+ },
  "1706": {
   "quantized_datasets": [
    "C57G",
@@ -10,7 +76,7 @@
   "preferred_P": 1.2946849114991446,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9588537484031209
+  "ratio_second_to_first": 0.9588537484031155
  },
  "1717": {
   "quantized_datasets": [
@@ -25,7 +91,7 @@
   "preferred_P": 18.213699595667784,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9222818272021284
+  "ratio_second_to_first": 0.9222818272021294
  },
  "1798": {
   "quantized_datasets": [
@@ -40,7 +106,7 @@
   "preferred_P": 47.97938701601589,
   "agrees_with_adopted_family": false,
   "quality": "B",
-  "ratio_second_to_first": 0.9714807367516739
+  "ratio_second_to_first": 0.9714807367516755
  },
  "1818": {
   "quantized_datasets": [
@@ -55,7 +121,7 @@
   "preferred_P": 5.356141241116103,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9949976676528645
+  "ratio_second_to_first": 0.9949976676528641
  },
  "1820": {
   "quantized_datasets": [
@@ -70,7 +136,7 @@
   "preferred_P": 14.051836125626199,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9666137057843048
+  "ratio_second_to_first": 0.9666137057843027
  },
  "1920": {
   "quantized_datasets": [
@@ -83,7 +149,7 @@
   "preferred_P": 2.023525384289062,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9770752033146534
+  "ratio_second_to_first": 0.9770752033146531
  },
  "1942": {
   "quantized_datasets": [
@@ -97,7 +163,7 @@
   "preferred_P": 8.909036966078999,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.999717060563141
+  "ratio_second_to_first": 0.9997170605631427
  },
  "1944": {
   "quantized_datasets": [
@@ -113,7 +179,7 @@
   "preferred_P": 447.6211709153357,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9849810265818877
+  "ratio_second_to_first": 0.9849810265818849
  },
  "1949": {
   "quantized_datasets": [
@@ -127,71 +193,7 @@
   "preferred_P": 3.6488943627968116,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.955313968190702
- },
- "1951": {
-  "quantized_datasets": [
-   "C57G"
-  ],
-  "n_quantized": 1866,
-  "n_rest": 1936,
-  "preferred_P": 5.299537957964116,
-  "agrees_with_adopted_family": true,
-  "quality": "A",
-  "ratio_second_to_first": 0.9911349601890773
- },
- "1963": {
-  "quantized_datasets": [
-   "703V",
-   "703bG",
-   "C57G",
-   "T05w"
-  ],
-  "n_quantized": 2443,
-  "n_rest": 2321,
-  "preferred_P": 18.165262245357127,
-  "agrees_with_adopted_family": true,
-  "quality": "A",
-  "ratio_second_to_first": 0.9789813361430282
- },
- "2134": {
-  "quantized_datasets": [
-   "703V",
-   "703bG",
-   "C57G",
-   "G45r"
-  ],
-  "n_quantized": 1317,
-  "n_rest": 1343,
-  "preferred_P": 4.114927363882112,
-  "agrees_with_adopted_family": true,
-  "quality": "B",
-  "ratio_second_to_first": 0.9406578137900593
- },
- "2150": {
-  "quantized_datasets": [
-   "703V",
-   "G45r"
-  ],
-  "n_quantized": 273,
-  "n_rest": 2851,
-  "preferred_P": 6.124087489643353,
-  "agrees_with_adopted_family": true,
-  "quality": "A",
-  "ratio_second_to_first": 0.9920804866149849
- },
- "2318": {
-  "quantized_datasets": [
-   "703V",
-   "G45r",
-   "P07G"
-  ],
-  "n_quantized": 432,
-  "n_rest": 2512,
-  "preferred_P": 2.728515527266776,
-  "agrees_with_adopted_family": true,
-  "quality": "A",
-  "ratio_second_to_first": 0.9565648124313268
+  "ratio_second_to_first": 0.9553139681907041
  },
  "2497": {
   "quantized_datasets": [
@@ -207,7 +209,7 @@
   "preferred_P": 38.81042251909067,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9942527954689192
+  "ratio_second_to_first": 0.9942527954689201
  },
  "2503": {
   "quantized_datasets": [
@@ -221,7 +223,7 @@
   "preferred_P": 51.30551091616132,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.983996467864334
+  "ratio_second_to_first": 0.9839964678643325
  },
  "2538": {
   "quantized_datasets": [
@@ -236,7 +238,7 @@
   "preferred_P": 26.722693242016266,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9941570678852342
+  "ratio_second_to_first": 0.994157067885233
  },
  "2539": {
   "quantized_datasets": [
@@ -250,7 +252,7 @@
   "preferred_P": 6.148195523498057,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9932635881842021
+  "ratio_second_to_first": 0.9932635881842056
  },
  "2583": {
   "quantized_datasets": [
@@ -264,7 +266,7 @@
   "preferred_P": 7.790034879078774,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.8828075423544977
+  "ratio_second_to_first": 0.8828075423544993
  },
  "2607": {
   "quantized_datasets": [
@@ -278,7 +280,7 @@
   "preferred_P": 2.9356358712491355,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9462606521383856
+  "ratio_second_to_first": 0.9462606521383857
  },
  "2614": {
   "quantized_datasets": [
@@ -289,7 +291,7 @@
   "preferred_P": 2.9699667888590695,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.6570915550854958
+  "ratio_second_to_first": 0.6570915550854973
  },
  "2817": {
   "quantized_datasets": [
@@ -304,7 +306,7 @@
   "preferred_P": 6.740996028399583,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9841930768647659
+  "ratio_second_to_first": 0.9841930768647651
  },
  "2968": {
   "quantized_datasets": [
@@ -315,7 +317,7 @@
   "preferred_P": 48.0095716322722,
   "agrees_with_adopted_family": false,
   "quality": "C",
-  "ratio_second_to_first": 0.8550517134401154
+  "ratio_second_to_first": 0.8550517134401161
  },
  "2971": {
   "quantized_datasets": [
@@ -326,7 +328,7 @@
   "preferred_P": 2.2454114888108223,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9907450960432795
+  "ratio_second_to_first": 0.9907450960432793
  },
  "3081": {
   "quantized_datasets": [
@@ -340,7 +342,7 @@
   "preferred_P": 4.003643155679052,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9725794094905515
+  "ratio_second_to_first": 0.9725794094905509
  },
  "3172": {
   "quantized_datasets": [
@@ -355,7 +357,7 @@
   "preferred_P": 23.96956329799799,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9606118310921512
+  "ratio_second_to_first": 0.9606118310921495
  },
  "3173": {
   "quantized_datasets": [
@@ -371,7 +373,7 @@
   "preferred_P": 1143.9953397762022,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9962532582270079
+  "ratio_second_to_first": 0.9962532582270096
  },
  "3216": {
   "quantized_datasets": [
@@ -386,7 +388,7 @@
   "preferred_P": 633.3641707945033,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.8802790174586935
+  "ratio_second_to_first": 0.8804095760402806
  },
  "3459": {
   "quantized_datasets": [
@@ -399,7 +401,7 @@
   "preferred_P": 547.4310099624905,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9946479781339556
+  "ratio_second_to_first": 0.9946479781339546
  },
  "3473": {
   "quantized_datasets": [
@@ -414,7 +416,7 @@
   "preferred_P": 4.537010333448702,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9847428251709102
+  "ratio_second_to_first": 0.9858456966796247
  },
  "3567": {
   "quantized_datasets": [
@@ -426,7 +428,7 @@
   "preferred_P": 4.060323460594538,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9579213831963468
+  "ratio_second_to_first": 0.9579213831963483
  },
  "3716": {
   "quantized_datasets": [
@@ -443,7 +445,7 @@
   "preferred_P": 10.474341812309438,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9976585468941914
+  "ratio_second_to_first": 0.9976585468941916
  },
  "3777": {
   "quantized_datasets": [
@@ -457,10 +459,10 @@
   ],
   "n_quantized": 792,
   "n_rest": 1955,
-  "preferred_P": 23.97272718678031,
+  "preferred_P": 23.96185885620795,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.999904529930625
+  "ratio_second_to_first": 0.9999963984585631
  },
  "3858": {
   "quantized_datasets": [
@@ -477,7 +479,7 @@
   "preferred_P": 7.090029598215257,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.6032641877180388
+  "ratio_second_to_first": 0.6032641877180381
  },
  "3891": {
   "quantized_datasets": [
@@ -489,7 +491,7 @@
   "preferred_P": 92.75320535383537,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.8808319521747778
+  "ratio_second_to_first": 0.8808319521747776
  },
  "3954": {
   "quantized_datasets": [
@@ -503,7 +505,7 @@
   "preferred_P": 2.8797801667230836,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.6797931805064775
+  "ratio_second_to_first": 0.6797931805064774
  },
  "4048": {
   "quantized_datasets": [
@@ -517,7 +519,7 @@
   "preferred_P": 49.196412000373016,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9855078789950142
+  "ratio_second_to_first": 0.9874399999106064
  },
  "4129": {
   "quantized_datasets": [
@@ -532,7 +534,7 @@
   "preferred_P": 145.52805800413864,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9924991949979892
+  "ratio_second_to_first": 0.9924991949979914
  },
  "4239": {
   "quantized_datasets": [
@@ -548,7 +550,7 @@
   "preferred_P": 23.13818050658784,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9691781595674577
+  "ratio_second_to_first": 0.969178159567458
  },
  "4245": {
   "quantized_datasets": [
@@ -563,7 +565,7 @@
   "preferred_P": 9.895378397841261,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9957518473628996
+  "ratio_second_to_first": 0.9957518473628979
  },
  "4267": {
   "quantized_datasets": [
@@ -578,7 +580,7 @@
   "preferred_P": 25.71000777710964,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9646596890233239
+  "ratio_second_to_first": 0.9646596890233189
  },
  "4270": {
   "quantized_datasets": [
@@ -608,7 +610,7 @@
   "preferred_P": 2.7625925141917067,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9775160267748713
+  "ratio_second_to_first": 0.9775160267748703
  },
  "4303": {
   "quantized_datasets": [
@@ -623,7 +625,7 @@
   "preferred_P": 3.0681287853520396,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9645250199034707
+  "ratio_second_to_first": 0.9645250199034715
  },
  "4320": {
   "quantized_datasets": [
@@ -638,7 +640,7 @@
   "preferred_P": 2.768972219380378,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9532925296729311
+  "ratio_second_to_first": 0.953292529672932
  },
  "4322": {
   "quantized_datasets": [
@@ -652,7 +654,7 @@
   "preferred_P": 18.77822980883855,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9592562834373777
+  "ratio_second_to_first": 0.9592562834373768
  },
  "4331": {
   "quantized_datasets": [
@@ -668,7 +670,7 @@
   "preferred_P": 147.52206752452085,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9897407004457387
+  "ratio_second_to_first": 0.9897407004457417
  },
  "4371": {
   "quantized_datasets": [
@@ -683,7 +685,7 @@
   "preferred_P": 223.6092609254417,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9868306972523156
+  "ratio_second_to_first": 0.9868306972523163
  },
  "4396": {
   "quantized_datasets": [
@@ -699,7 +701,7 @@
   "preferred_P": 15.344169214475667,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9678342669500759
+  "ratio_second_to_first": 0.9678342669500719
  },
  "4456": {
   "quantized_datasets": [
@@ -712,7 +714,7 @@
   "preferred_P": 7.033758804473314,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.8637690009516703
+  "ratio_second_to_first": 0.8637690009516702
  },
  "4478": {
   "quantized_datasets": [
@@ -728,7 +730,7 @@
   "preferred_P": 65.00049855720601,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.9847024561101889
+  "ratio_second_to_first": 0.9847024561101891
  },
  "4482": {
   "quantized_datasets": [
@@ -740,7 +742,7 @@
   "preferred_P": 52.50547323688591,
   "agrees_with_adopted_family": true,
   "quality": "C",
-  "ratio_second_to_first": 0.9375862823174408
+  "ratio_second_to_first": 0.9375862823174399
  },
  "4556": {
   "quantized_datasets": [
@@ -752,7 +754,7 @@
   "preferred_P": 18.039688632645838,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9906834337410583
+  "ratio_second_to_first": 0.9906834337410579
  },
  "4618": {
   "quantized_datasets": [
@@ -767,7 +769,7 @@
   "preferred_P": 6.7811121467036575,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9960442112929622
+  "ratio_second_to_first": 0.9960442112929594
  },
  "4682": {
   "quantized_datasets": [
@@ -782,7 +784,7 @@
   "preferred_P": 3.227780791347302,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9977643425645873
+  "ratio_second_to_first": 0.9977643425645886
  },
  "4761": {
   "quantized_datasets": [
@@ -796,7 +798,7 @@
   "preferred_P": 5.09055744666004,
   "agrees_with_adopted_family": true,
   "quality": "B",
-  "ratio_second_to_first": 0.7294055704886254
+  "ratio_second_to_first": 0.729405570488625
  },
  "4777": {
   "quantized_datasets": [
@@ -811,6 +813,19 @@
   "preferred_P": 4.866930620540403,
   "agrees_with_adopted_family": true,
   "quality": "A",
-  "ratio_second_to_first": 0.9781958426184756
+  "ratio_second_to_first": 0.9781958426184775
+ },
+ "7750": {
+  "quantized_datasets": [
+   "703V",
+   "C57G",
+   "D29R"
+  ],
+  "n_quantized": 723,
+  "n_rest": 952,
+  "preferred_P": 13.904563690168853,
+  "agrees_with_adopted_family": true,
+  "quality": "A",
+  "ratio_second_to_first": 0.9852476377211334
  }
 }

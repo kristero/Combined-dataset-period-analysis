@@ -10,6 +10,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 LCDB = os.path.join(ROOT, "data", "lcdb")
 nums = set(json.load(open(os.path.join(ROOT, "adopted.json"), encoding="utf-8")))
 nums |= {s["num"] for s in json.load(open(os.path.join(ROOT, "validation", "sample.json"), encoding="utf-8"))["sample"]}
+# retired test asteroids whose convex models stay in the paper (adopted_retired.json, convex_only)
+_ra = os.path.join(ROOT, "adopted_retired.json")
+nums |= {n for n, a in (json.load(open(_ra, encoding="utf-8")) if os.path.exists(_ra) else {}).items() if a.get("convex_only")}
 UOK = {"2-", "2", "2+", "3-", "3"}
 
 

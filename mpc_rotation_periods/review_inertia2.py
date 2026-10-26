@@ -19,9 +19,10 @@ TMP = os.path.join(ROOT, "review_tmp")
 
 def vertices(areas, key):
     out = os.path.join(TMP, key + ".shape")
+    tmax = int(os.environ.get("MINK_TIMEOUT", "900"))      # seconds per minkowski attempt
 
     def run(src):
-        cmd = f"ulimit -s unlimited; cat '{src}' | timeout 900 '{BIN}/minkowski' | '{BIN}/standardtri' > '{out}'"
+        cmd = f"ulimit -s unlimited; cat '{src}' | timeout {tmax} '{BIN}/minkowski' | '{BIN}/standardtri' > '{out}'"
         p = subprocess.run(["bash", "-c", cmd], capture_output=True, text=True)
         return p.returncode == 0 and os.path.getsize(out) > 0
 
@@ -50,15 +51,16 @@ def pole_of(areas):
 
 
 os.makedirs(TMP, exist_ok=True)
-out = {}
-for run_dir in ("paper_3716", "paper_4239", "paper_4761", "paper_2503", "paper_2503_half"):
-    for areas in sorted(glob.glob(os.path.join(ROOT, "damit_runs", run_dir, "poles", "areas_*"))):
-        key = f"{run_dir}:{os.path.basename(areas)}"
-        try:
-            r = inertia(vertices(areas, key.replace(":", "_")))
-            r["pole_P"] = pole_of(areas)
-        except Exception as e:
-            r = {"error": str(e)[:200]}
-        out[key] = r
-        print(key, r, flush=True)
-json.dump(out, open(os.path.join(ROOT, "review_inertia2.json"), "w"), indent=1)
+if __name__ == "__main__":
+    out = {}
+    for run_dir in ("paper_3716", "paper_4239", "paper_4761", "paper_2503", "paper_2503_half"):
+        for areas in sorted(glob.glob(os.path.join(ROOT, "damit_runs", run_dir, "poles", "areas_*"))):
+            key = f"{run_dir}:{os.path.basename(areas)}"
+            try:
+                r = inertia(vertices(areas, key.replace(":", "_")))
+                r["pole_P"] = pole_of(areas)
+            except Exception as e:
+                r = {"error": str(e)[:200]}
+            out[key] = r
+            print(key, r, flush=True)
+    json.dump(out, open(os.path.join(ROOT, "review_inertia2.json"), "w"), indent=1)

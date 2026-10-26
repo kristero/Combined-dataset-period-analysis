@@ -1,4 +1,54 @@
 {
+ "249": {
+  "table": 2,
+  "P": 85.22114184244144,
+  "Q": "A",
+  "f_u": 1.0,
+  "f_w": 1.0,
+  "f_tooth": 1.0,
+  "night_blocks": 829,
+  "dbic_harm": null
+ },
+ "486": {
+  "table": 2,
+  "P": 65.28583077941505,
+  "Q": "A",
+  "f_u": 1.0,
+  "f_w": 1.0,
+  "f_tooth": 1.0,
+  "night_blocks": 864,
+  "dbic_harm": null
+ },
+ "870": {
+  "table": 2,
+  "P": 171.72154304694178,
+  "Q": "B",
+  "f_u": 0.797,
+  "f_w": 0.87,
+  "f_tooth": 0.89,
+  "night_blocks": 998,
+  "dbic_harm": null
+ },
+ "1600": {
+  "table": 2,
+  "P": 3.200978256534935,
+  "Q": "B",
+  "f_u": 1.0,
+  "f_w": 1.0,
+  "f_tooth": 0.6133333333333333,
+  "night_blocks": 871,
+  "dbic_harm": null
+ },
+ "1700": {
+  "table": 2,
+  "P": 9.114772133687792,
+  "Q": "C",
+  "f_u": 0.473,
+  "f_w": 0.46,
+  "f_tooth": 0.8033333333333333,
+  "night_blocks": 802,
+  "dbic_harm": null
+ },
  "1706": {
   "table": 2,
   "P": 2.58937006799072,
@@ -7,7 +57,7 @@
   "f_w": 1.0,
   "f_tooth": 0.9933333333333333,
   "night_blocks": 753,
-  "dbic_harm": null
+  "dbic_harm": -21.034840083684447
  },
  "1717": {
   "table": 2,
@@ -17,7 +67,7 @@
   "f_w": 0.993,
   "f_tooth": 1.0,
   "night_blocks": 851,
-  "dbic_harm": null
+  "dbic_harm": -5.386447135841202
  },
  "1798": {
   "table": 2,
@@ -27,7 +77,7 @@
   "f_w": 0.993,
   "f_tooth": 0.7533333333333333,
   "night_blocks": 734,
-  "dbic_harm": null
+  "dbic_harm": -12.145753416449786
  },
  "1818": {
   "table": 3,
@@ -37,7 +87,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 657,
-  "dbic_harm": null
+  "dbic_harm": -14.432530363840135
  },
  "1820": {
   "table": 2,
@@ -47,7 +97,7 @@
   "f_w": 1.0,
   "f_tooth": 0.7433333333333333,
   "night_blocks": 874,
-  "dbic_harm": null
+  "dbic_harm": 8.602671953875515
  },
  "1920": {
   "table": 2,
@@ -57,7 +107,7 @@
   "f_w": 1.0,
   "f_tooth": 0.8266666666666667,
   "night_blocks": 617,
-  "dbic_harm": null
+  "dbic_harm": -19.96812959468059
  },
  "1942": {
   "table": 2,
@@ -67,7 +117,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 611,
-  "dbic_harm": null
+  "dbic_harm": -18.549267284566362
  },
  "1949": {
   "table": 2,
@@ -77,57 +127,7 @@
   "f_w": 1.0,
   "f_tooth": 0.9966666666666667,
   "night_blocks": 679,
-  "dbic_harm": null
- },
- "1951": {
-  "table": 2,
-  "P": 5.299537957964116,
-  "Q": "A",
-  "f_u": 1.0,
-  "f_w": 1.0,
-  "f_tooth": 1.0,
-  "night_blocks": 590,
-  "dbic_harm": null
- },
- "1963": {
-  "table": 2,
-  "P": 18.165262245357127,
-  "Q": "A",
-  "f_u": 1.0,
-  "f_w": 1.0,
-  "f_tooth": 1.0,
-  "night_blocks": 831,
-  "dbic_harm": null
- },
- "2134": {
-  "table": 2,
-  "P": 4.114927363882112,
-  "Q": "B",
-  "f_u": 0.98,
-  "f_w": 0.997,
-  "f_tooth": 0.5633333333333334,
-  "night_blocks": 487,
-  "dbic_harm": null
- },
- "2150": {
-  "table": 2,
-  "P": 6.124087489643353,
-  "Q": "A",
-  "f_u": 1.0,
-  "f_w": 1.0,
-  "f_tooth": 0.9566666666666667,
-  "night_blocks": 816,
-  "dbic_harm": null
- },
- "2318": {
-  "table": 2,
-  "P": 5.457034123116742,
-  "Q": "A",
-  "f_u": 1.0,
-  "f_w": 1.0,
-  "f_tooth": 1.0,
-  "night_blocks": 744,
-  "dbic_harm": null
+  "dbic_harm": -6.103253408806204
  },
  "2497": {
   "table": 3,
@@ -137,7 +137,7 @@
   "f_w": 1.0,
   "f_tooth": 0.98,
   "night_blocks": 815,
-  "dbic_harm": null
+  "dbic_harm": -11.141640050222898
  },
  "2503": {
   "table": 3,
@@ -147,7 +147,7 @@
   "f_w": 1.0,
   "f_tooth": 0.38333333333333336,
   "night_blocks": 473,
-  "dbic_harm": null
+  "dbic_harm": -23.244046675739693
  },
  "2538": {
   "table": 3,
@@ -157,7 +157,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 775,
-  "dbic_harm": null
+  "dbic_harm": -11.350364409480322
  },
  "2539": {
   "table": 3,
@@ -167,7 +167,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 572,
-  "dbic_harm": null
+  "dbic_harm": -23.486340977863634
  },
  "2583": {
   "table": 3,
@@ -177,7 +177,7 @@
   "f_w": 0.953,
   "f_tooth": 0.6466666666666666,
   "night_blocks": 686,
-  "dbic_harm": null
+  "dbic_harm": -20.954974726515758
  },
  "2607": {
   "table": 3,
@@ -187,7 +187,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 609,
-  "dbic_harm": null
+  "dbic_harm": -14.22609264219589
  },
  "2614": {
   "table": 3,
@@ -197,7 +197,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 711,
-  "dbic_harm": null
+  "dbic_harm": -3.986587897677822
  },
  "2817": {
   "table": 3,
@@ -207,7 +207,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 500,
-  "dbic_harm": null
+  "dbic_harm": -17.400173565175862
  },
  "2968": {
   "table": 3,
@@ -217,7 +217,7 @@
   "f_w": 0.183,
   "f_tooth": 0.5333333333333333,
   "night_blocks": 257,
-  "dbic_harm": null
+  "dbic_harm": -21.588033572821008
  },
  "2971": {
   "table": 3,
@@ -227,7 +227,7 @@
   "f_w": 0.967,
   "f_tooth": 0.8466666666666667,
   "night_blocks": 700,
-  "dbic_harm": null
+  "dbic_harm": -11.57306151165005
  },
  "3081": {
   "table": 3,
@@ -237,7 +237,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 478,
-  "dbic_harm": null
+  "dbic_harm": -18.373309998900663
  },
  "3459": {
   "table": 3,
@@ -247,7 +247,7 @@
   "f_w": null,
   "f_tooth": null,
   "night_blocks": 831,
-  "dbic_harm": null
+  "dbic_harm": -23.85165593090851
  },
  "3473": {
   "table": 3,
@@ -257,7 +257,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 670,
-  "dbic_harm": null
+  "dbic_harm": -24.228893512441562
  },
  "3567": {
   "table": 2,
@@ -267,7 +267,7 @@
   "f_w": 0.65,
   "f_tooth": 0.51,
   "night_blocks": 479,
-  "dbic_harm": null
+  "dbic_harm": -24.277064701144674
  },
  "3716": {
   "table": 3,
@@ -277,7 +277,7 @@
   "f_w": 1.0,
   "f_tooth": 0.7966666666666666,
   "night_blocks": 760,
-  "dbic_harm": null
+  "dbic_harm": -23.53997933255653
  },
  "3858": {
   "table": 3,
@@ -287,7 +287,7 @@
   "f_w": 1.0,
   "f_tooth": 0.8133333333333334,
   "night_blocks": 707,
-  "dbic_harm": null
+  "dbic_harm": -24.514819349937362
  },
  "3891": {
   "table": 3,
@@ -297,7 +297,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 462,
-  "dbic_harm": null
+  "dbic_harm": 17.47378857848993
  },
  "3954": {
   "table": 3,
@@ -307,7 +307,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 506,
-  "dbic_harm": null
+  "dbic_harm": 18.539308298669134
  },
  "4048": {
   "table": 3,
@@ -317,7 +317,7 @@
   "f_w": 1.0,
   "f_tooth": 0.9733333333333334,
   "night_blocks": 688,
-  "dbic_harm": null
+  "dbic_harm": -25.550654513961163
  },
  "4129": {
   "table": 3,
@@ -327,7 +327,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 603,
-  "dbic_harm": null
+  "dbic_harm": -18.823662004749465
  },
  "4239": {
   "table": 3,
@@ -337,7 +337,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 697,
-  "dbic_harm": null
+  "dbic_harm": -18.14358454318212
  },
  "4245": {
   "table": 3,
@@ -347,7 +347,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 573,
-  "dbic_harm": null
+  "dbic_harm": -9.866122096805023
  },
  "4267": {
   "table": 3,
@@ -357,7 +357,7 @@
   "f_w": 0.98,
   "f_tooth": 0.9466666666666667,
   "night_blocks": 475,
-  "dbic_harm": null
+  "dbic_harm": -20.748879066480473
  },
  "4270": {
   "table": 4,
@@ -367,7 +367,7 @@
   "f_w": 1.0,
   "f_tooth": 0.9966666666666667,
   "night_blocks": 524,
-  "dbic_harm": null
+  "dbic_harm": -22.228193793642948
  },
  "4273": {
   "table": 4,
@@ -377,7 +377,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 554,
-  "dbic_harm": null
+  "dbic_harm": -17.128485837672322
  },
  "4303": {
   "table": 4,
@@ -387,7 +387,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 682,
-  "dbic_harm": null
+  "dbic_harm": -24.10079220078029
  },
  "4320": {
   "table": 4,
@@ -397,7 +397,7 @@
   "f_w": 1.0,
   "f_tooth": 0.8866666666666667,
   "night_blocks": 413,
-  "dbic_harm": null
+  "dbic_harm": -11.092774938558088
  },
  "4322": {
   "table": 4,
@@ -407,7 +407,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 635,
-  "dbic_harm": null
+  "dbic_harm": 2.2926537757995256
  },
  "4331": {
   "table": 4,
@@ -417,7 +417,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 885,
-  "dbic_harm": null
+  "dbic_harm": -20.899170548688325
  },
  "4396": {
   "table": 4,
@@ -427,7 +427,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 684,
-  "dbic_harm": null
+  "dbic_harm": -20.985436752382462
  },
  "4456": {
   "table": 4,
@@ -437,7 +437,7 @@
   "f_w": 1.0,
   "f_tooth": 0.7933333333333333,
   "night_blocks": 566,
-  "dbic_harm": null
+  "dbic_harm": -11.851435971224028
  },
  "4478": {
   "table": 4,
@@ -447,7 +447,7 @@
   "f_w": 1.0,
   "f_tooth": 1.0,
   "night_blocks": 760,
-  "dbic_harm": null
+  "dbic_harm": -23.42965843647655
  },
  "4482": {
   "table": 4,
@@ -457,7 +457,7 @@
   "f_w": 0.997,
   "f_tooth": 0.7233333333333334,
   "night_blocks": 409,
-  "dbic_harm": null
+  "dbic_harm": -23.509098912086145
  },
  "4556": {
   "table": 4,
@@ -467,7 +467,7 @@
   "f_w": 1.0,
   "f_tooth": 0.5133333333333333,
   "night_blocks": 648,
-  "dbic_harm": null
+  "dbic_harm": -22.764232559900652
  },
  "4618": {
   "table": 4,
@@ -477,7 +477,7 @@
   "f_w": 1.0,
   "f_tooth": 0.99,
   "night_blocks": 577,
-  "dbic_harm": null
+  "dbic_harm": -23.91735679451359
  },
  "4682": {
   "table": 4,
@@ -487,7 +487,7 @@
   "f_w": 1.0,
   "f_tooth": 0.73,
   "night_blocks": 761,
-  "dbic_harm": null
+  "dbic_harm": -25.749642885096822
  },
  "4761": {
   "table": 4,
@@ -497,7 +497,7 @@
   "f_w": 1.0,
   "f_tooth": 0.98,
   "night_blocks": 503,
-  "dbic_harm": null
+  "dbic_harm": -22.37193076440282
  },
  "4777": {
   "table": 4,
@@ -507,6 +507,16 @@
   "f_w": 1.0,
   "f_tooth": 0.98,
   "night_blocks": 702,
+  "dbic_harm": -20.709682709669114
+ },
+ "7750": {
+  "table": 2,
+  "P": 27.809184204757926,
+  "Q": "A",
+  "f_u": 1.0,
+  "f_w": 1.0,
+  "f_tooth": 0.9966666666666667,
+  "night_blocks": 340,
   "dbic_harm": null
  }
 }

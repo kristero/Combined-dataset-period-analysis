@@ -47,14 +47,15 @@ def _match_geometry(t, sheet, t0, obs):
     return geo
 
 
-def load(sample, num):
+def load(sample, num, P=None):
+    """P: period for a paper asteroid that is not in adopted.json (light-curve templates of retired asteroids)."""
     num = str(num)
     if sample == "paper":
         a = np.load(os.path.join(ROOT, "results", num, f"{num}_arrays.npz"))
         t, y, sheet, t0 = a["t"].astype(float), a["y"].astype(float), a["sheet"], float(a["time_zero"])
         obs = pd.read_csv(os.path.join(ROOT, "data", "obs_tables", f"{num}_obs.csv"))
         geo = _match_geometry(t, sheet, t0, obs)
-        P = ADOPTED[num]["P"]
+        P = ADOPTED[num]["P"] if P is None else P
         l = LCDB_PAPER.get(num)
         lc = None
         if l and l["summary"]["amax"] is not None and l["summary"]["period"] and any(
@@ -63,7 +64,7 @@ def load(sample, num):
                     abs(d["period"] - l["summary"]["period"]) <= 0.02 * l["summary"]["period"]]
             lc = {"amin": l["summary"]["amin"] if l["summary"]["amin"] is not None else l["summary"]["amax"],
                   "amax": l["summary"]["amax"], "ref_amplitudes": amps or [l["summary"]["amax"]]}
-        info = {"snr": None, "quality": ADOPTED[num]["quality"]}
+        info = {"snr": None, "quality": ADOPTED.get(num, {}).get("quality")}
     else:
         a = np.load(os.path.join(VAL, "results", f"{num}_arrays.npz"), allow_pickle=True)   # our own files
         t, y, sheet, t0 = a["t"].astype(float), a["y"].astype(float), a["sheet"].astype(str), float(a["time_zero"])

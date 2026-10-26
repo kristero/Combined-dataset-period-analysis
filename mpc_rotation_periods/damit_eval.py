@@ -342,9 +342,17 @@ def _zp(r, sh):
 def summarize():
     import amp_geometry as G
     poles = json.load(open(os.path.join(ROOT, "data", "lcdb_poles.json"), encoding="utf-8"))
+    # paper sample: the adopted asteroids and the retired test asteroids whose convex models stay in the paper
+    # (adopted_retired.json, convex_only); runs of the other retired asteroids and auxiliary runs are left out
+    keep = set(json.load(open(os.path.join(ROOT, "adopted.json"), encoding="utf-8")))
+    ra = os.path.join(ROOT, "adopted_retired.json")
+    keep |= {n for n, a in (json.load(open(ra, encoding="utf-8")) if os.path.exists(ra) else {}).items() if a.get("convex_only")}
     E = {}
     for dname in sorted(os.listdir(RUNS)):
         p = os.path.join(RUNS, dname, "eval.json")
+        parts = dname.split("_")
+        if len(parts) != 2 or (parts[0] == "paper" and parts[1] not in keep):
+            continue
         if os.path.exists(p):
             r = json.load(open(p))
             E[r["key"]] = r
@@ -372,6 +380,12 @@ def summarize():
             continue
         sols = [p for e in poles[n] for p in e["poles"]]          # full poles only (lcdb_poles.py)
         sid = [e["sid_per"] for e in poles[n] if e.get("sid_per")]
+        P0 = json.load(open(os.path.join(RUNS, k.replace(":", "_"), "prep.json")))["P0"]
+        if sid and min(abs(s - P0) / s for s in sid) > 0.005:
+            # published solutions belong to a different period (as in the sidereal-period comparison below):
+            # their poles are not compared either
+            S.setdefault("period_mismatch", []).append({"asteroid": k, "P_mpc": P0, "sid_per": sid})
+            continue
         row = {"asteroid": k, "published": sols, "sid_per": sid}
         for m in ("E1", "C", "E2"):
             if r.get(m) is None or not sols:

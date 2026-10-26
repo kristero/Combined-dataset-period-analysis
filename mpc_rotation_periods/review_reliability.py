@@ -15,6 +15,9 @@ AD = json.load(open(os.path.join(ROOT, "adopted.json"), encoding="utf-8"))
 Q = json.load(open(os.path.join(ROOT, "quality_final.json"), encoding="utf-8"))
 RC = os.path.join(ROOT, "review_checks.json")
 H = json.load(open(RC, encoding="utf-8")).get("harmonic_test", {}) if os.path.exists(RC) else {}
+TS = os.path.join(ROOT, "testswap_checks.json")       # harmonic test repeated for the revised test sample
+if os.path.exists(TS):
+    H = json.load(open(TS, encoding="utf-8")).get("harmonic_test", H)
 
 out = {}
 for n, ad in sorted(AD.items(), key=lambda kv: int(kv[0])):
