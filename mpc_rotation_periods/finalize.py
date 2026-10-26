@@ -14,6 +14,9 @@ PROP = json.load(open(os.path.join(ROOT, "proposals.json"), encoding="utf-8"))
 REV = json.load(open(os.path.join(ROOT, "review_results.json"), encoding="utf-8"))
 OVR_PATH = os.path.join(ROOT, "overrides.json")
 OVR = json.load(open(OVR_PATH, encoding="utf-8")) if os.path.exists(OVR_PATH) else {}
+# test asteroids removed from the paper sample in the revision (their results stay in results/)
+RET_PATH = os.path.join(ROOT, "retired.json")
+RETIRED = {k for k in json.load(open(RET_PATH, encoding="utf-8")) if not k.startswith("_")} if os.path.exists(RET_PATH) else set()
 
 adopted = {}
 for item in REV:
@@ -22,6 +25,8 @@ for item in REV:
     ver = {v["asteroid"]: v for v in (item.get("verify") or {}).get("verdicts", [])}
     for r in item["review"]["results"]:
         n = str(r["asteroid"])
+        if n in RETIRED:
+            continue
         e = {"table": PUB[n]["table"], "P": r["adopted_P"], "sigma_P": r["sigma_P"], "quality": r["quality"],
              "alternatives": [a["P"] for a in r["alternatives"]],
              "alternative_notes": {str(a["P"]): a["note"] for a in r["alternatives"]},
@@ -37,6 +42,8 @@ for item in REV:
         e["baseline_days"] = p.get("baseline_days")
         adopted[n] = e
 for n, o in OVR.items():
+    if n in RETIRED:
+        continue
     adopted[n].update(o)
     adopted[n]["source"] = "override"
 # refined position of the adopted comb tooth in the final data (refine_periods.py); applied only to the tooth that
@@ -44,7 +51,7 @@ for n, o in OVR.items():
 PR_PATH = os.path.join(ROOT, "period_refine.json")
 if os.path.exists(PR_PATH):
     for n, r in json.load(open(PR_PATH, encoding="utf-8")).items():
-        if abs(r["P_review"] - adopted[n]["P"]) <= 1e-9 * max(1.0, r["P_review"]):
+        if n in adopted and abs(r["P_review"] - adopted[n]["P"]) <= 1e-9 * max(1.0, r["P_review"]):
             adopted[n]["P_review"] = adopted[n]["P"]
             adopted[n]["P"] = r["P"]
 # quality grades: the uniform rule of quality_rule.py (evaluated on the corrected bootstrap of rebootstrap2.py)
@@ -52,6 +59,8 @@ if os.path.exists(PR_PATH):
 QF_PATH = os.path.join(ROOT, "quality_final.json")
 if os.path.exists(QF_PATH):
     for n, q in json.load(open(QF_PATH, encoding="utf-8")).items():
+        if n not in adopted:
+            continue
         adopted[n].update({"quality": q["quality_final"], "quality_rule": q["quality_rule"],
                            "quality_reason": q["reason"], "sigma_P": q["sigma_P"]})
 

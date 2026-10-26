@@ -1,0 +1,8 @@
+{
+ "_note": "Test asteroids removed from the paper sample in the revision (2026-10-26): they were already used as test objects by Eglitis & Svincicka (2025) and/or Nagainis & Eglitis (2026) and were replaced by six test asteroids not analysed before. Their pipeline results stay in results/; convex_only = the convex model is still reported (Table of convex models, shape figure).",
+ "1951": {"reason": "test object in Eglitis & Svincicka (2025) and Nagainis & Eglitis (2026)", "convex_only": false},
+ "1963": {"reason": "test object in Eglitis & Svincicka (2025) and Nagainis & Eglitis (2026)", "convex_only": true},
+ "2134": {"reason": "test object in Eglitis & Svincicka (2025) and Nagainis & Eglitis (2026)", "convex_only": true},
+ "2150": {"reason": "test object in Eglitis & Svincicka (2025) and Nagainis & Eglitis (2026)", "convex_only": false},
+ "2318": {"reason": "test object in Eglitis & Svincicka (2025)", "convex_only": false}
+}
