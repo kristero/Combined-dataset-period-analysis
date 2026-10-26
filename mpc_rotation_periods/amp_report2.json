@@ -1,0 +1,460 @@
+{
+ "paper_amplitudes": [
+  {
+   "num": "1920",
+   "current": 0.2101683804043155,
+   "comb_f4": 0.23528117861574382,
+   "per_apparition_corrected": 0.240777216947755,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "1706",
+   "current": 0.0990503077484508,
+   "comb_f4": 0.10461560757488628,
+   "per_apparition_corrected": 0.1203785992052384,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "1818",
+   "current": 0.5196304758032699,
+   "comb_f4": 0.5455667638286891,
+   "per_apparition_corrected": 0.5986686199774109,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "1798",
+   "current": 0.06251830062948294,
+   "comb_f4": 0.06045886582711446,
+   "per_apparition_corrected": 0.07971238517497145,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "1942",
+   "current": 0.318652490982009,
+   "comb_f4": 0.3220422173733968,
+   "per_apparition_corrected": 0.4138669304250319,
+   "upper_limit": false,
+   "n_apparitions": 6
+  },
+  {
+   "num": "1951",
+   "current": 0.17039114608386363,
+   "comb_f4": 0.1762368670723165,
+   "per_apparition_corrected": 0.2067260740384041,
+   "upper_limit": false,
+   "n_apparitions": 4
+  },
+  {
+   "num": "2134",
+   "current": 0.12464330502596432,
+   "comb_f4": 0.1141973125736678,
+   "per_apparition_corrected": 0.14161101698915934,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "2318",
+   "current": 0.49188235591049256,
+   "comb_f4": 0.520710437583902,
+   "per_apparition_corrected": 0.6089477788314803,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "1949",
+   "current": 0.31327305049460286,
+   "comb_f4": 0.32612010464526164,
+   "per_apparition_corrected": 0.3079081022550183,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "1944",
+   "current": 0.3722720653887883,
+   "comb_f4": 0.31979009956513305,
+   "per_apparition_corrected": 0.4365401102423453,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "2150",
+   "current": 0.5601348457941793,
+   "comb_f4": 0.5684177370246762,
+   "per_apparition_corrected": 0.6503903548793905,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "2503",
+   "current": 0.26056003349058443,
+   "comb_f4": 0.2668144907907147,
+   "per_apparition_corrected": 0.26836779876308264,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "2539",
+   "current": 0.29674059304419664,
+   "comb_f4": 0.2783154298447491,
+   "per_apparition_corrected": 0.3205534930055195,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "1963",
+   "current": 0.26813457351831715,
+   "comb_f4": 0.28008296515315884,
+   "per_apparition_corrected": 0.24334348504599992,
+   "upper_limit": false,
+   "n_apparitions": 10
+  },
+  {
+   "num": "1717",
+   "current": 0.11245783696416467,
+   "comb_f4": 0.11746102882247017,
+   "per_apparition_corrected": 0.0898463227122139,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "2968",
+   "current": 0.13081094998196718,
+   "comb_f4": 0.12041882083854598,
+   "per_apparition_corrected": 0.11522390338913097,
+   "upper_limit": false,
+   "n_apparitions": 5
+  },
+  {
+   "num": "2607",
+   "current": 0.184450656412519,
+   "comb_f4": 0.1739205125056462,
+   "per_apparition_corrected": 0.2276763885034298,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "2583",
+   "current": 0.08327908730891842,
+   "comb_f4": 0.08823525679760633,
+   "per_apparition_corrected": 0.09664797080082901,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "2497",
+   "current": 0.30226450841735364,
+   "comb_f4": 0.3047351425136824,
+   "per_apparition_corrected": 0.4080256152009484,
+   "upper_limit": false,
+   "n_apparitions": 10
+  },
+  {
+   "num": "2817",
+   "current": 0.4490155937368083,
+   "comb_f4": 0.4686620278826894,
+   "per_apparition_corrected": 0.6325908644786042,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "2538",
+   "current": 0.23364636796556226,
+   "comb_f4": 0.22401582976110793,
+   "per_apparition_corrected": 0.2295176567361161,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "1820",
+   "current": 0.3452715277015841,
+   "comb_f4": 0.3740873605621825,
+   "per_apparition_corrected": 0.360577512330143,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "3172",
+   "current": 0.23158450443980527,
+   "comb_f4": 0.20816537613276298,
+   "per_apparition_corrected": 0.03,
+   "upper_limit": true,
+   "n_apparitions": 3
+  },
+  {
+   "num": "3081",
+   "current": 0.5974674078150812,
+   "comb_f4": 0.6177012644825999,
+   "per_apparition_corrected": 0.8260486308613031,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "2971",
+   "current": 0.1610454146515803,
+   "comb_f4": 0.1428672895999182,
+   "per_apparition_corrected": 0.17288406936499953,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "3567",
+   "current": 0.13092451090908597,
+   "comb_f4": 0.13901574803126612,
+   "per_apparition_corrected": 0.14866084935406979,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "2614",
+   "current": 0.09633656351936537,
+   "comb_f4": 0.10232393385182906,
+   "per_apparition_corrected": 0.10193325004175788,
+   "upper_limit": false,
+   "n_apparitions": 7
+  },
+  {
+   "num": "3891",
+   "current": 0.3272592205019347,
+   "comb_f4": 0.3421926436827255,
+   "per_apparition_corrected": 0.4233741436569132,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "3954",
+   "current": 0.21233178192892943,
+   "comb_f4": 0.22163702414266961,
+   "per_apparition_corrected": 0.22482497823973463,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "3777",
+   "current": 0.2983248186142742,
+   "comb_f4": 0.25411948660802997,
+   "per_apparition_corrected": 0.24593698818031412,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "3473",
+   "current": 0.2736966424540572,
+   "comb_f4": 0.27137083255252153,
+   "per_apparition_corrected": 0.301755215707682,
+   "upper_limit": false,
+   "n_apparitions": 10
+  },
+  {
+   "num": "3459",
+   "current": 0.5034865111474556,
+   "comb_f4": 0.48787471233949087,
+   "per_apparition_corrected": 0.6536840304839744,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "3216",
+   "current": 0.5675946059034978,
+   "comb_f4": 0.5619688067614395,
+   "per_apparition_corrected": 0.7088722044744399,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "4129",
+   "current": 0.49153931230113557,
+   "comb_f4": 0.5057872332977339,
+   "per_apparition_corrected": 0.5939688467708513,
+   "upper_limit": false,
+   "n_apparitions": 10
+  },
+  {
+   "num": "3173",
+   "current": 0.5163858220095889,
+   "comb_f4": 0.5363601673251998,
+   "per_apparition_corrected": 0.5627318765354058,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "3716",
+   "current": 0.287241199493133,
+   "comb_f4": 0.2982071544361197,
+   "per_apparition_corrected": 0.39450551029300684,
+   "upper_limit": false,
+   "n_apparitions": 11
+  },
+  {
+   "num": "4239",
+   "current": 0.5058675325352908,
+   "comb_f4": 0.533686953272981,
+   "per_apparition_corrected": 0.6493240286575337,
+   "upper_limit": false,
+   "n_apparitions": 12
+  },
+  {
+   "num": "4048",
+   "current": 0.2919336233113974,
+   "comb_f4": 0.30488379973902635,
+   "per_apparition_corrected": 0.3621031422125446,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "4270",
+   "current": 0.2377547923732095,
+   "comb_f4": 0.21084247071696827,
+   "per_apparition_corrected": 0.23397462434517097,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "4320",
+   "current": 0.19259969381822728,
+   "comb_f4": 0.20203860746482977,
+   "per_apparition_corrected": 0.21028662392827274,
+   "upper_limit": false,
+   "n_apparitions": 6
+  },
+  {
+   "num": "4267",
+   "current": 0.24817448207431525,
+   "comb_f4": 0.2536708558733318,
+   "per_apparition_corrected": 0.3342456548060188,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "4245",
+   "current": 0.4765876476693567,
+   "comb_f4": 0.5018416588559217,
+   "per_apparition_corrected": 0.508307920125087,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "3858",
+   "current": 0.3722965097784492,
+   "comb_f4": 0.38531040293723556,
+   "per_apparition_corrected": 0.3857400151077509,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "4273",
+   "current": 0.23809339838732768,
+   "comb_f4": 0.23321090745926043,
+   "per_apparition_corrected": 0.30029776486407256,
+   "upper_limit": false,
+   "n_apparitions": 10
+  },
+  {
+   "num": "4322",
+   "current": 0.43331249570859853,
+   "comb_f4": 0.4163121000180264,
+   "per_apparition_corrected": 0.4786246349647513,
+   "upper_limit": false,
+   "n_apparitions": 10
+  },
+  {
+   "num": "4371",
+   "current": 0.19405550193087429,
+   "comb_f4": 0.20341157713201102,
+   "per_apparition_corrected": 0.2868578544533188,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "4303",
+   "current": 0.6376148584049925,
+   "comb_f4": 0.6146640728158801,
+   "per_apparition_corrected": 0.6054726778283401,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "4482",
+   "current": 0.1944712441140517,
+   "comb_f4": 0.1991967977058866,
+   "per_apparition_corrected": 0.27201032546455306,
+   "upper_limit": false,
+   "n_apparitions": 6
+  },
+  {
+   "num": "4456",
+   "current": 0.15673106401878734,
+   "comb_f4": 0.15745145532608137,
+   "per_apparition_corrected": 0.200099680606349,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "4396",
+   "current": 0.45861724317447994,
+   "comb_f4": 0.4749427589001267,
+   "per_apparition_corrected": 0.5888417655332439,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "4618",
+   "current": 0.3624549487169286,
+   "comb_f4": 0.3664015290045192,
+   "per_apparition_corrected": 0.4471933424401644,
+   "upper_limit": false,
+   "n_apparitions": 6
+  },
+  {
+   "num": "4556",
+   "current": 0.1830762332366227,
+   "comb_f4": 0.19521802148547496,
+   "per_apparition_corrected": 0.22594328330916832,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "4478",
+   "current": 0.6796698139004533,
+   "comb_f4": 0.6836856610644884,
+   "per_apparition_corrected": 0.8057734756446321,
+   "upper_limit": false,
+   "n_apparitions": 14
+  },
+  {
+   "num": "4331",
+   "current": 0.2753583198437095,
+   "comb_f4": 0.2893591196173044,
+   "per_apparition_corrected": 0.3449812090034354,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "4777",
+   "current": 0.4685672822856457,
+   "comb_f4": 0.48440808523542134,
+   "per_apparition_corrected": 0.4811375319019544,
+   "upper_limit": false,
+   "n_apparitions": 9
+  },
+  {
+   "num": "4761",
+   "current": 0.46437315239033516,
+   "comb_f4": 0.49228215949982757,
+   "per_apparition_corrected": 0.7241579214640059,
+   "upper_limit": false,
+   "n_apparitions": 8
+  },
+  {
+   "num": "4682",
+   "current": 0.22794962136035224,
+   "comb_f4": 0.24953294082362137,
+   "per_apparition_corrected": 0.2513059276601657,
+   "upper_limit": false,
+   "n_apparitions": 10
+  }
+ ]
+}

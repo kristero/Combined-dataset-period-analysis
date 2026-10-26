@@ -1,0 +1,458 @@
+{
+ "1706": {
+  "P_auto": 2.58937006799072,
+  "P_adopted": 2.58937,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "1717": {
+  "P_auto": 18.213699595667784,
+  "P_adopted": 18.2137,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "C",
+  "table": 2
+ },
+ "1798": {
+  "P_auto": 3.506679786544696,
+  "P_adopted": 3.50668,
+  "relation": "same",
+  "Q_auto": "C",
+  "Q_final": "B",
+  "table": 2
+ },
+ "1818": {
+  "P_auto": 5.356141241116103,
+  "P_adopted": 5.35614,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "1820": {
+  "P_auto": 14.051836125626199,
+  "P_adopted": 14.0518,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "1920": {
+  "P_auto": 4.047049351148979,
+  "P_adopted": 4.04705,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 2
+ },
+ "1942": {
+  "P_auto": 8.909028036855707,
+  "P_adopted": 8.90903,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "1944": {
+  "P_auto": 45.472045418819185,
+  "P_adopted": 895.221,
+  "relation": "other peak (daily alias or unrelated)",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 3
+ },
+ "1949": {
+  "P_auto": 3.6488943627968116,
+  "P_adopted": 3.64889,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "1951": {
+  "P_auto": 5.299537957964116,
+  "P_adopted": 5.29954,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "1963": {
+  "P_auto": 18.165262245357127,
+  "P_adopted": 18.16526,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "2134": {
+  "P_auto": 4.114927363882112,
+  "P_adopted": 4.11493,
+  "relation": "same",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 2
+ },
+ "2150": {
+  "P_auto": 6.124091520045635,
+  "P_adopted": 6.12409,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "2318": {
+  "P_auto": 5.457034123116742,
+  "P_adopted": 5.45703,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 2
+ },
+ "2497": {
+  "P_auto": 77.62089631241916,
+  "P_adopted": 77.6209,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "2503": {
+  "P_auto": 102.61258214900549,
+  "P_adopted": 102.8388,
+  "relation": "comb tooth",
+  "Q_auto": "B",
+  "Q_final": "A",
+  "table": 3
+ },
+ "2538": {
+  "P_auto": 53.44548153593135,
+  "P_adopted": 53.44548,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 3
+ },
+ "2539": {
+  "P_auto": 12.296393396969368,
+  "P_adopted": 12.29639,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "2583": {
+  "P_auto": 23.958150214726604,
+  "P_adopted": 7.79003,
+  "relation": "other peak (daily alias or unrelated)",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 3
+ },
+ "2607": {
+  "P_auto": 2.9356358712491355,
+  "P_adopted": 2.93564,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 3
+ },
+ "2614": {
+  "P_auto": 2.9699667957250844,
+  "P_adopted": 2.96997,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "2817": {
+  "P_auto": 13.481981662023687,
+  "P_adopted": 13.48198,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "2968": {
+  "P_auto": 23.97928198008793,
+  "P_adopted": 3.83087,
+  "relation": "other peak (daily alias or unrelated)",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 3
+ },
+ "2971": {
+  "P_auto": 4.4908231415231965,
+  "P_adopted": 4.49082,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "B",
+  "table": 3
+ },
+ "3081": {
+  "P_auto": 8.007285674701077,
+  "P_adopted": 8.00729,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 3
+ },
+ "3172": {
+  "P_auto": 47.93985155322714,
+  "P_adopted": 47.93985,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "C",
+  "table": 3
+ },
+ "3173": {
+  "P_auto": 236.69244853018043,
+  "P_adopted": 1144,
+  "relation": "other peak (daily alias or unrelated)",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 3
+ },
+ "3216": {
+  "P_auto": 221.72203592790393,
+  "P_adopted": 1266.55,
+  "relation": "other peak (daily alias or unrelated)",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 3
+ },
+ "3459": {
+  "P_auto": 52.504711737260095,
+  "P_adopted": 547.431,
+  "relation": "other peak (daily alias or unrelated)",
+  "Q_auto": "C",
+  "Q_final": "B",
+  "table": 3
+ },
+ "3473": {
+  "P_auto": 9.074026410295296,
+  "P_adopted": 9.07403,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "3567": {
+  "P_auto": 8.120654598797367,
+  "P_adopted": 8.12065,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "C",
+  "table": 2
+ },
+ "3716": {
+  "P_auto": 10.474341812309438,
+  "P_adopted": 10.47434,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 3
+ },
+ "3777": {
+  "P_auto": 23.97299794004529,
+  "P_adopted": 47.8302,
+  "relation": "harmonic 2P",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 3
+ },
+ "3858": {
+  "P_auto": 7.088087733035718,
+  "P_adopted": 7.08809,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "3891": {
+  "P_auto": 92.75320816600575,
+  "P_adopted": 92.7532,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "B",
+  "table": 3
+ },
+ "3954": {
+  "P_auto": 2.8797801667230836,
+  "P_adopted": 2.87978,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "4048": {
+  "P_auto": 49.19712979872964,
+  "P_adopted": 49.1971,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "4129": {
+  "P_auto": 145.52805800413864,
+  "P_adopted": 291.058,
+  "relation": "harmonic 2P",
+  "Q_auto": "B",
+  "Q_final": "C",
+  "table": 3
+ },
+ "4239": {
+  "P_auto": 23.13818050658784,
+  "P_adopted": 23.13818,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "4245": {
+  "P_auto": 19.79077631118739,
+  "P_adopted": 19.7908,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "4267": {
+  "P_auto": 51.419789984716346,
+  "P_adopted": 51.4198,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 3
+ },
+ "4270": {
+  "P_auto": 10.868352101529585,
+  "P_adopted": 10.86835,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 4
+ },
+ "4273": {
+  "P_auto": 2.7625925141917067,
+  "P_adopted": 2.76259,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4303": {
+  "P_auto": 6.136254226973679,
+  "P_adopted": 6.13625,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4320": {
+  "P_auto": 2.768972219380378,
+  "P_adopted": 2.76897,
+  "relation": "same",
+  "Q_auto": "C",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4322": {
+  "P_auto": 18.77822980883855,
+  "P_adopted": 18.7782,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "B",
+  "table": 4
+ },
+ "4331": {
+  "P_auto": 147.5242043162002,
+  "P_adopted": 147.524,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4371": {
+  "P_auto": 225.93128316992588,
+  "P_adopted": 447.159,
+  "relation": "other peak (daily alias or unrelated)",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 4
+ },
+ "4396": {
+  "P_auto": 30.688353893407424,
+  "P_adopted": 30.6884,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4456": {
+  "P_auto": 7.033758804473314,
+  "P_adopted": 7.03376,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4478": {
+  "P_auto": 130.0009328397022,
+  "P_adopted": 130.001,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 4
+ },
+ "4482": {
+  "P_auto": 105.47830720811453,
+  "P_adopted": 105.011,
+  "relation": "comb tooth",
+  "Q_auto": "C",
+  "Q_final": "C",
+  "table": 4
+ },
+ "4556": {
+  "P_auto": 36.079372530232746,
+  "P_adopted": 36.0794,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4618": {
+  "P_auto": 6.7811121467036575,
+  "P_adopted": 6.78111,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4682": {
+  "P_auto": 6.45556007835625,
+  "P_adopted": 6.45556,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ },
+ "4761": {
+  "P_auto": 5.09055744666004,
+  "P_adopted": 5.09056,
+  "relation": "same",
+  "Q_auto": "B",
+  "Q_final": "B",
+  "table": 4
+ },
+ "4777": {
+  "P_auto": 9.733859470909717,
+  "P_adopted": 9.73386,
+  "relation": "same",
+  "Q_auto": "A",
+  "Q_final": "A",
+  "table": 4
+ }
+}

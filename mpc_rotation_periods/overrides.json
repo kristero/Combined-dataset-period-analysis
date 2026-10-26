@@ -1,0 +1,48 @@
+{
+ "1944": {
+  "quality": "C",
+  "alternatives": [
+   447.621,
+   45.47205
+  ],
+  "override_reason": "The 895/448 h signal is four times stronger than any primary-range peak and survives phase-angle detrending tests, but the combined fold is dominated by TESS visit ramps, the periodogram near 895 h has many peaks of comparable power, and a period comparable to the length of an apparition can arise from slow non-rotational brightness changes (residual phase-curve or aspect effects) that all stations see. The 45.47 h peak is the daily alias of this long-period signal. Quality lowered from B to C.",
+  "status": "undetermined",
+  "undetermined_reason": "Long-period re-analysis (ls_longperiod.py, longperiod_tests.py, damit_longrange.py): the dominant signal (about 450/900 h) is reproduced by single apparitions (446-456 h), but slow per-apparition trends alone give 87 % of its periodogram power, the convex inversion prefers 923 h (and 454 h in one half), not 895 h, and the NPA damping time (about 6000 Gyr) makes tumbling likely. No rotation period is determined."
+ },
+ "3173": {
+  "quality": "C",
+  "alternatives": [
+   572.037,
+   46.066
+  ],
+  "override_reason": "The 572/1144 h signal is present in many ground-based datasets and in TESS, but cross-prediction between stations cannot distinguish rotation from a slow non-rotational brightness change common to all observers; 1144 h (48 d) is comparable to the length of an apparition, and the harmonic choice rests only on fold shape. The 46.07 h peak is the daily alias of the long-period signal. Quality lowered from B to C.",
+  "status": "undetermined",
+  "undetermined_reason": "Long-period re-analysis: the 1144 h signal is strongest in the periodogram, but the apparition halves peak at 1174 h and 584 h, slow per-apparition trends alone give 77 % of the power, the convex inversion prefers 1191 h (596 h in one half; 1144 h 2.0x worse in chi2), and the NPA damping time is about 8000 Gyr. No rotation period is determined."
+ },
+ "3216": {
+  "quality": "C",
+  "alternatives": [
+   633.32,
+   46.186
+  ],
+  "override_reason": "Same situation as (3173): a 633/1267 h signal common to all stations, comparable to the length of an apparition, with the two halves of the 1267 h light curve nearly identical (633 h fits equally well). Rotation is not established. Quality lowered from B to C.",
+  "status": "undetermined",
+  "undetermined_reason": "Long-period re-analysis: both the periodogram (633 h, half of the earlier 1266.55 h) and the convex inversion (631.5 h in all data and in both halves; 1266.6 h 1.35x worse) favour about 632 h, and single apparitions give 623-646 h, but slow per-apparition trends alone give 92 % of the periodogram power and the NPA damping time is about 3000 Gyr. The variation is real, but its interpretation as rotation is not established. No rotation period is determined."
+ },
+ "3891": {
+  "quality": "B",
+  "override_reason": "92.75 h wins all bootstrap samples, but 1414 of 1606 points come from American longitudes: no independent longitude group exists and the only non-American dataset (M22o) cannot separate 92.75 h from the daily alias 31.59 h. As for (3567), the daily-alias choice lacks an independent test; quality lowered from A to B."
+ },
+ "4371": {
+  "status": "undetermined",
+  "undetermined_reason": "Long-period re-analysis: the periodogram fit prefers the 223.6/447.2 h family (rms 0.194 vs 0.197-0.199 mag), whereas the convex inversion has a unique minimum at 226.7 h in all data and in both halves (447 h 1.36x worse) and single apparitions give 226-228 h; P versus 2P and the comb tooth are unresolved, and the NPA damping time is 75-570 Gyr. No rotation period is determined."
+ },
+ "3172": {
+  "status": "undetermined",
+  "undetermined_reason": "Day-commensurate comb produced by a slow variation over the orbit sampled once per night; the 47.94 h peak coincides with a 48 h peak of the spectral window and is only marginal in the permutation test (p = 0.045); the convex inversion has a flat chi2 landscape (8 windows within the threshold). No rotation period is determined."
+ },
+ "3777": {
+  "status": "undetermined",
+  "undetermined_reason": "Day-commensurate signal: the 47.83 h peak coincides with a 48 h peak of the spectral window and is not significant in the permutation test (p = 0.075); the correction for viewing geometry reduces its power from 0.16 to 0.06, and the convex inversion prefers 23.9 h. No rotation period is determined."
+ }
+}

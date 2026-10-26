@@ -1,0 +1,10910 @@
+{
+"000": {
+"name": "Greenwich",
+"lon": 0.0
+},
+"001": {
+"name": "Crowborough",
+"lon": 0.1542
+},
+"002": {
+"name": "Rayleigh",
+"lon": 0.62
+},
+"003": {
+"name": "Montpellier",
+"lon": 3.9
+},
+"004": {
+"name": "Toulouse",
+"lon": 1.4625
+},
+"005": {
+"name": "Meudon",
+"lon": 2.231
+},
+"006": {
+"name": "Fabra Observatory, Barcelona",
+"lon": 2.12417
+},
+"007": {
+"name": "Paris",
+"lon": 2.33675
+},
+"008": {
+"name": "Algiers-Bouzareah",
+"lon": 3.0355
+},
+"009": {
+"name": "Berne-Uecht",
+"lon": 7.4417
+},
+"010": {
+"name": "Caussols",
+"lon": 6.92124
+},
+"011": {
+"name": "Wetzikon",
+"lon": 8.7975
+},
+"012": {
+"name": "Uccle",
+"lon": 4.35821
+},
+"013": {
+"name": "Leiden",
+"lon": 4.48397
+},
+"014": {
+"name": "Marseilles",
+"lon": 5.39509
+},
+"015": {
+"name": "Utrecht",
+"lon": 5.12929
+},
+"016": {
+"name": "Besancon",
+"lon": 5.9893
+},
+"017": {
+"name": "Hoher List",
+"lon": 6.84924
+},
+"018": {
+"name": "Dusseldorf-Bilk",
+"lon": 6.7612
+},
+"019": {
+"name": "Neuchatel",
+"lon": 6.9575
+},
+"020": {
+"name": "Nice",
+"lon": 7.3004
+},
+"021": {
+"name": "Karlsruhe",
+"lon": 8.3855
+},
+"022": {
+"name": "Pino Torinese",
+"lon": 7.7748
+},
+"023": {
+"name": "Wiesbaden",
+"lon": 8.2625
+},
+"024": {
+"name": "Heidelberg-Konigstuhl",
+"lon": 8.7216
+},
+"025": {
+"name": "Stuttgart",
+"lon": 9.1965
+},
+"026": {
+"name": "Berne-Zimmerwald",
+"lon": 7.46511
+},
+"027": {
+"name": "Milan",
+"lon": 9.1912
+},
+"028": {
+"name": "Wurzburg",
+"lon": 9.9363
+},
+"029": {
+"name": "Hamburg-Bergedorf",
+"lon": 10.2406
+},
+"030": {
+"name": "Arcetri Observatory, Florence",
+"lon": 11.25446
+},
+"031": {
+"name": "Sonneberg",
+"lon": 11.18985
+},
+"032": {
+"name": "Jena",
+"lon": 11.58295
+},
+"033": {
+"name": "Karl Schwarzschild Observatory, Tautenburg",
+"lon": 11.71124
+},
+"034": {
+"name": "Monte Mario Observatory, Rome",
+"lon": 12.45246
+},
+"035": {
+"name": "Copenhagen",
+"lon": 12.57592
+},
+"036": {
+"name": "Castel Gandolfo",
+"lon": 12.6504
+},
+"037": {
+"name": "Collurania Observatory, Teramo",
+"lon": 13.7333
+},
+"038": {
+"name": "Trieste",
+"lon": 13.7704
+},
+"039": {
+"name": "Lund",
+"lon": 13.1874
+},
+"040": {
+"name": "Lohrmann Institute, Dresden",
+"lon": 13.7298
+},
+"041": {
+"name": "Innsbruck",
+"lon": 11.38083
+},
+"042": {
+"name": "Potsdam",
+"lon": 13.06428
+},
+"043": {
+"name": "Asiago Astrophysical Observatory, Padua",
+"lon": 11.52643
+},
+"044": {
+"name": "Capodimonte Observatory, Naples",
+"lon": 14.2559
+},
+"045": {
+"name": "Vienna (since 1879)",
+"lon": 16.339
+},
+"046": {
+"name": "Klet Observatory, Ceske Budejovice",
+"lon": 14.2881
+},
+"047": {
+"name": "Poznan",
+"lon": 16.8782
+},
+"048": {
+"name": "Hradec Kralove",
+"lon": 15.8408
+},
+"049": {
+"name": "Uppsala-Kvistaberg",
+"lon": 17.6067
+},
+"050": {
+"name": "Stockholm (before 1931)",
+"lon": 18.0582
+},
+"051": {
+"name": "Royal Observatory, Cape of Good Hope",
+"lon": 18.4766
+},
+"052": {
+"name": "Stockholm-Saltsjobaden",
+"lon": 18.3083
+},
+"053": {
+"name": "Konkoly Observatory, Budapest (since 1933)",
+"lon": 18.9642
+},
+"054": {
+"name": "Brorfelde",
+"lon": 11.6654
+},
+"055": {
+"name": "Cracow",
+"lon": 19.9596
+},
+"056": {
+"name": "Skalnate Pleso",
+"lon": 20.23418
+},
+"057": {
+"name": "Belgrade",
+"lon": 20.5133
+},
+"058": {
+"name": "Kaliningrad",
+"lon": 20.495
+},
+"059": {
+"name": "Lomnicky Stit",
+"lon": 20.2201
+},
+"060": {
+"name": "Warsaw-Ostrowik",
+"lon": 21.42
+},
+"061": {
+"name": "Uzhhorod",
+"lon": 22.2985
+},
+"062": {
+"name": "Turku",
+"lon": 22.2293
+},
+"063": {
+"name": "Turku-Tuorla",
+"lon": 22.445
+},
+"064": {
+"name": "Turku-Kevola",
+"lon": 22.75
+},
+"065": {
+"name": "Traunstein",
+"lon": 12.6318
+},
+"066": {
+"name": "Athens",
+"lon": 23.71817
+},
+"067": {
+"name": "Lviv University Observatory",
+"lon": 24.0297
+},
+"068": {
+"name": "Lviv Polytechnic Institute",
+"lon": 24.0142
+},
+"069": {
+"name": "Baldone",
+"lon": 24.4042
+},
+"070": {
+"name": "Vilnius (before 1939)",
+"lon": 25.2865
+},
+"071": {
+"name": "NAO Rozhen, Smolyan",
+"lon": 24.73782
+},
+"072": {
+"name": "Scheuren Observatory",
+"lon": 7.17
+},
+"073": {
+"name": "Bucharest",
+"lon": 26.09391
+},
+"074": {
+"name": "Boyden Observatory, Bloemfontein",
+"lon": 26.4058
+},
+"075": {
+"name": "Tartu",
+"lon": 26.7216
+},
+"076": {
+"name": "Johannesburg-Hartbeespoort",
+"lon": 27.8768
+},
+"077": {
+"name": "Yale-Columbia Station, Johannesburg",
+"lon": 28.0292
+},
+"078": {
+"name": "Johannesburg",
+"lon": 28.075
+},
+"079": {
+"name": "Radcliffe Observatory, Pretoria",
+"lon": 28.2288
+},
+"080": {
+"name": "Istanbul",
+"lon": 28.9667
+},
+"081": {
+"name": "Leiden Station, Johannesburg",
+"lon": 27.8768
+},
+"082": {
+"name": "St. Polten",
+"lon": 15.7561
+},
+"083": {
+"name": "Holosiivskyi district-Kyiv",
+"lon": 30.5056
+},
+"084": {
+"name": "Pulkovo",
+"lon": 30.3274
+},
+"085": {
+"name": "Kyiv",
+"lon": 30.5023
+},
+"086": {
+"name": "Odesa",
+"lon": 30.7582
+},
+"087": {
+"name": "Helwan",
+"lon": 31.3411
+},
+"088": {
+"name": "Kottomia",
+"lon": 31.82769
+},
+"089": {
+"name": "Mykolaiv",
+"lon": 31.9747
+},
+"090": {
+"name": "Mainz",
+"lon": 8.25
+},
+"091": {
+"name": "Observatoire de Nurol, Aurec sur Loire",
+"lon": 4.20919
+},
+"092": {
+"name": "Torun-Piwnice",
+"lon": 18.5546
+},
+"093": {
+"name": "Skibotn",
+"lon": 20.3647
+},
+"094": {
+"name": "Crimea-Simeiz",
+"lon": 33.9974
+},
+"095": {
+"name": "Crimea-Nauchnyi",
+"lon": 34.016
+},
+"096": {
+"name": "Merate",
+"lon": 9.4283
+},
+"097": {
+"name": "Wise Observatory, Mitzpeh Ramon",
+"lon": 34.7625
+},
+"098": {
+"name": "Asiago Observatory, Cima Ekar, 182 cm Copernicus",
+"lon": 11.569
+},
+"099": {
+"name": "Lahti",
+"lon": 25.53529
+},
+"100": {
+"name": "Ahtari",
+"lon": 24.14145
+},
+"101": {
+"name": "Kharkiv",
+"lon": 36.2322
+},
+"102": {
+"name": "Zvenigorod",
+"lon": 36.75953
+},
+"103": {
+"name": "Ljubljana",
+"lon": 14.52774
+},
+"104": {
+"name": "San Marcello Pistoiese",
+"lon": 10.80375
+},
+"105": {
+"name": "Moscow",
+"lon": 37.5706
+},
+"106": {
+"name": "Crni Vrh",
+"lon": 14.0711
+},
+"107": {
+"name": "Cavezzo",
+"lon": 11.003
+},
+"108": {
+"name": "Montelupo",
+"lon": 11.0278
+},
+"109": {
+"name": "Algiers-Kouba",
+"lon": 3.0705
+},
+"110": {
+"name": "Rostov",
+"lon": 39.415
+},
+"111": {
+"name": "Piazzano Observatory, Florence",
+"lon": 10.9721
+},
+"112": {
+"name": "Pleiade Observatory, Verona",
+"lon": 10.9039
+},
+"113": {
+"name": "Volkssternwarte Drebach, Schoenbrunn",
+"lon": 13.0166
+},
+"114": {
+"name": "Engelhardt Observatory, Zelenchukskaya Station",
+"lon": 41.4277
+},
+"115": {
+"name": "Zelenchukskaya",
+"lon": 41.44067
+},
+"116": {
+"name": "Giesing",
+"lon": 11.5958
+},
+"117": {
+"name": "Sendling",
+"lon": 11.5385
+},
+"118": {
+"name": "Astronomical and Geophysical Observatory, Modra",
+"lon": 17.274
+},
+"119": {
+"name": "Abastuman",
+"lon": 42.82
+},
+"120": {
+"name": "Visnjan",
+"lon": 13.7261
+},
+"121": {
+"name": "Kharkiv University, Chuhuivskyi district Station",
+"lon": 36.93403
+},
+"122": {
+"name": "Pises Observatory",
+"lon": 3.5035
+},
+"123": {
+"name": "Byurakan",
+"lon": 44.2917
+},
+"124": {
+"name": "Castres",
+"lon": 2.255
+},
+"125": {
+"name": "Tbilisi",
+"lon": 44.7895
+},
+"126": {
+"name": "Monte Viseggi L. Zannoni Observatory",
+"lon": 9.79015
+},
+"127": {
+"name": "Bornheim",
+"lon": 6.9797
+},
+"128": {
+"name": "Saratov",
+"lon": 46.00661
+},
+"129": {
+"name": "Ordubad",
+"lon": 45.92
+},
+"130": {
+"name": "Lumezzane",
+"lon": 10.23963
+},
+"131": {
+"name": "Observatoire de l'Ardeche",
+"lon": 4.725
+},
+"132": {
+"name": "Bedoin",
+"lon": 5.2461
+},
+"133": {
+"name": "Les Tardieux",
+"lon": 5.0906
+},
+"134": {
+"name": "Groszschwabhausen",
+"lon": 11.48245
+},
+"135": {
+"name": "Kasan",
+"lon": 49.121
+},
+"136": {
+"name": "Engelhardt Observatory, Kasan",
+"lon": 48.8156
+},
+"137": {
+"name": "Givatayim Observatory",
+"lon": 34.8147
+},
+"138": {
+"name": "Village-Neuf",
+"lon": 7.5717
+},
+"139": {
+"name": "Antibes",
+"lon": 7.1108
+},
+"140": {
+"name": "Augerolles",
+"lon": 3.6294
+},
+"141": {
+"name": "Hottviller",
+"lon": 7.3672
+},
+"142": {
+"name": "Sinsen",
+"lon": 7.1874
+},
+"143": {
+"name": "Gnosca",
+"lon": 9.02406
+},
+"144": {
+"name": "Bray et Lu",
+"lon": 1.666
+},
+"145": {
+"name": "'s-Gravenwezel",
+"lon": 4.5597
+},
+"146": {
+"name": "Frignano",
+"lon": 10.6673
+},
+"147": {
+"name": "Osservatorio Astronomico di Suno",
+"lon": 8.57391
+},
+"148": {
+"name": "Guitalens",
+"lon": 2.0375
+},
+"149": {
+"name": "Beine-Nauroy",
+"lon": 4.2236
+},
+"150": {
+"name": "Maisons Laffitte",
+"lon": 2.1572
+},
+"151": {
+"name": "Eschenberg Observatory, Winterthur",
+"lon": 8.744
+},
+"152": {
+"name": "Moletai Astronomical Observatory",
+"lon": 25.5633
+},
+"153": {
+"name": "Stuttgart-Hoffeld",
+"lon": 9.1747
+},
+"154": {
+"name": "Cortina",
+"lon": 12.1043
+},
+"155": {
+"name": "Ole Romer Observatory, Aarhus",
+"lon": 10.1971
+},
+"156": {
+"name": "Catania Astrophysical Observatory",
+"lon": 15.0858
+},
+"157": {
+"name": "Frasso Sabino",
+"lon": 12.8117
+},
+"158": {
+"name": "Promiod",
+"lon": 7.6033
+},
+"159": {
+"name": "Monte Agliale",
+"lon": 10.5153
+},
+"160": {
+"name": "Castelmartini",
+"lon": 10.84144
+},
+"161": {
+"name": "Cerrina Tololo Observatory",
+"lon": 8.1605
+},
+"162": {
+"name": "Potenza",
+"lon": 15.7805
+},
+"163": {
+"name": "Roeser Observatory, Luxembourg",
+"lon": 6.1492
+},
+"164": {
+"name": "St. Michel sur Meurthe",
+"lon": 6.8861
+},
+"165": {
+"name": "Piera Observatory, Barcelona",
+"lon": 1.7553
+},
+"166": {
+"name": "Upice",
+"lon": 16.0117
+},
+"167": {
+"name": "Bulach Observatory",
+"lon": 8.5727
+},
+"168": {
+"name": "Kourovskaya",
+"lon": 59.5472
+},
+"169": {
+"name": "Airali Observatory",
+"lon": 8.4016
+},
+"170": {
+"name": "Observatorio de Begues",
+"lon": 1.9206
+},
+"171": {
+"name": "Flarestar Observatory, San Gwann",
+"lon": 14.4697
+},
+"172": {
+"name": "Onnens",
+"lon": 7.0364
+},
+"173": {
+"name": "St. Clotilde, Reunion",
+"lon": 55.5061
+},
+"174": {
+"name": "Nyrola Observatory, Jyvaskyla",
+"lon": 25.5131
+},
+"175": {
+"name": "F.-X. Bagnoud Observatory, St-Luc",
+"lon": 7.6083
+},
+"176": {
+"name": "Observatorio Astronomico de Consell",
+"lon": 2.8225
+},
+"177": {
+"name": "Le Cres",
+"lon": 3.9414
+},
+"178": {
+"name": "Collonges",
+"lon": 6.1344
+},
+"179": {
+"name": "Monte Generoso",
+"lon": 9.0175
+},
+"180": {
+"name": "Mauguio",
+"lon": 3.9519
+},
+"181": {
+"name": "Observatoire des Makes, Saint-Louis",
+"lon": 55.41
+},
+"182": {
+"name": "St. Paul, Reunion",
+"lon": 55.2586
+},
+"183": {
+"name": "Starlab Observatory, Karachay-Cherkessia",
+"lon": 41.42
+},
+"184": {
+"name": "Valmeca Observatory, Puimichel",
+"lon": 6.0361
+},
+"185": {
+"name": "Observatoire Astronomique Jurassien-Vicques",
+"lon": 7.4219
+},
+"186": {
+"name": "Kitab",
+"lon": 66.8821
+},
+"187": {
+"name": "Astronomical Observatory, Borowiec",
+"lon": 17.0733
+},
+"188": {
+"name": "Maidanak",
+"lon": 66.89555
+},
+"189": {
+"name": "Geneva (before 1967)",
+"lon": 6.1514
+},
+"190": {
+"name": "Gissar",
+"lon": 68.6819
+},
+"191": {
+"name": "Dushanbe",
+"lon": 68.7811
+},
+"192": {
+"name": "Tashkent",
+"lon": 69.2936
+},
+"193": {
+"name": "Sanglok",
+"lon": 69.2178
+},
+"194": {
+"name": "Tivoli",
+"lon": 18.0094
+},
+"195": {
+"name": "Untermenzing Observatory, Munich",
+"lon": 11.4492
+},
+"196": {
+"name": "Homburg-Erbach",
+"lon": 7.3331
+},
+"197": {
+"name": "Bastia",
+"lon": 12.1836
+},
+"198": {
+"name": "Wildberg",
+"lon": 8.75674
+},
+"199": {
+"name": "Telescope Jean-Marc Salomon, Buthiers",
+"lon": 2.438
+},
+"200": {
+"name": "Beersel Hills Observatory",
+"lon": 4.3036
+},
+"201": {
+"name": "Jonathan B. Postel Observatory",
+"lon": 7.6033
+},
+"202": {
+"name": "Tamaris Observatoire, La Seyne sur Mer",
+"lon": 5.8997
+},
+"203": {
+"name": "GiaGa Observatory",
+"lon": 8.99548
+},
+"204": {
+"name": "Schiaparelli Observatory",
+"lon": 8.76972
+},
+"205": {
+"name": "Obs. Casalecchio di Reno, Bologna",
+"lon": 11.2731
+},
+"206": {
+"name": "Haagaar Observatory, Eina",
+"lon": 10.5667
+},
+"207": {
+"name": "Osservatorio Antonio Grosso",
+"lon": 9.3065
+},
+"208": {
+"name": "Rivalta",
+"lon": 9.5875
+},
+"209": {
+"name": "Asiago Observatory, Cima Ekar, 67/92 cm Schmidt",
+"lon": 11.56883
+},
+"210": {
+"name": "Alma-Ata",
+"lon": 76.9573
+},
+"211": {
+"name": "Scandicci",
+"lon": 11.1764
+},
+"212": {
+"name": "Observatorio La Dehesilla",
+"lon": 355.35747
+},
+"213": {
+"name": "Observatorio Montcabre",
+"lon": 2.38539
+},
+"214": {
+"name": "Garching Observatory",
+"lon": 11.6569
+},
+"215": {
+"name": "Buchloe",
+"lon": 10.7328
+},
+"216": {
+"name": "Observatoire des Cote de Meuse",
+"lon": 5.6914
+},
+"217": {
+"name": "Assah",
+"lon": 77.87114
+},
+"218": {
+"name": "Hyderabad",
+"lon": 78.4541
+},
+"219": {
+"name": "Japal-Rangapur",
+"lon": 78.7283
+},
+"220": {
+"name": "Vainu Bappu Observatory, Kavalur",
+"lon": 78.8263
+},
+"221": {
+"name": "IAS Observatory, Hakos",
+"lon": 16.3617
+},
+"222": {
+"name": "Yerres-Canotiers",
+"lon": 2.4939
+},
+"223": {
+"name": "Madras",
+"lon": 80.2464
+},
+"224": {
+"name": "Ottmarsheim",
+"lon": 7.50171
+},
+"225": {
+"name": "Northwood Ridge Observatory",
+"lon": 288.825
+},
+"226": {
+"name": "Guido Ruggieri Observatory, Padua",
+"lon": 11.8858
+},
+"227": {
+"name": "OrbitJet Observatory, Colden",
+"lon": 281.2853
+},
+"228": {
+"name": "Bruno Zugna Observatory, Trieste",
+"lon": 13.875
+},
+"229": {
+"name": "G. C. Gloriosi Astronomical Observatory, Salerno",
+"lon": 14.9743
+},
+"230": {
+"name": "Mt. Wendelstein Observatory",
+"lon": 12.0133
+},
+"231": {
+"name": "Vesqueville",
+"lon": 5.3983
+},
+"232": {
+"name": "Masquefa Observatory",
+"lon": 1.3317
+},
+"233": {
+"name": "Sauro Donati Astronomical Observatory, San Vito",
+"lon": 10.5403
+},
+"234": {
+"name": "Coddenham Observatory",
+"lon": 1.12833
+},
+"235": {
+"name": "CAST Observatory, Talmassons",
+"lon": 13.11352
+},
+"236": {
+"name": "Tomsk",
+"lon": 84.9465
+},
+"237": {
+"name": "Baugy",
+"lon": 2.7333
+},
+"238": {
+"name": "Grorudalen Optical Observatory",
+"lon": 10.9094
+},
+"239": {
+"name": "Trebur",
+"lon": 8.4114
+},
+"240": {
+"name": "Herrenberg Sternwarte",
+"lon": 8.83317
+},
+"241": {
+"name": "Schaerding",
+"lon": 13.47
+},
+"242": {
+"name": "Varennes",
+"lon": 1.6956
+},
+"243": {
+"name": "Umbrella Observatory, Fredenbeck",
+"lon": 9.413
+},
+"244": {
+"name": "Geocentric Occultation Observation",
+"lon": 0.0
+},
+"245": {
+"name": "Spitzer Space Telescope",
+"lon": null
+},
+"246": {
+"name": "Klet Observatory-KLENOT",
+"lon": 14.28476
+},
+"247": {
+"name": "Roving Observer",
+"lon": null
+},
+"248": {
+"name": "Hipparcos",
+"lon": 0.0
+},
+"249": {
+"name": "SOHO",
+"lon": null
+},
+"250": {
+"name": "Hubble Space Telescope",
+"lon": null
+},
+"251": {
+"name": "Arecibo",
+"lon": 293.24692
+},
+"252": {
+"name": "Goldstone DSS 13, Fort Irwin",
+"lon": 243.20512
+},
+"253": {
+"name": "Goldstone DSS 14, Fort Irwin",
+"lon": 243.11047
+},
+"254": {
+"name": "Haystack, Westford",
+"lon": 288.51128
+},
+"255": {
+"name": "Yevpatoriya",
+"lon": 33.18689
+},
+"256": {
+"name": "Green Bank",
+"lon": 280.16017
+},
+"257": {
+"name": "Goldstone DSS 25, Fort Irwin",
+"lon": 243.12461
+},
+"258": {
+"name": "Gaia",
+"lon": null
+},
+"259": {
+"name": "EISCAT Tromso UHF",
+"lon": 19.22586
+},
+"260": {
+"name": "Siding Spring Observatory-DSS",
+"lon": 149.0661
+},
+"261": {
+"name": "Palomar Mountain-DSS",
+"lon": 243.14022
+},
+"262": {
+"name": "European Southern Observatory, La Silla-DSS",
+"lon": 289.26626
+},
+"263": {
+"name": "Canberra DSS 35",
+"lon": 148.98146
+},
+"264": {
+"name": "Canberra DSS 36",
+"lon": 148.97854
+},
+"265": {
+"name": "Canberra DSS 43",
+"lon": 148.98127
+},
+"266": {
+"name": "New Horizons KBO Search-Subaru",
+"lon": 204.52396
+},
+"267": {
+"name": "New Horizons KBO Search-CFHT",
+"lon": 204.53109
+},
+"268": {
+"name": "Magellan-Clay Telescope",
+"lon": 289.30803
+},
+"269": {
+"name": "Magellan-Baade Telescope",
+"lon": 289.30914
+},
+"270": {
+"name": "Unistellar Network, Roving Observer",
+"lon": null
+},
+"271": {
+"name": "ATCA, W196 reduction, DSS 47",
+"lon": 149.55014
+},
+"272": {
+"name": "Canberra DSS 34",
+"lon": 148.98196
+},
+"273": {
+"name": "Euclid",
+"lon": null
+},
+"274": {
+"name": "James Webb Space Telescope",
+"lon": null
+},
+"275": {
+"name": "Non-geocentric Occultation Observation",
+"lon": null
+},
+"276": {
+"name": "Plonsk",
+"lon": 20.38279
+},
+"277": {
+"name": "Royal Observatory, Blackford Hill, Edinburgh",
+"lon": 356.8175
+},
+"278": {
+"name": "Peking, Transit of Venus site",
+"lon": 116.4494
+},
+"279": {
+"name": "Seeberg Observatory, Gotha (1787-1857)",
+"lon": 10.72822
+},
+"280": {
+"name": "Lilienthal",
+"lon": 8.9118
+},
+"281": {
+"name": "Bologna",
+"lon": 11.3522
+},
+"282": {
+"name": "Nimes",
+"lon": 4.3603
+},
+"283": {
+"name": "Bremen",
+"lon": 8.8163
+},
+"284": {
+"name": "Driesen",
+"lon": 15.8311
+},
+"285": {
+"name": "Flammarion Observatory, Juvisy",
+"lon": 2.3708
+},
+"286": {
+"name": "Yunnan Observatory",
+"lon": 102.7883
+},
+"287": {
+"name": "Ceduna 30, UTAS",
+"lon": 133.80983
+},
+"288": {
+"name": "SPHEREx",
+"lon": null
+},
+"289": {
+"name": "Nancy Grace Roman Space Telescope",
+"lon": null
+},
+"290": {
+"name": "Mt. Graham-VATT",
+"lon": 250.10799
+},
+"291": {
+"name": "LPL/Spacewatch II",
+"lon": 248.40024
+},
+"292": {
+"name": "Burlington, New Jersey",
+"lon": 285.1058
+},
+"293": {
+"name": "Burlington remote site",
+"lon": 285.5899
+},
+"294": {
+"name": "Astrophysical Obs., College of Staten Island",
+"lon": 285.8467
+},
+"295": {
+"name": "Catholic University Observatory, Washington",
+"lon": 283.0
+},
+"296": {
+"name": "Dudley Observatory, Albany (after 1893)",
+"lon": 286.22
+},
+"297": {
+"name": "Middlebury",
+"lon": 286.819
+},
+"298": {
+"name": "Van Vleck Observatory",
+"lon": 287.3408
+},
+"299": {
+"name": "Bosscha Observatory, Lembang",
+"lon": 107.616
+},
+"300": {
+"name": "Bisei Spaceguard Center-BATTeRS",
+"lon": 133.54444
+},
+"301": {
+"name": "Mont Megantic",
+"lon": 288.8467
+},
+"302": {
+"name": "University of the Andes station",
+"lon": 288.88
+},
+"303": {
+"name": "OAN de Llano del Hato, Merida",
+"lon": 289.1296
+},
+"304": {
+"name": "Las Campanas Observatory",
+"lon": 289.30858
+},
+"305": {
+"name": "Purple Mountain, Hainan Island station",
+"lon": 109.5514
+},
+"306": {
+"name": "Observatorio Taya Beixo, Barquisimeto",
+"lon": 290.6769
+},
+"307": {
+"name": "Shattuck Observatory, Hanover",
+"lon": 287.7166
+},
+"308": {
+"name": "Usuda Deep Space Center, 64-m, Nagano",
+"lon": 138.36276
+},
+"309": {
+"name": "Cerro Paranal",
+"lon": 289.59569
+},
+"310": {
+"name": "Minor Planet Center Test Code",
+"lon": 288.87164
+},
+"311": {
+"name": "NOAA GOES-19",
+"lon": null
+},
+"312": {
+"name": "Tsingtao field station, Xisha Islands",
+"lon": 112.334
+},
+"313": {
+"name": "NASA Parker Solar Probe",
+"lon": null
+},
+"314": {
+"name": "NOAA SOLAR-1",
+"lon": null
+},
+"315": {
+"name": "ESA Solar Orbiter",
+"lon": null
+},
+"318": {
+"name": "Quinns Rock",
+"lon": 115.691
+},
+"319": {
+"name": "Perth Observatory, Perth-Lowell Telescope",
+"lon": 116.135
+},
+"320": {
+"name": "Chiro Observatory",
+"lon": 116.4381
+},
+"321": {
+"name": "Craigie",
+"lon": 115.7571
+},
+"322": {
+"name": "Perth Observatory, Bickley-MCT",
+"lon": 116.134
+},
+"323": {
+"name": "Perth Observatory, Bickley",
+"lon": 116.135
+},
+"324": {
+"name": "Peking Observatory, Shaho Station",
+"lon": 116.3277
+},
+"327": {
+"name": "Peking Observatory, Xinglong Station",
+"lon": 117.575
+},
+"330": {
+"name": "Purple Mountain Observatory, Nanking",
+"lon": 118.8209
+},
+"332": {
+"name": "Jupiter Icy Moons Explorer (JUICE)",
+"lon": null
+},
+"333": {
+"name": "Desert Eagle Observatory",
+"lon": 249.5236
+},
+"334": {
+"name": "Tsingtao",
+"lon": 120.3196
+},
+"335": {
+"name": "PUNCH",
+"lon": null
+},
+"336": {
+"name": "Lucy",
+"lon": null
+},
+"337": {
+"name": "Sheshan",
+"lon": 121.1843
+},
+"338": {
+"name": "Psyche",
+"lon": null
+},
+"339": {
+"name": "Trace Gas Orbiter",
+"lon": null
+},
+"340": {
+"name": "Toyonaka",
+"lon": 135.4853
+},
+"341": {
+"name": "Akashina",
+"lon": 137.9486
+},
+"342": {
+"name": "Shishikui",
+"lon": 134.3189
+},
+"343": {
+"name": "Younchun",
+"lon": 127.1258
+},
+"344": {
+"name": "Bohyunsan Optical Astronomy Observatory",
+"lon": 128.9767
+},
+"345": {
+"name": "Sobaeksan Optical Astronomy Observatory",
+"lon": 128.4575
+},
+"346": {
+"name": "KNUE Astronomical Observatory",
+"lon": 127.3854
+},
+"347": {
+"name": "Utsunomiya-Imaizumi",
+"lon": 139.9086
+},
+"348": {
+"name": "Ayabe",
+"lon": 135.2669
+},
+"349": {
+"name": "Ageo",
+"lon": 139.56622
+},
+"350": {
+"name": "Kurohone",
+"lon": 139.2635
+},
+"351": {
+"name": "Sakamoto",
+"lon": 135.8678
+},
+"352": {
+"name": "Konan",
+"lon": 136.1778
+},
+"353": {
+"name": "Nishi Kobe",
+"lon": 135.0648
+},
+"354": {
+"name": "Kawachi",
+"lon": 140.0206
+},
+"355": {
+"name": "Hadano",
+"lon": 139.2133
+},
+"356": {
+"name": "Kogota",
+"lon": 141.0867
+},
+"357": {
+"name": "Shimotsuma",
+"lon": 140.0064
+},
+"358": {
+"name": "Nanyo",
+"lon": 140.1586
+},
+"359": {
+"name": "Wakayama",
+"lon": 135.1719
+},
+"360": {
+"name": "Kuma Kogen",
+"lon": 132.9442
+},
+"361": {
+"name": "Sumoto",
+"lon": 134.8933
+},
+"362": {
+"name": "Ray Observatory",
+"lon": 140.655
+},
+"363": {
+"name": "Yamada",
+"lon": 130.7703
+},
+"364": {
+"name": "YCPM Kagoshima Station",
+"lon": 130.5747
+},
+"365": {
+"name": "Uto Observatory",
+"lon": 135.9579
+},
+"366": {
+"name": "Miyasaka Observatory",
+"lon": 138.3003
+},
+"367": {
+"name": "Yatsuka",
+"lon": 133.167
+},
+"368": {
+"name": "Ochiai",
+"lon": 138.8117
+},
+"369": {
+"name": "Chichibu",
+"lon": 139.15
+},
+"370": {
+"name": "Kochi",
+"lon": 133.5273
+},
+"371": {
+"name": "Tokyo-Okayama",
+"lon": 133.5965
+},
+"372": {
+"name": "Geisei",
+"lon": 133.8276
+},
+"373": {
+"name": "Oishi",
+"lon": 135.3397
+},
+"374": {
+"name": "Minami-Oda Observatory",
+"lon": 134.7196
+},
+"375": {
+"name": "Uzurano",
+"lon": 134.8708
+},
+"376": {
+"name": "Uenohara",
+"lon": 139.0392
+},
+"377": {
+"name": "Kwasan Observatory, Kyoto",
+"lon": 135.7933
+},
+"378": {
+"name": "Murou",
+"lon": 136.01132
+},
+"379": {
+"name": "Hamamatsu-Yuto",
+"lon": 137.6279
+},
+"380": {
+"name": "Ishiki",
+"lon": 137.0349
+},
+"381": {
+"name": "Tokyo-Kiso",
+"lon": 137.62542
+},
+"382": {
+"name": "Tokyo-Norikura",
+"lon": 137.5553
+},
+"383": {
+"name": "Chirorin",
+"lon": 137.8959
+},
+"384": {
+"name": "Shimada",
+"lon": 138.1792
+},
+"385": {
+"name": "Nihondaira Observatory",
+"lon": 138.468
+},
+"386": {
+"name": "Yatsugatake-Kobuchizawa",
+"lon": 138.3217
+},
+"387": {
+"name": "Tokyo-Dodaira",
+"lon": 139.1944
+},
+"388": {
+"name": "Tokyo-Mitaka",
+"lon": 139.5421
+},
+"389": {
+"name": "Tokyo (before 1938)",
+"lon": 139.7447
+},
+"390": {
+"name": "Utsunomiya",
+"lon": 139.8725
+},
+"391": {
+"name": "Sendai Observatory, Ayashi Station",
+"lon": 140.77843
+},
+"392": {
+"name": "JCPM Sapporo Station",
+"lon": 141.3667
+},
+"393": {
+"name": "JCPM Sakura Station",
+"lon": 140.1292
+},
+"394": {
+"name": "JCPM Hamatonbetsu Station",
+"lon": 142.3208
+},
+"395": {
+"name": "Tokyo-Asahikawa",
+"lon": 142.3583
+},
+"396": {
+"name": "Asahikawa",
+"lon": 142.4208
+},
+"397": {
+"name": "Sapporo Science Center",
+"lon": 141.4761
+},
+"398": {
+"name": "Nagatoro",
+"lon": 139.108
+},
+"399": {
+"name": "Kushiro",
+"lon": 144.59
+},
+"400": {
+"name": "Kitami",
+"lon": 143.7827
+},
+"401": {
+"name": "Oosato",
+"lon": 139.4208
+},
+"402": {
+"name": "Dynic Astronomical Observatory",
+"lon": 136.3078
+},
+"403": {
+"name": "Kani",
+"lon": 137.0556
+},
+"404": {
+"name": "Yamamoto",
+"lon": 140.9292
+},
+"405": {
+"name": "Kamihoriguchi",
+"lon": 139.3292
+},
+"406": {
+"name": "Bibai",
+"lon": 141.8233
+},
+"407": {
+"name": "Kahoku",
+"lon": 140.3099
+},
+"408": {
+"name": "Nyukasa",
+"lon": 138.1747
+},
+"409": {
+"name": "Kiyose and Mizuho",
+"lon": 139.5211
+},
+"410": {
+"name": "Sengamine",
+"lon": 134.891
+},
+"411": {
+"name": "Oizumi",
+"lon": 139.417
+},
+"412": {
+"name": "Iwaki",
+"lon": 140.5991
+},
+"413": {
+"name": "Siding Spring Observatory",
+"lon": 149.06608
+},
+"414": {
+"name": "Mount Stromlo",
+"lon": 149.0077
+},
+"415": {
+"name": "Kambah",
+"lon": 149.0636
+},
+"416": {
+"name": "Barton",
+"lon": 149.1336
+},
+"417": {
+"name": "Yanagida Astronomical Observatory",
+"lon": 137.1371
+},
+"418": {
+"name": "Tamworth",
+"lon": 150.94034
+},
+"419": {
+"name": "Windsor",
+"lon": 150.8329
+},
+"420": {
+"name": "Sydney",
+"lon": 151.205
+},
+"421": {
+"name": "Mt. Kajigamori, Otoyo",
+"lon": 133.765
+},
+"422": {
+"name": "Loomberah",
+"lon": 151.0461
+},
+"423": {
+"name": "North Ryde",
+"lon": 151.12473
+},
+"424": {
+"name": "Macquarie",
+"lon": 149.0658
+},
+"425": {
+"name": "Taylor Range Observatory, Brisbane",
+"lon": 152.9316
+},
+"426": {
+"name": "Woomera",
+"lon": 136.8217
+},
+"427": {
+"name": "Stockport",
+"lon": 138.7283
+},
+"428": {
+"name": "Reedy Creek",
+"lon": 153.397
+},
+"429": {
+"name": "Hawker",
+"lon": 149.04
+},
+"430": {
+"name": "Rainbow Observatory, near Coonabarabran",
+"lon": 149.2123
+},
+"431": {
+"name": "Mt. Tarana Observatory, Bathurst",
+"lon": 149.7578
+},
+"432": {
+"name": "Boambee",
+"lon": 153.08222
+},
+"433": {
+"name": "Bagnall Beach Observatory",
+"lon": 152.1078
+},
+"434": {
+"name": "S. Benedetto Po",
+"lon": 10.9206
+},
+"435": {
+"name": "G. Colombo Astronomical Observatory, Padua",
+"lon": 11.8936
+},
+"436": {
+"name": "Osservatorio di Livergnano",
+"lon": 11.3356
+},
+"437": {
+"name": "Haverford",
+"lon": 284.6971
+},
+"438": {
+"name": "Smith College Observatory, Northampton",
+"lon": 287.3621
+},
+"439": {
+"name": "ROTSE-III, Los Alamos",
+"lon": 253.2539
+},
+"440": {
+"name": "Elginfield Observatory",
+"lon": 278.6842
+},
+"441": {
+"name": "Swilken Brae, St. Andrews",
+"lon": 357.1697
+},
+"442": {
+"name": "Gualba Observatory",
+"lon": 357.4822
+},
+"443": {
+"name": "Obs. Astronomico Plomer, Buenos Aires",
+"lon": 301.4656
+},
+"444": {
+"name": "Star Cruiser Observatory",
+"lon": 243.2794
+},
+"445": {
+"name": "Observatorio d'Ontinyent",
+"lon": 359.42
+},
+"446": {
+"name": "Kingsnake Observatory, Seguin",
+"lon": 262.1666
+},
+"447": {
+"name": "Centennial Observatory",
+"lon": 255.2056
+},
+"448": {
+"name": "Desert Moon Observatory, Las Cruces",
+"lon": 253.2801
+},
+"449": {
+"name": "Griffin Hunter Observatory, Bethune",
+"lon": 279.6503
+},
+"450": {
+"name": "Carla Jane Observatory, Charlotte",
+"lon": 279.3339
+},
+"451": {
+"name": "West Skies Observatory, Mulvane",
+"lon": 262.7569
+},
+"452": {
+"name": "Big Cypress Observatory, Fort Lauderdale",
+"lon": 279.1063
+},
+"453": {
+"name": "Edwards Raven Observatory",
+"lon": 242.1331
+},
+"454": {
+"name": "Maryland Space Grant Consortium Observatory",
+"lon": 283.37678
+},
+"455": {
+"name": "CBA Concord",
+"lon": 237.9636
+},
+"456": {
+"name": "Daventry Observatory",
+"lon": 358.8278
+},
+"457": {
+"name": "Partizanske",
+"lon": 18.3403
+},
+"458": {
+"name": "Guadarrama Observatory",
+"lon": 355.9806
+},
+"459": {
+"name": "Smith River Observatory, Danbury",
+"lon": 288.1172
+},
+"460": {
+"name": "Area 52 Observatory, Nashville",
+"lon": 265.9981
+},
+"461": {
+"name": "University of Szeged, Piszkesteto Stn. (Konkoly)",
+"lon": 19.89367
+},
+"462": {
+"name": "Mount Belleview Observatory",
+"lon": 283.0842
+},
+"463": {
+"name": "Sommers-Bausch Observatory, Boulder",
+"lon": 254.7375
+},
+"464": {
+"name": "Toby Point Observatory, Narragansett",
+"lon": 288.5013
+},
+"465": {
+"name": "Takapuna",
+"lon": 174.7801
+},
+"466": {
+"name": "Mount Molehill Observatory, Auckland",
+"lon": 174.8487
+},
+"467": {
+"name": "Auckland Observatory",
+"lon": 174.7766
+},
+"468": {
+"name": "Astronomical Observatory, Campo Catino",
+"lon": 13.3296
+},
+"469": {
+"name": "Courroux",
+"lon": 7.382
+},
+"470": {
+"name": "Ceccano",
+"lon": 13.32756
+},
+"471": {
+"name": "Houstrup",
+"lon": 8.2389
+},
+"472": {
+"name": "Merlette",
+"lon": 6.3203
+},
+"473": {
+"name": "Remanzacco",
+"lon": 13.31661
+},
+"474": {
+"name": "Mount John Observatory, Lake Tekapo",
+"lon": 170.46496
+},
+"475": {
+"name": "Turin (before 1913)",
+"lon": 7.6965
+},
+"476": {
+"name": "Grange Observatory, Bussoleno",
+"lon": 7.14074
+},
+"477": {
+"name": "Galleywood",
+"lon": 0.4856
+},
+"478": {
+"name": "Lamalou-les-Bains",
+"lon": 3.0896
+},
+"479": {
+"name": "Sollies-Pont",
+"lon": 6.0505
+},
+"480": {
+"name": "Cockfield",
+"lon": 0.7733
+},
+"481": {
+"name": "Moorwarfen",
+"lon": 7.93067
+},
+"482": {
+"name": "St. Andrews",
+"lon": 357.1854
+},
+"483": {
+"name": "Carter Observatory, Black Birch Station",
+"lon": 173.8036
+},
+"484": {
+"name": "Happy Valley, Wellington",
+"lon": 174.7594
+},
+"485": {
+"name": "Carter Observatory, Wellington",
+"lon": 174.7654
+},
+"486": {
+"name": "Palmerston North",
+"lon": 175.47
+},
+"487": {
+"name": "Macnairston Observatory",
+"lon": 355.4444
+},
+"488": {
+"name": "Newcastle-upon-Tyne",
+"lon": 358.3664
+},
+"489": {
+"name": "Hemingford Abbots",
+"lon": 359.87
+},
+"490": {
+"name": "Wimborne Minster",
+"lon": 358.0
+},
+"491": {
+"name": "Centro Astronomico de Yebes",
+"lon": 356.9
+},
+"492": {
+"name": "Mickleover",
+"lon": 358.47
+},
+"493": {
+"name": "Calar Alto",
+"lon": 357.4542
+},
+"494": {
+"name": "Stakenbridge",
+"lon": 357.8361
+},
+"495": {
+"name": "Altrincham",
+"lon": 357.66247
+},
+"496": {
+"name": "Bishopstoke",
+"lon": 358.686
+},
+"497": {
+"name": "Loudwater",
+"lon": 359.29449
+},
+"498": {
+"name": "Earls Barton",
+"lon": 359.2581
+},
+"499": {
+"name": "Cheam",
+"lon": 359.79078
+},
+"500": {
+"name": "Geocentric",
+"lon": 0.0
+},
+"501": {
+"name": "Herstmonceux",
+"lon": 0.3475
+},
+"502": {
+"name": "Colchester",
+"lon": 0.84793
+},
+"503": {
+"name": "Cambridge",
+"lon": 0.0948
+},
+"504": {
+"name": "Le Creusot",
+"lon": 4.3944
+},
+"505": {
+"name": "Simon Stevin",
+"lon": 4.5639
+},
+"506": {
+"name": "Bendestorf",
+"lon": 9.96
+},
+"507": {
+"name": "Nyenheim",
+"lon": 5.22
+},
+"508": {
+"name": "Zeist",
+"lon": 5.29
+},
+"509": {
+"name": "La Seyne sur Mer",
+"lon": 5.8725
+},
+"510": {
+"name": "Siegen",
+"lon": 8.0256
+},
+"511": {
+"name": "Haute Provence",
+"lon": 5.7157
+},
+"512": {
+"name": "Leiden (before 1860)",
+"lon": 4.4893
+},
+"513": {
+"name": "Lyons",
+"lon": 4.7855
+},
+"514": {
+"name": "Mundenheim (1907-1913)",
+"lon": 8.438
+},
+"515": {
+"name": "Volkssternwarte Dhaun, near Kirn",
+"lon": 7.4956
+},
+"516": {
+"name": "Hamburg (before 1909)",
+"lon": 9.97321
+},
+"517": {
+"name": "Geneva (from 1967)",
+"lon": 6.1358
+},
+"518": {
+"name": "Marine Observatory, Hamburg",
+"lon": 9.9727
+},
+"519": {
+"name": "Meschede",
+"lon": 8.2867
+},
+"520": {
+"name": "Bonn",
+"lon": 7.0966
+},
+"521": {
+"name": "Remeis Observatory, Bamberg",
+"lon": 10.88794
+},
+"522": {
+"name": "Strasbourg",
+"lon": 7.7677
+},
+"523": {
+"name": "Frankfurt",
+"lon": 8.6512
+},
+"524": {
+"name": "Mannheim",
+"lon": 8.4605
+},
+"525": {
+"name": "Marburg",
+"lon": 8.76917
+},
+"526": {
+"name": "Kiel",
+"lon": 10.1477
+},
+"527": {
+"name": "Altona",
+"lon": 9.9431
+},
+"528": {
+"name": "Gottingen",
+"lon": 9.9426
+},
+"529": {
+"name": "Christiania",
+"lon": 10.7229
+},
+"530": {
+"name": "Lubeck",
+"lon": 10.6898
+},
+"531": {
+"name": "Collegio Romano, Rome",
+"lon": 12.4797
+},
+"532": {
+"name": "Munich",
+"lon": 11.6084
+},
+"533": {
+"name": "Padua",
+"lon": 11.8715
+},
+"534": {
+"name": "Leipzig (since 1861)",
+"lon": 12.3913
+},
+"535": {
+"name": "Palermo",
+"lon": 13.3578
+},
+"536": {
+"name": "Berlin-Babelsberg",
+"lon": 13.1062
+},
+"537": {
+"name": "Urania Observatory, Berlin",
+"lon": 13.3642
+},
+"538": {
+"name": "Pola",
+"lon": 13.8461
+},
+"539": {
+"name": "Kremsmunster",
+"lon": 14.1316
+},
+"540": {
+"name": "Linz",
+"lon": 14.2753
+},
+"541": {
+"name": "Prague",
+"lon": 14.3953
+},
+"542": {
+"name": "Falkensee",
+"lon": 13.0374
+},
+"543": {
+"name": "Leipzig (before 1861)",
+"lon": 12.3688
+},
+"544": {
+"name": "Wilhelm Foerster Observatory, Berlin",
+"lon": 13.35131
+},
+"545": {
+"name": "Vienna (before 1879)",
+"lon": 16.3817
+},
+"546": {
+"name": "Oppolzer Observatory, Vienna",
+"lon": 16.3549
+},
+"547": {
+"name": "Breslau",
+"lon": 17.0363
+},
+"548": {
+"name": "Berlin (1835-1913)",
+"lon": 13.395
+},
+"549": {
+"name": "Uppsala",
+"lon": 17.6257
+},
+"550": {
+"name": "Schwerin",
+"lon": 11.4196
+},
+"551": {
+"name": "Hurbanovo",
+"lon": 18.1895
+},
+"552": {
+"name": "Osservatorio S. Vittore, Bologna",
+"lon": 11.3418
+},
+"553": {
+"name": "Chorzow",
+"lon": 18.9938
+},
+"554": {
+"name": "Burgsolms Observatory, Wetzlar",
+"lon": 8.3959
+},
+"555": {
+"name": "Cracow-Fort Skala",
+"lon": 19.8263
+},
+"556": {
+"name": "Reintal, near Munich",
+"lon": 11.26
+},
+"557": {
+"name": "Ondrejov",
+"lon": 14.77961
+},
+"558": {
+"name": "Warsaw",
+"lon": 21.0303
+},
+"559": {
+"name": "Serra La Nave",
+"lon": 14.98
+},
+"560": {
+"name": "Madonna di Dossobuono",
+"lon": 10.931
+},
+"561": {
+"name": "Piszkesteto Stn. (Konkoly)",
+"lon": 19.89367
+},
+"562": {
+"name": "Figl Observatory, Vienna",
+"lon": 15.9236
+},
+"563": {
+"name": "Seewalchen",
+"lon": 13.6
+},
+"564": {
+"name": "Herrsching",
+"lon": 11.19
+},
+"565": {
+"name": "Bassano Bresciano",
+"lon": 10.1344
+},
+"566": {
+"name": "Haleakala-NEAT/GEODSS",
+"lon": 203.7424
+},
+"567": {
+"name": "Chions",
+"lon": 12.7117
+},
+"568": {
+"name": "Maunakea",
+"lon": 204.5278
+},
+"569": {
+"name": "Helsinki",
+"lon": 24.9587
+},
+"570": {
+"name": "Vilnius (since 1939)",
+"lon": 25.299
+},
+"571": {
+"name": "Cavriana",
+"lon": 10.63
+},
+"572": {
+"name": "Cologne",
+"lon": 6.89
+},
+"573": {
+"name": "Eldagsen",
+"lon": 9.6612
+},
+"574": {
+"name": "Gottolengo",
+"lon": 10.2667
+},
+"575": {
+"name": "La Chaux de Fonds",
+"lon": 6.808
+},
+"576": {
+"name": "Burwash",
+"lon": 0.376
+},
+"577": {
+"name": "Metzerlen Observatory",
+"lon": 7.5
+},
+"578": {
+"name": "Linden Observatory",
+"lon": 27.99
+},
+"579": {
+"name": "Novi Ligure",
+"lon": 8.85
+},
+"580": {
+"name": "Graz",
+"lon": 15.4936
+},
+"581": {
+"name": "Sedgefield",
+"lon": 22.8
+},
+"582": {
+"name": "Orwell Park",
+"lon": 1.2408
+},
+"583": {
+"name": "Odesa-Mayaky",
+"lon": 30.2717
+},
+"584": {
+"name": "Leningrad",
+"lon": 30.2946
+},
+"585": {
+"name": "Kyiv comet station",
+"lon": 30.52462
+},
+"586": {
+"name": "Pic du Midi",
+"lon": 0.1423
+},
+"587": {
+"name": "Sormano",
+"lon": 9.22918
+},
+"588": {
+"name": "Eremo di Tizzano",
+"lon": 11.25
+},
+"589": {
+"name": "Santa Lucia Stroncone",
+"lon": 12.64369
+},
+"590": {
+"name": "Metzerlen",
+"lon": 7.46
+},
+"591": {
+"name": "Resse Observatory",
+"lon": 9.6258
+},
+"592": {
+"name": "Solingen",
+"lon": 7.02114
+},
+"593": {
+"name": "Monte Argentario",
+"lon": 11.17
+},
+"594": {
+"name": "Monte Autore",
+"lon": 13.2033
+},
+"595": {
+"name": "Farra d'Isonzo",
+"lon": 13.52578
+},
+"596": {
+"name": "Colleverde di Guidonia",
+"lon": 12.6183
+},
+"597": {
+"name": "Springe",
+"lon": 9.6631
+},
+"598": {
+"name": "Loiano",
+"lon": 11.33409
+},
+"599": {
+"name": "Campo Imperatore-CINEOS",
+"lon": 13.55764
+},
+"600": {
+"name": "TLC Observatory, Bologna",
+"lon": 11.4708
+},
+"601": {
+"name": "Engelhardt Observatory, Dresden",
+"lon": 13.7281
+},
+"602": {
+"name": "Urania Observatory, Vienna",
+"lon": 16.3854
+},
+"603": {
+"name": "Bothkamp",
+"lon": 10.13
+},
+"604": {
+"name": "Archenhold Sternwarte, Berlin-Treptow",
+"lon": 13.47524
+},
+"605": {
+"name": "Marl",
+"lon": 7.113
+},
+"606": {
+"name": "Norderstedt",
+"lon": 9.9956
+},
+"607": {
+"name": "Hagen Observatory, Ronkhausen",
+"lon": 8.0
+},
+"608": {
+"name": "Haleakala-AMOS",
+"lon": 203.742
+},
+"609": {
+"name": "Osservatorio Polino",
+"lon": 12.8533
+},
+"610": {
+"name": "Pianoro",
+"lon": 11.3431
+},
+"611": {
+"name": "Starkenburg Sternwarte, Heppenheim",
+"lon": 8.6531
+},
+"612": {
+"name": "Lenkerbeck",
+"lon": 7.1
+},
+"613": {
+"name": "Heisingen",
+"lon": 7.0709
+},
+"614": {
+"name": "Soisy-sur-Seine",
+"lon": 2.467
+},
+"615": {
+"name": "St. Veran",
+"lon": 6.9067
+},
+"616": {
+"name": "Brno",
+"lon": 16.58348
+},
+"617": {
+"name": "Arbonne la Foret",
+"lon": 2.5725
+},
+"618": {
+"name": "Martigues",
+"lon": 5.0077
+},
+"619": {
+"name": "Sabadell",
+"lon": 2.09013
+},
+"620": {
+"name": "Observatorio Astronomico de Mallorca",
+"lon": 2.9517
+},
+"621": {
+"name": "Bergisch Gladbach",
+"lon": 7.48503
+},
+"622": {
+"name": "Oberwichtrach",
+"lon": 7.568
+},
+"623": {
+"name": "Liege",
+"lon": 5.5667
+},
+"624": {
+"name": "Dertingen",
+"lon": 9.6167
+},
+"625": {
+"name": "Kihei-AMOS Remote Maui Experimental Site",
+"lon": 203.5683
+},
+"626": {
+"name": "Geel",
+"lon": 4.9864
+},
+"627": {
+"name": "Blauvac",
+"lon": 5.2146
+},
+"628": {
+"name": "Mulheim-Ruhr",
+"lon": 6.84366
+},
+"629": {
+"name": "Szeged Observatory",
+"lon": 20.1511
+},
+"630": {
+"name": "Osenbach",
+"lon": 7.2367
+},
+"631": {
+"name": "Hamburg-Georgswerder",
+"lon": 10.02293
+},
+"632": {
+"name": "San Polo A Mosciano",
+"lon": 11.1739
+},
+"633": {
+"name": "Romito",
+"lon": 9.9339
+},
+"634": {
+"name": "Crolles",
+"lon": 5.1456
+},
+"635": {
+"name": "Pergignan",
+"lon": 2.9019
+},
+"636": {
+"name": "Essen",
+"lon": 6.9794
+},
+"637": {
+"name": "Hamburg-Himmelsmoor",
+"lon": 10.0903
+},
+"638": {
+"name": "Detmold",
+"lon": 8.8933
+},
+"639": {
+"name": "Dresden",
+"lon": 13.7233
+},
+"640": {
+"name": "Senftenberger Sternwarte",
+"lon": 13.5996
+},
+"641": {
+"name": "Overberg",
+"lon": 20.0272
+},
+"642": {
+"name": "Oak Bay, Victoria",
+"lon": 236.685
+},
+"643": {
+"name": "OCA-Anza Observatory",
+"lon": 243.2794
+},
+"644": {
+"name": "Palomar Mountain/NEAT",
+"lon": 243.14022
+},
+"645": {
+"name": "Apache Point-Sloan Digital Sky Survey",
+"lon": 254.17942
+},
+"646": {
+"name": "Santana Observatory, Rancho Cucamonga",
+"lon": 242.4369
+},
+"647": {
+"name": "Stone Finder Observatory, Calgary",
+"lon": 245.9683
+},
+"648": {
+"name": "Winer Observatory, Sonoita",
+"lon": 249.39822
+},
+"649": {
+"name": "Powell Observatory, Louisburg",
+"lon": 265.3003
+},
+"650": {
+"name": "Temecula",
+"lon": 242.9028
+},
+"651": {
+"name": "Grasslands Observatory, Tucson",
+"lon": 249.41916
+},
+"652": {
+"name": "Rock Finder Observatory, Calgary",
+"lon": 245.9333
+},
+"653": {
+"name": "Torus Observatory, Buckley",
+"lon": 237.8678
+},
+"654": {
+"name": "Table Mountain Observatory, Wrightwood-PHMC",
+"lon": 242.31841
+},
+"655": {
+"name": "Sooke",
+"lon": 236.383
+},
+"656": {
+"name": "Victoria",
+"lon": 236.3921
+},
+"657": {
+"name": "Climenhaga Observatory, Victoria",
+"lon": 236.6903
+},
+"658": {
+"name": "Dominion Astrophysical Observatory",
+"lon": 236.583
+},
+"659": {
+"name": "Heron Cove Observatory, Orcas",
+"lon": 237.0514
+},
+"660": {
+"name": "Leuschner Observatory, Berkeley",
+"lon": 237.7379
+},
+"661": {
+"name": "Rothney Astrophysical Observatory, Priddis",
+"lon": 245.7117
+},
+"662": {
+"name": "Lick Observatory, Mount Hamilton",
+"lon": 238.3545
+},
+"663": {
+"name": "Red Mountain Observatory",
+"lon": 248.3136
+},
+"664": {
+"name": "Manastash Ridge Observatory",
+"lon": 239.2775
+},
+"665": {
+"name": "Wallis Observatory",
+"lon": 240.9903
+},
+"666": {
+"name": "Moorpark College Observatory",
+"lon": 241.1692
+},
+"667": {
+"name": "Wanapum Dam",
+"lon": 240.00921
+},
+"668": {
+"name": "San Emigdio Peak",
+"lon": 240.82
+},
+"669": {
+"name": "Ojai",
+"lon": 240.8238
+},
+"670": {
+"name": "Camarillo",
+"lon": 240.9558
+},
+"671": {
+"name": "Stony Ridge",
+"lon": 242.00198
+},
+"672": {
+"name": "Mount Wilson",
+"lon": 241.9436
+},
+"673": {
+"name": "Table Mountain Observatory, Wrightwood",
+"lon": 242.31783
+},
+"674": {
+"name": "Ford Observatory, Wrightwood",
+"lon": 242.33605
+},
+"675": {
+"name": "Palomar Mountain",
+"lon": 243.13746
+},
+"676": {
+"name": "San Clemente",
+"lon": 242.3907
+},
+"677": {
+"name": "Lake Arrowhead",
+"lon": 242.8281
+},
+"678": {
+"name": "Fountain Hills",
+"lon": 248.2597
+},
+"679": {
+"name": "San Pedro Martir",
+"lon": 244.5367
+},
+"680": {
+"name": "Los Angeles",
+"lon": 244.78
+},
+"681": {
+"name": "Calgary",
+"lon": 245.8858
+},
+"682": {
+"name": "Kanab",
+"lon": 247.6381
+},
+"683": {
+"name": "Goodricke-Pigott Observatory, Tucson",
+"lon": 248.9182
+},
+"684": {
+"name": "Prescott",
+"lon": 247.51
+},
+"685": {
+"name": "Williams",
+"lon": 247.84
+},
+"686": {
+"name": "U. of Minn. Infrared Obs., Mt. Lemmon",
+"lon": 249.2092
+},
+"687": {
+"name": "Northern Arizona University, Flagstaff",
+"lon": 248.3473
+},
+"688": {
+"name": "Lowell Observatory, Anderson Mesa Station",
+"lon": 248.4645
+},
+"689": {
+"name": "U.S. Naval Observatory, Flagstaff",
+"lon": 248.2601
+},
+"690": {
+"name": "Lowell Observatory, Flagstaff",
+"lon": 248.3367
+},
+"691": {
+"name": "Steward Observatory, Kitt Peak-Spacewatch",
+"lon": 248.39966
+},
+"692": {
+"name": "Steward Observatory, Tucson",
+"lon": 249.0513
+},
+"693": {
+"name": "Catalina Station, Tucson",
+"lon": 249.26745
+},
+"694": {
+"name": "Tumamoc Hill, Tucson",
+"lon": 248.9943
+},
+"695": {
+"name": "Kitt Peak",
+"lon": 248.40533
+},
+"696": {
+"name": "Whipple Observatory, Mt. Hopkins",
+"lon": 249.1154
+},
+"697": {
+"name": "Kitt Peak, McGraw-Hill",
+"lon": 248.38381
+},
+"698": {
+"name": "Mt. Bigelow",
+"lon": 249.26736
+},
+"699": {
+"name": "Lowell Observatory-LONEOS",
+"lon": 248.46331
+},
+"700": {
+"name": "Chinle",
+"lon": 250.3817
+},
+"701": {
+"name": "Junk Bond Observatory, Sierra Vista",
+"lon": 249.79716
+},
+"702": {
+"name": "Joint Obs. for cometary research, Socorro",
+"lon": 252.8117
+},
+"703": {
+"name": "University of Arizona Catalina Sky Survey",
+"lon": 249.26736
+},
+"704": {
+"name": "Lincoln Laboratory ETS, New Mexico",
+"lon": 253.34093
+},
+"705": {
+"name": "Apache Point",
+"lon": 254.17942
+},
+"706": {
+"name": "Salida",
+"lon": 253.9366
+},
+"707": {
+"name": "Chamberlin field station",
+"lon": 254.56
+},
+"708": {
+"name": "Chamberlin Observatory, Denver",
+"lon": 255.0475
+},
+"709": {
+"name": "W & B Observatory, Cloudcroft",
+"lon": 254.22882
+},
+"710": {
+"name": "MPO Observatory, Florissant",
+"lon": 254.7336
+},
+"711": {
+"name": "McDonald Observatory, Fort Davis",
+"lon": 255.9785
+},
+"712": {
+"name": "USAF Academy Observatory, Colorado Springs",
+"lon": 255.11867
+},
+"713": {
+"name": "Thornton",
+"lon": 254.9897
+},
+"714": {
+"name": "Bagdad",
+"lon": 246.8173
+},
+"715": {
+"name": "Jornada Observatory, Las Cruces",
+"lon": 253.2759
+},
+"716": {
+"name": "Palmer Divide Observatory, Colorado Springs",
+"lon": 255.2489
+},
+"717": {
+"name": "Prude Ranch",
+"lon": 256.0481
+},
+"718": {
+"name": "Tooele",
+"lon": 247.7042
+},
+"719": {
+"name": "Etscorn Observatory",
+"lon": 253.08608
+},
+"720": {
+"name": "Universidad de Monterrey",
+"lon": 259.6261
+},
+"721": {
+"name": "Lime Creek",
+"lon": 259.7312
+},
+"722": {
+"name": "Missouri City",
+"lon": 264.4192
+},
+"723": {
+"name": "Cottonwood Observatory, Ada",
+"lon": 263.33
+},
+"724": {
+"name": "National Observatory, Tacubaya",
+"lon": 260.8053
+},
+"725": {
+"name": "Fair Oaks Ranch",
+"lon": 261.3453
+},
+"726": {
+"name": "Brainerd",
+"lon": 265.6933
+},
+"727": {
+"name": "Zeno Observatory, Edmond",
+"lon": 262.53872
+},
+"728": {
+"name": "Corpus Christi",
+"lon": 262.6084
+},
+"729": {
+"name": "Glenlea Astronomical Observatory, Winnipeg",
+"lon": 262.87858
+},
+"730": {
+"name": "University of North Dakota, Grand Forks",
+"lon": 262.84143
+},
+"731": {
+"name": "Rose-Hulman Observatory, Terre Haute",
+"lon": 272.6711
+},
+"732": {
+"name": "Oaxaca",
+"lon": 263.23
+},
+"733": {
+"name": "Allen, Texas",
+"lon": 263.3546
+},
+"734": {
+"name": "Farpoint Observatory, Eskridge",
+"lon": 263.99758
+},
+"735": {
+"name": "George Observatory, Needville",
+"lon": 264.4064
+},
+"736": {
+"name": "Houston",
+"lon": 263.3357
+},
+"737": {
+"name": "New Bullpen Observatory, Alpharetta",
+"lon": 275.6633
+},
+"738": {
+"name": "Observatory of the State University of Missouri",
+"lon": 267.6733
+},
+"739": {
+"name": "Sunflower Observatory, Olathe",
+"lon": 265.244
+},
+"740": {
+"name": "SFA Observatory, Nacogdoches",
+"lon": 265.3383
+},
+"741": {
+"name": "Goodsell Observatory, Northfield",
+"lon": 266.8503
+},
+"742": {
+"name": "Drake University, Des Moines",
+"lon": 266.31216
+},
+"743": {
+"name": "University of Minnesota, Minneapolis",
+"lon": 267.76148
+},
+"744": {
+"name": "Doyan Rose Observatory, Indianapolis",
+"lon": 273.8378
+},
+"745": {
+"name": "Morrison Obervatory, Glasgow",
+"lon": 267.1747
+},
+"746": {
+"name": "Brooks Observatory, Mt. Pleasant",
+"lon": 275.2254
+},
+"747": {
+"name": "Highland Road Park Observatory",
+"lon": 268.9292
+},
+"748": {
+"name": "Van Allen Observatory, Iowa City",
+"lon": 268.468
+},
+"749": {
+"name": "Oakwood",
+"lon": 276.1642
+},
+"750": {
+"name": "Hobbs Observatory, Fall Creek",
+"lon": 268.7282
+},
+"751": {
+"name": "Lake Saint Louis",
+"lon": 269.2439
+},
+"752": {
+"name": "Puckett Observatory, Mountain Town",
+"lon": 275.4647
+},
+"753": {
+"name": "Washburn Observatory, Madison",
+"lon": 270.59069
+},
+"754": {
+"name": "Yerkes Observatory, Williams Bay",
+"lon": 271.4432
+},
+"755": {
+"name": "Optec Observatory",
+"lon": 274.6478
+},
+"756": {
+"name": "Dearborn Observatory, Evanston (bef. July 1939)",
+"lon": 272.32567
+},
+"757": {
+"name": "High Point",
+"lon": 280.005
+},
+"758": {
+"name": "BCC Observatory, Cocoa",
+"lon": 279.2379
+},
+"759": {
+"name": "Nashville",
+"lon": 273.1947
+},
+"760": {
+"name": "Goethe Link Observatory, Brooklyn",
+"lon": 273.6048
+},
+"761": {
+"name": "Zephyrhills",
+"lon": 277.6456
+},
+"762": {
+"name": "Four Winds Observatory, Lake Leelanau",
+"lon": 274.2008
+},
+"763": {
+"name": "King City",
+"lon": 280.4658
+},
+"764": {
+"name": "Puckett Observatory, Stone Mountain",
+"lon": 275.1439
+},
+"765": {
+"name": "Cincinnati",
+"lon": 275.5775
+},
+"766": {
+"name": "Michigan State University Obs., East Lansing",
+"lon": 275.5167
+},
+"767": {
+"name": "Ann Arbor",
+"lon": 276.2697
+},
+"768": {
+"name": "Dearborn Observatory, Evanston (aft. Oct. 1939)",
+"lon": 272.32488
+},
+"769": {
+"name": "McMillin Observatory, Columbus",
+"lon": 276.9892
+},
+"770": {
+"name": "Crescent Moon Observatory, Columbus",
+"lon": 274.0786
+},
+"771": {
+"name": "Boyeros Observatory, Havana",
+"lon": 277.57
+},
+"772": {
+"name": "Boltwood Observatory, Stittsville",
+"lon": 284.0865
+},
+"773": {
+"name": "Warner and Swasey Observatory, Cleveland",
+"lon": 278.4318
+},
+"774": {
+"name": "Warner and Swasey Nassau Station, Chardon",
+"lon": 278.925
+},
+"775": {
+"name": "Sayre Observatory, South Bethlehem",
+"lon": 284.6168
+},
+"776": {
+"name": "Foggy Bottom, Hamilton",
+"lon": 284.4669
+},
+"777": {
+"name": "Toronto",
+"lon": 280.6017
+},
+"778": {
+"name": "Allegheny Observatory, Pittsburgh",
+"lon": 279.9778
+},
+"779": {
+"name": "David Dunlap Observatory, Richmond Hill",
+"lon": 280.5779
+},
+"780": {
+"name": "Leander McCormick Observatory, Charlottesville",
+"lon": 281.4778
+},
+"781": {
+"name": "Quito",
+"lon": 281.5075
+},
+"782": {
+"name": "Quito, comet astrograph station",
+"lon": 281.65
+},
+"783": {
+"name": "Rixeyville",
+"lon": 282.02
+},
+"784": {
+"name": "Stull Observatory, Alfred University",
+"lon": 282.2146
+},
+"785": {
+"name": "Fitz-Randolph Observatory, Princeton",
+"lon": 285.3542
+},
+"786": {
+"name": "U.S. Naval Obs., Washington (since 1893)",
+"lon": 282.9345
+},
+"787": {
+"name": "U.S. Naval Obs., Washington (before 1893)",
+"lon": 282.9494
+},
+"788": {
+"name": "Mount Cuba Observatory, Wilmington",
+"lon": 284.3667
+},
+"789": {
+"name": "Litchfield Observatory, Clinton",
+"lon": 284.594
+},
+"790": {
+"name": "Dominion Observatory, Ottawa",
+"lon": 284.2835
+},
+"791": {
+"name": "Flower and Cook Observatory, Philadelphia",
+"lon": 284.5236
+},
+"792": {
+"name": "University of Rhode Island, Quonochontaug",
+"lon": 288.29905
+},
+"793": {
+"name": "Dudley Observatory, Albany (before 1893)",
+"lon": 286.2515
+},
+"794": {
+"name": "Vassar College Observatory, Poughkeepsie",
+"lon": 286.11
+},
+"795": {
+"name": "Rutherford",
+"lon": 286.03861
+},
+"796": {
+"name": "Stamford",
+"lon": 286.45
+},
+"797": {
+"name": "Yale Observatory, New Haven",
+"lon": 287.0751
+},
+"798": {
+"name": "Yale Observatory, Bethany",
+"lon": 287.0154
+},
+"799": {
+"name": "Winchester",
+"lon": 288.865
+},
+"800": {
+"name": "Harvard Observatory, Arequipa",
+"lon": 288.4511
+},
+"801": {
+"name": "Oak Ridge Observatory",
+"lon": 288.44233
+},
+"802": {
+"name": "Harvard Observatory, Cambridge",
+"lon": 288.87164
+},
+"803": {
+"name": "Taunton",
+"lon": 288.9167
+},
+"804": {
+"name": "Santiago-San Bernardo",
+"lon": 289.3121
+},
+"805": {
+"name": "Santiago-Cerro El Roble",
+"lon": 288.98
+},
+"806": {
+"name": "Santiago-Cerro Calan",
+"lon": 289.4513
+},
+"807": {
+"name": "Cerro Tololo Observatory, La Serena",
+"lon": 289.1941
+},
+"808": {
+"name": "El Leoncito",
+"lon": 290.6708
+},
+"809": {
+"name": "European Southern Observatory, La Silla",
+"lon": 289.26626
+},
+"810": {
+"name": "Wallace Observatory, Westford",
+"lon": 288.5154
+},
+"811": {
+"name": "Maria Mitchell Observatory, Nantucket",
+"lon": 289.89565
+},
+"812": {
+"name": "Vina del Mar",
+"lon": 288.4543
+},
+"813": {
+"name": "Santiago-Quinta Normal (1862-1920)",
+"lon": 289.3083
+},
+"814": {
+"name": "North Scituate",
+"lon": 288.41917
+},
+"815": {
+"name": "Santiago-Santa Lucia (1849-1861)",
+"lon": 289.3479
+},
+"816": {
+"name": "Rand Observatory",
+"lon": 285.7583
+},
+"817": {
+"name": "Sudbury",
+"lon": 288.6104
+},
+"818": {
+"name": "Gemeaux Observatory, Laval",
+"lon": 286.4167
+},
+"819": {
+"name": "Val-des-Bois",
+"lon": 284.385
+},
+"820": {
+"name": "Tarija",
+"lon": 295.37581
+},
+"821": {
+"name": "Cordoba-Bosque Alegre",
+"lon": 295.45041
+},
+"822": {
+"name": "Cordoba",
+"lon": 295.80137
+},
+"823": {
+"name": "Fitchburg",
+"lon": 288.1691
+},
+"824": {
+"name": "Lake Clear",
+"lon": 285.7528
+},
+"825": {
+"name": "Granville",
+"lon": 288.2595
+},
+"826": {
+"name": "Plessissville",
+"lon": 288.2282
+},
+"827": {
+"name": "Saint-Felicien",
+"lon": 287.5393
+},
+"828": {
+"name": "Assonet",
+"lon": 288.9758
+},
+"829": {
+"name": "Complejo Astronomico El Leoncito",
+"lon": 290.6979
+},
+"830": {
+"name": "Hudson",
+"lon": 288.5697
+},
+"831": {
+"name": "Rosemary Hill Observatory, University of Florida",
+"lon": 277.4134
+},
+"832": {
+"name": "Etters",
+"lon": 283.185
+},
+"833": {
+"name": "Obs. Astronomico de Mercedes, Buenos Aires",
+"lon": 301.4633
+},
+"834": {
+"name": "Buenos Aires-AAAA",
+"lon": 301.5654
+},
+"835": {
+"name": "Drum Hill Station, Chelmsford",
+"lon": 288.6428
+},
+"836": {
+"name": "Furnace Brook Observatory, Cranston",
+"lon": 288.5011
+},
+"837": {
+"name": "Jupiter",
+"lon": 279.7553
+},
+"838": {
+"name": "Dayton",
+"lon": 275.8628
+},
+"839": {
+"name": "La Plata",
+"lon": 302.0678
+},
+"840": {
+"name": "Flint",
+"lon": 276.2833
+},
+"841": {
+"name": "Martin Observatory, Blacksburg",
+"lon": 279.44233
+},
+"842": {
+"name": "Gettysburg College Observatory",
+"lon": 282.7678
+},
+"843": {
+"name": "Emerald Lane Observatory, Decatur",
+"lon": 273.0648
+},
+"844": {
+"name": "Observatorio Astronomico Los Molinos",
+"lon": 303.80982
+},
+"845": {
+"name": "Ford Observatory, Ithaca",
+"lon": 283.5058
+},
+"846": {
+"name": "Principia Astronomical Observatory, Elsah",
+"lon": 269.65501
+},
+"847": {
+"name": "Lunar Cafe Observator, Flint",
+"lon": 275.975
+},
+"848": {
+"name": "Tenagra Observatory, Cottage Grove",
+"lon": 237.0219
+},
+"849": {
+"name": "Everstar Observatory, Olathe",
+"lon": 265.1694
+},
+"850": {
+"name": "Cordell-Lorenz Observatory, Sewanee",
+"lon": 274.0802
+},
+"851": {
+"name": "Burke-Gaffney Observatory, Halifax",
+"lon": 296.41962
+},
+"852": {
+"name": "River Moss Observatory, St. Peters",
+"lon": 269.405
+},
+"853": {
+"name": "Biosphere 2 Observatory",
+"lon": 249.15327
+},
+"854": {
+"name": "Sabino Canyon Observatory, Tucson",
+"lon": 249.17995
+},
+"855": {
+"name": "Wayside Observatory, Minnetonka",
+"lon": 266.5383
+},
+"856": {
+"name": "Riverside",
+"lon": 242.554
+},
+"857": {
+"name": "Iowa Robotic Observatory, Sonoita",
+"lon": 249.3992
+},
+"858": {
+"name": "Tebbutt Observatory, Edgewood",
+"lon": 253.78
+},
+"859": {
+"name": "Wykrota Observatory-CEAMIG",
+"lon": 316.3097
+},
+"860": {
+"name": "Valinhos",
+"lon": 313.0347
+},
+"861": {
+"name": "Barao Geraldo",
+"lon": 312.9204
+},
+"862": {
+"name": "Saku",
+"lon": 138.5262
+},
+"863": {
+"name": "Furukawa",
+"lon": 137.18
+},
+"864": {
+"name": "Kumamoto",
+"lon": 130.7533
+},
+"865": {
+"name": "Emmy Observatory, New Paltz",
+"lon": 285.8792
+},
+"866": {
+"name": "U.S. Naval Academy, Michelson",
+"lon": 283.51
+},
+"867": {
+"name": "Saji Observatory",
+"lon": 134.1222
+},
+"868": {
+"name": "Hidaka Observatory",
+"lon": 135.1359
+},
+"869": {
+"name": "Tosa",
+"lon": 133.4298
+},
+"870": {
+"name": "Campinas",
+"lon": 313.17411
+},
+"871": {
+"name": "Akou",
+"lon": 134.3925
+},
+"872": {
+"name": "Tokushima",
+"lon": 134.2411
+},
+"873": {
+"name": "Kurashiki Observatory",
+"lon": 133.7717
+},
+"874": {
+"name": "Observatorio do Pico dos Dias, Itajuba",
+"lon": 314.41735
+},
+"875": {
+"name": "Yorii",
+"lon": 139.2353
+},
+"876": {
+"name": "Honjo",
+"lon": 139.2467
+},
+"877": {
+"name": "Okutama",
+"lon": 139.0828
+},
+"878": {
+"name": "Kagiya",
+"lon": 136.9142
+},
+"879": {
+"name": "Tokai",
+"lon": 137.3535
+},
+"880": {
+"name": "Rio de Janeiro",
+"lon": 316.7771
+},
+"881": {
+"name": "Toyota",
+"lon": 137.2571
+},
+"882": {
+"name": "JCPM Oi Station",
+"lon": 137.3558
+},
+"883": {
+"name": "Shizuoka",
+"lon": 138.4215
+},
+"884": {
+"name": "Kawane",
+"lon": 138.0792
+},
+"885": {
+"name": "JCPM Yakiimo Station",
+"lon": 138.4667
+},
+"886": {
+"name": "Mishima",
+"lon": 138.9367
+},
+"887": {
+"name": "Ojima",
+"lon": 139.3367
+},
+"888": {
+"name": "Gekko",
+"lon": 138.9952
+},
+"889": {
+"name": "Karasuyama",
+"lon": 140.1427
+},
+"890": {
+"name": "JCPM Tone Station",
+"lon": 140.25
+},
+"891": {
+"name": "JCPM Kimachi Station",
+"lon": 140.8633
+},
+"892": {
+"name": "YGCO Hoshikawa and Nagano Stations",
+"lon": 139.4753
+},
+"893": {
+"name": "Sendai Municipal Observatory",
+"lon": 140.86222
+},
+"894": {
+"name": "Kiyosato",
+"lon": 138.4476
+},
+"895": {
+"name": "Hatamae",
+"lon": 140.7203
+},
+"896": {
+"name": "Yatsugatake South Base Observatory",
+"lon": 138.3678
+},
+"897": {
+"name": "YGCO Chiyoda Station",
+"lon": 139.4929
+},
+"898": {
+"name": "Fujieda",
+"lon": 138.1883
+},
+"899": {
+"name": "Toma",
+"lon": 142.55
+},
+"900": {
+"name": "Moriyama",
+"lon": 135.98994
+},
+"901": {
+"name": "Tajimi",
+"lon": 137.0877
+},
+"902": {
+"name": "Ootake",
+"lon": 132.2208
+},
+"903": {
+"name": "Fukuchiyama and Kannabe",
+"lon": 135.17424
+},
+"904": {
+"name": "Go-Chome and Kobe-Suma",
+"lon": 135.12
+},
+"905": {
+"name": "Nachi-Katsuura Observatory",
+"lon": 135.9246
+},
+"906": {
+"name": "Cobram",
+"lon": 145.667
+},
+"907": {
+"name": "Melbourne",
+"lon": 144.9758
+},
+"908": {
+"name": "Toyama",
+"lon": 137.2467
+},
+"909": {
+"name": "Snohomish Hilltop Observatory",
+"lon": 237.8717
+},
+"910": {
+"name": "Caussols-ODAS",
+"lon": 6.9267
+},
+"911": {
+"name": "Collins Observatory, Corning Community College",
+"lon": 282.9233
+},
+"912": {
+"name": "Carbuncle Hill Observatory, Greene",
+"lon": 288.2342
+},
+"913": {
+"name": "Observatorio Kappa Crucis, Montevideo",
+"lon": 303.8161
+},
+"914": {
+"name": "Underwood Observatory, Hubbardston",
+"lon": 288.0108
+},
+"915": {
+"name": "River Oaks Observatory, New Braunfels",
+"lon": 261.8789
+},
+"916": {
+"name": "Oakley Observatory, Terre Haute",
+"lon": 272.6836
+},
+"917": {
+"name": "Pacific Lutheran University Keck Observatory",
+"lon": 237.5522
+},
+"918": {
+"name": "Badlands Observatory, Quinn",
+"lon": 257.8694
+},
+"919": {
+"name": "Desert Beaver Observatory",
+"lon": 248.3183
+},
+"920": {
+"name": "RIT Observatory, Rochester",
+"lon": 282.3353
+},
+"921": {
+"name": "SW Institute for Space Research, Cloudcroft",
+"lon": 254.4725
+},
+"922": {
+"name": "Timberland Observatory, Decatur",
+"lon": 272.8333
+},
+"923": {
+"name": "The Bradstreet Observatory, St. Davids",
+"lon": 284.63
+},
+"924": {
+"name": "Observatoire du Cegep de Trois-Rivieres",
+"lon": 287.6769
+},
+"925": {
+"name": "Palominas Observatory",
+"lon": 249.8589
+},
+"926": {
+"name": "Tenagra II Observatory, Nogales",
+"lon": 249.1209
+},
+"927": {
+"name": "Madison-YRS",
+"lon": 270.56194
+},
+"928": {
+"name": "Moonedge Observatory, Northport",
+"lon": 286.6761
+},
+"929": {
+"name": "Port Allen",
+"lon": 268.7758
+},
+"930": {
+"name": "S. S. Observatory, Pamatai",
+"lon": 210.41224
+},
+"931": {
+"name": "Puna'auia",
+"lon": 210.3842
+},
+"932": {
+"name": "John J. McCarthy Obs., New Milford",
+"lon": 286.57401
+},
+"933": {
+"name": "Rockland Observatory, Sierra Vista",
+"lon": 249.7342
+},
+"934": {
+"name": "Poway Valley",
+"lon": 242.9572
+},
+"935": {
+"name": "Wyrick Observatory, Haymarket",
+"lon": 282.3394
+},
+"936": {
+"name": "Ibis Observatory, Manhattan",
+"lon": 263.3792
+},
+"937": {
+"name": "Bradbury Observatory, Stockton-on-Tees",
+"lon": 358.69
+},
+"938": {
+"name": "Linhaceira",
+"lon": 351.6162
+},
+"939": {
+"name": "Observatorio Rodeno",
+"lon": 359.6033
+},
+"940": {
+"name": "Waterlooville",
+"lon": 358.9611
+},
+"941": {
+"name": "Observatorio Pla D'Arguines",
+"lon": 359.6139
+},
+"942": {
+"name": "Grantham",
+"lon": 359.3636
+},
+"943": {
+"name": "Peverell",
+"lon": 355.8664
+},
+"944": {
+"name": "Observatorio Geminis, Dos Hermanas",
+"lon": 354.08315
+},
+"945": {
+"name": "Observatorio Monte Deva",
+"lon": 354.3986
+},
+"946": {
+"name": "Ametlla de Mar",
+"lon": 0.7931
+},
+"947": {
+"name": "Saint-Sulpice",
+"lon": 2.1244
+},
+"948": {
+"name": "Pymoor",
+"lon": 0.2189
+},
+"949": {
+"name": "Durtal",
+"lon": 359.8169
+},
+"950": {
+"name": "La Palma",
+"lon": 342.1176
+},
+"951": {
+"name": "Highworth",
+"lon": 358.2983
+},
+"952": {
+"name": "Marxuquera",
+"lon": 359.7583
+},
+"953": {
+"name": "Montjoia",
+"lon": 2.1339
+},
+"954": {
+"name": "Teide Observatory",
+"lon": 343.4906
+},
+"955": {
+"name": "Sassoeiros",
+"lon": 350.6739
+},
+"956": {
+"name": "Observatorio Pozuelo",
+"lon": 356.1908
+},
+"957": {
+"name": "Merignac",
+"lon": 359.3506
+},
+"958": {
+"name": "Observatoire de Dax",
+"lon": 358.96947
+},
+"959": {
+"name": "Ramonville Saint Agne",
+"lon": 1.4653
+},
+"960": {
+"name": "Rolvenden",
+"lon": 0.6108
+},
+"961": {
+"name": "City Observatory, Calton Hill, Edinburgh",
+"lon": 356.8206
+},
+"962": {
+"name": "Gandia",
+"lon": 359.8188
+},
+"963": {
+"name": "Werrington",
+"lon": 359.7333
+},
+"964": {
+"name": "Southend Bradfield",
+"lon": 358.8433
+},
+"965": {
+"name": "Observacao Astronomica no Algarve, Portimao",
+"lon": 351.4008
+},
+"966": {
+"name": "Church Stretton",
+"lon": 357.20423
+},
+"967": {
+"name": "Greens Norton",
+"lon": 358.9778
+},
+"968": {
+"name": "Haverhill",
+"lon": 0.425
+},
+"969": {
+"name": "London-Regents Park",
+"lon": 359.8454
+},
+"970": {
+"name": "Chelmsford",
+"lon": 0.49348
+},
+"971": {
+"name": "Lisbon",
+"lon": 350.81249
+},
+"972": {
+"name": "Dun Echt",
+"lon": 357.5833
+},
+"973": {
+"name": "Harrow",
+"lon": 359.6671
+},
+"974": {
+"name": "Genoa Observatory",
+"lon": 8.84431
+},
+"975": {
+"name": "Observatorio Astronomico de Valencia",
+"lon": 359.6333
+},
+"976": {
+"name": "Leamington Spa",
+"lon": 358.4669
+},
+"977": {
+"name": "Markree",
+"lon": 351.5483
+},
+"978": {
+"name": "Conder Brow",
+"lon": 357.24541
+},
+"979": {
+"name": "South Wonston",
+"lon": 358.6697
+},
+"980": {
+"name": "Lancaster",
+"lon": 357.22
+},
+"981": {
+"name": "Armagh",
+"lon": 353.3522
+},
+"982": {
+"name": "Dunsink Observatory, Dublin",
+"lon": 353.6621
+},
+"983": {
+"name": "San Fernando",
+"lon": 353.79525
+},
+"984": {
+"name": "Eastfield",
+"lon": 357.26975
+},
+"985": {
+"name": "Telford",
+"lon": 357.5317
+},
+"986": {
+"name": "Ascot",
+"lon": 359.36053
+},
+"987": {
+"name": "Isle of Man Observatory, Foxdale",
+"lon": 355.3735
+},
+"988": {
+"name": "Glasgow",
+"lon": 355.706
+},
+"989": {
+"name": "Wilfred Hall Observatory, Preston",
+"lon": 357.40582
+},
+"990": {
+"name": "Madrid",
+"lon": 356.3121
+},
+"991": {
+"name": "Liverpool (since 1867)",
+"lon": 356.9278
+},
+"992": {
+"name": "Liverpool (before 1867)",
+"lon": 356.9995
+},
+"993": {
+"name": "Woolston Observatory",
+"lon": 357.49556
+},
+"994": {
+"name": "Godalming",
+"lon": 359.3878
+},
+"995": {
+"name": "Durham",
+"lon": 358.4177
+},
+"996": {
+"name": "Oxford",
+"lon": 358.7483
+},
+"997": {
+"name": "Hartwell",
+"lon": 359.15
+},
+"998": {
+"name": "London-Mill Hill",
+"lon": 359.75753
+},
+"999": {
+"name": "Bordeaux-Floirac",
+"lon": 359.4725
+},
+"A00": {
+"name": "Gravesend",
+"lon": 0.377
+},
+"A01": {
+"name": "Masia Cal Maciarol Modul 2",
+"lon": 0.7441
+},
+"A02": {
+"name": "Masia Cal Maciarol Modul 8",
+"lon": 0.7441
+},
+"A03": {
+"name": "Torredembarra",
+"lon": 1.4
+},
+"A04": {
+"name": "Saint-Caprais",
+"lon": 1.7181
+},
+"A05": {
+"name": "Belesta",
+"lon": 1.8175
+},
+"A06": {
+"name": "Mataro",
+"lon": 2.4417
+},
+"A07": {
+"name": "Gretz-Armainvilliers",
+"lon": 2.7444
+},
+"A08": {
+"name": "Malibert",
+"lon": 2.8847
+},
+"A09": {
+"name": "Quincampoix",
+"lon": 1.1803
+},
+"A10": {
+"name": "Observatorio Astronomico de Corbera",
+"lon": 1.9281
+},
+"A11": {
+"name": "Wormhout",
+"lon": 2.4718
+},
+"A12": {
+"name": "Stazione Astronomica di Sozzago",
+"lon": 8.74768
+},
+"A13": {
+"name": "Observatoire Naef, Ependes",
+"lon": 7.1394
+},
+"A14": {
+"name": "Les Engarouines Observatory",
+"lon": 5.1864
+},
+"A15": {
+"name": "Josef Bresser Sternwarte, Borken",
+"lon": 6.7972
+},
+"A16": {
+"name": "Tentlingen",
+"lon": 7.1922
+},
+"A17": {
+"name": "Guidestar Observatory, Weinheim",
+"lon": 8.68147
+},
+"A18": {
+"name": "Herne",
+"lon": 7.1761
+},
+"A19": {
+"name": "Koln",
+"lon": 7.0744
+},
+"A20": {
+"name": "Sogel",
+"lon": 7.51887
+},
+"A21": {
+"name": "Irmtraut",
+"lon": 8.0581
+},
+"A22": {
+"name": "Starkenburg Sternwarte-SOHAS",
+"lon": 8.6531
+},
+"A23": {
+"name": "Weinheim",
+"lon": 8.6677
+},
+"A24": {
+"name": "New Millennium Observatory, Mozzate",
+"lon": 8.9481
+},
+"A25": {
+"name": "Nova Milanese",
+"lon": 9.1925
+},
+"A26": {
+"name": "Darmstadt",
+"lon": 8.65736
+},
+"A27": {
+"name": "Eridanus Observatory, Langelsheim",
+"lon": 10.3236
+},
+"A28": {
+"name": "Kempten",
+"lon": 10.3342
+},
+"A29": {
+"name": "Santa Maria a Monte",
+"lon": 10.6733
+},
+"A30": {
+"name": "Crespadoro",
+"lon": 11.22308
+},
+"A31": {
+"name": "Corcaroli Observatory",
+"lon": 11.4186
+},
+"A32": {
+"name": "Panker",
+"lon": 10.5517
+},
+"A33": {
+"name": "Volkssternwarte Kirchheim",
+"lon": 11.0157
+},
+"A34": {
+"name": "Grosshabersdorf",
+"lon": 10.7911
+},
+"A35": {
+"name": "Hormersdorf Observatory",
+"lon": 12.8978
+},
+"A36": {
+"name": "Ganda di Aviatico",
+"lon": 9.7911
+},
+"A37": {
+"name": "Mueggelheim",
+"lon": 13.66158
+},
+"A38": {
+"name": "Campocatino Automated Telescope, Collepardo",
+"lon": 13.3747
+},
+"A39": {
+"name": "Altenburg",
+"lon": 12.4186
+},
+"A40": {
+"name": "Pieta",
+"lon": 14.4978
+},
+"A41": {
+"name": "Rezman Observatory, Kamnik",
+"lon": 14.5911
+},
+"A42": {
+"name": "Gehrden",
+"lon": 9.5019
+},
+"A43": {
+"name": "Inastars Observatory, Potsdam (before 2006)",
+"lon": 13.0897
+},
+"A44": {
+"name": "Altschwendt",
+"lon": 13.6972
+},
+"A45": {
+"name": "Karrenkneul",
+"lon": 9.362
+},
+"A46": {
+"name": "Lelekovice",
+"lon": 16.5825
+},
+"A47": {
+"name": "Matera",
+"lon": 16.6031
+},
+"A48": {
+"name": "Povegliano Veronese",
+"lon": 10.8885
+},
+"A49": {
+"name": "Uppsala-Angstrom",
+"lon": 17.6372
+},
+"A50": {
+"name": "Andrushivka Astronomical Observatory",
+"lon": 28.9973
+},
+"A51": {
+"name": "Danzig",
+"lon": 18.6667
+},
+"A52": {
+"name": "Etyek",
+"lon": 18.7553
+},
+"A53": {
+"name": "Peschiera del Garda",
+"lon": 10.6883
+},
+"A54": {
+"name": "Ostrorog",
+"lon": 16.6217
+},
+"A55": {
+"name": "Osservatorio Astronomico Vallemare di Borbona",
+"lon": 13.1181
+},
+"A56": {
+"name": "Parma",
+"lon": 10.3197
+},
+"A57": {
+"name": "Osservatorio Astron. Margherita Hack, Firenze",
+"lon": 11.1031
+},
+"A58": {
+"name": "Observatoire de Chalandray-Canotiers",
+"lon": 2.4694
+},
+"A59": {
+"name": "Karlovy Vary Observatory",
+"lon": 12.9071
+},
+"A60": {
+"name": "YSTAR-NEOPAT Station, Sutherland",
+"lon": 20.8106
+},
+"A61": {
+"name": "Tortona",
+"lon": 8.8581
+},
+"A62": {
+"name": "Aichtal",
+"lon": 9.2301
+},
+"A63": {
+"name": "Cosmosoz Obs., Tassin la Demi Lune",
+"lon": 4.7567
+},
+"A64": {
+"name": "Couvaloup de St-Cergue",
+"lon": 6.1151
+},
+"A65": {
+"name": "Le Couvent de Lentin",
+"lon": 2.4083
+},
+"A66": {
+"name": "Stazione Osservativa Astronomica, Livorno",
+"lon": 10.3161
+},
+"A67": {
+"name": "Chiusa di Pesio",
+"lon": 7.6785
+},
+"A68": {
+"name": "Swedenborg Obs., Bockholmwik",
+"lon": 9.6533
+},
+"A69": {
+"name": "Osservatorio Palazzo Bindi Sergardi",
+"lon": 11.33
+},
+"A70": {
+"name": "Lumijoki",
+"lon": 25.2033
+},
+"A71": {
+"name": "Stixendorf",
+"lon": 15.4533
+},
+"A72": {
+"name": "Radebeul Observatory",
+"lon": 13.6222
+},
+"A73": {
+"name": "Penzing Astrometric Obs., Vienna",
+"lon": 16.2895
+},
+"A74": {
+"name": "Bergen-Enkheim Observatory",
+"lon": 8.7624
+},
+"A75": {
+"name": "Fort Pius Observatory, Barcelona",
+"lon": 2.1861
+},
+"A76": {
+"name": "Andromeda Observatory, Miskolc",
+"lon": 20.8356
+},
+"A77": {
+"name": "Observatoire Chante-Perdrix, Dauban",
+"lon": 5.64693
+},
+"A78": {
+"name": "Stia",
+"lon": 11.71509
+},
+"A79": {
+"name": "Zvezdno Obshtestvo Observatory, Plana",
+"lon": 23.8434
+},
+"A80": {
+"name": "Lindenberg Observatory",
+"lon": 14.1222
+},
+"A81": {
+"name": "Balzaretto Observatory, Rome",
+"lon": 12.4033
+},
+"A82": {
+"name": "Osservatorio Astronomico di Trieste",
+"lon": 13.8744
+},
+"A83": {
+"name": "Jakokoski Observatory",
+"lon": 29.9969
+},
+"A84": {
+"name": "TUBITAK National Observatory",
+"lon": 30.3333
+},
+"A85": {
+"name": "Odesa  Astronomical Observatory, Kryzhanovka",
+"lon": 30.8065
+},
+"A86": {
+"name": "Albigneux",
+"lon": 4.3547
+},
+"A87": {
+"name": "Rimbach",
+"lon": 8.7662
+},
+"A88": {
+"name": "Bolzaneto",
+"lon": 8.90133
+},
+"A89": {
+"name": "Sterni Observatory, Kempten",
+"lon": 10.3308
+},
+"A90": {
+"name": "Sant Gervasi Observatory, Barcelona",
+"lon": 2.1431
+},
+"A91": {
+"name": "Hankasalmi Observatory",
+"lon": 26.5997
+},
+"A92": {
+"name": "Urseanu Observatory, Bucharest",
+"lon": 26.0927
+},
+"A93": {
+"name": "Lucca",
+"lon": 10.4189
+},
+"A94": {
+"name": "Cormons",
+"lon": 13.4577
+},
+"A95": {
+"name": "Taurus Hill Observatory, Varkaus",
+"lon": 28.3892
+},
+"A96": {
+"name": "Klosterneuburg",
+"lon": 16.2867
+},
+"A97": {
+"name": "Stammersdorf",
+"lon": 16.4219
+},
+"A98": {
+"name": "Observatory Mazzarot-1, Baran'",
+"lon": 30.2092
+},
+"A99": {
+"name": "Osservatorio del Monte Baldo",
+"lon": 10.8589
+},
+"B00": {
+"name": "Savigny-le-Temple",
+"lon": 2.5767
+},
+"B01": {
+"name": "Taunus Observatory, Frankfurt",
+"lon": 8.4464
+},
+"B02": {
+"name": "Kielce",
+"lon": 20.6566
+},
+"B03": {
+"name": "Alter Satzberg, Vienna",
+"lon": 16.2698
+},
+"B04": {
+"name": "OAVdA, Saint-Barthelemy",
+"lon": 7.47851
+},
+"B05": {
+"name": "Ka-Dar Observatory, Barybino",
+"lon": 37.8831
+},
+"B06": {
+"name": "Montseny Astronomical Observatory",
+"lon": 2.53372
+},
+"B07": {
+"name": "Camorino",
+"lon": 9.0033
+},
+"B08": {
+"name": "San Lazzaro di Savena",
+"lon": 11.3807
+},
+"B09": {
+"name": "Capannoli",
+"lon": 10.6708
+},
+"B10": {
+"name": "Observatoire des Baronnies Provencales, Moydans",
+"lon": 5.515
+},
+"B11": {
+"name": "Osservatorio Cima Rest, Magasa",
+"lon": 10.6286
+},
+"B12": {
+"name": "Koschny Observatory, Noordwijkerhout",
+"lon": 4.4906
+},
+"B13": {
+"name": "Osservatorio di Tradate",
+"lon": 8.9311
+},
+"B14": {
+"name": "Ca del Monte",
+"lon": 9.0758
+},
+"B15": {
+"name": "Inastars Observatory, Potsdam (since 2006)",
+"lon": 13.0129
+},
+"B16": {
+"name": "1st Moscow Gymnasium Observatory, Lipki",
+"lon": 36.9547
+},
+"B17": {
+"name": "AZT-8 Yevpatoriya",
+"lon": 33.1628
+},
+"B18": {
+"name": "Terskol",
+"lon": 42.5008
+},
+"B19": {
+"name": "Observatorio Iluro, Mataro",
+"lon": 2.4414
+},
+"B20": {
+"name": "Observatorio Carmelita, Tiana",
+"lon": 2.2636
+},
+"B21": {
+"name": "Gaisberg Observatory, Schaerding",
+"lon": 13.4744
+},
+"B22": {
+"name": "Observatorio d'Ager",
+"lon": 0.7441
+},
+"B23": {
+"name": "Fiamene",
+"lon": 10.971
+},
+"B24": {
+"name": "Cesson",
+"lon": 2.5983
+},
+"B25": {
+"name": "Catania",
+"lon": 15.0557
+},
+"B26": {
+"name": "Observatoire des Terres Blanches, Reillanne",
+"lon": 5.6667
+},
+"B27": {
+"name": "Picard Observatory, St. Veit",
+"lon": 14.1544
+},
+"B28": {
+"name": "Mandi Observatory, Pagnacco",
+"lon": 13.1836
+},
+"B29": {
+"name": "L'Ampolla Observatory, Tarragona",
+"lon": 0.6701
+},
+"B30": {
+"name": "Szamotuly-Galowo",
+"lon": 16.5689
+},
+"B31": {
+"name": "Southern African Large Telescope, Sutherland",
+"lon": 20.8108
+},
+"B32": {
+"name": "Gelenau",
+"lon": 12.9486
+},
+"B33": {
+"name": "Libbiano Observatory, Peccioli",
+"lon": 10.7783
+},
+"B34": {
+"name": "Green Island Observatory, Gecitkale",
+"lon": 33.7258
+},
+"B35": {
+"name": "Bareket Observatory, Macabim",
+"lon": 35.0317
+},
+"B36": {
+"name": "Redshed Observatory, Kallham",
+"lon": 13.7125
+},
+"B37": {
+"name": "Obs. de L' Ametlla del Valles, Barcelona",
+"lon": 2.25934
+},
+"B38": {
+"name": "Santa Mama",
+"lon": 11.85746
+},
+"B39": {
+"name": "Tradate",
+"lon": 8.9072
+},
+"B40": {
+"name": "Skylive Observatory, Catania",
+"lon": 15.0706
+},
+"B41": {
+"name": "Zlin Observatory",
+"lon": 17.6925
+},
+"B42": {
+"name": "Vitebsk",
+"lon": 30.32514
+},
+"B43": {
+"name": "Hennef",
+"lon": 7.3089
+},
+"B44": {
+"name": "Eygalayes",
+"lon": 5.5906
+},
+"B45": {
+"name": "Narama",
+"lon": 19.9356
+},
+"B46": {
+"name": "Sintini Observatory, Alfonsine",
+"lon": 12.05439
+},
+"B47": {
+"name": "Metsala Observatory, Espoo",
+"lon": 24.7503
+},
+"B48": {
+"name": "Bocholt",
+"lon": 6.5981
+},
+"B49": {
+"name": "Paus Observatory, Sabadell",
+"lon": 2.1125
+},
+"B50": {
+"name": "Corner Observatory, Durmersheim",
+"lon": 8.2767
+},
+"B51": {
+"name": "Vallauris",
+"lon": 7.06669
+},
+"B52": {
+"name": "Observatorio El Far",
+"lon": 2.99725
+},
+"B53": {
+"name": "Casal Lumbroso, Rome",
+"lon": 12.3536
+},
+"B54": {
+"name": "Ager",
+"lon": 0.7439
+},
+"B55": {
+"name": "Comeglians",
+"lon": 12.876
+},
+"B56": {
+"name": "Observatorio Sant Pere, Mataro",
+"lon": 2.44935
+},
+"B57": {
+"name": "Laietania Observatory, Parets del Valles",
+"lon": 2.22439
+},
+"B58": {
+"name": "Polaris Observatory, Budapest",
+"lon": 19.02529
+},
+"B59": {
+"name": "Borken",
+"lon": 6.87881
+},
+"B60": {
+"name": "Deep Sky Observatorium, Bad Bentheim",
+"lon": 7.17531
+},
+"B61": {
+"name": "Valldoreix Obs.,Sant Cugat del Valles",
+"lon": 2.0435
+},
+"B62": {
+"name": "Brelingen",
+"lon": 9.68531
+},
+"B63": {
+"name": "Solaris Observatory, Luczanowice",
+"lon": 20.10799
+},
+"B64": {
+"name": "Slope Rock Observatory, Hyvinkaa",
+"lon": 24.88779
+},
+"B65": {
+"name": "Komakallio Observatory, Kirkkonummi",
+"lon": 24.3878
+},
+"B66": {
+"name": "Osservatorio di Casasco",
+"lon": 9.00693
+},
+"B67": {
+"name": "Sternwarte Mirasteilas, Falera",
+"lon": 9.22419
+},
+"B68": {
+"name": "Mount Matajur Observatory",
+"lon": 13.5395
+},
+"B69": {
+"name": "Owls and Ravens Observatory, Holzgerlingen",
+"lon": 9.01719
+},
+"B70": {
+"name": "Sant Celoni",
+"lon": 2.4937
+},
+"B71": {
+"name": "Observatorio El Vendrell",
+"lon": 1.5213
+},
+"B72": {
+"name": "Soerth Observatory",
+"lon": 7.68105
+},
+"B73": {
+"name": "Mauren Valley Observatory, Holzgerlingen",
+"lon": 8.98503
+},
+"B74": {
+"name": "Santa Maria de Montmagastrell",
+"lon": 1.10536
+},
+"B75": {
+"name": "Stazione Astronomica Betelgeuse, Magnago",
+"lon": 8.80519
+},
+"B76": {
+"name": "Sternwarte Schonfeld, Dresden",
+"lon": 13.8944
+},
+"B77": {
+"name": "Schafmatt Observatory, Aarau",
+"lon": 7.95083
+},
+"B78": {
+"name": "Astrophoton Observatory, Audorf",
+"lon": 14.12811
+},
+"B79": {
+"name": "Marana Observatory",
+"lon": 11.2099
+},
+"B80": {
+"name": "Osservatorio Astronomico Campomaggiore",
+"lon": 12.74126
+},
+"B81": {
+"name": "Caimari",
+"lon": 2.899
+},
+"B82": {
+"name": "Maidbronn",
+"lon": 9.9716
+},
+"B83": {
+"name": "Gieres",
+"lon": 5.79769
+},
+"B84": {
+"name": "Cyclops Observatory, Oostkapelle",
+"lon": 3.53775
+},
+"B85": {
+"name": "Beilen Observatory",
+"lon": 6.51011
+},
+"B86": {
+"name": "Sternwarte Hagen",
+"lon": 7.45561
+},
+"B87": {
+"name": "Banyoles",
+"lon": 2.7701
+},
+"B88": {
+"name": "Bigmuskie Observatory, Mombercelli",
+"lon": 8.29681
+},
+"B89": {
+"name": "Observatori Astronomic de Tiana",
+"lon": 2.2619
+},
+"B90": {
+"name": "Malina River Observatory, Povoletto",
+"lon": 13.29686
+},
+"B91": {
+"name": "Bollwiller",
+"lon": 7.25544
+},
+"B92": {
+"name": "Chinon",
+"lon": 0.27539
+},
+"B93": {
+"name": "Hoogeveen",
+"lon": 6.47856
+},
+"B94": {
+"name": "Petrozavodsk",
+"lon": 34.2817
+},
+"B95": {
+"name": "Achternholt",
+"lon": 8.1545
+},
+"B96": {
+"name": "Brixiis Observatory, Kruibeke",
+"lon": 4.31031
+},
+"B97": {
+"name": "Sterrenwacht Andromeda, Meppel",
+"lon": 6.1118
+},
+"B98": {
+"name": "Siena",
+"lon": 11.313
+},
+"B99": {
+"name": "Santa Coloma de Gramenet",
+"lon": 0.7443
+},
+"C00": {
+"name": "Velikie Luki",
+"lon": 30.515
+},
+"C01": {
+"name": "Lohrmann-Observatorium, Triebenberg",
+"lon": 13.92293
+},
+"C02": {
+"name": "Observatorio Royal Park",
+"lon": 2.5305
+},
+"C03": {
+"name": "Clayhole Observatory, Jokela",
+"lon": 24.96114
+},
+"C04": {
+"name": "Kramatorsk",
+"lon": 37.6331
+},
+"C05": {
+"name": "Konigsleiten",
+"lon": 12.1153
+},
+"C06": {
+"name": "Krasnoyarsk",
+"lon": 92.9744
+},
+"C07": {
+"name": "Anysllum Observatory, Ager",
+"lon": 0.7442
+},
+"C08": {
+"name": "Fiby",
+"lon": 17.3761
+},
+"C09": {
+"name": "Rouet",
+"lon": 3.80397
+},
+"C10": {
+"name": "Maisoncelles",
+"lon": 3.42622
+},
+"C11": {
+"name": "City Observatory, Slany",
+"lon": 14.0901
+},
+"C12": {
+"name": "Berta Observatory, Sabadell",
+"lon": 2.1107
+},
+"C13": {
+"name": "Como",
+"lon": 9.10031
+},
+"C14": {
+"name": "Sky Vistas Observatory, Eichgraben",
+"lon": 15.967
+},
+"C15": {
+"name": "ISON-Ussuriysk Observatory",
+"lon": 132.1656
+},
+"C16": {
+"name": "Isarwinkel Observatory, Bad Tolz",
+"lon": 11.57261
+},
+"C17": {
+"name": "Pingu, Ager",
+"lon": 0.74381
+},
+"C18": {
+"name": "Frasnes-Lez-Anvaing",
+"lon": 3.604
+},
+"C19": {
+"name": "ROSA Observatory, Vaucluse",
+"lon": 5.4231
+},
+"C20": {
+"name": "Kislovodsk Mtn. Astronomical Stn., Pulkovo Obs.",
+"lon": 42.66191
+},
+"C21": {
+"name": "Observatorio Via Lactea, Ager",
+"lon": 0.74383
+},
+"C22": {
+"name": "Oberwiesenthal",
+"lon": 12.9599
+},
+"C23": {
+"name": "Olmen",
+"lon": 5.15439
+},
+"C24": {
+"name": "Seveso",
+"lon": 9.1331
+},
+"C25": {
+"name": "Pulkovo Observatory Station, Campo Imperatore",
+"lon": 13.55806
+},
+"C26": {
+"name": "Levendaal Observatory, Leiden",
+"lon": 4.49928
+},
+"C27": {
+"name": "Pallerols",
+"lon": 1.35302
+},
+"C28": {
+"name": "Wellinghofen",
+"lon": 7.483
+},
+"C29": {
+"name": "Observatori Astronomic de Les Planes de Son",
+"lon": 1.07889
+},
+"C30": {
+"name": "Petrozavodsk University Obs., Sheltozero Stn.",
+"lon": 35.3425
+},
+"C31": {
+"name": "Sternwarte Neanderhoehe Hochdahl e.V., Erkrath",
+"lon": 6.9825
+},
+"C32": {
+"name": "Ka-Dar Observatory, TAU Station, Nizhny Arkhyz",
+"lon": 41.4258
+},
+"C33": {
+"name": "Observatorio CEAM, Caimari",
+"lon": 2.8989
+},
+"C34": {
+"name": "Baja Astronomical Observatory",
+"lon": 19.0108
+},
+"C35": {
+"name": "Terrassa",
+"lon": 2.0349
+},
+"C36": {
+"name": "Starry Wanderer Observatory, Baran'",
+"lon": 30.3086
+},
+"C37": {
+"name": "Stowupland",
+"lon": 1.0183
+},
+"C38": {
+"name": "Varuna Observatory, Cuorgne",
+"lon": 7.64911
+},
+"C39": {
+"name": "Nijmegen",
+"lon": 5.7992
+},
+"C40": {
+"name": "Kuban State University Astrophysical Observatory",
+"lon": 39.0308
+},
+"C41": {
+"name": "MASTER-II Observatory, Kislovodsk",
+"lon": 42.66126
+},
+"C42": {
+"name": "Xingming Observatory, Mt. Nanshan",
+"lon": 87.1778
+},
+"C43": {
+"name": "Hoyerswerda",
+"lon": 14.2792
+},
+"C44": {
+"name": "A. Volta Observatory, Lanzo d'Intelvi",
+"lon": 9.02239
+},
+"C45": {
+"name": "La Giustiniana",
+"lon": 12.40639
+},
+"C46": {
+"name": "Horizon Observatory, Petropavlovsk",
+"lon": 69.12219
+},
+"C47": {
+"name": "Nonndorf",
+"lon": 15.2356
+},
+"C48": {
+"name": "Sayan Solar Observatory, Irkutsk",
+"lon": 100.9214
+},
+"C49": {
+"name": "STEREO-A",
+"lon": null
+},
+"C50": {
+"name": "STEREO-B",
+"lon": null
+},
+"C51": {
+"name": "WISE",
+"lon": null
+},
+"C52": {
+"name": "Swift",
+"lon": null
+},
+"C53": {
+"name": "NEOSSat",
+"lon": null
+},
+"C54": {
+"name": "New Horizons",
+"lon": null
+},
+"C55": {
+"name": "Kepler",
+"lon": null
+},
+"C56": {
+"name": "LISA-Pathfinder",
+"lon": null
+},
+"C57": {
+"name": "TESS",
+"lon": null
+},
+"C58": {
+"name": "NEO Surveyor",
+"lon": null
+},
+"C59": {
+"name": "Yangwang-1",
+"lon": null
+},
+"C60": {
+"name": "Argelander Institute for Astronomy Obs., Bonn",
+"lon": 7.06926
+},
+"C61": {
+"name": "Chelles",
+"lon": 2.58202
+},
+"C62": {
+"name": "Eurac Observatory, Bolzano",
+"lon": 11.3467
+},
+"C63": {
+"name": "Giuseppe Piazzi Observatory, Ponte in Valtellina",
+"lon": 9.9797
+},
+"C64": {
+"name": "Puchenstuben",
+"lon": 15.28439
+},
+"C65": {
+"name": "Observatori Astronomic del Montsec",
+"lon": 0.72965
+},
+"C66": {
+"name": "Observatorio El Cielo de Consell",
+"lon": 2.805
+},
+"C67": {
+"name": "Gnevsdorf",
+"lon": 12.2199
+},
+"C68": {
+"name": "Ellinogermaniki Agogi Observatory, Pallini",
+"lon": 23.89339
+},
+"C69": {
+"name": "Bayerwald Sternwarte, Neuhuette",
+"lon": 13.3611
+},
+"C70": {
+"name": "Uiterstegracht Station, Leiden",
+"lon": 4.49775
+},
+"C71": {
+"name": "Sant Marti Sesgueioles",
+"lon": 1.4892
+},
+"C72": {
+"name": "Palestrina",
+"lon": 12.8717
+},
+"C73": {
+"name": "Galati Observatory",
+"lon": 28.0325
+},
+"C74": {
+"name": "Observatorio El Teatrillo de Lyra, Ager",
+"lon": 0.7449
+},
+"C75": {
+"name": "Whitestar Observatory, Borgobello",
+"lon": 13.2225
+},
+"C76": {
+"name": "Observatorio Estels, Ager",
+"lon": 0.74431
+},
+"C77": {
+"name": "Bernezzo Observatory",
+"lon": 7.4535
+},
+"C78": {
+"name": "Martin S. Kraar Observatory, Rehovot",
+"lon": 34.81242
+},
+"C79": {
+"name": "Roser Observatory, Blanes",
+"lon": 2.7855
+},
+"C80": {
+"name": "Don Astronomical Observatory, Rostov-on-Don",
+"lon": 39.7651
+},
+"C81": {
+"name": "Dolomites Astronomical Observatory",
+"lon": 10.84098
+},
+"C82": {
+"name": "Osservatorio Astronomico Nastro Verde, Sorrento",
+"lon": 14.35759
+},
+"C83": {
+"name": "Badalozhnyj Observatory",
+"lon": 91.8425
+},
+"C84": {
+"name": "Badalona",
+"lon": 2.24372
+},
+"C85": {
+"name": "Observatorio Cala d'Hort, Ibiza",
+"lon": 1.2408
+},
+"C86": {
+"name": "Blanes",
+"lon": 2.7813
+},
+"C87": {
+"name": "Rimbach",
+"lon": 8.7689
+},
+"C88": {
+"name": "Montarrenti Observatory, Siena",
+"lon": 11.18331
+},
+"C89": {
+"name": "Astronomical Station Vidojevica",
+"lon": 21.55558
+},
+"C90": {
+"name": "Vinyols",
+"lon": 1.05181
+},
+"C91": {
+"name": "Montevenere Observatory, Monzuno",
+"lon": 11.22621
+},
+"C92": {
+"name": "Valdicerro Observatory, Loreto",
+"lon": 13.60995
+},
+"C93": {
+"name": "Bellavista Observatory, L'Aquila",
+"lon": 13.4064
+},
+"C94": {
+"name": "MASTER-II Observatory, Tunka",
+"lon": 103.067
+},
+"C95": {
+"name": "SATINO Remote Observatory, Haute Provence",
+"lon": 5.71239
+},
+"C96": {
+"name": "OACL Observatory, Mosciano Sant Angelo",
+"lon": 13.8786
+},
+"C97": {
+"name": "Al-Fulaij Observatory, Oman",
+"lon": 57.97633
+},
+"C98": {
+"name": "Osservatorio Casellina, Scandicci",
+"lon": 11.1764
+},
+"C99": {
+"name": "Observatori Can Roig, Llagostera",
+"lon": 2.89631
+},
+"D00": {
+"name": "ASC-Kislovodsk Observatory",
+"lon": 42.6536
+},
+"D01": {
+"name": "Andean Northern Observatory, Nummi-Pusula",
+"lon": 23.93061
+},
+"D02": {
+"name": "Observatori Petit Sant Feliu",
+"lon": 2.05189
+},
+"D03": {
+"name": "Rantiga Osservatorio, Tincana",
+"lon": 10.58892
+},
+"D04": {
+"name": "Krasnodar",
+"lon": 38.8569
+},
+"D05": {
+"name": "ISON-Terskol Observatory",
+"lon": 42.50005
+},
+"D06": {
+"name": "Associazione Tuscolana di Astronomia, Domatore",
+"lon": 12.77017
+},
+"D07": {
+"name": "Wegberg",
+"lon": 6.2094
+},
+"D08": {
+"name": "Ghezz Observatory, Leontica",
+"lon": 8.9191
+},
+"D09": {
+"name": "Observatory Gromme, Maasmechelen",
+"lon": 5.6794
+},
+"D10": {
+"name": "Gaertringen",
+"lon": 8.90181
+},
+"D11": {
+"name": "Bastidan Observatory",
+"lon": 5.62797
+},
+"D12": {
+"name": "Filzi School Observatory, Laives",
+"lon": 11.33806
+},
+"D13": {
+"name": "Cat's Eye Observatory",
+"lon": 11.56369
+},
+"D14": {
+"name": "Nanchuan Observatory, Guangzhou",
+"lon": 113.3231
+},
+"D15": {
+"name": "Sternwarte F.Schiller-Gymnasium, Weimar",
+"lon": 11.31781
+},
+"D16": {
+"name": "Po Leung Kuk Observatory, Tuen Mun",
+"lon": 113.96422
+},
+"D17": {
+"name": "Hong Kong",
+"lon": 114.22
+},
+"D18": {
+"name": "Mt. Guizi Observatory",
+"lon": 114.358
+},
+"D19": {
+"name": "Hong Kong Space Museum Sai Kung iObservatory",
+"lon": 114.323
+},
+"D20": {
+"name": "Zadko Observatory, Wallingup Plain",
+"lon": 115.71311
+},
+"D21": {
+"name": "Shenton Park",
+"lon": 115.815
+},
+"D22": {
+"name": "UWA Observatory, Crawley",
+"lon": 115.81667
+},
+"D23": {
+"name": "OAIA, Alcarras",
+"lon": 0.51853
+},
+"D24": {
+"name": "LightBuckets Observatory, Pingelly",
+"lon": 117.08969
+},
+"D25": {
+"name": "Tzec Maun Observatory, Pingelly (before 2010)",
+"lon": 117.08978
+},
+"D26": {
+"name": "Peyrole Observatory, Peyrole",
+"lon": 1.92131
+},
+"D27": {
+"name": "Observatoire de Fontcaude, Juvignac",
+"lon": 3.80361
+},
+"D28": {
+"name": "Escaldarium Observatory,Caldes de Montbui",
+"lon": 2.18286
+},
+"D29": {
+"name": "Purple Mountain Observatory, XuYi Station",
+"lon": 118.4639
+},
+"D30": {
+"name": "Sternwarte Silbergraben, Erfurt",
+"lon": 11.0835
+},
+"D31": {
+"name": "Osservatorio Aldebaran, Rivalba",
+"lon": 10.09797
+},
+"D32": {
+"name": "JiangNanTianChi Observatory, Mt. Getianling",
+"lon": 119.59975
+},
+"D33": {
+"name": "Kenting Observatory, Checheng",
+"lon": 120.6982
+},
+"D34": {
+"name": "Kenting Observatory, Hengchun",
+"lon": 120.7839
+},
+"D35": {
+"name": "Lulin Observatory",
+"lon": 120.8736
+},
+"D36": {
+"name": "Tataka, Mt. Yu-Shan National Park",
+"lon": 120.8897
+},
+"D37": {
+"name": "Lulin Widefield Telescope, Mt. Lulin",
+"lon": 120.87325
+},
+"D38": {
+"name": "Tecnosky Astropark, Felizzano",
+"lon": 8.43764
+},
+"D39": {
+"name": "Shandong University Observatory, Weihai",
+"lon": 122.04961
+},
+"D40": {
+"name": "Frosinone",
+"lon": 13.33772
+},
+"D41": {
+"name": "Osservatorio Astronomico Orciatico",
+"lon": 10.71704
+},
+"D42": {
+"name": "Piero Angela Observatory, Scandicci",
+"lon": 11.19084
+},
+"D43": {
+"name": "45th Parallel Observatory, Pino Torinese",
+"lon": 7.77039
+},
+"D44": {
+"name": "Ishigakijima Astronomical Observatory",
+"lon": 124.13928
+},
+"D45": {
+"name": "Kamyk, Trzesn",
+"lon": 21.49325
+},
+"D46": {
+"name": "Observatory Bad Wurzach",
+"lon": 9.90265
+},
+"D47": {
+"name": "BigBang Observatory, Manciano",
+"lon": 11.56366
+},
+"D48": {
+"name": "Niederbexbach Observatory",
+"lon": 7.26381
+},
+"D49": {
+"name": "L'Ametlla de Mar",
+"lon": 0.79444
+},
+"D50": {
+"name": "Vaucluse Observatoire Celeste, Blauvac",
+"lon": 5.21519
+},
+"D51": {
+"name": "Plateau Astronomique La Couronne",
+"lon": 1.94844
+},
+"D52": {
+"name": "ULU Observatory, Caselle Landi",
+"lon": 9.7975
+},
+"D53": {
+"name": "ISON-Blagoveschensk Observatory",
+"lon": 127.482
+},
+"D54": {
+"name": "MASTER-II Observatory, Blagoveshchensk",
+"lon": 127.483
+},
+"D55": {
+"name": "Kangwon Science High School Observatory, Ksho",
+"lon": 127.9747
+},
+"D56": {
+"name": "Osservatorio Sideris Oculus, San Pietro in Gu",
+"lon": 11.67408
+},
+"D57": {
+"name": "Gimhae Astronomical Observatory, Uhbang-dong",
+"lon": 128.88744
+},
+"D58": {
+"name": "KSA SEM Observatory, Danggam-dong",
+"lon": 129.025
+},
+"D59": {
+"name": "MARIAMIR, Saint-Jeannet",
+"lon": 7.15617
+},
+"D60": {
+"name": "Sparky's Stars, Masseris",
+"lon": 13.55146
+},
+"D61": {
+"name": "Suntopia Marina, Sumoto",
+"lon": 134.9131
+},
+"D62": {
+"name": "Miyaki-Argenteus",
+"lon": 130.4494
+},
+"D63": {
+"name": "G. Pascoli Observatory, Barga (since June 2023)",
+"lon": 10.46138
+},
+"D64": {
+"name": "Fucama, Casalincontrada",
+"lon": 14.10967
+},
+"D65": {
+"name": "G. Beltrame, Arcugnano Vicenza",
+"lon": 11.53481
+},
+"D66": {
+"name": "Civico Osservatorio Astronomico di Rozzano",
+"lon": 9.14839
+},
+"D67": {
+"name": "Tula Rooftop Observatory, Tula",
+"lon": 37.62472
+},
+"D68": {
+"name": "Osservatorio Galileo, Padova",
+"lon": 11.73622
+},
+"D69": {
+"name": "JMU Space-Observatory",
+"lon": 9.97013
+},
+"D70": {
+"name": "Tosa",
+"lon": 133.4686
+},
+"D71": {
+"name": "ObservaSTYRium, Stainz bei Straden",
+"lon": 15.89225
+},
+"D72": {
+"name": "WAA Remote Observatory, Hakos",
+"lon": 16.36131
+},
+"D73": {
+"name": "SNX-NET, Hakos",
+"lon": 16.36139
+},
+"D74": {
+"name": "Nakagawa",
+"lon": 134.6819
+},
+"D75": {
+"name": "Cariati",
+"lon": 16.95608
+},
+"D76": {
+"name": "AAT-Terrassa, Terrassa",
+"lon": 2.00703
+},
+"D77": {
+"name": "TD-TRO (Tuscany Remote Observatory)",
+"lon": 10.71736
+},
+"D78": {
+"name": "Iga-Ueno",
+"lon": 136.13281
+},
+"D79": {
+"name": "YSVP Observatory, Vale Park",
+"lon": 138.63092
+},
+"D80": {
+"name": "Gumma Astronomical Observatory",
+"lon": 138.9728
+},
+"D81": {
+"name": "Nagano",
+"lon": 138.2239
+},
+"D82": {
+"name": "Wallaroo",
+"lon": 137.6317
+},
+"D83": {
+"name": "Miwa",
+"lon": 138.4681
+},
+"D84": {
+"name": "Hallet Cove",
+"lon": 138.5086
+},
+"D85": {
+"name": "Ingle Farm",
+"lon": 138.6597
+},
+"D86": {
+"name": "Penwortham",
+"lon": 138.6407
+},
+"D87": {
+"name": "Brooklyn Park",
+"lon": 138.55
+},
+"D88": {
+"name": "Hiratsuka",
+"lon": 139.3142
+},
+"D89": {
+"name": "Yamagata",
+"lon": 140.3383
+},
+"D90": {
+"name": "RAS Observatory, Moorook",
+"lon": 140.342
+},
+"D91": {
+"name": "Adati",
+"lon": 140.825
+},
+"D92": {
+"name": "Osaki",
+"lon": 140.94638
+},
+"D93": {
+"name": "Sendai Astronomical Observatory",
+"lon": 140.75516
+},
+"D94": {
+"name": "Takanezawa, Tochigi",
+"lon": 139.9962
+},
+"D95": {
+"name": "Kurihara",
+"lon": 141.068
+},
+"D96": {
+"name": "Tzec Maun Observatory, Moorook",
+"lon": 140.34216
+},
+"D97": {
+"name": "Berri",
+"lon": 140.57
+},
+"D98": {
+"name": "Loiano TANDEM",
+"lon": 11.33409
+},
+"D99": {
+"name": "AstroKoT, Port-Ste-Marie",
+"lon": 0.39123
+},
+"E00": {
+"name": "Castlemaine",
+"lon": 144.2089
+},
+"E01": {
+"name": "Barfold",
+"lon": 144.54142
+},
+"E03": {
+"name": "RAS Observatory, Officer",
+"lon": 145.3822
+},
+"E04": {
+"name": "Pacific Sky Observatory, Saipan",
+"lon": 145.7403
+},
+"E05": {
+"name": "Earl Hill Observatory, Trinity Beach",
+"lon": 145.69721
+},
+"E07": {
+"name": "Murrumbateman",
+"lon": 148.99889
+},
+"E08": {
+"name": "Wobblesock Observatory, Coonabarabran",
+"lon": 149.33431
+},
+"E09": {
+"name": "Oakley Southern Sky Observatory, Coonabarabran",
+"lon": 149.0814
+},
+"E10": {
+"name": "Siding Spring-Faulkes Telescope South",
+"lon": 149.07085
+},
+"E11": {
+"name": "Frog Rock Observatory, Mudgee",
+"lon": 149.6627
+},
+"E12": {
+"name": "Siding Spring Survey",
+"lon": 149.0642
+},
+"E13": {
+"name": "Wanniassa",
+"lon": 149.0969
+},
+"E14": {
+"name": "Hunters Hill Observatory, Ngunnawal",
+"lon": 149.11
+},
+"E15": {
+"name": "Magellan Observatory, near Goulburn",
+"lon": 149.6061
+},
+"E16": {
+"name": "Grove Creek Observatory, Trunkey",
+"lon": 149.36624
+},
+"E17": {
+"name": "Leura",
+"lon": 150.3417
+},
+"E18": {
+"name": "BDI Observatory, Regents Park",
+"lon": 151.02714
+},
+"E19": {
+"name": "Kingsgrove",
+"lon": 151.0958
+},
+"E20": {
+"name": "Marsfield",
+"lon": 151.1032
+},
+"E21": {
+"name": "Norma Rose Observatory, Leyburn",
+"lon": 151.5667
+},
+"E22": {
+"name": "Univ. of Southern Queensland Obs., Mt. Kent",
+"lon": 151.855
+},
+"E23": {
+"name": "Arcadia",
+"lon": 151.07119
+},
+"E24": {
+"name": "Tangra Observatory, St. Clair",
+"lon": 150.7769
+},
+"E25": {
+"name": "Rochedale (APTA)",
+"lon": 153.117
+},
+"E26": {
+"name": "RAS Observatory, Biggera Waters",
+"lon": 153.3971
+},
+"E27": {
+"name": "Thornlands",
+"lon": 153.2667
+},
+"E28": {
+"name": "Kuriwa Observatory, Hawkesbury Heights",
+"lon": 150.64105
+},
+"E29": {
+"name": "Mardella Observatory",
+"lon": 115.95533
+},
+"E41": {
+"name": "Strathalbyn",
+"lon": 138.89025
+},
+"E42": {
+"name": "AUSTRALIA1/SRI, Swan Reach",
+"lon": 139.57019
+},
+"E52": {
+"name": "The Rock Regional Observatory, The Rock",
+"lon": 147.09597
+},
+"E54": {
+"name": "TransAstra at Springbrook",
+"lon": 149.08147
+},
+"E55": {
+"name": "GOTO South",
+"lon": 149.06411
+},
+"E62": {
+"name": "Slooh.com Australia, Coonabarabran",
+"lon": 149.08135
+},
+"E81": {
+"name": "Nelson",
+"lon": 173.2617
+},
+"E83": {
+"name": "Wither Observatory, Witherlea",
+"lon": 173.95703
+},
+"E84": {
+"name": "Twizel Observatory",
+"lon": 170.10187
+},
+"E85": {
+"name": "Farm Cove",
+"lon": 174.894
+},
+"E86": {
+"name": "Speranza Observatory, Otaki",
+"lon": 175.16937
+},
+"E87": {
+"name": "Turitea",
+"lon": 175.654
+},
+"E89": {
+"name": "Geyserland Observatory, Pukehangi",
+"lon": 176.204
+},
+"E94": {
+"name": "Possum Observatory, Gisborne",
+"lon": 177.88331
+},
+"F51": {
+"name": "Pan-STARRS 1, Haleakala",
+"lon": 203.74409
+},
+"F52": {
+"name": "Pan-STARRS 2, Haleakala",
+"lon": 203.74409
+},
+"F59": {
+"name": "Ironwood Remote Observatory, Hawaii",
+"lon": 201.941
+},
+"F60": {
+"name": "Ironwood Observatory, Hawaii",
+"lon": 201.95283
+},
+"F65": {
+"name": "Haleakala-Faulkes Telescope North",
+"lon": 203.7425
+},
+"F84": {
+"name": "Hibiscus Observatory, Punaauia",
+"lon": 210.3842
+},
+"F85": {
+"name": "Tiki Observatory, Punaauia",
+"lon": 210.3842
+},
+"F86": {
+"name": "Moana Observatory, Punaauia",
+"lon": 210.38381
+},
+"G00": {
+"name": "AZM Martinsberg, Oed",
+"lon": 15.126
+},
+"G01": {
+"name": "Universitaetssternwarte Oldenburg",
+"lon": 8.16528
+},
+"G02": {
+"name": "KYSUCE Observatory, Kysucke Nove Mesto",
+"lon": 18.76539
+},
+"G03": {
+"name": "Capricornus Observatory, Csokako",
+"lon": 18.26061
+},
+"G04": {
+"name": "Schuelerlabor Astronomie St. 7, Wuppertal",
+"lon": 7.14133
+},
+"G05": {
+"name": "Piconcillo, Sierra Morena",
+"lon": 354.53363
+},
+"G06": {
+"name": "Dordrecht, Sterrenburg",
+"lon": 4.6715
+},
+"G07": {
+"name": "Millau Observatory",
+"lon": 3.06386
+},
+"G08": {
+"name": "Observatorio Les Pedritxes, Matadepera",
+"lon": 1.99694
+},
+"G09": {
+"name": "SWF Observatory, South Woodham Ferrers",
+"lon": 0.61056
+},
+"G10": {
+"name": "Clavier Observatory, Lora Del Rio",
+"lon": 354.45055
+},
+"G11": {
+"name": "Breitenweg Observatory, Herkenrath",
+"lon": 7.18379
+},
+"G12": {
+"name": "Sternwarte EG, Lippstadt",
+"lon": 8.3306
+},
+"G13": {
+"name": "Astronomihagen, Fannrem",
+"lon": 9.77164
+},
+"G14": {
+"name": "Novaloop Observatory, Mougins",
+"lon": 7.0052
+},
+"G15": {
+"name": "Magroforte Observatory, Alessandria",
+"lon": 9.1183
+},
+"G16": {
+"name": "OmegaLab Observatory, Palermo",
+"lon": 13.34869
+},
+"G17": {
+"name": "BAS Observatory, Scandicci",
+"lon": 11.20261
+},
+"G18": {
+"name": "ALMO Observatory, Padulle",
+"lon": 11.28056
+},
+"G19": {
+"name": "Immanuel Kant Observatory,Limbach",
+"lon": 12.746
+},
+"G20": {
+"name": "Brignoles Observatory",
+"lon": 6.05989
+},
+"G21": {
+"name": "Osservatorio Castrofilippo",
+"lon": 13.73789
+},
+"G22": {
+"name": "Experimenta Observatory, Heilbronn",
+"lon": 9.21439
+},
+"G23": {
+"name": "Vulpecula Observatory, Budapest",
+"lon": 19.09234
+},
+"G24": {
+"name": "Dettenhausen",
+"lon": 9.0935
+},
+"G25": {
+"name": "Sherbrooke",
+"lon": 288.105
+},
+"G26": {
+"name": "Fushan Observatory, Mt Shaohua",
+"lon": 109.8236
+},
+"G27": {
+"name": "Fabra Observatory, Montsec",
+"lon": 0.72935
+},
+"G28": {
+"name": "Wyncroft Observatory, Attleborough",
+"lon": 1.0085
+},
+"G29": {
+"name": "Requena",
+"lon": 358.9124
+},
+"G30": {
+"name": "Casselman",
+"lon": 284.90719
+},
+"G31": {
+"name": "CCAT Trieste",
+"lon": 13.7253
+},
+"G32": {
+"name": "Elena Remote Observatory, San Pedro de Atacama",
+"lon": 291.8204
+},
+"G33": {
+"name": "Wickede",
+"lon": 7.60879
+},
+"G34": {
+"name": "Oberfrauendorf",
+"lon": 13.7015
+},
+"G35": {
+"name": "Elephant Head Obsevatory, Sahuarita",
+"lon": 249.15789
+},
+"G36": {
+"name": "Calar Alto-CASADO",
+"lon": 357.4525
+},
+"G37": {
+"name": "Lowell Discovery Telescope",
+"lon": 248.57779
+},
+"G38": {
+"name": "Observatorio La Senda, Cabanillas del Campo",
+"lon": 356.76842
+},
+"G39": {
+"name": "ROAD, San Pedro de Atacama",
+"lon": 291.82039
+},
+"G40": {
+"name": "Slooh.com Canary Islands Observatory",
+"lon": 343.49174
+},
+"G41": {
+"name": "Insperity Observatory, Humble",
+"lon": 264.73816
+},
+"G42": {
+"name": "Observatorio Astronomico UAdeC, Saltillo",
+"lon": 259.023
+},
+"G43": {
+"name": "Observatorio Buenaventura Suarez, San Luis",
+"lon": 293.6879
+},
+"G44": {
+"name": "Observatorio Longa Vista, Sao Paulo",
+"lon": 313.3061
+},
+"G45": {
+"name": "Space Surveillance Telescope, Atom Site",
+"lon": 253.63564
+},
+"G46": {
+"name": "Pinto Valley Observatory",
+"lon": 244.66153
+},
+"G47": {
+"name": "HillTopTop Observatory, Edgewood",
+"lon": 253.80654
+},
+"G48": {
+"name": "Harlingten Research Observatory, Rancho Hildalgo",
+"lon": 251.10148
+},
+"G49": {
+"name": "Minnetonka",
+"lon": 266.5943
+},
+"G50": {
+"name": "Organ Mesa Observatory, Las Cruces",
+"lon": 253.33
+},
+"G51": {
+"name": "Byrne Observatory, Sedgwick Reserve",
+"lon": 239.95778
+},
+"G52": {
+"name": "Stone Edge Observatory, El Verano",
+"lon": 237.49604
+},
+"G53": {
+"name": "Alder Springs Observatory, Auberry",
+"lon": 240.58727
+},
+"G54": {
+"name": "Hemet",
+"lon": 243.063
+},
+"G55": {
+"name": "Bakersfield",
+"lon": 241.09533
+},
+"G56": {
+"name": "Walnut Creek",
+"lon": 237.9294
+},
+"G57": {
+"name": "Dilbert Observatory, Forest Grove",
+"lon": 236.8564
+},
+"G58": {
+"name": "Chabot Space and Science Center, Oakland",
+"lon": 237.818
+},
+"G59": {
+"name": "Maiden Lane Obs., Bainbridge Island",
+"lon": 237.453
+},
+"G60": {
+"name": "Carroll Observatory, Montecito",
+"lon": 240.33888
+},
+"G61": {
+"name": "Pleasanton",
+"lon": 238.1524
+},
+"G62": {
+"name": "Sunriver Nature Center Observatory, Sunriver",
+"lon": 238.5469
+},
+"G63": {
+"name": "Mill Creek Observatory, The Dalles",
+"lon": 238.6858
+},
+"G64": {
+"name": "Blue Canyon Observatory",
+"lon": 239.2911
+},
+"G65": {
+"name": "Vulcan North, Lick Observatory, Mount Hamilton",
+"lon": 238.3612
+},
+"G66": {
+"name": "Lake Forest Observatory, Forest Hills",
+"lon": 238.9169
+},
+"G67": {
+"name": "Rancho Del Sol, Camino",
+"lon": 239.365
+},
+"G68": {
+"name": "Sierra Stars Observatory, Markleeville",
+"lon": 240.225
+},
+"G69": {
+"name": "Via Capote Sky Observatory, Thousand Oaks",
+"lon": 241.0158
+},
+"G70": {
+"name": "Francisquito Observatory, Los Angeles",
+"lon": 241.4547
+},
+"G71": {
+"name": "Rancho Palos Verdes",
+"lon": 241.6047
+},
+"G72": {
+"name": "University Hills",
+"lon": 241.82408
+},
+"G73": {
+"name": "Mount Wilson-TIE",
+"lon": 241.94
+},
+"G74": {
+"name": "Boulder Knolls Observatory, Escondido",
+"lon": 242.88538
+},
+"G75": {
+"name": "Starry Knight Observatory, Coto de Caza",
+"lon": 243.2783
+},
+"G76": {
+"name": "Altimira Observatory, Coto de Caza",
+"lon": 242.4178
+},
+"G77": {
+"name": "Baldwin Lake",
+"lon": 243.7183
+},
+"G78": {
+"name": "Desert Wanderer Observatory, El Centro",
+"lon": 244.3127
+},
+"G79": {
+"name": "Goat Mountain Astronomical Research Station",
+"lon": 243.6165
+},
+"G80": {
+"name": "Sierra Remote Observatories, Auberry",
+"lon": 240.5873
+},
+"G81": {
+"name": "Temecula",
+"lon": 242.913
+},
+"G82": {
+"name": "SARA Observatory, Kitt Peak",
+"lon": 248.40057
+},
+"G83": {
+"name": "Mt. Graham-LBT",
+"lon": 250.11039
+},
+"G84": {
+"name": "Mount Lemmon SkyCenter",
+"lon": 249.21084
+},
+"G85": {
+"name": "Vermillion Cliffs Observatory, Kanab",
+"lon": 247.56518
+},
+"G86": {
+"name": "Tucson-Winterhaven",
+"lon": 249.0697
+},
+"G87": {
+"name": "Calvin M. Hooper Memorial Observatory, Hyde Park",
+"lon": 248.1894
+},
+"G88": {
+"name": "LAMP Observatory, New River",
+"lon": 247.8881
+},
+"G89": {
+"name": "Kachina Observatory, Flagstaff",
+"lon": 248.3069
+},
+"G90": {
+"name": "Three Buttes Observatory, Tucson",
+"lon": 248.9658
+},
+"G91": {
+"name": "Whipple Observatory, Mt. Hopkins--2MASS",
+"lon": 249.1219
+},
+"G92": {
+"name": "Jarnac Observatory, Vail",
+"lon": 249.2814
+},
+"G93": {
+"name": "Sonoita Research Observatory, Sonoita",
+"lon": 249.3726
+},
+"G94": {
+"name": "Sonoran Skies Observatory, St. David",
+"lon": 249.9267
+},
+"G95": {
+"name": "Hereford Arizona Observatory, Hereford",
+"lon": 249.7622
+},
+"G96": {
+"name": "University of Arizona Mt. Lemmon Survey",
+"lon": 249.21128
+},
+"G97": {
+"name": "Astronomical League Alpha Observatory, Portal",
+"lon": 250.8694
+},
+"G98": {
+"name": "Calvin-Rehoboth Observatory, Rehoboth",
+"lon": 251.34354
+},
+"G99": {
+"name": "NF Observatory, Silver City",
+"lon": 251.8104
+},
+"H00": {
+"name": "Tyrone",
+"lon": 251.6987
+},
+"H01": {
+"name": "Magdalena Ridge Observatory, Socorro",
+"lon": 252.81067
+},
+"H02": {
+"name": "Sulphur Flats Observatory, La Cueva",
+"lon": 253.3706
+},
+"H03": {
+"name": "Sandia View Observatory, Rio Rancho",
+"lon": 253.3553
+},
+"H04": {
+"name": "Santa Fe",
+"lon": 254.026
+},
+"H05": {
+"name": "Edmund Kline Observatory, Deer Trail",
+"lon": 256.0707
+},
+"H06": {
+"name": "iTelescope Observatory, Mayhill",
+"lon": 254.4713
+},
+"H07": {
+"name": "7300 Observatory, Cloudcroft",
+"lon": 254.47134
+},
+"H08": {
+"name": "BlackBird Observatory, Cloudcroft",
+"lon": 254.47081
+},
+"H09": {
+"name": "Antelope Hills Observatory, Bennett",
+"lon": 255.5886
+},
+"H10": {
+"name": "Tzec Maun Observatory, Mayhill",
+"lon": 254.47141
+},
+"H11": {
+"name": "LightBuckets Observatory, Rodeo",
+"lon": 250.984
+},
+"H12": {
+"name": "TechDome, Mayhill",
+"lon": 254.47078
+},
+"H13": {
+"name": "Lenomiya Observatory, Casa Grande",
+"lon": 248.25212
+},
+"H14": {
+"name": "Morning Star Observatory, Tucson",
+"lon": 249.21233
+},
+"H15": {
+"name": "ISON-NM Observatory, Mayhill",
+"lon": 254.47156
+},
+"H16": {
+"name": "HUT Observatory, Eagle",
+"lon": 253.289
+},
+"H17": {
+"name": "Angel Peaks Observatory",
+"lon": 254.38333
+},
+"H18": {
+"name": "Vail View Observatory, Vail",
+"lon": 249.28798
+},
+"H19": {
+"name": "Lone Star Observatory, Caney",
+"lon": 263.86259
+},
+"H20": {
+"name": "Eastern Illinois University Obs., Charleston",
+"lon": 271.81682
+},
+"H21": {
+"name": "Astronomical Research Observatory, Westfield",
+"lon": 272.03173
+},
+"H22": {
+"name": "Terre Haute",
+"lon": 272.7371
+},
+"H23": {
+"name": "Pear Tree Observatory, Valparaiso",
+"lon": 273.49858
+},
+"H24": {
+"name": "J. C. Veen Observatory, Lowell",
+"lon": 274.59881
+},
+"H25": {
+"name": "Harvest Moon Observatory, Northfield",
+"lon": 266.87082
+},
+"H26": {
+"name": "Doc Greiner Research Observatory, Janesvillle",
+"lon": 270.78922
+},
+"H27": {
+"name": "Moonglow Observatory, Warrensburg",
+"lon": 266.23134
+},
+"H28": {
+"name": "Preston Hills Observatory, Celina",
+"lon": 263.2315
+},
+"H29": {
+"name": "Ivywood Observatory, Edmond",
+"lon": 262.5494
+},
+"H30": {
+"name": "University of Oklahoma Observatory, Norman",
+"lon": 262.5558
+},
+"H31": {
+"name": "Star Ridge Observatory, Weimar",
+"lon": 263.33
+},
+"H32": {
+"name": "Texas A&M Physics Observatory, College Station",
+"lon": 263.6334
+},
+"H33": {
+"name": "Bixhoma Observatory, Bixby",
+"lon": 264.1217
+},
+"H34": {
+"name": "Chapel Hill",
+"lon": 264.8258
+},
+"H35": {
+"name": "Leavenworth",
+"lon": 264.9517
+},
+"H36": {
+"name": "Sandlot Observatory, Scranton",
+"lon": 264.29345
+},
+"H37": {
+"name": "Grems Timmons Observatories, Graettinger",
+"lon": 265.2003
+},
+"H38": {
+"name": "Timberline Observatory, Urbandale",
+"lon": 265.9864
+},
+"H39": {
+"name": "S.O.S. Observatory, Minneapolis",
+"lon": 266.6828
+},
+"H40": {
+"name": "Nubbin Ridge Observatory",
+"lon": 266.7306
+},
+"H41": {
+"name": "Petit Jean Mountain",
+"lon": 267.0742
+},
+"H42": {
+"name": "Wartburg College Observatory, Waverly",
+"lon": 267.5078
+},
+"H43": {
+"name": "Conway",
+"lon": 267.4998
+},
+"H44": {
+"name": "Cascade Mountain",
+"lon": 267.7982
+},
+"H45": {
+"name": "Arkansas Sky Obs., Petit Jean Mountain South",
+"lon": 267.0831
+},
+"H46": {
+"name": "Ricky Observatory, Blue Springs",
+"lon": 265.7297
+},
+"H47": {
+"name": "Vicksburg",
+"lon": 269.1439
+},
+"H48": {
+"name": "PSU Greenbush Observatory, Pittsburg",
+"lon": 265.0139
+},
+"H49": {
+"name": "ATU Astronomical Observatory, Russellville",
+"lon": 266.8636
+},
+"H50": {
+"name": "University of Central Arkansas Obs., Conway",
+"lon": 267.54139
+},
+"H51": {
+"name": "Greiner Research Observatory, Verona",
+"lon": 270.4003
+},
+"H52": {
+"name": "Hawkeye Observatory, Durand",
+"lon": 270.67354
+},
+"H53": {
+"name": "Thompsonville",
+"lon": 271.22842
+},
+"H54": {
+"name": "Cedar Drive Observatory, Pulaski",
+"lon": 271.6514
+},
+"H55": {
+"name": "Astronomical Research Observatory, Charleston",
+"lon": 271.8558
+},
+"H56": {
+"name": "Northbrook Meadow Observatory",
+"lon": 272.16764
+},
+"H57": {
+"name": "Ohio State University Observatory, Lima",
+"lon": 275.97246
+},
+"H58": {
+"name": "NASA/MSFC ALaMO, Redstone Arsenal",
+"lon": 273.3353
+},
+"H59": {
+"name": "Prairie Grass Observatory, Camp Cullom",
+"lon": 273.3651
+},
+"H60": {
+"name": "Heartland Observatory, Carmel",
+"lon": 273.86542
+},
+"H61": {
+"name": "Newcastle",
+"lon": 281.41689
+},
+"H62": {
+"name": "Calvin College Observatory",
+"lon": 274.4117
+},
+"H63": {
+"name": "DeKalb Observatory, Auburn",
+"lon": 274.9276
+},
+"H64": {
+"name": "Thomas More College Observatory, Crestview Hills",
+"lon": 275.4364
+},
+"H65": {
+"name": "Waltonfields Observatory, Walton",
+"lon": 275.4364
+},
+"H66": {
+"name": "Yellow Springs",
+"lon": 276.146
+},
+"H67": {
+"name": "Stonegate Observatory, Ann Arbor",
+"lon": 276.16241
+},
+"H68": {
+"name": "Red Barn Observatory, Ty Ty",
+"lon": 276.34824
+},
+"H69": {
+"name": "Perkins Observatory, Delaware",
+"lon": 276.94463
+},
+"H70": {
+"name": "Asheville",
+"lon": 277.4458
+},
+"H71": {
+"name": "Chula",
+"lon": 276.48282
+},
+"H72": {
+"name": "Evelyn L. Egan Observatory, Fort Myers",
+"lon": 278.2258
+},
+"H73": {
+"name": "Lakeland Astronomical Observatory, Kirtland",
+"lon": 278.6351
+},
+"H74": {
+"name": "Bar J Observatory, New Smyrna Beach",
+"lon": 278.8747
+},
+"H75": {
+"name": "Indian Hill North Observatory, Huntsburg",
+"lon": 278.91856
+},
+"H76": {
+"name": "Oakridge Observatory, Miami",
+"lon": 279.4133
+},
+"H77": {
+"name": "Buehler Observatory",
+"lon": 279.7653
+},
+"H78": {
+"name": "University of Narino Observatory, Pasto",
+"lon": 282.70896
+},
+"H79": {
+"name": "York University Observatory, Toronto",
+"lon": 280.4927
+},
+"H80": {
+"name": "Halsted Observatory, Princeton",
+"lon": 285.33567
+},
+"H81": {
+"name": "Hartung-Boothroyd Observatory, Ithaca",
+"lon": 283.61539
+},
+"H82": {
+"name": "CBA-NOVAC Observatory, Front Royal",
+"lon": 281.7839
+},
+"H83": {
+"name": "Timberlake Observatory, Oakton",
+"lon": 282.6641
+},
+"H84": {
+"name": "Northview Observatory, Mendon",
+"lon": 282.4961
+},
+"H85": {
+"name": "Silver Spring",
+"lon": 283.0029
+},
+"H86": {
+"name": "CBA-East Observatory, Laurel",
+"lon": 283.1576
+},
+"H87": {
+"name": "Fenwick Observatory, Richmond",
+"lon": 282.4361
+},
+"H88": {
+"name": "Hope Observatory, Belcamp",
+"lon": 283.7577
+},
+"H89": {
+"name": "Galaxy Blues Observatory, Gatineau",
+"lon": 284.2975
+},
+"H90": {
+"name": "Ottawa",
+"lon": 284.4731
+},
+"H91": {
+"name": "Reynolds Observatory, Potsdam",
+"lon": 285.04839
+},
+"H92": {
+"name": "Arcturus Observatory",
+"lon": 285.6211
+},
+"H93": {
+"name": "Berkeley Heights",
+"lon": 285.5758
+},
+"H94": {
+"name": "Cedar Knolls",
+"lon": 285.5439
+},
+"H95": {
+"name": "NJIT Observatory, Newark",
+"lon": 285.8212
+},
+"H96": {
+"name": "Observatoire des Pleiades, Mandeville",
+"lon": 286.6142
+},
+"H97": {
+"name": "Talcott Mountain Science Center, Avon",
+"lon": 287.20132
+},
+"H98": {
+"name": "Dark Rosanne Obs., Middlefield",
+"lon": 287.2655
+},
+"H99": {
+"name": "Sunhill Observatory, Newton",
+"lon": 288.8036
+},
+"I00": {
+"name": "Carbuncle Hill Observatory, Coventry",
+"lon": 288.2294
+},
+"I01": {
+"name": "Clay Center Observatory, Brookline",
+"lon": 288.86253
+},
+"I02": {
+"name": "Cerro Tololo Observatory, La Serena--2MASS",
+"lon": 289.1949
+},
+"I03": {
+"name": "European Southern Obs., La Silla--ASTROVIRTEL",
+"lon": 289.26626
+},
+"I04": {
+"name": "Mamalluca Observatory",
+"lon": 289.3152
+},
+"I05": {
+"name": "Las Campanas Observatory-TIE",
+"lon": 289.298
+},
+"I06": {
+"name": "Werner Schmidt Obs., Dennis-Yarmouth Regional HS",
+"lon": 289.8061
+},
+"I07": {
+"name": "Conlin Hill Observatory, Oxford",
+"lon": 288.0971
+},
+"I08": {
+"name": "Alianza S4, Cerro Burek",
+"lon": 290.6932
+},
+"I09": {
+"name": "Cerro Armazones",
+"lon": 289.80377
+},
+"I10": {
+"name": "CAO, San Pedro de Atacama (until 2012)",
+"lon": 291.82
+},
+"I11": {
+"name": "Gemini South Observatory, Cerro Pachon",
+"lon": 289.26345
+},
+"I12": {
+"name": "Phillips Academy Observatory, Andover",
+"lon": 288.87053
+},
+"I13": {
+"name": "Burleith Observatory, Washington D.C.",
+"lon": 282.93006
+},
+"I14": {
+"name": "Tigh Speuran Observatory, Framingham",
+"lon": 288.58931
+},
+"I15": {
+"name": "Wishing Star Observatory, Barrington",
+"lon": 288.70076
+},
+"I16": {
+"name": "IAA-AI Atacama, San Pedro de Atacama",
+"lon": 291.82033
+},
+"I17": {
+"name": "Thomas G. Cupillari Observatory, Fleetville",
+"lon": 284.32206
+},
+"I18": {
+"name": "Fan Mountain Observatory, Covesville",
+"lon": 281.3067
+},
+"I19": {
+"name": "Observatorio El Gato Gris, Tanti",
+"lon": 295.40711
+},
+"I20": {
+"name": "Observatorio Astronomico Salvador, Rio Cuarto",
+"lon": 295.68161
+},
+"I21": {
+"name": "El Condor Observatory, Cordoba",
+"lon": 295.8281
+},
+"I22": {
+"name": "Abbey Ridge Observatory, Stillwater Lake",
+"lon": 296.17399
+},
+"I23": {
+"name": "Frosty Cold Observatory, Mash Harbor",
+"lon": 292.26649
+},
+"I24": {
+"name": "Lake of the Woods Observatory, Locust Grove",
+"lon": 282.2306
+},
+"I25": {
+"name": "ECCCO Observatory, Bosque Alegre",
+"lon": 295.44381
+},
+"I26": {
+"name": "Observatorio Kappa Crucis, Cordoba",
+"lon": 295.8214
+},
+"I27": {
+"name": "Barred Owl Observatory, Carp",
+"lon": 284.0006
+},
+"I28": {
+"name": "Starhoo Observatory, Lakeville",
+"lon": 289.0889
+},
+"I29": {
+"name": "Middlesex School Observatory, Concord",
+"lon": 288.63304
+},
+"I30": {
+"name": "Observatorio Geminis Austral",
+"lon": 299.3417
+},
+"I31": {
+"name": "Observatorio Astronomico del Colegio Cristo Rey",
+"lon": 299.3649
+},
+"I32": {
+"name": "Observatorio Beta Orionis, Rosario",
+"lon": 299.3464
+},
+"I33": {
+"name": "SOAR, Cerro Pachon",
+"lon": 289.26631
+},
+"I34": {
+"name": "Morgantown",
+"lon": 284.1297
+},
+"I35": {
+"name": "Sidoli",
+"lon": 301.5572
+},
+"I36": {
+"name": "Observatorio Los Campitos, Canuelas",
+"lon": 301.28271
+},
+"I37": {
+"name": "Astrodomi Observatory, Santa Rita",
+"lon": 301.35275
+},
+"I38": {
+"name": "Observatorio Los Algarrobos, Salto",
+"lon": 302.02141
+},
+"I39": {
+"name": "Observatorio Cruz del Sur, San Justo",
+"lon": 301.42661
+},
+"I40": {
+"name": "La Silla--TRAPPIST",
+"lon": 289.26061
+},
+"I41": {
+"name": "Palomar Mountain--ZTF",
+"lon": 243.14022
+},
+"I42": {
+"name": "Westport Observatory",
+"lon": 288.9081
+},
+"I43": {
+"name": "Tarleton State University Obs., Stephenville",
+"lon": 261.90237
+},
+"I44": {
+"name": "Northwest Florida State College, Niceville",
+"lon": 273.5176
+},
+"I45": {
+"name": "W Crusis Astronomical Observatory, San Justo",
+"lon": 301.4281
+},
+"I46": {
+"name": "The Cottage Observatory, Altoona",
+"lon": 281.6108
+},
+"I47": {
+"name": "Pierre Auger Observatory, Malargue",
+"lon": 290.5503
+},
+"I48": {
+"name": "Observatorio El Catalejo, Santa Rosa",
+"lon": 295.6757
+},
+"I49": {
+"name": "Sunflower Observatory, Santa Fe",
+"lon": 253.98617
+},
+"I50": {
+"name": "P2 Observatory, Mayhill",
+"lon": 254.47142
+},
+"I51": {
+"name": "Clinton",
+"lon": 283.0547
+},
+"I52": {
+"name": "Steward Observatory, Mt. Lemmon Station",
+"lon": 249.21108
+},
+"I53": {
+"name": "Armilla",
+"lon": 356.3783
+},
+"I54": {
+"name": "Observatorio Las Vaguadas, Badajoz",
+"lon": 353.03081
+},
+"I55": {
+"name": "Valencia",
+"lon": 359.64214
+},
+"I56": {
+"name": "Observatorio Astronomico John Beckman, Almeria",
+"lon": 357.71066
+},
+"I57": {
+"name": "Elche",
+"lon": 359.3256
+},
+"I58": {
+"name": "Betera",
+"lon": 359.5374
+},
+"I59": {
+"name": "Observatorio Fuente de los matos, Muriedas",
+"lon": 356.1558
+},
+"I60": {
+"name": "Guernanderf",
+"lon": 357.1781
+},
+"I61": {
+"name": "Ourense",
+"lon": 352.1494
+},
+"I62": {
+"name": "Observatorio Helios Ontigola",
+"lon": 356.42639
+},
+"I63": {
+"name": "Cygnus Observatory, New Airesford",
+"lon": 358.833
+},
+"I64": {
+"name": "Maidenhead",
+"lon": 359.29386
+},
+"I65": {
+"name": "Yunquera",
+"lon": 355.0796
+},
+"I66": {
+"name": "Taurus Australis Observatory, Brasilia",
+"lon": 312.0
+},
+"I67": {
+"name": "Hartley Wintney",
+"lon": 359.08753
+},
+"I68": {
+"name": "Pousada dos Anoes Observatory",
+"lon": 312.4981
+},
+"I69": {
+"name": "AGM Observatory, Marrakech",
+"lon": 352.0069
+},
+"I70": {
+"name": "Gedney House Observatory, Kirton",
+"lon": 359.94158
+},
+"I71": {
+"name": "Observatorio Los Milanos, Caceres",
+"lon": 353.6698
+},
+"I72": {
+"name": "Observatorio Carpe-Noctem, Madrid",
+"lon": 355.9849
+},
+"I73": {
+"name": "Salvia Observatory, Saulges",
+"lon": 359.58711
+},
+"I74": {
+"name": "Baxter Garden Observatory, Salisbury",
+"lon": 358.18739
+},
+"I75": {
+"name": "Observatorio Los Caracoles, Castello",
+"lon": 359.965
+},
+"I76": {
+"name": "Observatorio Tesla, Valdemorillo",
+"lon": 355.93681
+},
+"I77": {
+"name": "CEAMIG-REA Observatory, Belo Horizonte",
+"lon": 316.0025
+},
+"I78": {
+"name": "Observatorio Principia, Malaga",
+"lon": 355.5721
+},
+"I79": {
+"name": "AstroCamp, Nerpio",
+"lon": 357.6733
+},
+"I80": {
+"name": "Rose Cottage Observatory, Keighley",
+"lon": 358.13328
+},
+"I81": {
+"name": "Tarbatness Observatory, Portmahomack",
+"lon": 356.20111
+},
+"I82": {
+"name": "Guimar",
+"lon": 343.5797
+},
+"I83": {
+"name": "Cherryvalley Observatory, Rathmolyon",
+"lon": 353.19
+},
+"I84": {
+"name": "Cerro del Viento, Badajoz",
+"lon": 353.0212
+},
+"I85": {
+"name": "Las Negras",
+"lon": 357.9848
+},
+"I86": {
+"name": "Observatorio UCM, Madrid",
+"lon": 356.2739
+},
+"I87": {
+"name": "Astroshot Observatory, Monasterevin",
+"lon": 352.9593
+},
+"I88": {
+"name": "Fuensanta de Martos",
+"lon": 356.0823
+},
+"I89": {
+"name": "iTelescope Observatory, Nerpio",
+"lon": 357.6739
+},
+"I90": {
+"name": "Blackrock Castle Observatory",
+"lon": 351.5976
+},
+"I91": {
+"name": "Retamar",
+"lon": 357.6925
+},
+"I92": {
+"name": "Astreo Observatory, Mairena del Aljarafe",
+"lon": 353.95289
+},
+"I93": {
+"name": "St Pardon de Conques",
+"lon": 359.79704
+},
+"I94": {
+"name": "Observatorio Rho Ophiocus, Las Rozas de Madrid",
+"lon": 356.1367
+},
+"I95": {
+"name": "Observatorio de la Hita",
+"lon": 356.81394
+},
+"I96": {
+"name": "Hyperion Observatory, Urbanizacion Caraquiz",
+"lon": 356.50384
+},
+"I97": {
+"name": "Penn Heights Observatory, Rickmansworth",
+"lon": 359.50178
+},
+"I98": {
+"name": "El Berrueco",
+"lon": 356.41339
+},
+"I99": {
+"name": "Observatorio Blanquita, Vaciamadrid",
+"lon": 356.46043
+},
+"J00": {
+"name": "Segorbe",
+"lon": 359.5056
+},
+"J01": {
+"name": "Observatorio Cielo Profundo, Leon",
+"lon": 354.2845
+},
+"J02": {
+"name": "Busot",
+"lon": 359.555
+},
+"J03": {
+"name": "Gothers Observatory, St. Dennis",
+"lon": 355.1325
+},
+"J04": {
+"name": "ESA Optical Ground Station, Tenerife",
+"lon": 343.48818
+},
+"J05": {
+"name": "Bootes Observatory, Boecillo",
+"lon": 355.29639
+},
+"J06": {
+"name": "Trent Astronomical Observatory, Clifton",
+"lon": 358.81247
+},
+"J07": {
+"name": "Observatorio SPAG Monfrague, Palazuelo-Empalme",
+"lon": 353.89543
+},
+"J08": {
+"name": "Observatorio Zonalunar, Puzol",
+"lon": 359.6549
+},
+"J09": {
+"name": "Balbriggan",
+"lon": 353.7917
+},
+"J10": {
+"name": "Alicante",
+"lon": 359.59839
+},
+"J11": {
+"name": "Matosinhos",
+"lon": 351.31769
+},
+"J12": {
+"name": "Caraquiz",
+"lon": 356.51061
+},
+"J13": {
+"name": "La Palma-Liverpool Telescope",
+"lon": 342.1208
+},
+"J14": {
+"name": "La Corte",
+"lon": 345.99281
+},
+"J15": {
+"name": "Muxagata",
+"lon": 352.83061
+},
+"J16": {
+"name": "An Carraig Observatory, Loughinisland",
+"lon": 354.20356
+},
+"J17": {
+"name": "Ragdon",
+"lon": 357.20313
+},
+"J18": {
+"name": "Dingle Observatory, Montgomery",
+"lon": 356.906
+},
+"J19": {
+"name": "El Maestrat",
+"lon": 359.83036
+},
+"J20": {
+"name": "Aravaca",
+"lon": 356.21926
+},
+"J21": {
+"name": "El Boalo",
+"lon": 356.08003
+},
+"J22": {
+"name": "Tacande Observatory, La Palma",
+"lon": 342.13235
+},
+"J23": {
+"name": "Centre Astronomique de La Couyere",
+"lon": 358.49361
+},
+"J24": {
+"name": "Observatorio Altamira",
+"lon": 343.55719
+},
+"J25": {
+"name": "Penamayor Observatory, Nava",
+"lon": 354.48883
+},
+"J26": {
+"name": "The Spaceguard Centre, Knighton",
+"lon": 356.98119
+},
+"J27": {
+"name": "El Guijo Observatory",
+"lon": 355.96899
+},
+"J28": {
+"name": "Jaen",
+"lon": 356.21381
+},
+"J29": {
+"name": "Observatorio Nira, Tias",
+"lon": 346.34213
+},
+"J30": {
+"name": "Observatorio Ventilla, Madrid",
+"lon": 356.293
+},
+"J31": {
+"name": "La Axarquia",
+"lon": 355.77411
+},
+"J32": {
+"name": "Aljaraque",
+"lon": 352.97769
+},
+"J33": {
+"name": "University of Hertfordshire Obs., Bayfordbury",
+"lon": 359.906
+},
+"J34": {
+"name": "La Fecha",
+"lon": 355.22711
+},
+"J35": {
+"name": "Tucci Observatory, Martos",
+"lon": 356.02911
+},
+"J36": {
+"name": "Observatorio DiezALaOnce, Illana",
+"lon": 356.94519
+},
+"J37": {
+"name": "Huelva",
+"lon": 353.06469
+},
+"J38": {
+"name": "Observatorio La Vara, Valdes",
+"lon": 353.60924
+},
+"J39": {
+"name": "Ingenio",
+"lon": 344.5636
+},
+"J40": {
+"name": "Malaga",
+"lon": 355.55847
+},
+"J41": {
+"name": "Raheny",
+"lon": 353.8189
+},
+"J42": {
+"name": "Puzol",
+"lon": 359.6989
+},
+"J43": {
+"name": "Oukaimeden Observatory, Marrakech",
+"lon": 352.13354
+},
+"J44": {
+"name": "Observatorio Iturrieta, Alava",
+"lon": 357.6552
+},
+"J45": {
+"name": "Observatorio Montana Cabreja, Vega de San Mateo",
+"lon": 344.46735
+},
+"J46": {
+"name": "Observatorio Montana Blanca, Tias",
+"lon": 346.3594
+},
+"J47": {
+"name": "Observatorio Nazaret",
+"lon": 346.444
+},
+"J48": {
+"name": "Observatory Mackay, La Laguna",
+"lon": 343.696
+},
+"J49": {
+"name": "Santa Pola",
+"lon": 359.4482
+},
+"J50": {
+"name": "La Palma-NEON",
+"lon": 342.1176
+},
+"J51": {
+"name": "Observatorio Atlante, Tenerife",
+"lon": 343.72898
+},
+"J52": {
+"name": "Observatorio Pinsoro",
+"lon": 358.6608
+},
+"J53": {
+"name": "Posadas",
+"lon": 354.89278
+},
+"J54": {
+"name": "Bradford Robotic Telescope",
+"lon": 343.4906
+},
+"J55": {
+"name": "Los Altos de Arguineguin Observatory",
+"lon": 344.3144
+},
+"J56": {
+"name": "Observatorio La Avejerilla",
+"lon": 344.4536
+},
+"J57": {
+"name": "Centro Astronomico Alto Turia 1",
+"lon": 358.89083
+},
+"J58": {
+"name": "Brynllefrith Observatory, Llantwit Fardre",
+"lon": 356.6644
+},
+"J59": {
+"name": "Observatorio Linceo, Santander",
+"lon": 356.20256
+},
+"J60": {
+"name": "Tocororo Observatory, Arquillinos",
+"lon": 354.3406
+},
+"J61": {
+"name": "Brownstown Observatory, Kilcloon",
+"lon": 353.4264
+},
+"J62": {
+"name": "Kingsland Observatory, Boyle",
+"lon": 351.6345
+},
+"J63": {
+"name": "San Gabriel",
+"lon": 359.4831
+},
+"J64": {
+"name": "La Mata",
+"lon": 359.3459
+},
+"J65": {
+"name": "Celbridge",
+"lon": 353.4497
+},
+"J66": {
+"name": "Kinver",
+"lon": 357.7833
+},
+"J67": {
+"name": "Observatorio La Puebla de Vallbona",
+"lon": 359.4667
+},
+"J68": {
+"name": "Tweenhills Observatory, Hartpury",
+"lon": 357.7055
+},
+"J69": {
+"name": "North Observatory, Clanfield",
+"lon": 358.98034
+},
+"J70": {
+"name": "Obs. Astronomico Vega del Thader, El Palmar",
+"lon": 358.8404
+},
+"J71": {
+"name": "Willow Bank Observatory",
+"lon": 357.8947
+},
+"J72": {
+"name": "Valle del Sol",
+"lon": 358.9664
+},
+"J73": {
+"name": "Quainton",
+"lon": 359.0833
+},
+"J74": {
+"name": "Bilbao",
+"lon": 357.0961
+},
+"J75": {
+"name": "OAM Observatory, La Sagra",
+"lon": 357.43471
+},
+"J76": {
+"name": "La Murta",
+"lon": 358.79718
+},
+"J77": {
+"name": "Golden Hill Observatory, Stourton Caundle",
+"lon": 357.5947
+},
+"J78": {
+"name": "Murcia",
+"lon": 358.8244
+},
+"J79": {
+"name": "Observatorio Calarreona, Aguilas",
+"lon": 358.38066
+},
+"J80": {
+"name": "Sainte Helene",
+"lon": 359.1083
+},
+"J81": {
+"name": "Guirguillano",
+"lon": 358.13489
+},
+"J82": {
+"name": "Leyland",
+"lon": 357.3067
+},
+"J83": {
+"name": "Olive Farm Observatory, Hoghton",
+"lon": 357.3883
+},
+"J84": {
+"name": "South Observatory, Clanfield",
+"lon": 358.9803
+},
+"J85": {
+"name": "Makerstoun",
+"lon": 357.4833
+},
+"J86": {
+"name": "Sierra Nevada Observatory",
+"lon": 356.6153
+},
+"J87": {
+"name": "La Canada",
+"lon": 355.5067
+},
+"J88": {
+"name": "Strawberry Field Obs., Southampton",
+"lon": 358.5592
+},
+"J89": {
+"name": "Tres Cantos Observatory",
+"lon": 356.2861
+},
+"J90": {
+"name": "West Challow",
+"lon": 358.5317
+},
+"J91": {
+"name": "Alt emporda Observatory, Figueres",
+"lon": 357.0483
+},
+"J92": {
+"name": "Beaconsfield",
+"lon": 359.3487
+},
+"J93": {
+"name": "Mount Tuffley Observatory, Gloucester",
+"lon": 357.7426
+},
+"J94": {
+"name": "Abbeydale",
+"lon": 357.7886
+},
+"J95": {
+"name": "Great Shefford",
+"lon": 358.55301
+},
+"J96": {
+"name": "Observatorio de Cantabria",
+"lon": 356.05669
+},
+"J97": {
+"name": "Alginet",
+"lon": 359.5333
+},
+"J98": {
+"name": "Observatorio Manises",
+"lon": 359.5344
+},
+"J99": {
+"name": "Burjassot",
+"lon": 359.57808
+},
+"K00": {
+"name": "Hanau",
+"lon": 8.94836
+},
+"K01": {
+"name": "Astrognosis Observatory, Bradwell",
+"lon": 0.62091
+},
+"K02": {
+"name": "Eastwood Observatory, Leigh on Sea",
+"lon": 0.66761
+},
+"K03": {
+"name": "Observatori AAS Montsec",
+"lon": 0.74411
+},
+"K04": {
+"name": "Lo Fossil Observatory, Ager",
+"lon": 0.74416
+},
+"K05": {
+"name": "Eden Observatory, Banham",
+"lon": 1.02311
+},
+"K06": {
+"name": "Observatorio Montagut, Can Sola",
+"lon": 1.9995
+},
+"K07": {
+"name": "Observatoire de Gravelle, St. Maurice",
+"lon": 2.4614
+},
+"K08": {
+"name": "Observatorio Lledoner, Vallirana",
+"lon": 1.88
+},
+"K09": {
+"name": "Llica d'Amunt",
+"lon": 2.24
+},
+"K10": {
+"name": "Micro Palomar, Reilhanette",
+"lon": 5.4214
+},
+"K11": {
+"name": "Observatoire de Pommier",
+"lon": 2.88079
+},
+"K12": {
+"name": "Obsevatorio Astronomico de Marratxi",
+"lon": 2.7267
+},
+"K13": {
+"name": "Albireo Observatory, Inca",
+"lon": 2.9124
+},
+"K14": {
+"name": "Observatorio de Sencelles",
+"lon": 2.9131
+},
+"K15": {
+"name": "Murviel-les-Montpellier",
+"lon": 3.75522
+},
+"K16": {
+"name": "Reilhanette",
+"lon": 5.42106
+},
+"K17": {
+"name": "Observatoire des Valentines, Bex",
+"lon": 7.02679
+},
+"K18": {
+"name": "Hesingue",
+"lon": 7.5242
+},
+"K19": {
+"name": "PASTIS Observatory, Banon",
+"lon": 5.64731
+},
+"K20": {
+"name": "Danastro Observatory, Romeree",
+"lon": 4.68015
+},
+"K21": {
+"name": "Saint-Saturnin-les-Avignon",
+"lon": 4.9292
+},
+"K22": {
+"name": "Les Barres Observatory, Lamanon",
+"lon": 5.07611
+},
+"K23": {
+"name": "Gorgonzola",
+"lon": 9.4023
+},
+"K24": {
+"name": "Schmelz",
+"lon": 6.86069
+},
+"K25": {
+"name": "Haute Provence Sud, Saint-Michel-l'Observatoire",
+"lon": 5.7136
+},
+"K26": {
+"name": "Contern",
+"lon": 6.2201
+},
+"K27": {
+"name": "St-Martin Observatory, Amathay Vesigneux",
+"lon": 6.2094
+},
+"K28": {
+"name": "Sternwarte Eckdorf",
+"lon": 6.8947
+},
+"K29": {
+"name": "Stellarium Gornergrat",
+"lon": 7.78347
+},
+"K30": {
+"name": "Luscherz",
+"lon": 7.14839
+},
+"K31": {
+"name": "Osservatorio Astronomico di Bellino",
+"lon": 7.00361
+},
+"K32": {
+"name": "Maritime Alps Observatory, Cuneo",
+"lon": 7.52964
+},
+"K33": {
+"name": "San Defendente",
+"lon": 7.49761
+},
+"K34": {
+"name": "Turin",
+"lon": 7.7005
+},
+"K35": {
+"name": "Huenfelden",
+"lon": 8.16369
+},
+"K36": {
+"name": "Ebersheim",
+"lon": 8.24887
+},
+"K37": {
+"name": "Cereseto",
+"lon": 8.3148
+},
+"K38": {
+"name": "M57 Observatory, Saltrio",
+"lon": 8.91824
+},
+"K39": {
+"name": "Serra Observatory",
+"lon": 8.95556
+},
+"K40": {
+"name": "Altdorf",
+"lon": 9.0135
+},
+"K41": {
+"name": "Vegaquattro Astronomical Obs., Novi Ligure",
+"lon": 8.793
+},
+"K42": {
+"name": "Knielingen",
+"lon": 8.3332
+},
+"K43": {
+"name": "OVM Observatory, Chiesa in Valmalencom",
+"lon": 9.8389
+},
+"K44": {
+"name": "Marienburg Sternwarte, Hildesheim",
+"lon": 9.97331
+},
+"K45": {
+"name": "Oss. Astronomico di Punta Falcone, Piombino",
+"lon": 10.49814
+},
+"K46": {
+"name": "Bamberg",
+"lon": 10.9114
+},
+"K47": {
+"name": "BSCR Observatory, Santa Maria a Monte",
+"lon": 10.68822
+},
+"K48": {
+"name": "Keyhole Observatory, San Giorgio di Mantova",
+"lon": 10.83881
+},
+"K49": {
+"name": "Carpione Observatory, Spedaletto",
+"lon": 11.18581
+},
+"K50": {
+"name": "Sternwarte Feuerstein, Ebermannstadt",
+"lon": 11.133
+},
+"K51": {
+"name": "Osservatorio del Celado, Castello Tesino",
+"lon": 11.65789
+},
+"K52": {
+"name": "Gwen Observatory, San Francesco al Campo",
+"lon": 7.6478
+},
+"K53": {
+"name": "Marina di Cerveteri",
+"lon": 12.04564
+},
+"K54": {
+"name": "Astronomical Observatory University of Siena",
+"lon": 11.33678
+},
+"K55": {
+"name": "Wallhausen",
+"lon": 7.765
+},
+"K56": {
+"name": "Osservatorio di Foligno",
+"lon": 12.70497
+},
+"K57": {
+"name": "Fiore Observatory",
+"lon": 13.0444
+},
+"K58": {
+"name": "Gevelsberg",
+"lon": 7.4497
+},
+"K59": {
+"name": "Elsterland Observatory, Jessnigk",
+"lon": 13.27744
+},
+"K60": {
+"name": "Lindby",
+"lon": 13.51069
+},
+"K61": {
+"name": "Rokycany Observatory",
+"lon": 13.6026
+},
+"K62": {
+"name": "Teplice Observatory",
+"lon": 13.84675
+},
+"K63": {
+"name": "G. Pascoli Observatory, Barga (before June 2023)",
+"lon": 10.46252
+},
+"K64": {
+"name": "Waizenreuth",
+"lon": 11.74397
+},
+"K65": {
+"name": "Cesena",
+"lon": 12.2339
+},
+"K66": {
+"name": "Osservatorio Astronomico di Anzio",
+"lon": 12.62861
+},
+"K67": {
+"name": "Bayerwald Sternwarte, Spiegelau",
+"lon": 13.361
+},
+"K68": {
+"name": "Osservatorio Elianto, Pontecagnano",
+"lon": 14.90512
+},
+"K69": {
+"name": "Riethnordhausen",
+"lon": 10.9941
+},
+"K70": {
+"name": "Rosarno",
+"lon": 15.9736
+},
+"K71": {
+"name": "Neutraubling",
+"lon": 12.2159
+},
+"K72": {
+"name": "Celico",
+"lon": 16.3396
+},
+"K73": {
+"name": "Gravina in Puglia",
+"lon": 16.4158
+},
+"K74": {
+"name": "Muensterschwarzach Observatory, Schwarzach",
+"lon": 10.2364
+},
+"K75": {
+"name": "Astro Dolomites, Santa Cristina Valgardena",
+"lon": 11.7289
+},
+"K76": {
+"name": "BSA Osservatorio, Savigliano",
+"lon": 7.62898
+},
+"K77": {
+"name": "EHB01 Observatory, Engelhardsberg",
+"lon": 11.2903
+},
+"K78": {
+"name": "iota Scorpii Observatory, La Spezia",
+"lon": 9.85356
+},
+"K79": {
+"name": "Erfurt",
+"lon": 11.05789
+},
+"K80": {
+"name": "Platanus Observatory, Lusowko",
+"lon": 16.63733
+},
+"K81": {
+"name": "P.M.P.H.R. Deep Sky Observatory, Atina",
+"lon": 13.78511
+},
+"K82": {
+"name": "Alphard Observatory, Ostuni",
+"lon": 17.5894
+},
+"K83": {
+"name": "Osservatorio Astronomico Beppe Forti, Montelupo",
+"lon": 11.04317
+},
+"K84": {
+"name": "Felliscopio Observatory, Fellicarolo",
+"lon": 10.75861
+},
+"K85": {
+"name": "Kelmis",
+"lon": 6.03161
+},
+"K86": {
+"name": "Brescia",
+"lon": 10.18189
+},
+"K87": {
+"name": "Dettelbach Vineyard Observatory",
+"lon": 10.17011
+},
+"K88": {
+"name": "GINOP-KHK, Piszkesteto",
+"lon": 19.89367
+},
+"K89": {
+"name": "Digital Stargate Observatory, Manciano",
+"lon": 11.56339
+},
+"K90": {
+"name": "Sopot Astronomical Observatory",
+"lon": 20.54577
+},
+"K91": {
+"name": "Sutherland-LCO A",
+"lon": 20.81019
+},
+"K92": {
+"name": "Sutherland-LCO B",
+"lon": 20.81004
+},
+"K93": {
+"name": "Sutherland-LCO C",
+"lon": 20.81011
+},
+"K94": {
+"name": "Sutherland",
+"lon": 20.81097
+},
+"K95": {
+"name": "MASTER-SAAO Observatory, Sutherland",
+"lon": 20.81106
+},
+"K96": {
+"name": "Savelli Observatory",
+"lon": 16.75119
+},
+"K97": {
+"name": "Freconrupt",
+"lon": 7.18026
+},
+"K98": {
+"name": "6ROADS Observatory 1, Wojnowko",
+"lon": 17.07217
+},
+"K99": {
+"name": "Derenivka Observatory",
+"lon": 22.4535
+},
+"L00": {
+"name": "East Rome Observatory, Rome",
+"lon": 12.5375
+},
+"L01": {
+"name": "Visnjan Observatory, Tican",
+"lon": 13.7493
+},
+"L02": {
+"name": "NOAK Observatory, Stavraki",
+"lon": 20.81658
+},
+"L03": {
+"name": "SGT Observatory, Gaflenz",
+"lon": 14.73081
+},
+"L04": {
+"name": "ROASTERR-1 Observatory, Cluj-Napoca",
+"lon": 23.5964
+},
+"L05": {
+"name": "Dridri Observatory, Franciacorta",
+"lon": 10.0699
+},
+"L06": {
+"name": "Sormano 2 Observatory, Bellagio Via Lattea",
+"lon": 9.25403
+},
+"L07": {
+"name": "Osservatorio Salvatore di Giacomo, Agerola",
+"lon": 14.56406
+},
+"L08": {
+"name": "Metsahovi Optical Telescope, Metsahovi",
+"lon": 24.39447
+},
+"L09": {
+"name": "Sutherland-LCO Aqawan A #1",
+"lon": 20.80987
+},
+"L10": {
+"name": "Kryoneri Observatory",
+"lon": 22.6186
+},
+"L11": {
+"name": "Sandvreten Observatory",
+"lon": 17.2092
+},
+"L12": {
+"name": "Koksijde",
+"lon": 2.67789
+},
+"L13": {
+"name": "Stardust Observatory, Brasov",
+"lon": 25.62193
+},
+"L14": {
+"name": "Planetarium de Vaulx-en-Velin Observatory",
+"lon": 4.92247
+},
+"L15": {
+"name": "St. George Observatory, Ploiesti",
+"lon": 25.97839
+},
+"L16": {
+"name": "Stardreams Observatory, Valenii de Munte",
+"lon": 26.04561
+},
+"L17": {
+"name": "Observatori Astronomic Albanya",
+"lon": 2.7114
+},
+"L18": {
+"name": "QOS Observatory, Zalistsi",
+"lon": 26.71828
+},
+"L19": {
+"name": "Osservatorio Felsina AAB, Montepastore",
+"lon": 11.15258
+},
+"L20": {
+"name": "AG_Sarajevo Observatory, Sarajevo",
+"lon": 18.32069
+},
+"L21": {
+"name": "Ostrov Observatory, Constanta",
+"lon": 27.42128
+},
+"L22": {
+"name": "Barlad Observatory",
+"lon": 27.66953
+},
+"L23": {
+"name": "Schela Observatory",
+"lon": 27.8319
+},
+"L24": {
+"name": "Gauteng",
+"lon": 27.9289
+},
+"L25": {
+"name": "Smolecin",
+"lon": 14.43739
+},
+"L26": {
+"name": "Sanderphil Urban Observatory, Civitavecchia",
+"lon": 11.81019
+},
+"L27": {
+"name": "29PREMOTE Observatory, Dauban",
+"lon": 5.64704
+},
+"L28": {
+"name": "ISON-Castelgrande Observatory",
+"lon": 15.46339
+},
+"L29": {
+"name": "Drebach-South Observatory, Windhoek",
+"lon": 18.0169
+},
+"L30": {
+"name": "Lohbach Observatory, Benninghofen",
+"lon": 7.51469
+},
+"L31": {
+"name": "RaSo Observatory, Chemnitz",
+"lon": 12.85615
+},
+"L32": {
+"name": "Korea Microlensing Telescope Network-SAAO",
+"lon": 20.81044
+},
+"L33": {
+"name": "Ananiv",
+"lon": 29.9546
+},
+"L34": {
+"name": "Galhassin Robotic Telescope, Isnello",
+"lon": 14.02061
+},
+"L35": {
+"name": "DreamSky Observatory, Lisnyky",
+"lon": 30.5086
+},
+"L36": {
+"name": "Ondrejov--BlueEye600 Telescope",
+"lon": 14.78008
+},
+"L37": {
+"name": "Observatorio Alnitak, El Puerto de Santa Maria",
+"lon": 353.73883
+},
+"L38": {
+"name": "Gartensternwarte Schafsweide, Sehlde",
+"lon": 9.69997
+},
+"L39": {
+"name": "Osservatorio Spica, Signa",
+"lon": 11.04031
+},
+"L40": {
+"name": "Sternwarte Saarbruecken Rastpfuhl",
+"lon": 6.95681
+},
+"L41": {
+"name": "Ponte Uso",
+"lon": 12.30181
+},
+"L42": {
+"name": "Observatory-Astrocamp Manciano",
+"lon": 11.5633
+},
+"L43": {
+"name": "Ager, Leida",
+"lon": 0.74439
+},
+"L44": {
+"name": "AstroVal, Le Chenit",
+"lon": 6.22111
+},
+"L45": {
+"name": "ObsCT, Catania",
+"lon": 15.06243
+},
+"L46": {
+"name": "Observatorio Majadahonda",
+"lon": 356.11939
+},
+"L47": {
+"name": "Osservatorio Astronomico, Piobbico",
+"lon": 12.50711
+},
+"L48": {
+"name": "CNVL Observatory, Baia Mare",
+"lon": 23.56873
+},
+"L49": {
+"name": "VEGA-Sternwarte, Dorfleiten",
+"lon": 13.0073
+},
+"L50": {
+"name": "GenShtab Observatory, Nauchnyi",
+"lon": 34.0114
+},
+"L51": {
+"name": "MARGO, Nauchnyi",
+"lon": 34.0164
+},
+"L52": {
+"name": "MASTER-Tavrida",
+"lon": 34.01694
+},
+"L53": {
+"name": "Aldo Agnetti Observatory, Como",
+"lon": 9.03381
+},
+"L54": {
+"name": "Berthelot Observatory, Hunedoara",
+"lon": 22.88878
+},
+"L55": {
+"name": "Sura Gardens, Dnipro",
+"lon": 35.0875
+},
+"L56": {
+"name": "Sternwarte Limburg, Limburg",
+"lon": 8.05858
+},
+"L57": {
+"name": "Bacau Observatory, Bacau",
+"lon": 26.90419
+},
+"L58": {
+"name": "Heavenly Owl observatory",
+"lon": 30.57108
+},
+"L59": {
+"name": "Compustar Observatory, Rouen",
+"lon": 1.22606
+},
+"L60": {
+"name": "Popovich Observatory, Ivanivka",
+"lon": 30.69722
+},
+"L61": {
+"name": "MONET South, Sutherland",
+"lon": 20.81028
+},
+"L62": {
+"name": "Hypatia Observatory, Rimini",
+"lon": 12.52889
+},
+"L63": {
+"name": "HOB Observatory, Capraia Fiorentina",
+"lon": 11.00914
+},
+"L64": {
+"name": "Martesana Observatory, Cassina de Pecchi",
+"lon": 9.36314
+},
+"L65": {
+"name": "Bredenkamp Observatory, Bremen",
+"lon": 8.82831
+},
+"L66": {
+"name": "MeerLICHT-1, Sutherland",
+"lon": 20.81122
+},
+"L67": {
+"name": "Cherkizovo Observatory, Moscow Oblast",
+"lon": 37.79889
+},
+"L68": {
+"name": "PESCOPE, Port Elizabeth",
+"lon": 25.53683
+},
+"L69": {
+"name": "LaCaille Observatory, Pretoria",
+"lon": 28.2142
+},
+"L70": {
+"name": "Zvjezdarnica Graberje, Zagreb",
+"lon": 15.92333
+},
+"L71": {
+"name": "Vedrus Observatory, Azovskaya",
+"lon": 38.5839
+},
+"L72": {
+"name": "Melezhy Astrophoto Observatory",
+"lon": 38.6928
+},
+"L73": {
+"name": "Beato Ermanno Observatory, Impruneta",
+"lon": 11.26183
+},
+"L74": {
+"name": "AstroColauri, Naples",
+"lon": 14.21109
+},
+"L75": {
+"name": "Tartu Observatory of Tartu University",
+"lon": 26.46394
+},
+"L76": {
+"name": "Nomad Observatory, Kochevanchik",
+"lon": 39.65161
+},
+"L77": {
+"name": "RDSS, Kovalevka",
+"lon": 39.82025
+},
+"L78": {
+"name": "San Marco Observatory, Salerno",
+"lon": 14.78
+},
+"L79": {
+"name": "BOSZA Observatory, Szalanta",
+"lon": 18.22039
+},
+"L80": {
+"name": "SpringBok Observatory, Tivoli",
+"lon": 18.0175
+},
+"L81": {
+"name": "Skygems Namibia Remote Observatory",
+"lon": 16.36169
+},
+"L82": {
+"name": "Crow Observatory, Portalegre",
+"lon": 352.6795
+},
+"L83": {
+"name": "UJA Observatory, Jaen",
+"lon": 356.22231
+},
+"L84": {
+"name": "Kairos Observatory, Letnik",
+"lon": 41.27989
+},
+"L85": {
+"name": "BiAnto Observatory, Lauria",
+"lon": 15.86325
+},
+"L86": {
+"name": "Giordano Bruno Observatory, Brallo",
+"lon": 9.2631
+},
+"L87": {
+"name": "Moonbase South Observatory, Hakos",
+"lon": 16.36189
+},
+"L88": {
+"name": "Stazione Astronomica Le Pleiadi, Pantane",
+"lon": 16.5422
+},
+"L89": {
+"name": "PAO, Prato",
+"lon": 11.14439
+},
+"L90": {
+"name": "ABObservatory, Rosarno",
+"lon": 15.97949
+},
+"L91": {
+"name": "Antares MTM Observatory, S. Donato",
+"lon": 13.8078
+},
+"L92": {
+"name": "San Costantino",
+"lon": 16.00211
+},
+"L93": {
+"name": "Garraf Observatory, Sant Pere de Ribes",
+"lon": 1.77221
+},
+"L94": {
+"name": "Observatorio MOMA, Oviedo",
+"lon": 354.14561
+},
+"L95": {
+"name": "Observatorio Astronomico de Cartagena",
+"lon": 358.95159
+},
+"L96": {
+"name": "ISON-Byurakan Observatory",
+"lon": 44.2745
+},
+"L97": {
+"name": "Castle Fields Observatory, Calne",
+"lon": 357.99161
+},
+"L98": {
+"name": "La Sagra Observatory, Puebla de Don Fadrique",
+"lon": 357.43425
+},
+"L99": {
+"name": "Novosilky",
+"lon": 30.60281
+},
+"M00": {
+"name": "Viestikallio, Artjarvi",
+"lon": 26.21155
+},
+"M01": {
+"name": "Weizmann Astrophysical Observatory",
+"lon": 35.04073
+},
+"M02": {
+"name": "Astropriorat Observatory",
+"lon": 0.86386
+},
+"M03": {
+"name": "Badalona Boreal",
+"lon": 2.25822
+},
+"M04": {
+"name": "Pujalt Observatory, Barcelona",
+"lon": 1.4256
+},
+"M05": {
+"name": "Observatoire de la Nine, Canens",
+"lon": 1.33161
+},
+"M06": {
+"name": "PeLe's Observatory, Ager",
+"lon": 0.74381
+},
+"M07": {
+"name": "Siek",
+"lon": 10.29447
+},
+"M08": {
+"name": "CHON, Stekene",
+"lon": 4.0381
+},
+"M09": {
+"name": "Observatory Gromme - Oudsbergen",
+"lon": 5.60094
+},
+"M10": {
+"name": "CPF Observatory, St Vallier de Thiey",
+"lon": 6.85411
+},
+"M11": {
+"name": "Novaastro Observatory, Banon",
+"lon": 5.64718
+},
+"M12": {
+"name": "Puschino",
+"lon": 47.8639
+},
+"M13": {
+"name": "Lucie Berger Observatory, Strasbourg",
+"lon": 7.7425
+},
+"M14": {
+"name": "Schiaparelli Gallarate Station",
+"lon": 8.78939
+},
+"M15": {
+"name": "Virgo Oservatory, Seveso",
+"lon": 9.1506
+},
+"M16": {
+"name": "Osservatorio Il Coreggiolo",
+"lon": 9.77319
+},
+"M17": {
+"name": "SN1572 Tycho Observatory, La Spezia",
+"lon": 9.80922
+},
+"M18": {
+"name": "Koeditz",
+"lon": 11.83939
+},
+"M19": {
+"name": "Osservatorio Explorer, Pula",
+"lon": 13.88327
+},
+"M20": {
+"name": "Polse di Cougnes Observatory, Zuglio",
+"lon": 13.01169
+},
+"M21": {
+"name": "Schiaparelli Southern Observatory, Hakos",
+"lon": 16.36144
+},
+"M22": {
+"name": "ATLAS South Africa, Sutherland",
+"lon": 20.81059
+},
+"M23": {
+"name": "ELTE Gothard Observatory, Szombathely",
+"lon": 16.6035
+},
+"M24": {
+"name": "La Macchina del Tempo, Ardore Marina",
+"lon": 16.2005
+},
+"M25": {
+"name": "Einarin Observatory, Tampere",
+"lon": 23.8283
+},
+"M26": {
+"name": "Zen Observatory, Scandicci",
+"lon": 11.13494
+},
+"M27": {
+"name": "Elijah Observatory, Lajatico",
+"lon": 10.7175
+},
+"M28": {
+"name": "Lesedi Telescope-SAAO Observatory, Sutherland",
+"lon": 20.81064
+},
+"M29": {
+"name": "O.M.Ni.A. Observatory, Cesena",
+"lon": 12.24864
+},
+"M30": {
+"name": "Zeta Aquarii Observatory, Brasov",
+"lon": 25.62
+},
+"M31": {
+"name": "Ursa Havaintokeskus,  Artjarvi",
+"lon": 26.21281
+},
+"M32": {
+"name": "Sunny Transcarpathian, Mukachevo",
+"lon": 22.70919
+},
+"M33": {
+"name": "OWL-Net, Mitzpe Ramon",
+"lon": 34.76334
+},
+"M34": {
+"name": "AGO70, Astronomical Observatory, Modra",
+"lon": 17.27363
+},
+"M35": {
+"name": "PS Observatory, Parjol",
+"lon": 26.61669
+},
+"M36": {
+"name": "Opicina, Trieste",
+"lon": 13.79647
+},
+"M37": {
+"name": "Astronomsko drustvo Nanos, Ajdovscina",
+"lon": 13.91243
+},
+"M38": {
+"name": "Harsona Observatory, Nyiregyhaza",
+"lon": 21.76719
+},
+"M39": {
+"name": "AUTH Observatory, Thessaloniki",
+"lon": 22.95888
+},
+"M40": {
+"name": "OSTS-NRIAG, Kottamia",
+"lon": 31.82708
+},
+"M41": {
+"name": "Jeddah",
+"lon": 39.25827
+},
+"M42": {
+"name": "Emirates Observatory, Al Rahba",
+"lon": 54.6708
+},
+"M43": {
+"name": "Al Sadeem Observatory, Abu Dhabi",
+"lon": 54.68478
+},
+"M44": {
+"name": "Al-Khatim Observatory, Abu Dhabi",
+"lon": 54.92031
+},
+"M45": {
+"name": "Starhopper Observatory, Sfantu Gheorghe",
+"lon": 25.76889
+},
+"M46": {
+"name": "Althuraya Astronomy Center, Dubai",
+"lon": 55.45033
+},
+"M47": {
+"name": "Sharjah Observatory, Sharjah",
+"lon": 55.46205
+},
+"M48": {
+"name": "GAC - Via L. Sturzo Observatory, Catania",
+"lon": 15.09222
+},
+"M49": {
+"name": "IAS Remote Observatory, Hakos",
+"lon": 16.36172
+},
+"M50": {
+"name": "Virtual Telescope Project, Manciano",
+"lon": 11.56375
+},
+"M51": {
+"name": "Robert Mayer Sternwarte, Heilbronn",
+"lon": 9.22697
+},
+"M52": {
+"name": "Sassari",
+"lon": 8.5785
+},
+"M53": {
+"name": "CAS Observatory, Preetz",
+"lon": 10.28219
+},
+"M54": {
+"name": "Observatoire Albireo de Biot",
+"lon": 7.07781
+},
+"M55": {
+"name": "Luckystar Observatory, Vazec",
+"lon": 19.987
+},
+"M56": {
+"name": "Varedo",
+"lon": 9.17483
+},
+"M57": {
+"name": "Wide-field Mufara Telescope, Isnello",
+"lon": 14.0202
+},
+"M58": {
+"name": "VdS Remote Observatory, Hakos",
+"lon": 16.36133
+},
+"M59": {
+"name": "Rondchamp Observatory, Reconvilier",
+"lon": 7.22883
+},
+"M60": {
+"name": "Virgil Observatory, Loiano",
+"lon": 11.32554
+},
+"M61": {
+"name": "Observatory Moers Kapellen",
+"lon": 6.58581
+},
+"M62": {
+"name": "Lajoux Observatory",
+"lon": 7.13417
+},
+"M63": {
+"name": "RPF Observatory, Gagliano del Capo",
+"lon": 18.36969
+},
+"M64": {
+"name": "Holbrook, Heathfield",
+"lon": 0.23964
+},
+"M65": {
+"name": "Mustola Observatory, Lappeenranta",
+"lon": 28.32494
+},
+"M66": {
+"name": "SNX-NET, Prodromos",
+"lon": 32.84019
+},
+"M67": {
+"name": "Kolobov Observatory, Magnitogorsk",
+"lon": 58.63631
+},
+"M68": {
+"name": "School 1502 Rooftop Obs., Moscow",
+"lon": 37.83052
+},
+"M69": {
+"name": "Emirates Astronomical Observatory L.L.C",
+"lon": 54.74547
+},
+"M70": {
+"name": "BOOTES-6, Bloemfontein",
+"lon": 26.40409
+},
+"M71": {
+"name": "AUTH Astronomical Station, Noesis",
+"lon": 22.99562
+},
+"M72": {
+"name": "AUTH Astronomical Station, Cyprus",
+"lon": 32.84017
+},
+"M73": {
+"name": "Eden Emirates Observatory, Abu Dhabi",
+"lon": 54.74531
+},
+"M75": {
+"name": "Online observatory, Peschany",
+"lon": 39.51155
+},
+"M77": {
+"name": "Mezmay Comet Search Center",
+"lon": 39.96553
+},
+"M90": {
+"name": "Chervishevo",
+"lon": 65.4286
+},
+"N27": {
+"name": "Omsk-Yogik Observatory",
+"lon": 73.7253
+},
+"N30": {
+"name": "Zeds Astronomical Observatory, Lahore",
+"lon": 74.3694
+},
+"N31": {
+"name": "Eden Astronomical Observatory, Lahore",
+"lon": 74.44422
+},
+"N42": {
+"name": "Tien-Shan Astronomical Observatory",
+"lon": 76.97181
+},
+"N43": {
+"name": "Plateau Observatory for Dome A, Kunlun Station",
+"lon": 77.1167
+},
+"N44": {
+"name": "Shache Station, Langan Village",
+"lon": 77.13931
+},
+"N50": {
+"name": "Himalayan Chandra Telescope, IAO, Hanle",
+"lon": 78.96383
+},
+"N51": {
+"name": "GROWTH India Telescope, IAO, Hanle",
+"lon": 78.96461
+},
+"N53": {
+"name": "International Liquid Mirror Telescope",
+"lon": 79.6853
+},
+"N54": {
+"name": "Purple Mountain Observatory, Jiama'erdeng",
+"lon": 80.02674
+},
+"N55": {
+"name": "Corona Borealis Observatory, Ngari, Tibet",
+"lon": 80.02623
+},
+"N56": {
+"name": "Jiama'erdeng Tianwentai JIST project, Ali, Tibet",
+"lon": 80.02675
+},
+"N57": {
+"name": "YLT, NAOC",
+"lon": 80.046
+},
+"N82": {
+"name": "Multa Observatory",
+"lon": 85.95494
+},
+"N83": {
+"name": "LW-1, NAOC-Korla",
+"lon": 86.23504
+},
+"N85": {
+"name": "Megrez-NAOC",
+"lon": 87.17701
+},
+"N86": {
+"name": "Xingming Observatory-KATS, Nanshan",
+"lon": 87.17852
+},
+"N87": {
+"name": "Nanshan Station, Xinjiang Observatory",
+"lon": 87.17503
+},
+"N88": {
+"name": "Xingming Observatory #3, Nanshan",
+"lon": 87.17322
+},
+"N89": {
+"name": "Xingming Observatory #2, Nanshan",
+"lon": 87.17906
+},
+"N94": {
+"name": "Altay Astronomical Observatory",
+"lon": 88.72792
+},
+"N98": {
+"name": "Xingyuan Observatory #2, Qitai",
+"lon": 89.75361
+},
+"O02": {
+"name": "Galaxy Tibet YBJ Observatory,Yangbajing",
+"lon": 90.52614
+},
+"O17": {
+"name": "Purple Mountain Observatory, Lenghu-1",
+"lon": 93.88669
+},
+"O18": {
+"name": "WFST, Lenghu",
+"lon": 93.89522
+},
+"O37": {
+"name": "TRT-NEO, Chiangmai",
+"lon": 98.48553
+},
+"O38": {
+"name": "Purple Mountain Observatory, Dayao",
+"lon": 101.04528
+},
+"O39": {
+"name": "BOOTES-4, Lijiang",
+"lon": 100.03106
+},
+"O40": {
+"name": "Xingyuan, Daocheng",
+"lon": 100.22861
+},
+"O41": {
+"name": "Choakanan Observatory, Lampang",
+"lon": 99.46556
+},
+"O42": {
+"name": "Gaomeigu Gemini Observatory, LiJiang",
+"lon": 100.029
+},
+"O43": {
+"name": "Observatori Negara, Langkawi",
+"lon": 99.78111
+},
+"O44": {
+"name": "Lijiang Station, Yunnan Observatories",
+"lon": 100.02973
+},
+"O45": {
+"name": "Yunnan-HK Observatory, Gaomeigu",
+"lon": 100.03261
+},
+"O46": {
+"name": "Daocheng Glacier Observatory",
+"lon": 100.22664
+},
+"O47": {
+"name": "Yunling Observatory, Yunnan",
+"lon": 101.13415
+},
+"O48": {
+"name": "Purple Mountain Observatory, Yaoan (0.8-m)",
+"lon": 101.18154
+},
+"O49": {
+"name": "Purple Mountain Observatory, Yaoan Station",
+"lon": 101.18111
+},
+"O50": {
+"name": "Hin Hua Observatory, Klang",
+"lon": 101.43942
+},
+"O51": {
+"name": "Akin Observatory, Rayong",
+"lon": 101.27869
+},
+"O52": {
+"name": "Astro820, Samut Prakan",
+"lon": 100.72972
+},
+"O53": {
+"name": "Pakchong, Nachonratchasima",
+"lon": 101.40403
+},
+"O54": {
+"name": "TSky Observatory, Chonburi",
+"lon": 100.94939
+},
+"O55": {
+"name": "Telok Kemang Observatory, Port Dickson",
+"lon": 101.8545
+},
+"O56": {
+"name": "Jaichalad-Pailin Observatory",
+"lon": 101.45456
+},
+"O57": {
+"name": "ROP KKN Observatory",
+"lon": 102.63094
+},
+"O58": {
+"name": "SSTAC, Pak Chong",
+"lon": 101.45413
+},
+"O68": {
+"name": "LW-2, NAOC-Zhongwei",
+"lon": 105.3309
+},
+"O72": {
+"name": "OWL-Net, Songino",
+"lon": 106.33476
+},
+"O75": {
+"name": "ISON-Hureltogoot Observatory",
+"lon": 107.0518
+},
+"O85": {
+"name": "LiShan Observatory, Lintong",
+"lon": 109.213
+},
+"P07": {
+"name": "Space Surveillance Telescope, HEH Station",
+"lon": 114.08987
+},
+"P13": {
+"name": "Baihuashan Observatory, Beijing",
+"lon": 115.57333
+},
+"P14": {
+"name": "Nedlands",
+"lon": 115.81167
+},
+"P18": {
+"name": "Birch Forest Observatory, LaBaGouMen",
+"lon": 116.61083
+},
+"P21": {
+"name": "6R-AUS1, Youndegin",
+"lon": 117.28146
+},
+"P22": {
+"name": "LW-3, NAOC-Xinglong",
+"lon": 117.57588
+},
+"P25": {
+"name": "Kinmen Educational Remote Observatory, Jincheng",
+"lon": 118.31274
+},
+"P30": {
+"name": "Jiangnantianchi Observatory, Anji",
+"lon": 119.59708
+},
+"P31": {
+"name": "Starlight Observatory, Tianhuangping",
+"lon": 119.59736
+},
+"P34": {
+"name": "Lvye Observatory, Suzhou",
+"lon": 120.32031
+},
+"P35": {
+"name": "Cuteip Remote Observatory, Changhua",
+"lon": 120.55699
+},
+"P36": {
+"name": "ULTRA Observatory,Suzhou",
+"lon": 120.62669
+},
+"P37": {
+"name": "HuiWen High School Observatory, Taichung City",
+"lon": 120.63972
+},
+"P38": {
+"name": "Checheng Elementary School Observatory",
+"lon": 120.71429
+},
+"P40": {
+"name": "Chinese Culture University, Taipei",
+"lon": 121.53958
+},
+"P41": {
+"name": "Merak, NAOC",
+"lon": 121.786
+},
+"P48": {
+"name": "ASTEP, Concordia Station",
+"lon": 123.32403
+},
+"P61": {
+"name": "Jilin Observatory",
+"lon": 126.33047
+},
+"P62": {
+"name": "Jeonbuk Science High School Observatory",
+"lon": 127.03597
+},
+"P63": {
+"name": "GSA Observatory, Gwangju",
+"lon": 126.8475
+},
+"P64": {
+"name": "GSHS Observatory, Suwon",
+"lon": 127.00489
+},
+"P65": {
+"name": "OWL-Net, Daedeok",
+"lon": 127.37568
+},
+"P66": {
+"name": "Deokheung Optical Astronomy Observatory",
+"lon": 127.44675
+},
+"P67": {
+"name": "Kangwon National University Observatory",
+"lon": 127.7415
+},
+"P68": {
+"name": "DDSHS Biryong Observatory",
+"lon": 127.4744
+},
+"P69": {
+"name": "ChungBuk National University Observatory",
+"lon": 127.47561
+},
+"P71": {
+"name": "Miryang Arirang Astronomical Observatory",
+"lon": 128.76108
+},
+"P72": {
+"name": "OWL-Net, Mt. Bohyun",
+"lon": 128.97595
+},
+"P73": {
+"name": "BSH Byulsem Observatory, Busan",
+"lon": 129.082
+},
+"P87": {
+"name": "Hirao Observatory, Yamaguchi",
+"lon": 132.09419
+},
+"P93": {
+"name": "Space Tracking and Communications Center, JAXA",
+"lon": 133.54433
+},
+"Q02": {
+"name": "Sakai Observatory, Osaka",
+"lon": 135.49344
+},
+"Q06": {
+"name": "Tarui Observatory, Tarui",
+"lon": 136.49547
+},
+"Q10": {
+"name": "Toyokawa Observatory",
+"lon": 137.32944
+},
+"Q11": {
+"name": "Shinshiro",
+"lon": 137.52069
+},
+"Q12": {
+"name": "Nagano Observatory",
+"lon": 137.82536
+},
+"Q14": {
+"name": "Goto Astronomical Observatory in Yatsugatake",
+"lon": 138.30444
+},
+"Q19": {
+"name": "Machida",
+"lon": 139.439
+},
+"Q20": {
+"name": "Swan Reach Imaging, Glenalta",
+"lon": 139.57008
+},
+"Q21": {
+"name": "Southern Utsunomiya",
+"lon": 139.85335
+},
+"Q22": {
+"name": "SNX-NET, Moorook",
+"lon": 140.34192
+},
+"Q23": {
+"name": "Sukagawa",
+"lon": 140.38646
+},
+"Q24": {
+"name": "Katori",
+"lon": 140.5235
+},
+"Q33": {
+"name": "Nayoro Observatory, Hokkaido University",
+"lon": 142.48278
+},
+"Q38": {
+"name": "Swan Hill",
+"lon": 143.5506
+},
+"Q54": {
+"name": "Harlingten Telescope, Greenhill Observatory",
+"lon": 147.28772
+},
+"Q55": {
+"name": "SkyMapper, Siding Spring",
+"lon": 149.06142
+},
+"Q56": {
+"name": "Heaven's Mirror Observatory, Yass",
+"lon": 148.97642
+},
+"Q57": {
+"name": "Korea Microlensing Telescope Network-SSO",
+"lon": 149.06173
+},
+"Q58": {
+"name": "Siding Spring-LCO Clamshell #1",
+"lon": 149.07085
+},
+"Q59": {
+"name": "Siding Spring-LCO Clamshell #2",
+"lon": 149.07081
+},
+"Q60": {
+"name": "ISON-SSO Observatory, Siding Spring",
+"lon": 149.069
+},
+"Q61": {
+"name": "PROMPT, Siding Spring",
+"lon": 149.0619
+},
+"Q62": {
+"name": "iTelescope Observatory, Siding Spring",
+"lon": 149.06442
+},
+"Q63": {
+"name": "Siding Spring-LCO A",
+"lon": 149.07064
+},
+"Q64": {
+"name": "Siding Spring-LCO B",
+"lon": 149.07078
+},
+"Q65": {
+"name": "Warrumbungle Observatory",
+"lon": 149.19313
+},
+"Q66": {
+"name": "Siding Spring-Janess-G, JAXA",
+"lon": 149.06425
+},
+"Q67": {
+"name": "JBL Observatory, Bathurst",
+"lon": 149.49233
+},
+"Q68": {
+"name": "Blue Mountains Observatory, Leura",
+"lon": 150.33742
+},
+"Q69": {
+"name": "Hazelbrook",
+"lon": 150.44933
+},
+"Q70": {
+"name": "Glenlee Observatory, Glenlee",
+"lon": 150.50044
+},
+"Q71": {
+"name": "SNX-NET, Siding Spring",
+"lon": 149.06981
+},
+"Q73": {
+"name": "Buckthorn, Thornton",
+"lon": 151.64894
+},
+"Q78": {
+"name": "Woogaroo Observatory, Forest Lake",
+"lon": 152.94789
+},
+"Q79": {
+"name": "Samford Valley Observatory",
+"lon": 152.8481
+},
+"Q80": {
+"name": "Birkdale",
+"lon": 153.216
+},
+"Q81": {
+"name": "Caloundra West",
+"lon": 153.09622
+},
+"R13": {
+"name": "GOTO North",
+"lon": 342.12071
+},
+"R14": {
+"name": "VillaDeMazoElHoyo",
+"lon": 342.23206
+},
+"R16": {
+"name": "Tafuriaste, La Orotava",
+"lon": 343.46464
+},
+"R17": {
+"name": "ATLAS-TDO",
+"lon": 343.48969
+},
+"R18": {
+"name": "Two-meter Twin Telescope, TTT4",
+"lon": 343.49025
+},
+"R20": {
+"name": "LaMelira, Las Palmas de Gran Canaria",
+"lon": 344.57711
+},
+"R37": {
+"name": "NEObserver Trevinca, Trevinca Skies",
+"lon": 353.01175
+},
+"R38": {
+"name": "PixelSkiesAstro",
+"lon": 357.35656
+},
+"R39": {
+"name": "Dobsonian Power, Algarve",
+"lon": 352.30683
+},
+"R40": {
+"name": "STB Astro Observatory, Setubal",
+"lon": 351.16978
+},
+"R41": {
+"name": "UAM, Madrid",
+"lon": 356.30367
+},
+"R42": {
+"name": "Observatorio Astronomico del Moncayo",
+"lon": 358.24614
+},
+"R43": {
+"name": "TransAstra TKO at e-EYE",
+"lon": 353.37281
+},
+"R44": {
+"name": "Metis Trevinca Skies",
+"lon": 353.01164
+},
+"R45": {
+"name": "Tycho Brahe, Trevinca",
+"lon": 353.01158
+},
+"R46": {
+"name": "Lovell (76-m, Jodrell Bank)",
+"lon": 357.69143
+},
+"R47": {
+"name": "Madrid DSS-63 (70-m)",
+"lon": 355.75199
+},
+"R48": {
+"name": "Centro Astronomico Alto Turia 2",
+"lon": 358.89092
+},
+"R49": {
+"name": "Observatorio Villuercas-Navezuelas, Navezuelas",
+"lon": 354.56048
+},
+"R50": {
+"name": "Obsservatorio astronomico Orion",
+"lon": 354.40658
+},
+"R51": {
+"name": "Astrogredos Observatory, Arenas de San Pedro",
+"lon": 354.91808
+},
+"R52": {
+"name": "Observatorio IES Al-Baytar, Benalmadena",
+"lon": 355.46503
+},
+"R53": {
+"name": "Pinos, Alhaurin de la Torre",
+"lon": 355.41333
+},
+"R54": {
+"name": "Petit Cosquet, Bangor",
+"lon": 356.7885
+},
+"R55": {
+"name": "ALFA CENTAURI, LAS MESAS",
+"lon": 357.23226
+},
+"R56": {
+"name": "Scott Street Observatory, Lake Tekapo",
+"lon": 170.48389
+},
+"R57": {
+"name": "Aorangi Iti Observatory, Lake Tekapo",
+"lon": 170.47278
+},
+"R58": {
+"name": "Beverly-Begg Observatory, Dunedin",
+"lon": 170.49039
+},
+"R59": {
+"name": "Camarasa Observatory, Astrocamp Nerpio",
+"lon": 357.67342
+},
+"R60": {
+"name": "MonitorMyPlanet, Nerpio",
+"lon": 357.67344
+},
+"R61": {
+"name": "Landete-Kea",
+"lon": 358.6305
+},
+"R62": {
+"name": "lama'stro, Le Genest-Saint-Isle",
+"lon": 359.11339
+},
+"R63": {
+"name": "Observatorio Sureste Estelar, Fuente Alamo",
+"lon": 358.77989
+},
+"R64": {
+"name": "Steyning Observatory",
+"lon": 359.66752
+},
+"R65": {
+"name": "R. F. Joyce Observatory, Christchurch",
+"lon": 172.34981
+},
+"R66": {
+"name": "Mooray Observatory, Christchurch",
+"lon": 172.58761
+},
+"R67": {
+"name": "Chinon Private Observatory, Chinon",
+"lon": 0.28344
+},
+"R68": {
+"name": "Bourgeon Observatory",
+"lon": 359.6768
+},
+"R69": {
+"name": "SAT01-Mntlouis sur Loire",
+"lon": 0.80258
+},
+"R70": {
+"name": "WATCH, Beychac Et Caillau",
+"lon": 359.62036
+},
+"R71": {
+"name": "Erchico, San Vicente Del Raspeig",
+"lon": 359.50454
+},
+"R72": {
+"name": "RubiObservatory, Rubi",
+"lon": 2.03528
+},
+"R73": {
+"name": "Observatoire de Tauxigny, Tauxigny",
+"lon": 0.83289
+},
+"R74": {
+"name": "Observatori Puig d'Agulles, Vallirana",
+"lon": 1.93494
+},
+"R75": {
+"name": "Rodamir, Roda de Bara",
+"lon": 1.45486
+},
+"R76": {
+"name": "LEPTINA-ONE, Estinnes-au-val",
+"lon": 4.10667
+},
+"R77": {
+"name": "Observatoire de l'etoile qui rit",
+"lon": 3.72744
+},
+"R78": {
+"name": "Crystal Lake Observatory, Ngutunui",
+"lon": 175.09104
+},
+"R79": {
+"name": "Observatoire Hubert Reeves, Mars",
+"lon": 4.33403
+},
+"R80": {
+"name": "Observatoire International de Beauvert",
+"lon": 4.41089
+},
+"R81": {
+"name": "Obs Vallespir, Sabadell",
+"lon": 2.087
+},
+"R83": {
+"name": "Observatoire Banon La Tuilerie, Banon",
+"lon": 5.64647
+},
+"R85": {
+"name": "Telescope Leonard de Vinci, GAPRA, Antibes",
+"lon": 7.07181
+},
+"R86": {
+"name": "Mont-Soleil, Saint-Imier",
+"lon": 6.98947
+},
+"R87": {
+"name": "Observatoire de la Cote d'Azur",
+"lon": 6.92294
+},
+"R88": {
+"name": "La Porte des Etoiles, Corgemont",
+"lon": 7.14447
+},
+"R91": {
+"name": "ETH Honggerberg Observatory",
+"lon": 8.51092
+},
+"R92": {
+"name": "Osterholz-Scharmbeck",
+"lon": 8.78094
+},
+"R93": {
+"name": "Sanse Observatory, San Sebastiano Curone",
+"lon": 9.06719
+},
+"R95": {
+"name": "Fiammetta Observatory, La Spezia",
+"lon": 9.79045
+},
+"R96": {
+"name": "Osservatorio Pierino Zambonini",
+"lon": 10.43101
+},
+"R97": {
+"name": "Baudenbach",
+"lon": 10.53953
+},
+"R99": {
+"name": "Giuliano Betti Observatory, Firenze",
+"lon": 11.23808
+},
+"S03": {
+"name": "Stierlingwald, Buermoos",
+"lon": 12.92156
+},
+"S04": {
+"name": "Osservatorio Astronomico Narciso Spuntoni",
+"lon": 12.71285
+},
+"S05": {
+"name": "Sternwarte Burghausen",
+"lon": 12.83332
+},
+"S06": {
+"name": "ASTRIS Osservatorio Astronomico Claudio Del Sole",
+"lon": 13.07584
+},
+"S15": {
+"name": "Namibia1/HAKOS, Hakos, Namibia, Hakos",
+"lon": 16.36147
+},
+"S16": {
+"name": "ASI Matera Flyeye",
+"lon": 16.705
+},
+"S24": {
+"name": "Szilard Leo Observatory, Bujak",
+"lon": 19.54683
+},
+"S30": {
+"name": "Zenit, Hajduboszormeny",
+"lon": 21.49744
+},
+"S42": {
+"name": "Institute of Space Science Magurele",
+"lon": 26.02889
+},
+"S43": {
+"name": "StarBlazer Observatory, Bucharest",
+"lon": 26.0225
+},
+"S47": {
+"name": "Alfastar - Astroclubul Bucuresti",
+"lon": 27.29661
+},
+"S61": {
+"name": "Mykolaiv, 0.3m f/5 Telescope",
+"lon": 31.97332
+},
+"S86": {
+"name": "Alamri astronomical observatory",
+"lon": 40.325
+},
+"S89": {
+"name": "FASTAU, Astrofarm Astroverts",
+"lon": 41.42533
+},
+"S93": {
+"name": "INASAN-Kislovodsk Observatory",
+"lon": 42.66639
+},
+"T02": {
+"name": "SNX-NET, Wailuku",
+"lon": 203.49572
+},
+"T03": {
+"name": "Haleakala-LCO Clamshell #3",
+"lon": 203.74247
+},
+"T04": {
+"name": "Haleakala-LCO OGG B #2",
+"lon": 203.74249
+},
+"T05": {
+"name": "ATLAS-HKO, Haleakala",
+"lon": 203.74299
+},
+"T07": {
+"name": "ATLAS-MLO Auxiliary Camera, Mauna Loa",
+"lon": 204.42387
+},
+"T08": {
+"name": "ATLAS-MLO, Mauna Loa",
+"lon": 204.42395
+},
+"T09": {
+"name": "Subaru Telescope, Maunakea",
+"lon": 204.52396
+},
+"T10": {
+"name": "Submillimeter Array, Maunakea (SMA)",
+"lon": 204.52241
+},
+"T11": {
+"name": "United Kingdom Infrared Telescope, Maunakea",
+"lon": 204.52965
+},
+"T12": {
+"name": "University of Hawaii 88-inch telescope, Maunakea",
+"lon": 204.53054
+},
+"T13": {
+"name": "NASA Infrared Telescope Facility, Maunakea",
+"lon": 204.52797
+},
+"T14": {
+"name": "Canada-France-Hawaii Telescope, Maunakea",
+"lon": 204.53109
+},
+"T15": {
+"name": "Gemini North Observatory, Maunakea",
+"lon": 204.53093
+},
+"T16": {
+"name": "W. M. Keck Observatory, Keck 1, Maunakea",
+"lon": 204.52526
+},
+"T17": {
+"name": "W. M. Keck Observatory, Keck 2, Maunakea",
+"lon": 204.52574
+},
+"T35": {
+"name": "Astronomical Society of Tahiti",
+"lon": 210.3902
+},
+"U52": {
+"name": "Shasta Valley Observatory, Grenada",
+"lon": 237.451
+},
+"U53": {
+"name": "Murray Hill Observatory, Beaverton",
+"lon": 237.1603
+},
+"U54": {
+"name": "Hume Observatory, Santa Rosa",
+"lon": 237.31286
+},
+"U55": {
+"name": "Golden Ears Observatory, Maple Ridge",
+"lon": 237.41456
+},
+"U56": {
+"name": "Palo Alto",
+"lon": 237.86917
+},
+"U57": {
+"name": "Black Mountain Observatory, Los Altos",
+"lon": 237.84128
+},
+"U62": {
+"name": "TransAstra TKO at SkiesAway",
+"lon": 238.95508
+},
+"U63": {
+"name": "Burnt Tree Hill Observatory, Cle Elum",
+"lon": 239.19456
+},
+"U64": {
+"name": "CWU-Lind Observatory, Ellensburg",
+"lon": 239.46151
+},
+"U65": {
+"name": "CWU Observatory, Ellensburg",
+"lon": 239.45983
+},
+"U66": {
+"name": "June Lake Overlook",
+"lon": 240.92056
+},
+"U67": {
+"name": "Jack C. Davis Observatory, Carson City",
+"lon": 240.20358
+},
+"U68": {
+"name": "JPL SynTrack Robotic Telescope, Auberry",
+"lon": 240.58701
+},
+"U69": {
+"name": "iTelescope SRO Observatory, Auberry",
+"lon": 240.587
+},
+"U70": {
+"name": "RASC Observatory, Alder Springs",
+"lon": 240.5869
+},
+"U71": {
+"name": "AHS Observatory, Castaic",
+"lon": 241.3633
+},
+"U72": {
+"name": "Tarzana",
+"lon": 241.46
+},
+"U73": {
+"name": "Redondo Beach",
+"lon": 241.6172
+},
+"U74": {
+"name": "JPL SynTrack Robotic Telescope 2, Auberry",
+"lon": 240.5872
+},
+"U75": {
+"name": "Newport Beach",
+"lon": 242.18366
+},
+"U76": {
+"name": "Maury Lewin Observatory, Glendora",
+"lon": 242.1279
+},
+"U77": {
+"name": "Rani Observatory, San Diego",
+"lon": 242.9181
+},
+"U78": {
+"name": "Cedar Glen Observatory",
+"lon": 242.8449
+},
+"U79": {
+"name": "Cosmos Research Center, Encinitas",
+"lon": 242.79187
+},
+"U80": {
+"name": "CS3-DanHenge Observatory, Landers",
+"lon": 243.6151
+},
+"U81": {
+"name": "CS3-Trojan Station, Landers",
+"lon": 243.61514
+},
+"U82": {
+"name": "CS3-Palmer Divide Station, Landers",
+"lon": 243.61519
+},
+"U83": {
+"name": "Mount Laguna Observatory",
+"lon": 243.57311
+},
+"U86": {
+"name": "BOOTES-5, Bajo California",
+"lon": 244.53556
+},
+"U91": {
+"name": "BURSST, Beryl",
+"lon": 246.30486
+},
+"U92": {
+"name": "Astrottica Network USA2, Pie Town",
+"lon": 251.83
+},
+"U93": {
+"name": "Skygems Dreamscope Utah, Beryl Junction",
+"lon": 246.28761
+},
+"U94": {
+"name": "iTelescope Observatory, Beryl Junction",
+"lon": 246.3025
+},
+"U95": {
+"name": "USA1/HCRO, Pie Town",
+"lon": 251.82967
+},
+"U96": {
+"name": "Athabasca University Geophysical Observatory",
+"lon": 246.686
+},
+"U97": {
+"name": "JPL SynTrack Robotic Telescope 3, Flagstaff",
+"lon": 248.33292
+},
+"U98": {
+"name": "NAC Observatory, Benson",
+"lon": 249.743
+},
+"U99": {
+"name": "BCC Observatory, Black Canyon City",
+"lon": 247.8537
+},
+"V00": {
+"name": "Kitt Peak-Bok",
+"lon": 248.39981
+},
+"V01": {
+"name": "Mountainville Observatory, Alpine",
+"lon": 248.23911
+},
+"V02": {
+"name": "Command Module, Tempe",
+"lon": 248.05794
+},
+"V03": {
+"name": "Big Water",
+"lon": 248.3314
+},
+"V04": {
+"name": "FRoST, Anderson Mesa",
+"lon": 248.46331
+},
+"V05": {
+"name": "Rusty Mountain Observatory, Gold Canyon",
+"lon": 248.63195
+},
+"V06": {
+"name": "Catalina Sky Survey-Kuiper",
+"lon": 249.26745
+},
+"V07": {
+"name": "Whipple Observatory, Mount Hopkins-PAIRITEL",
+"lon": 249.1219
+},
+"V08": {
+"name": "Mountain Creek Ranch, Vail",
+"lon": 249.339
+},
+"V09": {
+"name": "Moka Observatory, Benson",
+"lon": 249.74202
+},
+"V10": {
+"name": "Sierra Sinagua Observatory, Flagstaff",
+"lon": 248.32772
+},
+"V11": {
+"name": "Saguaro Observatory, Tucson",
+"lon": 249.21119
+},
+"V12": {
+"name": "Elgin",
+"lon": 249.39819
+},
+"V13": {
+"name": "Little Moose Observatory, Timber Lakes",
+"lon": 248.78278
+},
+"V14": {
+"name": "Moose Springs Observatory, Timber Lakes",
+"lon": 248.78336
+},
+"V15": {
+"name": "OWL-Net, Mt. Lemmon",
+"lon": 249.21069
+},
+"V16": {
+"name": "Dark Sky New Mexico, Animas",
+"lon": 251.10288
+},
+"V17": {
+"name": "Leo Observatory, Tucson",
+"lon": 248.98319
+},
+"V18": {
+"name": "MASTER-OAGH Observatory, Sonora",
+"lon": 249.6181
+},
+"V19": {
+"name": "Whiskey Creek Observatory",
+"lon": 251.79086
+},
+"V20": {
+"name": "Killer Rocks Observatory, Pie Town",
+"lon": 251.77822
+},
+"V21": {
+"name": "Cewanee Observatory at DSNM",
+"lon": 251.10231
+},
+"V22": {
+"name": "Insight Remote Observatory, Pie Town",
+"lon": 251.8155
+},
+"V23": {
+"name": "FOAH Observatory, Magdalena",
+"lon": 252.76406
+},
+"V24": {
+"name": "Sonoran Desert Skies Observatory, Pearce",
+"lon": 250.48403
+},
+"V25": {
+"name": "Tortugas Mountain Observatory, Las Cruces",
+"lon": 253.30194
+},
+"V26": {
+"name": "UAS-ISON Observatory, Cosala",
+"lon": 253.3902
+},
+"V27": {
+"name": "North Mesa Observatory, Los Alamos",
+"lon": 253.71819
+},
+"V28": {
+"name": "Deep Sky West Observatory, Rowe",
+"lon": 254.34647
+},
+"V29": {
+"name": "Tzec Maun Cloudcroft Facility",
+"lon": 254.2666
+},
+"V30": {
+"name": "Heaven on Earth Observatory, Mayhill",
+"lon": 254.47105
+},
+"V31": {
+"name": "Hazardous Observatory, Mayhill",
+"lon": 254.475
+},
+"V32": {
+"name": "Canvas View New Mexico Skies, Mayhill",
+"lon": 254.47131
+},
+"V33": {
+"name": "Finlaystone Observatory, Angel Fire",
+"lon": 254.72039
+},
+"V34": {
+"name": "Baker Observatory, Black Forest",
+"lon": 255.36992
+},
+"V35": {
+"name": "Deep Sky Observatory Collaborative, Pier 5",
+"lon": 255.91881
+},
+"V36": {
+"name": "The Ranch Observatory, Lakewood",
+"lon": 255.61742
+},
+"V37": {
+"name": "McDonald Observatory-LCO ELP",
+"lon": 255.98483
+},
+"V38": {
+"name": "McDonald Observatory-LCO ELP Aqawan A #1",
+"lon": 255.98493
+},
+"V39": {
+"name": "McDonald Observatory-LCO ELP B",
+"lon": 255.98483
+},
+"V40": {
+"name": "Divine Creation Observatory, Fort Davis",
+"lon": 255.91873
+},
+"V41": {
+"name": "Rapid City",
+"lon": 256.72578
+},
+"V42": {
+"name": "Dimension Point, Mayhill",
+"lon": 254.47472
+},
+"V43": {
+"name": "Chiricahua Skies Observatory, Sunizona",
+"lon": 250.4842
+},
+"V44": {
+"name": "Coyote Watcher, Pie Town",
+"lon": 251.82983
+},
+"V45": {
+"name": "McDonald Observatory-LCO ELP Aqawan B #1",
+"lon": 255.98496
+},
+"V46": {
+"name": "Walnut Park Observatory, Los Alamos",
+"lon": 253.69516
+},
+"V47": {
+"name": "McDonald Observatory-LCO ELP Aqawan B #2",
+"lon": 255.98498
+},
+"V48": {
+"name": "TransAstra at Winer",
+"lon": 249.39822
+},
+"V54": {
+"name": "Observatoire LAURIER, El Marques",
+"lon": 259.69219
+},
+"V55": {
+"name": "The Gikem Observatory, Rockwood",
+"lon": 260.61797
+},
+"V56": {
+"name": "Stonehenge Observatory, Novice",
+"lon": 260.30403
+},
+"V57": {
+"name": "Starfront Observatories, Rockwood",
+"lon": 260.61774
+},
+"V58": {
+"name": "Medina Dome, Medina",
+"lon": 260.73497
+},
+"V59": {
+"name": "Millwood Observatory, Comfort",
+"lon": 261.0734
+},
+"V60": {
+"name": "Putman Mountain Observatory",
+"lon": 261.09473
+},
+"V61": {
+"name": "Shed of Science South, Pontotoc",
+"lon": 261.0571
+},
+"V62": {
+"name": "Live Oak Observatory, Pontotoc",
+"lon": 261.05661
+},
+"V63": {
+"name": "Tara Observatory, Cherokee",
+"lon": 261.05728
+},
+"V70": {
+"name": "Starry Night Observatory, Columbus",
+"lon": 263.33572
+},
+"V72": {
+"name": "JDP Observatory, Omaha",
+"lon": 263.89
+},
+"V74": {
+"name": "Katy Observatory, Katy",
+"lon": 264.15689
+},
+"V75": {
+"name": "Live Oak Observatory, Lake Jackson",
+"lon": 264.56578
+},
+"V78": {
+"name": "Spirit Marsh Observatory. Sauk Centre",
+"lon": 265.1078
+},
+"V81": {
+"name": "Fayetteville",
+"lon": 265.7604
+},
+"V83": {
+"name": "Rolling Hills Observatory, Warrensburg",
+"lon": 266.25728
+},
+"V86": {
+"name": "Rattle Snake Observatory, Sedalia",
+"lon": 266.8927
+},
+"V88": {
+"name": "River Ridge Observatory, Conway",
+"lon": 267.42811
+},
+"V92": {
+"name": "White County Observatory, Searcy",
+"lon": 268.34983
+},
+"V93": {
+"name": "Pin Oak Observatory, Fort Madison",
+"lon": 268.61611
+},
+"V94": {
+"name": "Cherokeeridge Observatory, Fort Madison",
+"lon": 268.66169
+},
+"W04": {
+"name": "Mark Evans Observatory, Bloomington",
+"lon": 271.00944
+},
+"W05": {
+"name": "Tree Gate Farm Observatory, Starkville",
+"lon": 271.26719
+},
+"W08": {
+"name": "Jimginny Observatory, Naperville",
+"lon": 271.88331
+},
+"W09": {
+"name": "Willowed Plains Observatory, Manteno",
+"lon": 272.14753
+},
+"W11": {
+"name": "Northwest Indiana Robotic Telescope, Lowell",
+"lon": 272.6247
+},
+"W13": {
+"name": "Star Quarry Observatory, Bedford",
+"lon": 273.47361
+},
+"W14": {
+"name": "Harvest",
+"lon": 273.24511
+},
+"W15": {
+"name": "Wayne Observatory, Franklin",
+"lon": 273.19083
+},
+"W16": {
+"name": "Pleasant Groves Observatory",
+"lon": 273.76869
+},
+"W17": {
+"name": "Arrowhead, Sheridan",
+"lon": 273.77122
+},
+"W18": {
+"name": "Red Fox Observatory, Pendleton",
+"lon": 274.24962
+},
+"W19": {
+"name": "Kalamazoo",
+"lon": 274.37283
+},
+"W20": {
+"name": "Moeller Observatory, Manchester",
+"lon": 276.4855
+},
+"W21": {
+"name": "Spots Observatory, Bethesda",
+"lon": 282.90628
+},
+"W22": {
+"name": "WestRock Observatory, Columbus",
+"lon": 275.00447
+},
+"W23": {
+"name": "Hevonen Farm Observatory, Oxford",
+"lon": 275.38019
+},
+"W24": {
+"name": "Shamrock Banks Observatory, Clare",
+"lon": 275.23817
+},
+"W25": {
+"name": "RMS Observatory, Cincinnati",
+"lon": 275.63506
+},
+"W26": {
+"name": "Starpool Observatory, Hampstead",
+"lon": 283.12911
+},
+"W27": {
+"name": "RCNS, New Milford",
+"lon": 286.57383
+},
+"W28": {
+"name": "Ex Nihilo Observatory, Winder",
+"lon": 276.3883
+},
+"W29": {
+"name": "Adena Brook Observatory, Columbus",
+"lon": 276.9939
+},
+"W30": {
+"name": "Georgia College Observatory, Milledgeville",
+"lon": 276.77117
+},
+"W31": {
+"name": "Deerlick Observatory, Crawfordville",
+"lon": 277.23736
+},
+"W32": {
+"name": "Crawfordville Observatory",
+"lon": 277.2375
+},
+"W33": {
+"name": "Transit Dreams Observatory, Campobello",
+"lon": 277.83451
+},
+"W34": {
+"name": "Squirrel Valley Observatory, Columbus",
+"lon": 277.8453
+},
+"W35": {
+"name": "Buffalo Creek Observatory, Nahunta",
+"lon": 278.0391
+},
+"W36": {
+"name": "EliLauren Observatory, Neilltown",
+"lon": 280.502
+},
+"W37": {
+"name": "Transit Dreams Observatory-North, Hamburg NY",
+"lon": 281.22014
+},
+"W38": {
+"name": "Dark Sky Observatory, Boone",
+"lon": 278.58531
+},
+"W39": {
+"name": "Robinson Observatory",
+"lon": 278.80944
+},
+"W40": {
+"name": "Hampden-Sydney Observatory",
+"lon": 281.5291
+},
+"W41": {
+"name": "Anderson Observatory",
+"lon": 279.54
+},
+"W42": {
+"name": "Mind's Eye Observatory, Vero Beach",
+"lon": 279.46571
+},
+"W43": {
+"name": "MT_Hope_Cavu, Otisville",
+"lon": 285.43186
+},
+"W44": {
+"name": "Duo Ursi de Saltu, Scarsdale",
+"lon": 286.22017
+},
+"W45": {
+"name": "Benito Loyola Observatory, Virginia Beach",
+"lon": 283.93828
+},
+"W46": {
+"name": "Foxfire Village",
+"lon": 280.41192
+},
+"W47": {
+"name": "SNX-NET, Rio Hurtado",
+"lon": 289.23501
+},
+"W48": {
+"name": "BKH Observatory, Chapel Hill",
+"lon": 280.887
+},
+"W49": {
+"name": "CBA-MM Observatory, Mountain Meadows",
+"lon": 281.06757
+},
+"W50": {
+"name": "Apex",
+"lon": 281.25404
+},
+"W51": {
+"name": "Custer Institute and Observatory",
+"lon": 287.56544
+},
+"W52": {
+"name": "US Naval Academy Hopper Hall Observatory",
+"lon": 283.51419
+},
+"W53": {
+"name": "Hagerstown",
+"lon": 282.31524
+},
+"W54": {
+"name": "Mark Slade Remote Observatory, Wilderness",
+"lon": 282.28944
+},
+"W55": {
+"name": "Natelli Observatory, Frederick",
+"lon": 282.58389
+},
+"W56": {
+"name": "Pineapple Observatory, Frederick",
+"lon": 282.52583
+},
+"W57": {
+"name": "ESA TBT La Silla Observatory",
+"lon": 289.26095
+},
+"W58": {
+"name": "ALPHA Observatory, South Laurel",
+"lon": 283.14964
+},
+"W59": {
+"name": "The Dark Side Observatory, Weatherly",
+"lon": 284.10758
+},
+"W60": {
+"name": "AstroExplor Observatory, Tinjaca",
+"lon": 286.36626
+},
+"W61": {
+"name": "Leeside Observatory, Elgin",
+"lon": 283.74492
+},
+"W62": {
+"name": "Comet Hunter Observatory2, New Ringgold",
+"lon": 284.13761
+},
+"W63": {
+"name": "Observatorio Astronomico UTP, Pereira",
+"lon": 284.30958
+},
+"W64": {
+"name": "Red Lion Observatory, Southampton Twsp",
+"lon": 285.27004
+},
+"W65": {
+"name": "Observatoire GOZ, Montpellier",
+"lon": 284.79169
+},
+"W66": {
+"name": "SVH Observatory, Blairstown",
+"lon": 285.05381
+},
+"W67": {
+"name": "Paul Robinson Observatory, Voorhees State Park",
+"lon": 285.10211
+},
+"W68": {
+"name": "ATLAS Chile, Rio Hurtado",
+"lon": 289.23502
+},
+"W69": {
+"name": "OLPH Observatory, Brooklyn",
+"lon": 285.985
+},
+"W70": {
+"name": "Loose Goose Observatory, Saint-Jerome",
+"lon": 285.91386
+},
+"W71": {
+"name": "Rand II Observatory, Lake Placid",
+"lon": 285.99297
+},
+"W72": {
+"name": "Trumbull Observatory, Trumbull",
+"lon": 286.8211
+},
+"W73": {
+"name": "Observatorio Astronomico de Moquegua, Carumas",
+"lon": 289.32156
+},
+"W74": {
+"name": "Danish Telescope, La Silla",
+"lon": 289.26245
+},
+"W75": {
+"name": "SPECULOOS-South Observatory, Paranal",
+"lon": 289.60944
+},
+"W76": {
+"name": "CHILESCOPE Observatory, Rio Hurtado",
+"lon": 289.23695
+},
+"W77": {
+"name": "Skyledge Observatory, Killingworth",
+"lon": 287.401
+},
+"W78": {
+"name": "Clay Telescope, Harvard University",
+"lon": 288.88325
+},
+"W79": {
+"name": "Cerro Tololo-LCO Aqawan B #1",
+"lon": 289.19535
+},
+"W80": {
+"name": "Westwood",
+"lon": 288.7678
+},
+"W81": {
+"name": "Nebula Knoll Observatory, East Wakefield",
+"lon": 288.99967
+},
+"W82": {
+"name": "Mendel Observatory, Merrimack College",
+"lon": 288.87804
+},
+"W83": {
+"name": "Whitin Observatory, Wellesley",
+"lon": 288.69747
+},
+"W84": {
+"name": "Cerro Tololo-DECam",
+"lon": 289.19358
+},
+"W85": {
+"name": "Cerro Tololo-LCO A",
+"lon": 289.19519
+},
+"W86": {
+"name": "Cerro Tololo-LCO B",
+"lon": 289.19533
+},
+"W87": {
+"name": "Cerro Tololo-LCO C",
+"lon": 289.19532
+},
+"W88": {
+"name": "Slooh.com Chile Observatory, La Dehesa",
+"lon": 289.4657
+},
+"W89": {
+"name": "Cerro Tololo-LCO Aqawan A #1",
+"lon": 289.19533
+},
+"W90": {
+"name": "Phillips Exeter Academy Grainger Observatory",
+"lon": 289.05814
+},
+"W91": {
+"name": "VHS-VISTA, Cerro Paranal",
+"lon": 289.60257
+},
+"W92": {
+"name": "MASTER-OAFA Observatory, San Juan",
+"lon": 290.67357
+},
+"W93": {
+"name": "Korea Microlensing Telescope Network-CTIO",
+"lon": 289.196
+},
+"W94": {
+"name": "MAPS, San Pedro de Atacama",
+"lon": 291.82019
+},
+"W95": {
+"name": "Observatorio Panameno, San Pedro de Atacama",
+"lon": 291.82012
+},
+"W96": {
+"name": "CAO, San Pedro de Atacama (since 2013)",
+"lon": 291.82006
+},
+"W97": {
+"name": "Atacama Desert Observatory, San Pedro de Atacama",
+"lon": 291.82024
+},
+"W98": {
+"name": "Polonia Observatory, San Pedro de Atacama",
+"lon": 291.8203
+},
+"W99": {
+"name": "SON, San Pedro de Atacama Station",
+"lon": 291.82015
+},
+"X00": {
+"name": "Observatorio Astronomico Tolar",
+"lon": 292.60125
+},
+"X01": {
+"name": "Observatory Hurtado, El Sauce",
+"lon": 289.23502
+},
+"X02": {
+"name": "Telescope Live, El Sauce",
+"lon": 289.23517
+},
+"X03": {
+"name": "Observatoire SADR, Poroto",
+"lon": 289.20361
+},
+"X04": {
+"name": "MCD Observatory, Saint-Anaclet",
+"lon": 291.56747
+},
+"X05": {
+"name": "Simonyi Survey Telescope, Rubin Observatory",
+"lon": 289.25058
+},
+"X06": {
+"name": "Skygems Chile, Rio Hurtado",
+"lon": 289.14649
+},
+"X07": {
+"name": "iTelescope Deep Sky Chile, Rio Hurtado",
+"lon": 289.14639
+},
+"X08": {
+"name": "ShAO Chile station, El Sauce",
+"lon": 289.235
+},
+"X09": {
+"name": "Deep Random Survey, Rio Hurtado",
+"lon": 289.1467
+},
+"X10": {
+"name": "OVTLN, San Pedro de Atacama",
+"lon": 291.8204
+},
+"X11": {
+"name": "VLT Survey Telescope, Paranal",
+"lon": 289.59604
+},
+"X12": {
+"name": "Observatorio Los Cabezones",
+"lon": 295.712
+},
+"X13": {
+"name": "Observatorio Remoto Bosque Alegre",
+"lon": 295.4498
+},
+"X14": {
+"name": "Observatorio Orbis Tertius, Cordoba",
+"lon": 295.83222
+},
+"X15": {
+"name": "ABYO, San Pedro de Atacama",
+"lon": 291.82053
+},
+"X16": {
+"name": "Astronomia Sigma Octante, Cochabamba",
+"lon": 293.8497
+},
+"X17": {
+"name": "BlackGEM",
+"lon": 289.26208
+},
+"X18": {
+"name": "6R-POL2, San Pedro de Atacama",
+"lon": 291.82053
+},
+"X19": {
+"name": "Santel Observatory, El Leoncito",
+"lon": 290.67383
+},
+"X20": {
+"name": "BOOTES-7, San Pedro Atacama",
+"lon": 291.82052
+},
+"X21": {
+"name": "RoSaMund Obervatory - DSC, Rio Hurtado",
+"lon": 289.14681
+},
+"X22": {
+"name": "BTN-1, Deep Sky Chile",
+"lon": 289.147
+},
+"X23": {
+"name": "OVTLN2, San Pedro de Atacama",
+"lon": 291.82053
+},
+"X24": {
+"name": "Observatorio Desierto Cosmico, Atacama",
+"lon": 289.98831
+},
+"X25": {
+"name": "UBC Southern Observatory",
+"lon": 289.14678
+},
+"X26": {
+"name": "NAOS, Alta Gracia",
+"lon": 295.57233
+},
+"X27": {
+"name": "SARA-CT",
+"lon": 289.20081
+},
+"X28": {
+"name": "CHILE1/ODC, Atacama",
+"lon": 289.98828
+},
+"X29": {
+"name": "Observatorio Astronomico Municipal de Funes",
+"lon": 299.13761
+},
+"X31": {
+"name": "Galileo Galilei Observatory, Oro Verde",
+"lon": 299.47934
+},
+"X33": {
+"name": "OARU, Manaus",
+"lon": 299.99039
+},
+"X38": {
+"name": "Observatorio Pueyrredon, La Lonja",
+"lon": 301.13711
+},
+"X39": {
+"name": "Observatorio Antares, Pilar",
+"lon": 301.1378
+},
+"X40": {
+"name": "Cielos de Banfield, Banfield",
+"lon": 301.61689
+},
+"X41": {
+"name": "Observatorio Proton-Proton, Longchamps",
+"lon": 301.6055
+},
+"X50": {
+"name": "Observatorio Astronomico de Montevideo",
+"lon": 303.82419
+},
+"X57": {
+"name": "Polo Astronomico CMF,Foz do Iguacu",
+"lon": 305.40626
+},
+"X60": {
+"name": "Guaraciaba Observatory",
+"lon": 306.42556
+},
+"X70": {
+"name": "Observatorio OATU, Tupi Paulista",
+"lon": 308.43322
+},
+"X71": {
+"name": "OASMiS, Sao Miguel da Serra",
+"lon": 308.92025
+},
+"X72": {
+"name": "Waccobs, Sao Leopoldo",
+"lon": 308.87889
+},
+"X74": {
+"name": "Observatorio Campo dos Amarais",
+"lon": 309.49422
+},
+"X76": {
+"name": "SUN Observatory, Redencao",
+"lon": 309.99097
+},
+"X77": {
+"name": "Centro Astron. Nevoeiro, Antonio Olinto",
+"lon": 309.92475
+},
+"X86": {
+"name": "Ottoservatorio, Tatui",
+"lon": 312.21833
+},
+"X87": {
+"name": "Dogsheaven Observatory, Brasilia",
+"lon": 312.0889
+},
+"X88": {
+"name": "Observatorio Adhara, Sorocaba",
+"lon": 312.49131
+},
+"X89": {
+"name": "Rocca Observatory, Brasilia",
+"lon": 312.21786
+},
+"X90": {
+"name": "Carina Observatory, Brasilia",
+"lon": 312.13208
+},
+"X91": {
+"name": "Orion-Colesanti observatory, Mairinque",
+"lon": 312.78881
+},
+"X93": {
+"name": "Munhoz Observatory",
+"lon": 313.6047
+},
+"X98": {
+"name": "Observatorio Pedra Preta, Itajuba",
+"lon": 314.58361
+},
+"Y00": {
+"name": "SONEAR Observatory, Oliveira",
+"lon": 315.21504
+},
+"Y01": {
+"name": "SONEAR 2 Observatory, Belo Horizonte",
+"lon": 316.0158
+},
+"Y05": {
+"name": "SONEAR Wykrota-CEAMIG, Serra da Piedade",
+"lon": 316.31
+},
+"Y16": {
+"name": "ROCG, Campos dos Goytacazes",
+"lon": 318.68794
+},
+"Y20": {
+"name": "Omega Centauri Observatory, Cariacica",
+"lon": 319.63169
+},
+"Y28": {
+"name": "OASI, Nova Itacuruba",
+"lon": 321.3126
+},
+"Y40": {
+"name": "Discovery Observatory, Caruaru",
+"lon": 324.03889
+},
+"Y63": {
+"name": "SNX-NET, Oukaimeden",
+"lon": 352.13368
+},
+"Y64": {
+"name": "Transient Survey Telescope (TST), Teide",
+"lon": 343.48961
+},
+"Y65": {
+"name": "Two-meter Twin Telescope, TTT1",
+"lon": 343.49042
+},
+"Y66": {
+"name": "Two-meter Twin Telescope, TTT2",
+"lon": 343.49053
+},
+"Y67": {
+"name": "High Atlas Window to the Kosmos,Oukaimeden",
+"lon": 352.13292
+},
+"Y68": {
+"name": "Two-meter Twin Telescope, TTT3",
+"lon": 343.49077
+},
+"Y70": {
+"name": "ApolloIV5, Fregenal de la Sierra",
+"lon": 353.37238
+},
+"Y71": {
+"name": "Makroskooppi, Fregenal de la Sierra",
+"lon": 353.37251
+},
+"Y75": {
+"name": "Abraham Zacut, Salamanca",
+"lon": 354.58128
+},
+"Y76": {
+"name": "Observatorio NovaCanet, Canet de Berenguer",
+"lon": 359.79189
+},
+"Y77": {
+"name": "Cotos de Monterrey, Venturada",
+"lon": 356.38858
+},
+"Y78": {
+"name": "Tros Alt",
+"lon": 359.46617
+},
+"Y79": {
+"name": "Observatoire de la grande vallee",
+"lon": 359.9927
+},
+"Y80": {
+"name": "Brenehuen, Grand-Champ",
+"lon": 357.16642
+},
+"Y81": {
+"name": "Forthimage, Edinburgh",
+"lon": 356.5733
+},
+"Y82": {
+"name": "LPMR Observatory, Broad Chalke",
+"lon": 358.06548
+},
+"Y83": {
+"name": "Observatorio Arcosur, Zaragoza",
+"lon": 359.04761
+},
+"Y84": {
+"name": "Observatoire de Bretagne",
+"lon": 358.11972
+},
+"Y85": {
+"name": "Magalofes Observatory, Fene",
+"lon": 351.85389
+},
+"Y86": {
+"name": "Observatorio de Seron",
+"lon": 357.48003
+},
+"Y87": {
+"name": "Trevinca Skies-Amalthea, Trevinca",
+"lon": 353.01194
+},
+"Y88": {
+"name": "ASERO, Valdin",
+"lon": 353.01194
+},
+"Y89": {
+"name": "Proxima Centauri Observatory, Valdin",
+"lon": 353.01189
+},
+"Y90": {
+"name": "Observatorio ESTELIA, Ladines",
+"lon": 354.5553
+},
+"Y91": {
+"name": "Ras Algethi, Ronda",
+"lon": 354.8335
+},
+"Y92": {
+"name": "JD Cassini, Piconcillo",
+"lon": 354.53482
+},
+"Y93": {
+"name": "Observatorio Azahar, Valoria la Buena",
+"lon": 355.43322
+},
+"Y94": {
+"name": "LCB Lugueros observatory, Valdelugueros",
+"lon": 354.58571
+},
+"Y95": {
+"name": "Pradillos Ferez",
+"lon": 357.99864
+},
+"Y96": {
+"name": "Observatorio de Vega del Codorno",
+"lon": 358.08932
+},
+"Y97": {
+"name": "Bommes Observatory, Bommes",
+"lon": 359.64303
+},
+"Y98": {
+"name": "Southside Observatory, Steeple Aston",
+"lon": 358.68692
+},
+"Y99": {
+"name": "Observatorio del Lucero del Alba",
+"lon": 359.07299
+},
+"Z00": {
+"name": "BOOTES-1, Mazagon",
+"lon": 353.26586
+},
+"Z01": {
+"name": "OWL-Net, Oukaimeden",
+"lon": 352.13321
+},
+"Z02": {
+"name": "HAO observatory, Oukaimeden",
+"lon": 352.13331
+},
+"Z03": {
+"name": "Rio Cofio, Robledo de Chavela",
+"lon": 355.73346
+},
+"Z04": {
+"name": "MAO, Ain Laqsab",
+"lon": 352.98203
+},
+"Z05": {
+"name": "Observatorio Horus, Cartama",
+"lon": 355.36389
+},
+"Z06": {
+"name": "Marina Sky, Nerpio",
+"lon": 357.67324
+},
+"Z07": {
+"name": "Ad Astra Sangos Observatory, Alhendin",
+"lon": 356.3605
+},
+"Z08": {
+"name": "Telescope Live, Oria",
+"lon": 357.59139
+},
+"Z09": {
+"name": "Old Orchard Observatory, Fiddington",
+"lon": 356.8786
+},
+"Z10": {
+"name": "PGC, Fregenal de la Sierra",
+"lon": 353.37235
+},
+"Z11": {
+"name": "Appledorne Observatory, Farnsfield",
+"lon": 358.96669
+},
+"Z12": {
+"name": "La Romaneta, Monovar",
+"lon": 359.0961
+},
+"Z13": {
+"name": "Observatorio AGP GUAM 4, Malaga",
+"lon": 355.54519
+},
+"Z14": {
+"name": "ART, Fregenal de la Sierra",
+"lon": 353.37226
+},
+"Z15": {
+"name": "Southwater",
+"lon": 359.65331
+},
+"Z16": {
+"name": "Asociacion Astronomica de Cartagena",
+"lon": 358.95192
+},
+"Z17": {
+"name": "Tenerife-LCO Aqawan A #2",
+"lon": 343.48827
+},
+"Z18": {
+"name": "Gran Telescopio Canarias, Roque de los Muchachos",
+"lon": 342.10811
+},
+"Z19": {
+"name": "La Palma-TNG",
+"lon": 342.11094
+},
+"Z20": {
+"name": "La Palma-MERCATOR",
+"lon": 342.1217
+},
+"Z21": {
+"name": "Tenerife-LCO Aqawan A #1",
+"lon": 343.4883
+},
+"Z22": {
+"name": "MASTER-IAC Observatory, Tenerife",
+"lon": 343.4894
+},
+"Z23": {
+"name": "Nordic Optical Telescope, La Palma",
+"lon": 342.11492
+},
+"Z24": {
+"name": "Tenerife Observatory-LCO B, Tenerife",
+"lon": 343.48848
+},
+"Z25": {
+"name": "Artemis Observatory, Teide",
+"lon": 343.49031
+},
+"Z26": {
+"name": "Observatorio Astronomico Arcangel, Las Zocas",
+"lon": 343.38969
+},
+"Z27": {
+"name": "Observatorio Coralito, La Laguna",
+"lon": 343.6998
+},
+"Z28": {
+"name": "Northern Skygems Observatory, Nerpio",
+"lon": 357.67331
+},
+"Z29": {
+"name": "Observatorio Astronomico Sobradillo",
+"lon": 354.11944
+},
+"Z30": {
+"name": "Glyn Marsh Observatory, Douglas",
+"lon": 355.525
+},
+"Z31": {
+"name": "Tenerife Observatory-LCO A, Tenerife",
+"lon": 343.48835
+},
+"Z32": {
+"name": "Observatorio Astrofisico de Javalambre",
+"lon": 358.98372
+},
+"Z33": {
+"name": "6ROADS Observatory 2, Nerpio",
+"lon": 357.67331
+},
+"Z34": {
+"name": "NNHS Drummonds Observatory",
+"lon": 359.11233
+},
+"Z35": {
+"name": "OAO University Observatory Station Aras",
+"lon": 358.8985
+},
+"Z36": {
+"name": "Cancelada",
+"lon": 354.94553
+},
+"Z37": {
+"name": "Northolt Branch Observatory 3, Blandford Forum",
+"lon": 357.80426
+},
+"Z38": {
+"name": "Picoto Observatory, Leiria",
+"lon": 351.15294
+},
+"Z39": {
+"name": "Observatorio Costa Teguise",
+"lon": 346.4989
+},
+"Z40": {
+"name": "El Manzanillo Observatory, Puerto de la Torre",
+"lon": 355.5127
+},
+"Z41": {
+"name": "Irydeo Observatory, Camarma de Esteruelas",
+"lon": 356.6264
+},
+"Z42": {
+"name": "Rushay Farm Observatory, Sturminster Newton",
+"lon": 357.66579
+},
+"Z43": {
+"name": "Landehen",
+"lon": 357.46216
+},
+"Z44": {
+"name": "Observatorio Terminus, A Coruna",
+"lon": 351.67248
+},
+"Z45": {
+"name": "Cosmos Observatory, Marbella",
+"lon": 355.14264
+},
+"Z46": {
+"name": "Cardiff",
+"lon": 356.807
+},
+"Z47": {
+"name": "Runcorn",
+"lon": 357.2925
+},
+"Z48": {
+"name": "Northolt Branch Observatory 2, Shepherd's Bush",
+"lon": 359.74915
+},
+"Z49": {
+"name": "Alston Observatory",
+"lon": 357.40631
+},
+"Z50": {
+"name": "Mazariegos",
+"lon": 355.28431
+},
+"Z51": {
+"name": "Anunaki Observatory, Rivas Vaciamadrid",
+"lon": 356.4486
+},
+"Z52": {
+"name": "The Studios Observatory, Grantham",
+"lon": 359.33899
+},
+"Z53": {
+"name": "TRAPPIST-North, Oukaimeden",
+"lon": 352.1336
+},
+"Z54": {
+"name": "Greenmoor Observatory, Woodcote",
+"lon": 358.92214
+},
+"Z55": {
+"name": "Uraniborg Observatory, Ecija",
+"lon": 354.915
+},
+"Z56": {
+"name": "Knocknaboola",
+"lon": 350.2119
+},
+"Z57": {
+"name": "Observatorio Zuben, Alhaurin de la Torre",
+"lon": 355.42589
+},
+"Z58": {
+"name": "ESA TBT Cebreros Observatory",
+"lon": 355.63068
+},
+"Z59": {
+"name": "Chelford Observatory",
+"lon": 357.7154
+},
+"Z60": {
+"name": "Observatorio Zaldibia",
+"lon": 357.8506
+},
+"Z61": {
+"name": "Montecanal Observatory, Zaragoza",
+"lon": 359.064
+},
+"Z62": {
+"name": "Observatorio Forcarei",
+"lon": 351.62912
+},
+"Z63": {
+"name": "Skybor Observatory, Borja",
+"lon": 358.47002
+},
+"Z64": {
+"name": "Observatorio el Miron del Cielo",
+"lon": 352.1424
+},
+"Z65": {
+"name": "Observatorio Astronomico Corgas",
+"lon": 352.17252
+},
+"Z66": {
+"name": "DeSS Deimos Sky Survey, Niefla Mountain",
+"lon": 355.59156
+},
+"Z67": {
+"name": "Dunboyne Castle Observatory",
+"lon": 353.52314
+},
+"Z68": {
+"name": "Observatorio Torreaguila, Barbano",
+"lon": 353.4003
+},
+"Z69": {
+"name": "Observatorio Mazagon Huelva",
+"lon": 353.187
+},
+"Z70": {
+"name": "Ponferrada",
+"lon": 353.35711
+},
+"Z71": {
+"name": "Observatorio Norba Caesarina, Aldea Moret",
+"lon": 353.60972
+},
+"Z72": {
+"name": "Cademuir Observatory, Dalkey",
+"lon": 353.88864
+},
+"Z73": {
+"name": "Observatorio Nuevos Horizontes, Camas",
+"lon": 353.96731
+},
+"Z74": {
+"name": "Amanecer de Arrakis",
+"lon": 354.1562
+},
+"Z75": {
+"name": "Observatorio Sirius, Las Lomas",
+"lon": 354.4676
+},
+"Z76": {
+"name": "Observatorio Carda, Villaviciosa",
+"lon": 354.5644
+},
+"Z77": {
+"name": "Osuna",
+"lon": 354.88958
+},
+"Z78": {
+"name": "Arroyo Observatory, Arroyo Hurtado",
+"lon": 358.3242
+},
+"Z79": {
+"name": "Calar Alto TNO Survey",
+"lon": 357.45327
+},
+"Z80": {
+"name": "Northolt Branch Observatory",
+"lon": 359.62808
+},
+"Z81": {
+"name": "Observatorio Estrella de Mar",
+"lon": 355.7324
+},
+"Z82": {
+"name": "BOOTES-2 Observatory, Algarrobo",
+"lon": 355.95897
+},
+"Z83": {
+"name": "Chicharronian 3C Observatory, Tres Cantos",
+"lon": 356.2881
+},
+"Z84": {
+"name": "Calar Alto-Schmidt",
+"lon": 357.45184
+},
+"Z85": {
+"name": "Observatorio Sierra Contraviesa",
+"lon": 356.75028
+},
+"Z86": {
+"name": "St. Mellons",
+"lon": 356.89
+},
+"Z87": {
+"name": "Stanley Laver Observatory, Pontesbury",
+"lon": 357.1021
+},
+"Z88": {
+"name": "Fosseway Observatory, Stratton-on-the-Fosse",
+"lon": 357.5101
+},
+"Z89": {
+"name": "Macclesfield",
+"lon": 357.8281
+},
+"Z90": {
+"name": "Albox",
+"lon": 357.8482
+},
+"Z91": {
+"name": "Curdridge",
+"lon": 358.74999
+},
+"Z92": {
+"name": "Almalex Observatory, Leeds",
+"lon": 358.39222
+},
+"Z93": {
+"name": "Observatorio Polop, Alicante",
+"lon": 359.85589
+},
+"Z94": {
+"name": "Kempshott",
+"lon": 358.8565
+},
+"Z95": {
+"name": "Astronomia Para Todos Remote Observatory",
+"lon": 358.8909
+},
+"Z96": {
+"name": "Observatorio Cesaraugusto",
+"lon": 359.19369
+},
+"Z97": {
+"name": "OPERA Observatory, Saint Palais",
+"lon": 359.41647
+},
+"Z98": {
+"name": "Observatorio TRZ, Betera",
+"lon": 359.5216
+},
+"Z99": {
+"name": "Clixby Observatory, Cleethorpes",
+"lon": 359.97874
+}
+}

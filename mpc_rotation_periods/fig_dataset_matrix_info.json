@@ -1,0 +1,171 @@
+{
+ "n_datasets": 765,
+ "categories": {
+  "alias": 188,
+  "family": 485,
+  "other": 56,
+  "day": 36
+ },
+ "n_datasets_resolved": 676,
+ "categories_resolved": {
+  "alias": 168,
+  "family": 436,
+  "other": 36,
+  "day": 36
+ },
+ "n_datasets_all_types": 783,
+ "chance_rates": {
+  "other": 0.9732450980392157,
+  "day": 0.010980392156862745,
+  "alias": 0.015774509803921567
+ },
+ "by_type": {
+  "T05c": {
+   "n_ast": 50,
+   "alias": 19,
+   "other": 2,
+   "day": 1,
+   "family": 28
+  },
+  "T05o": {
+   "n_ast": 50,
+   "alias": 17,
+   "family": 28,
+   "day": 3,
+   "other": 2
+  },
+  "T05w": {
+   "n_ast": 5,
+   "alias": 2,
+   "other": 1,
+   "family": 2
+  },
+  "T08c": {
+   "n_ast": 14,
+   "day": 1,
+   "family": 8,
+   "alias": 5
+  },
+  "T08o": {
+   "n_ast": 51,
+   "family": 27,
+   "day": 4,
+   "alias": 19,
+   "other": 1
+  },
+  "M22c": {
+   "n_ast": 16,
+   "alias": 6,
+   "other": 2,
+   "day": 1,
+   "family": 7
+  },
+  "M22o": {
+   "n_ast": 46,
+   "family": 35,
+   "day": 4,
+   "alias": 6,
+   "other": 1
+  },
+  "W68c": {
+   "n_ast": 22,
+   "alias": 5,
+   "family": 13,
+   "day": 2,
+   "other": 2
+  },
+  "W68o": {
+   "n_ast": 51,
+   "alias": 10,
+   "family": 35,
+   "day": 4,
+   "other": 2
+  },
+  "R17w": {
+   "n_ast": 34,
+   "family": 29,
+   "other": 2,
+   "alias": 3
+  },
+  "703G": {
+   "n_ast": 9,
+   "alias": 1,
+   "family": 7,
+   "other": 1
+  },
+  "703bG": {
+   "n_ast": 47,
+   "alias": 9,
+   "family": 31,
+   "day": 3,
+   "other": 4
+  },
+  "703V": {
+   "n_ast": 42,
+   "day": 4,
+   "alias": 11,
+   "family": 25,
+   "other": 2
+  },
+  "G96bG": {
+   "n_ast": 8,
+   "family": 6,
+   "alias": 2
+  },
+  "G96V": {
+   "n_ast": 24,
+   "family": 11,
+   "alias": 9,
+   "other": 3,
+   "day": 1
+  },
+  "F51w": {
+   "n_ast": 34,
+   "family": 19,
+   "alias": 14,
+   "day": 1
+  },
+  "F52w": {
+   "n_ast": 16,
+   "family": 9,
+   "alias": 7
+  },
+  "I41g": {
+   "n_ast": 4,
+   "family": 4
+  },
+  "I41r": {
+   "n_ast": 29,
+   "family": 26,
+   "day": 2,
+   "other": 1
+  },
+  "C57G": {
+   "n_ast": 27,
+   "family": 23,
+   "other": 2,
+   "alias": 1,
+   "day": 1
+  },
+  "G45r": {
+   "n_ast": 41,
+   "alias": 12,
+   "other": 3,
+   "day": 3,
+   "family": 23
+  },
+  "P07G": {
+   "n_ast": 29,
+   "alias": 4,
+   "family": 21,
+   "day": 1,
+   "other": 3
+  },
+  "D29R": {
+   "n_ast": 27,
+   "family": 19,
+   "alias": 6,
+   "other": 2
+  }
+ }
+}

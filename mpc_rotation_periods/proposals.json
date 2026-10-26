@@ -1,0 +1,6819 @@
+{
+ "1717": {
+  "asteroid": 1717,
+  "table": 2,
+  "P": 18.213699595667784,
+  "sigma_P": 0.0006758080673073984,
+  "sigma_boot": 9.386540284864386e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.0013516161346147969,
+  "syn_sid_scale": 0.011615506056065433,
+  "orbital_period_days": 1190.0,
+  "power": 0.11177464178474468,
+  "power_weighted": 0.11629148543475862,
+  "threshold": 0.008952046582562852,
+  "famwin_u": 0.98,
+  "famwin_w": 0.9933333333333333,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.11323826787243263,
+   "rms": 0.0816572413491274
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "13/15",
+   "single_datasets_agree": "6/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 5.147530394132847,
+    "power": 0.08860051919378914,
+    "power_weighted": 0.0842100086772651,
+    "famwin_u": 0.02,
+    "famwin_w": 0.006666666666666667,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1282.6904114096512,
+    "power": 0.10483682764892192,
+    "frac_above_best_primary": 0.43
+   },
+   {
+    "P": 1220.380101869604,
+    "power": 0.10068343008039125,
+    "frac_above_best_primary": 0.33666666666666667
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 5.148,
+    "same_family": false,
+    "rel_diff": 2.5380146844731515
+   },
+   "P_lit": {
+    "value": 5.148,
+    "same_family": false,
+    "rel_diff": 2.5380146844731515
+   }
+  },
+  "n": 8398,
+  "baseline_days": 10226.610834782012,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "M22o",
+   "T05c",
+   "703G",
+   "I41r",
+   "G45r",
+   "D29R",
+   "W68c",
+   "P07G",
+   "689V",
+   "T08w",
+   "M22c"
+  ],
+  "screened_out": [
+   "703V (chi2 > 3 chi2_ref)",
+   "704V (boundary G1/G2)",
+   "T05w (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "1798": {
+  "asteroid": 1798,
+  "table": 2,
+  "P": 3.506679786544696,
+  "sigma_P": 0.00036860227656355054,
+  "sigma_boot": 0.00036860227656355054,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 6.326426951552403e-05,
+  "syn_sid_scale": 0.00043056033352104886,
+  "orbital_period_days": 1190.0,
+  "power": 0.04429857808470697,
+  "power_weighted": 0.06805221618281664,
+  "threshold": 0.006796065607561229,
+  "famwin_u": 0.05333333333333334,
+  "famwin_w": 0.99,
+  "decision": "weighted winner (unweighted winner day-commensurate)",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.06054856320705149,
+   "rms": 0.08733843726985487
+  },
+  "checks": {
+   "groups_agree": "0/3",
+   "leave_one_out_agree": "0/16",
+   "single_datasets_agree": "0/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 11.978468539743256,
+    "power": 0.057696522798859756,
+    "power_weighted": 0.029495838022417637,
+    "famwin_u": 0.7266666666666667,
+    "famwin_w": 0.006666666666666667,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 47.97938701601589,
+    "power": 0.042253096204793464,
+    "power_weighted": 0.020093504626999128,
+    "famwin_u": 0.21,
+    "famwin_w": 0.0033333333333333335,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 15.97251273475556,
+    "power": 0.03257564441196513,
+    "power_weighted": 0.015075013416943395,
+    "famwin_u": 0.006666666666666667,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 10.649114541598385,
+    "power": 0.030095950072456724,
+    "power_weighted": 0.013011767229960872,
+    "famwin_u": 0.0033333333333333335,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 696.1547931161466,
+    "power": 0.015285455517663768,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1293.8544676338777,
+    "power": 0.01493374801329184,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 3.507,
+    "same_family": true,
+    "rel_diff": -9.130694476874103e-05
+   },
+   "P_lit": {
+    "value": 3.506,
+    "same_family": true,
+    "rel_diff": 0.00019389234018721025
+   }
+  },
+  "n": 3644,
+  "baseline_days": 8098.833683115896,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "M22o",
+   "703V",
+   "P07G",
+   "T05c",
+   "T08c",
+   "T08w",
+   "W68c",
+   "G45r",
+   "M22c",
+   "703G",
+   "I41r",
+   "R17w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "D29R (chi2 > 3 chi2_ref)",
+   "F51w (chi2 > 3 chi2_ref)",
+   "T05w (chi2 > 3 chi2_ref)",
+   "G96V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "1944": {
+  "asteroid": 1944,
+  "table": 3,
+  "P": 45.472045418819185,
+  "sigma_P": 0.005160086190634844,
+  "sigma_boot": 0.00042394762473585776,
+  "teeth_note": "",
+  "dP_resolution": 0.010320172381269688,
+  "syn_sid_scale": 0.07061840555229354,
+  "orbital_period_days": 1220.0,
+  "power": 0.06099568722790757,
+  "power_weighted": 0.063736189573347,
+  "threshold": 0.005606777233819508,
+  "famwin_u": 0.7366666666666667,
+  "famwin_w": 0.7633333333333333,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": false,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.15808998119571882,
+   "rms": 0.19873281305331952
+  },
+  "checks": {
+   "groups_agree": "1/2",
+   "leave_one_out_agree": "0/17",
+   "single_datasets_agree": "2/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 184.0181272249328,
+    "power": 0.031416153951180296,
+    "power_weighted": 0.0316742638590438,
+    "famwin_u": 0.22333333333333333,
+    "famwin_w": 0.19666666666666666,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 50.57514085301806,
+    "power": 0.035162951788852786,
+    "power_weighted": 0.03748523441764217,
+    "famwin_u": 0.03333333333333333,
+    "famwin_w": 0.02666666666666667,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 23.351560495846435,
+    "power": 0.03526593243168511,
+    "power_weighted": 0.03948286221265364,
+    "famwin_u": 0.006666666666666667,
+    "famwin_w": 0.013333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 11.360676153096492,
+    "power": 0.007807793084382144,
+    "power_weighted": 0.008433753322564175,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 895.22118272797,
+    "power": 0.25495337362148096,
+    "frac_above_best_primary": 1.0
+   },
+   {
+    "P": 447.6211709153357,
+    "power": 0.25453960338129616,
+    "frac_above_best_primary": 1.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 45.473,
+    "same_family": true,
+    "rel_diff": -2.0992263119077658e-05
+   },
+   "P_av": {
+    "value": 45.501,
+    "same_family": true,
+    "rel_diff": -0.0006363504358324545
+   },
+   "P_fig": {
+    "value": 45.473,
+    "same_family": true,
+    "rel_diff": -2.0992263119077658e-05
+   }
+  },
+  "n": 4095,
+  "baseline_days": 8348.160436754115,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "W68o",
+   "T05o",
+   "M22o",
+   "T05c",
+   "703G",
+   "703V",
+   "I41r",
+   "W68c",
+   "F51w",
+   "R17w",
+   "P07G",
+   "T05w",
+   "F52w",
+   "G96V",
+   "I41g"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "G45r (boundary G1/G2)"
+  ]
+ },
+ "1706": {
+  "asteroid": 1706,
+  "table": 2,
+  "P": 2.58937006799072,
+  "sigma_P": 3.060237383211369e-05,
+  "sigma_boot": 1.4324843946408558e-06,
+  "teeth_note": "",
+  "dP_resolution": 6.120474766422738e-05,
+  "syn_sid_scale": 0.00024722851581881507,
+  "orbital_period_days": 1130.0,
+  "power": 0.12972242097401096,
+  "power_weighted": 0.13460251232983222,
+  "threshold": 0.007472869527697656,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.10096658944398662,
+   "rms": 0.0701807922386203
+  },
+  "checks": {
+   "groups_agree": "2/3",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "3/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 2.4568250008703107,
+    "power": 0.04158007269740239,
+    "power_weighted": 0.036725215011921955,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 5.181221340566005,
+    "power": 0.008162678612563755,
+    "power_weighted": 0.007620813689444165,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 855.8600963714476,
+    "power": 0.009988103505932159,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 351.1016950670847,
+    "power": 0.009896404117884216,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 2.589,
+    "same_family": true,
+    "rel_diff": 0.0001429385827423424
+   },
+   "P_lit": {
+    "value": 2.589,
+    "same_family": true,
+    "rel_diff": 0.0001429385827423424
+   }
+  },
+  "n": 3105,
+  "baseline_days": 4564.486147510819,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "703G",
+   "C57G",
+   "T05c",
+   "M22o",
+   "P07G",
+   "R17w",
+   "W68c",
+   "G45r",
+   "I41r",
+   "M22c"
+  ],
+  "screened_out": [
+   "D29R (chi2 > 3 chi2_ref)",
+   "703V (chi2 > 3 chi2_ref)",
+   "704V (chi2 > 3 chi2_ref)",
+   "G96V (chi2 > 3 chi2_ref)",
+   "F52w (chi2 > 3 chi2_ref)",
+   "T08w (chi2 > 3 chi2_ref)",
+   "T05w (chi2 > 3 chi2_ref)",
+   "Z22R (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "1818": {
+  "asteroid": 1818,
+  "table": 3,
+  "P": 5.356141241116103,
+  "sigma_P": 7.353230876953029e-05,
+  "sigma_boot": 2.035015825867669e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.00014706461753906058,
+  "syn_sid_scale": 0.0010304687138931305,
+  "orbital_period_days": 1160.0,
+  "power": 0.4116907588280072,
+  "power_weighted": 0.420256371501412,
+  "threshold": 0.014369844292447795,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.5134562427952467,
+   "rms": 0.20203774066804125
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "4/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 4.378166807111313,
+    "power": 0.1378189709835468,
+    "power_weighted": 0.13304991183327197,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 5.536857924792384,
+    "power": 0.015159829137560381,
+    "power_weighted": 0.013673929393947435,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 10.69438232517103,
+    "power": 0.014794103886015455,
+    "power_weighted": 0.013960564052782634,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.3355693238479247,
+    "power": 0.013892857399890412,
+    "power_weighted": 0.014442841117003776,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 870.1523618521145,
+    "power": 0.02332797827678662,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 568.6770602466665,
+    "power": 0.020943053168854846,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 5.537,
+    "same_family": false,
+    "rel_diff": -0.032663673267815926
+   },
+   "P_av": {
+    "value": 5.357,
+    "same_family": true,
+    "rel_diff": -0.0001603059331523393
+   },
+   "P_fig": {
+    "value": 5.357,
+    "same_family": true,
+    "rel_diff": -0.0001603059331523393
+   }
+  },
+  "n": 2474,
+  "baseline_days": 8128.016977289226,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "703V",
+   "P07G",
+   "W68o",
+   "T05c",
+   "M22o",
+   "703G",
+   "R17w",
+   "T08c",
+   "D29R",
+   "G96V",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "F51w (boundary G1/G2)"
+  ]
+ },
+ "1820": {
+  "asteroid": 1820,
+  "table": 2,
+  "P": 14.051836125626199,
+  "sigma_P": 0.0016347500199814138,
+  "sigma_boot": 0.0016347500199814138,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.0009775588643429582,
+  "syn_sid_scale": 0.006913658911115319,
+  "orbital_period_days": 1190.0,
+  "power": 0.3688704428811817,
+  "power_weighted": 0.3903000925057179,
+  "threshold": 0.02531267952639914,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.3468357782520908,
+   "rms": 0.12969702026104618
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "17/17",
+   "single_datasets_agree": "11/11"
+  },
+  "alternatives_auto": [
+   {
+    "P": 14.289913138167138,
+    "power": 0.049279617747950206,
+    "power_weighted": 0.05499347362309113,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 3.5125030498917464,
+    "power": 0.025709631216109047,
+    "power_weighted": 0.025087210252912037,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1453.4150637961734,
+    "power": 0.01631412294670075,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1399.478313151808,
+    "power": 0.016136381564474864,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 14.052,
+    "same_family": true,
+    "rel_diff": -1.1661996427598199e-05
+   },
+   "P_lit": {
+    "value": 14.051,
+    "same_family": true,
+    "rel_diff": 5.950648538885744e-05
+   }
+  },
+  "n": 7449,
+  "baseline_days": 8416.12142687384,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "703V",
+   "D29R",
+   "T05c",
+   "P07G",
+   "703G",
+   "R17w",
+   "F51w",
+   "G45r",
+   "W68c",
+   "G96V",
+   "F52w",
+   "I41r",
+   "M22c"
+  ],
+  "screened_out": [
+   "M22o (chi2 > 3 chi2_ref)",
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "1920": {
+  "asteroid": 1920,
+  "table": 2,
+  "P": 4.047049351148979,
+  "sigma_P": 0.0002712249405397683,
+  "sigma_boot": 0.0002712249405397683,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 8.843340371853671e-05,
+  "syn_sid_scale": 0.0006970807137655502,
+  "orbital_period_days": 979.0,
+  "power": 0.2638153348222782,
+  "power_weighted": 0.28055034405178175,
+  "threshold": 0.013374301465289035,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.22345386633574194,
+   "rms": 0.10897535130587534
+  },
+  "checks": {
+   "groups_agree": "1/2",
+   "leave_one_out_agree": "10/10",
+   "single_datasets_agree": "5/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 3.462671401888247,
+    "power": 0.0835468785431917,
+    "power_weighted": 0.07924408406272038,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 8.073556597921545,
+    "power": 0.020427515474618935,
+    "power_weighted": 0.01716864800428418,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.011448408832313,
+    "power": 0.01202837402346912,
+    "power_weighted": 0.011039659575068807,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 654.9031937954062,
+    "power": 0.025453082030263034,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1309.6579338680126,
+    "power": 0.02438954877398161,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 4.047,
+    "same_family": true,
+    "rel_diff": 1.2194501848028437e-05
+   },
+   "P_lit": {
+    "value": 4.048,
+    "same_family": true,
+    "rel_diff": -0.00023484408375033667
+   }
+  },
+  "n": 2055,
+  "baseline_days": 7717.016309227794,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "G45r",
+   "M22o",
+   "703V",
+   "R17w",
+   "I41r",
+   "T08c",
+   "F51w"
+  ],
+  "screened_out": [
+   "703G (boundary G1/G2)",
+   "T05c (boundary G1/G2)",
+   "704V (boundary G1/G2)",
+   "W68c (boundary G1/G2)"
+  ]
+ },
+ "1942": {
+  "asteroid": 1942,
+  "table": 2,
+  "P": 8.909028036855707,
+  "sigma_P": 0.00022323035853445802,
+  "sigma_boot": 8.956601355235634e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.00044646071706891605,
+  "syn_sid_scale": 0.002563655702890215,
+  "orbital_period_days": 1290.0,
+  "power": 0.2707378932973944,
+  "power_weighted": 0.25686179335047304,
+  "threshold": 0.0140463490553698,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.3139511951628222,
+   "rms": 0.15755091728690662
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "4/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 7.514334902923474,
+    "power": 0.11950655946579236,
+    "power_weighted": 0.07367040279576957,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 17.862957881749796,
+    "power": 0.029022391751644627,
+    "power_weighted": 0.024639372595550744,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.2227629011465573,
+    "power": 0.014121826711476193,
+    "power_weighted": 0.009823435612242139,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 291.1157054128313,
+    "power": 0.026419318132085205,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1110.5564716562367,
+    "power": 0.022490926859150506,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 8.912,
+    "same_family": true,
+    "rel_diff": -0.00033347880883008413
+   },
+   "P_lit": {
+    "value": 8.911,
+    "same_family": true,
+    "rel_diff": -0.00022129538147149454
+   }
+  },
+  "n": 2255,
+  "baseline_days": 7407.406139648985,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "703G",
+   "T05c",
+   "703V",
+   "R17w",
+   "M22o",
+   "T05w",
+   "I41r",
+   "E12V",
+   "M22c",
+   "G45r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "1949": {
+  "asteroid": 1949,
+  "table": 2,
+  "P": 3.6488943627968116,
+  "sigma_P": 3.639856196680811e-05,
+  "sigma_boot": 1.624723878444886e-06,
+  "teeth_note": "",
+  "dP_resolution": 7.279712393361622e-05,
+  "syn_sid_scale": 0.0004109391997176034,
+  "orbital_period_days": 1350.0,
+  "power": 0.37177833516522246,
+  "power_weighted": 0.3646641702332737,
+  "threshold": 0.03022561357233524,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.3172503517267984,
+   "rms": 0.11736500181261772
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "14/14",
+   "single_datasets_agree": "9/10"
+  },
+  "alternatives_auto": [],
+  "extended_candidates": [
+   {
+    "P": 705.7096540646734,
+    "power": 0.04313856583444386,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 352.83582049678535,
+    "power": 0.04058200668898711,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 3.649,
+    "same_family": true,
+    "rel_diff": -2.894963090941568e-05
+   },
+   "P_lit": {
+    "value": 3.649,
+    "same_family": true,
+    "rel_diff": -2.894963090941568e-05
+   }
+  },
+  "n": 5662,
+  "baseline_days": 7620.739524334203,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "W68o",
+   "703V",
+   "M22o",
+   "703G",
+   "P07G",
+   "G45r",
+   "R17w",
+   "M22c",
+   "F51w",
+   "W68c"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "D29R (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "1951": {
+  "asteroid": 1951,
+  "table": 2,
+  "P": 5.299537957964116,
+  "sigma_P": 0.00019231282215386068,
+  "sigma_boot": 4.181067462785002e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.00038462564430772136,
+  "syn_sid_scale": 0.0019536103622636667,
+  "orbital_period_days": 599.0,
+  "power": 0.2859433808891233,
+  "power_weighted": 0.29131679189573634,
+  "threshold": 0.014637458310830982,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.1698708789498955,
+   "rms": 0.07679495791408922
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "9/9",
+   "single_datasets_agree": "6/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 1.2324788999870993,
+    "power": 0.07822199347432016,
+    "power_weighted": 0.08137281890397594,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1109.311436455666,
+    "power": 0.02096101525420342,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1167.9549758738144,
+    "power": 0.019080506106307668,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 5.3,
+    "same_family": true,
+    "rel_diff": -8.717774261959383e-05
+   },
+   "P_lit": {
+    "value": 5.302,
+    "same_family": true,
+    "rel_diff": -0.00046436100261856416
+   }
+  },
+  "n": 3632,
+  "baseline_days": 3042.471619650256,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "M22o",
+   "R17w",
+   "T05c",
+   "T08c",
+   "I41g"
+  ],
+  "screened_out": [
+   "703G (chi2 > 3 chi2_ref)",
+   "H45R (chi2 > 3 chi2_ref)",
+   "I41r (boundary G1/G2)",
+   "Y00R (boundary G1/G2)",
+   "703V (boundary G1/G2)",
+   "T05w (boundary G1/G2)"
+  ]
+ },
+ "1963": {
+  "asteroid": 1963,
+  "table": 2,
+  "P": 18.165262245357127,
+  "sigma_P": 0.0006910056763416044,
+  "sigma_boot": 4.2609692550612423e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.0013820113526832089,
+  "syn_sid_scale": 0.009963066196938316,
+  "orbital_period_days": 1380.0,
+  "power": 0.25426635280467935,
+  "power_weighted": 0.2489043252085928,
+  "threshold": 0.012952876102496092,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.27046899435756266,
+   "rms": 0.15180303475034207
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "6/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 18.04536120455842,
+    "power": 0.08030939899538417,
+    "power_weighted": 0.059571755023233766,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 4.540090521649169,
+    "power": 0.006591564837772336,
+    "power_weighted": 0.005684107390241799,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1250.866699421229,
+    "power": 0.06290557436048987,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1130.4707056702746,
+    "power": 0.0626478156286486,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 18.158,
+    "same_family": true,
+    "rel_diff": 0.00039994742576966665
+   },
+   "P_lit": {
+    "value": 18.16,
+    "same_family": true,
+    "rel_diff": 0.0002897712201060967
+   }
+  },
+  "n": 4768,
+  "baseline_days": 9948.56614244217,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "W68o",
+   "M22o",
+   "T05c",
+   "703V",
+   "W68c",
+   "689V",
+   "703G",
+   "T05w",
+   "M22c",
+   "R17w"
+  ],
+  "screened_out": [
+   "T05o (boundary G1/G2)",
+   "I41r (boundary G1/G2)",
+   "T08w (boundary G1/G2)",
+   "704V (boundary G1/G2)"
+  ]
+ },
+ "2134": {
+  "asteroid": 2134,
+  "table": 2,
+  "P": 4.114927363882112,
+  "sigma_P": 0.0003711266282309853,
+  "sigma_boot": 0.0003711266282309853,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 8.244163824294979e-05,
+  "syn_sid_scale": 0.00044937970302616205,
+  "orbital_period_days": 1570.0,
+  "power": 0.06627451021240853,
+  "power_weighted": 0.06193528254575152,
+  "threshold": 0.010058377784985952,
+  "famwin_u": 0.6466666666666666,
+  "famwin_w": 0.5033333333333333,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": false,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.11459260163054807,
+   "rms": 0.14058300866503468
+  },
+  "checks": {
+   "groups_agree": "0/2",
+   "leave_one_out_agree": "0/11",
+   "single_datasets_agree": "0/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 48.086190506535175,
+    "power": 0.04767694864247279,
+    "power_weighted": 0.04707151699195584,
+    "famwin_u": 0.2633333333333333,
+    "famwin_w": 0.38,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 1.000650522182779,
+    "power": 0.04569263225755162,
+    "power_weighted": 0.043777032754809334,
+    "famwin_u": 0.09,
+    "famwin_w": 0.11666666666666667,
+    "n4_extrema": [
+     3,
+     3
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 8.234328793175097,
+    "power": 0.007640975213115449,
+    "power_weighted": 0.007001759003514488,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.0276554208568331,
+    "power": 0.0075874316772373,
+    "power_weighted": 0.008043466661663121,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1137.7906520976112,
+    "power": 0.1281422024044102,
+    "frac_above_best_primary": 0.9766666666666667
+   },
+   {
+    "P": 1033.6950505924299,
+    "power": 0.11304543109687903,
+    "frac_above_best_primary": 0.9466666666666667
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 4.113,
+    "same_family": true,
+    "rel_diff": 0.00046860293754226684
+   },
+   "P_lit": {
+    "value": 4.114,
+    "same_family": true,
+    "rel_diff": 0.00022541659749924597
+   }
+  },
+  "n": 2660,
+  "baseline_days": 8557.885903139599,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "W68o",
+   "703G",
+   "M22o",
+   "G45r",
+   "W68c",
+   "I41r",
+   "703V"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "I41g (boundary G1/G2)"
+  ]
+ },
+ "2150": {
+  "asteroid": 2150,
+  "table": 2,
+  "P": 6.124091520045635,
+  "sigma_P": 0.00010076012335446602,
+  "sigma_boot": 2.796092472832247e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.00020152024670893205,
+  "syn_sid_scale": 0.0016176887916621316,
+  "orbital_period_days": 966.0,
+  "power": 0.6224018993557,
+  "power_weighted": 0.6398118894664728,
+  "threshold": 0.01599854606934201,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.5663498052259559,
+   "rms": 0.15061063896097635
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "8/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 5.431154663907618,
+    "power": 0.23528976857991452,
+    "power_weighted": 0.24848845415048612,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 12.256555880489328,
+    "power": 0.014214954557005326,
+    "power_weighted": 0.013440343259501853,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.526487332525461,
+    "power": 0.01337862121922099,
+    "power_weighted": 0.013469519342547092,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 275.62513679802504,
+    "power": 0.026631458310381946,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 301.5739008741017,
+    "power": 0.021567700875532104,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 6.125,
+    "same_family": true,
+    "rel_diff": -0.0001483232578555182
+   },
+   "P_lit": {
+    "value": 6.125,
+    "same_family": true,
+    "rel_diff": -0.0001483232578555182
+   }
+  },
+  "n": 3140,
+  "baseline_days": 7754.493150272407,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "M22o",
+   "T05c",
+   "703G",
+   "G45r",
+   "703V",
+   "I41r",
+   "M22c",
+   "F51w",
+   "T08c"
+  ],
+  "screened_out": [
+   "C57G (boundary G1/G2)",
+   "704V (boundary G1/G2)",
+   "W68c (boundary G1/G2)",
+   "T05w (boundary G1/G2)"
+  ]
+ },
+ "2318": {
+  "asteroid": 2318,
+  "table": 2,
+  "P": 5.457034123116742,
+  "sigma_P": 7.373736862251745e-05,
+  "sigma_boot": 3.516119658920139e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.0001474747372450349,
+  "syn_sid_scale": 0.0010087812134437842,
+  "orbital_period_days": 1230.0,
+  "power": 0.426005986450326,
+  "power_weighted": 0.43590658348346145,
+  "threshold": 0.011951359039840766,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.5011684441887567,
+   "rms": 0.1785977646204921
+  },
+  "checks": {
+   "groups_agree": "2/3",
+   "leave_one_out_agree": "14/14",
+   "single_datasets_agree": "7/12"
+  },
+  "alternatives_auto": [
+   {
+    "P": 6.158545302931665,
+    "power": 0.08631148722463894,
+    "power_weighted": 0.08130620225002338,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 5.01028884080094,
+    "power": 0.0842135474870962,
+    "power_weighted": 0.08873689652061775,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.3641066189447808,
+    "power": 0.028513613573128423,
+    "power_weighted": 0.02710828502279342,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 10.920188928930672,
+    "power": 0.010958152653975178,
+    "power_weighted": 0.00947002081449046,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     3,
+     3
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 764.2048252270841,
+    "power": 0.02058065648643864,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 709.1147865090268,
+    "power": 0.019400460778991983,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 5.457,
+    "same_family": true,
+    "rel_diff": 6.253090845153376e-06
+   },
+   "P_lit": {
+    "value": 5.456,
+    "same_family": true,
+    "rel_diff": 0.00018953869441742076
+   }
+  },
+  "n": 2944,
+  "baseline_days": 8413.650471363217,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "M22o",
+   "T05c",
+   "D29R",
+   "703G",
+   "703V",
+   "P07G",
+   "F51w",
+   "G45r",
+   "R17w",
+   "M22c",
+   "W68c"
+  ],
+  "screened_out": [
+   "C57G (boundary G1/G2)",
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2497": {
+  "asteroid": 2497,
+  "table": 3,
+  "P": 77.62089631241916,
+  "sigma_P": 0.015066671977961108,
+  "sigma_boot": 0.0008457242077732764,
+  "teeth_note": "",
+  "dP_resolution": 0.030133343955922216,
+  "syn_sid_scale": 0.16962284753218826,
+  "orbital_period_days": 1480.0,
+  "power": 0.2983562991755466,
+  "power_weighted": 0.31331135942368593,
+  "threshold": 0.017757401351303066,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.2987246671231638,
+   "rms": 0.14632593027926918
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "19/19",
+   "single_datasets_agree": "10/12"
+  },
+  "alternatives_auto": [
+   {
+    "P": 78.52712188775497,
+    "power": 0.10329522153804267,
+    "power_weighted": 0.12062607594488128,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 19.447603291711363,
+    "power": 0.012667166539077441,
+    "power_weighted": 0.013937367036347742,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 706.9511159361358,
+    "power": 0.02261976497579125,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 822.1919075282916,
+    "power": 0.0212376049242642,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 77.623,
+    "same_family": true,
+    "rel_diff": -2.710134342710287e-05
+   },
+   "P_av": {
+    "value": 77.75,
+    "same_family": true,
+    "rel_diff": -0.0016604975894641458
+   },
+   "P_fig": {
+    "value": 77.623,
+    "same_family": true,
+    "rel_diff": -2.710134342710287e-05
+   }
+  },
+  "n": 4637,
+  "baseline_days": 8331.030725128017,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "W68o",
+   "703V",
+   "G45r",
+   "M22o",
+   "703G",
+   "F51w",
+   "T08c",
+   "G96V",
+   "I41r",
+   "R17w",
+   "D29R",
+   "F52w",
+   "P07G",
+   "G96G",
+   "W68c"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2503": {
+  "asteroid": 2503,
+  "table": 3,
+  "P": 102.61258214900549,
+  "sigma_P": 0.14357375149972282,
+  "sigma_boot": 0.14357375149972282,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.05164507744375492,
+  "syn_sid_scale": 0.3686744403111485,
+  "orbital_period_days": 1190.0,
+  "power": 0.3024273970323837,
+  "power_weighted": 0.3647277222489468,
+  "threshold": 0.028187215633670003,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.2635826702806021,
+   "rms": 0.12722315303569431
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "10/10",
+   "single_datasets_agree": "5/6"
+  },
+  "alternatives_auto": [
+   {
+    "P": 104.06841727333133,
+    "power": 0.19293453564175977,
+    "power_weighted": 0.2632816011672139,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 101.79344541400064,
+    "power": 0.1885331974023736,
+    "power_weighted": 0.24791479517495005,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 25.761016245045035,
+    "power": 0.010261069085295903,
+    "power_weighted": 0.011470902348731602,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 561.7579685772573,
+    "power": 0.029468202418571492,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 537.6031836128047,
+    "power": 0.028484188441431926,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 102.617,
+    "same_family": true,
+    "rel_diff": -4.305184320837759e-05
+   },
+   "P_av": {
+    "value": 102.823,
+    "same_family": true,
+    "rel_diff": -0.002046408400790708
+   },
+   "P_fig": {
+    "value": 102.616,
+    "same_family": true,
+    "rel_diff": -3.3307193756425006e-05
+   }
+  },
+  "n": 4495,
+  "baseline_days": 8494.954518135171,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "703G",
+   "703V",
+   "W68o",
+   "G45r",
+   "I41r",
+   "F51w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2538": {
+  "asteroid": 2538,
+  "table": 3,
+  "P": 53.44548153593135,
+  "sigma_P": 0.007882742652628177,
+  "sigma_boot": 0.0004837834498702667,
+  "teeth_note": "",
+  "dP_resolution": 0.015765485305256354,
+  "syn_sid_scale": 0.09755531067648834,
+  "orbital_period_days": 1220.0,
+  "power": 0.30878736537642243,
+  "power_weighted": 0.3162124110468026,
+  "threshold": 0.011709179642492911,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.21563827688506798,
+   "rms": 0.09928214614535127
+  },
+  "checks": {
+   "groups_agree": "1/2",
+   "leave_one_out_agree": "16/16",
+   "single_datasets_agree": "8/12"
+  },
+  "alternatives_auto": [
+   {
+    "P": 52.33101194153337,
+    "power": 0.07068278474362905,
+    "power_weighted": 0.07828675952699383,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 467.2197364403691,
+    "power": 0.05031730953853297,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 458.69416237480857,
+    "power": 0.04029894056388925,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 53.446,
+    "same_family": true,
+    "rel_diff": -9.700708540357978e-06
+   },
+   "P_av": {
+    "value": 53.422,
+    "same_family": true,
+    "rel_diff": 0.0004395480500796102
+   },
+   "P_fig": {
+    "value": 53.446,
+    "same_family": true,
+    "rel_diff": -9.700708540357978e-06
+   }
+  },
+  "n": 5036,
+  "baseline_days": 7549.242964670062,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "M22o",
+   "703V",
+   "T05c",
+   "G45r",
+   "703G",
+   "I41r",
+   "R17w",
+   "W68c",
+   "P07G",
+   "M22c",
+   "Z22R",
+   "F52w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "D29R (chi2 > 3 chi2_ref)",
+   "F51w (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2539": {
+  "asteroid": 2539,
+  "table": 3,
+  "P": 12.296393396969368,
+  "sigma_P": 0.00042736122690506745,
+  "sigma_boot": 2.6044177589491235e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.0008547224538101349,
+  "syn_sid_scale": 0.005080688527319618,
+  "orbital_period_days": 1240.0,
+  "power": 0.2844708180550817,
+  "power_weighted": 0.27602122090854714,
+  "threshold": 0.013035490846375624,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.2696952074971293,
+   "rms": 0.1419417741755279
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "15/15",
+   "single_datasets_agree": "2/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 16.54246678798464,
+    "power": 0.1097751310098737,
+    "power_weighted": 0.12415506206714454,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 9.785018495248245,
+    "power": 0.09475255564515161,
+    "power_weighted": 0.08497705134300501,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 24.547399479013244,
+    "power": 0.02063984961979915,
+    "power_weighted": 0.019968198263644665,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 3.0667551161194373,
+    "power": 0.01788455133511163,
+    "power_weighted": 0.017607073385124287,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 469.0083657000637,
+    "power": 0.04998949309482224,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 460.35722675006326,
+    "power": 0.03919689990818724,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 9.785,
+    "same_family": false,
+    "rel_diff": 0.2566574754184331
+   },
+   "P_av": {
+    "value": 9.79,
+    "same_family": false,
+    "rel_diff": 0.2560156687404871
+   },
+   "P_fig": {
+    "value": 9.785,
+    "same_family": false,
+    "rel_diff": 0.2566574754184331
+   }
+  },
+  "n": 2233,
+  "baseline_days": 7370.876646322198,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "F51w",
+   "P07G",
+   "M22o",
+   "T05c",
+   "703G",
+   "R17w",
+   "D29R",
+   "T08c",
+   "G45r",
+   "G96V",
+   "F52w",
+   "M22c"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2583": {
+  "asteroid": 2583,
+  "table": 3,
+  "P": 23.958150214726604,
+  "sigma_P": 0.015644410417190273,
+  "sigma_boot": 0.015644410417190273,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.0028645247486765108,
+  "syn_sid_scale": 0.019444206020034025,
+  "orbital_period_days": 1230.0,
+  "power": 0.06115229544805673,
+  "power_weighted": 0.06377558787404417,
+  "threshold": 0.006481737887926176,
+  "famwin_u": 0.9666666666666667,
+  "famwin_w": 0.9866666666666667,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": true,
+  "tess_supports": false,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.1017275933050037,
+   "rms": 0.10694230892234712
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "1/12",
+   "single_datasets_agree": "6/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 7.790034879078773,
+    "power": 0.03993094362547102,
+    "power_weighted": 0.0351260300658258,
+    "famwin_u": 0.03333333333333333,
+    "famwin_w": 0.013333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 15.971460537084589,
+    "power": 0.02382736566701703,
+    "power_weighted": 0.020163067113093357,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1300.5352320493625,
+    "power": 0.07482009078765418,
+    "frac_above_best_primary": 0.65
+   },
+   {
+    "P": 1168.1468220276306,
+    "power": 0.06135657114019527,
+    "frac_above_best_primary": 0.55
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 15.976,
+    "same_family": false,
+    "rel_diff": 0.49963383917918147
+   },
+   "P_av": {
+    "value": 15.94,
+    "same_family": false,
+    "rel_diff": 0.5030207161058096
+   },
+   "P_fig": {
+    "value": 15.976,
+    "same_family": false,
+    "rel_diff": 0.49963383917918147
+   }
+  },
+  "n": 3495,
+  "baseline_days": 8349.159285739064,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "703V",
+   "T05c",
+   "M22o",
+   "W68c",
+   "G45r",
+   "I41r",
+   "I41g",
+   "E12V"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703G (chi2 > 3 chi2_ref)",
+   "T05w (boundary G1/G2)",
+   "D29R (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2607": {
+  "asteroid": 2607,
+  "table": 3,
+  "P": 2.9356358712491355,
+  "sigma_P": 2.202752088982403e-05,
+  "sigma_boot": 1.3194023154149257e-06,
+  "teeth_note": "",
+  "dP_resolution": 4.405504177964806e-05,
+  "syn_sid_scale": 0.0002679713298683044,
+  "orbital_period_days": 1340.0,
+  "power": 0.14700831392546584,
+  "power_weighted": 0.1594428998686258,
+  "threshold": 0.010309189694606317,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.17454116861988922,
+   "rms": 0.11659455753953145
+  },
+  "checks": {
+   "groups_agree": "1/2",
+   "leave_one_out_agree": "15/15",
+   "single_datasets_agree": "3/6"
+  },
+  "alternatives_auto": [
+   {
+    "P": 2.7661284133647106,
+    "power": 0.0929116052173418,
+    "power_weighted": 0.1052600243383451,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 5.866741096432765,
+    "power": 0.012503023335647422,
+    "power_weighted": 0.013951898615345107,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 463.92423161902525,
+    "power": 0.015609604814436247,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 362.8388830690749,
+    "power": 0.012341902194027362,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 2.936,
+    "same_family": true,
+    "rel_diff": -0.0001240220541091435
+   },
+   "P_av": {
+    "value": 2.943,
+    "same_family": true,
+    "rel_diff": -0.0025022523788190833
+   },
+   "P_fig": {
+    "value": 2.936,
+    "same_family": true,
+    "rel_diff": -0.0001240220541091435
+   }
+  },
+  "n": 2447,
+  "baseline_days": 8150.748870459851,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "T05c",
+   "G45r",
+   "703V",
+   "P07G",
+   "G96V",
+   "F51w",
+   "M22o",
+   "R17w",
+   "T08c",
+   "W68o",
+   "703G",
+   "F52w",
+   "G96G"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "D29R (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2614": {
+  "asteroid": 2614,
+  "table": 3,
+  "P": 2.9699667957250844,
+  "sigma_P": 5.738844008882515e-05,
+  "sigma_boot": 2.670570299345769e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.0001147768801776503,
+  "syn_sid_scale": 0.0002805567038075549,
+  "orbital_period_days": 1310.0,
+  "power": 0.10117085270311035,
+  "power_weighted": 0.10384669041930304,
+  "threshold": 0.00789399981790876,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.09689403468914115,
+   "rms": 0.07517778611419618
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "4/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 12.499864318767672,
+    "power": 0.026521915730275104,
+    "power_weighted": 0.026679886782089938,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 305.61239651943464,
+    "power": 0.03669374101738501,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 298.2446294477158,
+    "power": 0.035147657909737944,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 2.97,
+    "same_family": true,
+    "rel_diff": -1.1179890544047551e-05
+   },
+   "P_av": {
+    "value": 2.978,
+    "same_family": true,
+    "rel_diff": -0.0026975165463115607
+   },
+   "P_fig": {
+    "value": 2.97,
+    "same_family": true,
+    "rel_diff": -1.1179890544047551e-05
+   }
+  },
+  "n": 6199,
+  "baseline_days": 3202.11946359789,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "W68o",
+   "I41r",
+   "M22o",
+   "R17w",
+   "G96G",
+   "I41g",
+   "W68c",
+   "F52w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703V (chi2 > 3 chi2_ref)",
+   "703G (chi2 > 3 chi2_ref)",
+   "D29R (chi2 > 3 chi2_ref)",
+   "T05w (chi2 > 3 chi2_ref)",
+   "G45r (chi2 > 3 chi2_ref)",
+   "F51w (chi2 > 3 chi2_ref)",
+   "P07G (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2817": {
+  "asteroid": 2817,
+  "table": 3,
+  "P": 13.481981662023687,
+  "sigma_P": 0.000517756423826371,
+  "sigma_boot": 2.274283373545629e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.001035512847652742,
+  "syn_sid_scale": 0.005737494619164867,
+  "orbital_period_days": 1320.0,
+  "power": 0.3699212268206366,
+  "power_weighted": 0.3784797958020916,
+  "threshold": 0.01672693476390684,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.47233276997917706,
+   "rms": 0.1966093865520805
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "14/14",
+   "single_datasets_agree": "6/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 10.525665873021332,
+    "power": 0.20760787436386588,
+    "power_weighted": 0.21260634440878756,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 18.76180533244796,
+    "power": 0.12991724265413562,
+    "power_weighted": 0.1236917348790088,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 3.3760445401165264,
+    "power": 0.01948437656375509,
+    "power_weighted": 0.0168499691153125,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 27.03768575182406,
+    "power": 0.018910991510395724,
+    "power_weighted": 0.01679603046155386,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     3,
+     3
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 291.6276621987477,
+    "power": 0.029232543493961535,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 341.0936209751133,
+    "power": 0.02891553337073773,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 18.762,
+    "same_family": false,
+    "rel_diff": -0.2814208686694549
+   },
+   "P_av": {
+    "value": 18.75,
+    "same_family": false,
+    "rel_diff": -0.2809609780254034
+   },
+   "P_fig": {
+    "value": 18.762,
+    "same_family": false,
+    "rel_diff": -0.2814208686694549
+   }
+  },
+  "n": 2061,
+  "baseline_days": 7313.76043712534,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "703G",
+   "T05c",
+   "F51w",
+   "703V",
+   "P07G",
+   "W68o",
+   "M22o",
+   "G45r",
+   "T08c",
+   "G96V",
+   "G96G",
+   "D29R"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2968": {
+  "asteroid": 2968,
+  "table": 3,
+  "P": 23.97928198008793,
+  "sigma_P": 0.027906943286406364,
+  "sigma_boot": 0.027906943286406364,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.005183270763394378,
+  "syn_sid_scale": 0.018013971312047922,
+  "orbital_period_days": 1330.0,
+  "power": 0.07971550229714784,
+  "power_weighted": 0.07080185949034766,
+  "threshold": 0.023421840564181333,
+  "famwin_u": 0.4,
+  "famwin_w": 0.46,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": true,
+  "tess_supports": null,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.14506209883477084,
+   "rms": 0.1275089928210224
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "6/9",
+   "single_datasets_agree": "4/4"
+  },
+  "alternatives_auto": [
+   {
+    "P": 3.8308746430338947,
+    "power": 0.06963116132744909,
+    "power_weighted": 0.062177701256448795,
+    "famwin_u": 0.24333333333333335,
+    "famwin_w": 0.23333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 7.987223970210574,
+    "power": 0.0810539774390206,
+    "power_weighted": 0.07132315032043904,
+    "famwin_u": 0.18666666666666668,
+    "famwin_w": 0.16666666666666666,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 6.381775665375633,
+    "power": 0.06431735427177208,
+    "power_weighted": 0.052811259135064646,
+    "famwin_u": 0.10333333333333333,
+    "famwin_w": 0.09666666666666666,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 15.984900782553474,
+    "power": 0.06596265487898495,
+    "power_weighted": 0.04848023121189423,
+    "famwin_u": 0.05,
+    "famwin_w": 0.02,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 800.6581725888705,
+    "power": 0.03900937134311249,
+    "frac_above_best_primary": 0.01
+   },
+   {
+    "P": 859.1817961401141,
+    "power": 0.02961727724928149,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 4.56,
+    "same_family": false,
+    "rel_diff": 4.258614469317529
+   },
+   "P_av": {
+    "value": 4.585,
+    "same_family": false,
+    "rel_diff": 4.2299415441849355
+   },
+   "P_fig": {
+    "value": 4.56,
+    "same_family": false,
+    "rel_diff": 4.258614469317529
+   }
+  },
+  "n": 1068,
+  "baseline_days": 4622.290236934088,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "M22o",
+   "G45r",
+   "F51w",
+   "T05c",
+   "703G",
+   "T08c"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703V (chi2 > 3 chi2_ref)",
+   "G45G (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "2971": {
+  "asteroid": 2971,
+  "table": 3,
+  "P": 4.4908231415231965,
+  "sigma_P": 0.00031455075960650067,
+  "sigma_boot": 0.00031455075960650067,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.00010785593651556242,
+  "syn_sid_scale": 0.0006831806398523127,
+  "orbital_period_days": 1230.0,
+  "power": 0.1385560075795504,
+  "power_weighted": 0.14888135424497892,
+  "threshold": 0.011698411471882483,
+  "famwin_u": 0.98,
+  "famwin_w": 0.9466666666666667,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.13633402041429576,
+   "rms": 0.09712643114107912
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "9/9",
+   "single_datasets_agree": "1/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 4.954341057813673,
+    "power": 0.09998683883137578,
+    "power_weighted": 0.11678874294426245,
+    "famwin_u": 0.01,
+    "famwin_w": 0.04666666666666667,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 5.525770847278915,
+    "power": 0.09563492354973588,
+    "power_weighted": 0.10181253752134954,
+    "famwin_u": 0.006666666666666667,
+    "famwin_w": 0.006666666666666667,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 47.92161729477777,
+    "power": 0.07611467389241516,
+    "power_weighted": 0.0798515386218215,
+    "famwin_u": 0.0033333333333333335,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 8.967255510202152,
+    "power": 0.019826645971212798,
+    "power_weighted": 0.02110393313194039,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 652.0408710896788,
+    "power": 0.01867103795160527,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1323.4833855109423,
+    "power": 0.01686687912411278,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 4.49,
+    "same_family": true,
+    "rel_diff": 0.0001833277334512898
+   },
+   "P_av": {
+    "value": 4.495,
+    "same_family": true,
+    "rel_diff": -0.0009292232428929037
+   },
+   "P_fig": {
+    "value": 4.49,
+    "same_family": true,
+    "rel_diff": 0.0001833277334512898
+   }
+  },
+  "n": 2513,
+  "baseline_days": 7791.0610594633035,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "T05c",
+   "W68o",
+   "703V",
+   "M22o",
+   "I41r",
+   "F51w",
+   "F52w"
+  ],
+  "screened_out": [
+   "C57G (boundary G1/G2)",
+   "704V (chi2 > 3 chi2_ref)",
+   "G45r (chi2 > 3 chi2_ref)",
+   "703G (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3081": {
+  "asteroid": 3081,
+  "table": 3,
+  "P": 8.007285674701077,
+  "sigma_P": 0.0001780365239987389,
+  "sigma_boot": 7.850983205625859e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.0003560730479974778,
+  "syn_sid_scale": 0.0019500189743392056,
+  "orbital_period_days": 1370.0,
+  "power": 0.3709962181576224,
+  "power_weighted": 0.34897218086272846,
+  "threshold": 0.013782045242898007,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": true,
+  "tess_supports": true,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.6024647608815581,
+   "rms": 0.22472721981746765
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "2/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 6.860509466177301,
+    "power": 0.0890165633445092,
+    "power_weighted": 0.05373800682305185,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 4.807872561794119,
+    "power": 0.08748529564922969,
+    "power_weighted": 0.06369503317665888,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 16.055109360334914,
+    "power": 0.048187324367915736,
+    "power_weighted": 0.04930058584292154,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.0046286942107074,
+    "power": 0.021531490780794454,
+    "power_weighted": 0.03283047272166098,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 389.3754133040973,
+    "power": 0.03333742480803554,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 636.4236995585203,
+    "power": 0.033101095641337855,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 8.007,
+    "same_family": true,
+    "rel_diff": 3.567811928026712e-05
+   },
+   "P_av": {
+    "value": 8.007,
+    "same_family": true,
+    "rel_diff": 3.567811928026712e-05
+   },
+   "P_fig": {
+    "value": 8.007,
+    "same_family": true,
+    "rel_diff": 3.567811928026712e-05
+   }
+  },
+  "n": 2453,
+  "baseline_days": 7502.747006180696,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "W68o",
+   "T05o",
+   "703V",
+   "T05c",
+   "M22o",
+   "D29R",
+   "G96V",
+   "R17w",
+   "703G",
+   "F52w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3172": {
+  "asteroid": 3172,
+  "table": 3,
+  "P": 47.93985155322714,
+  "sigma_P": 0.046007906913247826,
+  "sigma_boot": 0.046007906913247826,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.012243405817614052,
+  "syn_sid_scale": 0.0693909833014932,
+  "orbital_period_days": 1380.0,
+  "power": 0.16651398422282276,
+  "power_weighted": 0.16487959938709865,
+  "threshold": 0.012825459827444732,
+  "famwin_u": 0.9633333333333334,
+  "famwin_w": 0.9533333333333334,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": true,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.20521736864456663,
+   "rms": 0.1385945903130788
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "7/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 15.972048586686162,
+    "power": 0.1300082289404628,
+    "power_weighted": 0.13495004220323678,
+    "famwin_u": 0.03333333333333333,
+    "famwin_w": 0.043333333333333335,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 11.979620240644648,
+    "power": 0.10051115238207828,
+    "power_weighted": 0.11228240162339652,
+    "famwin_u": 0.0033333333333333335,
+    "famwin_w": 0.0033333333333333335,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 15.955971632612542,
+    "power": 0.07826621308564455,
+    "power_weighted": 0.09167567775073912,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 96.03176211248388,
+    "power": 0.06993369551197771,
+    "power_weighted": 0.07544018311356994,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1298.0360958618564,
+    "power": 0.04236037223212656,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 648.9757633424628,
+    "power": 0.041277603405061716,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 15.997,
+    "same_family": false,
+    "rel_diff": 1.996802622568428
+   },
+   "P_av": {
+    "value": 15.923,
+    "same_family": false,
+    "rel_diff": 2.0107298595256635
+   },
+   "P_fig": {
+    "value": 15.976,
+    "same_family": false,
+    "rel_diff": 2.00074183482894
+   }
+  },
+  "n": 2490,
+  "baseline_days": 7821.316909899004,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "703V",
+   "T05c",
+   "M22o",
+   "G45r",
+   "F51w",
+   "T05w",
+   "W68c",
+   "G96V",
+   "P07G",
+   "T08c"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "C57G (boundary G1/G2)",
+   "D29R (chi2 > 3 chi2_ref)",
+   "691V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3473": {
+  "asteroid": 3473,
+  "table": 3,
+  "P": 9.074026410295296,
+  "sigma_P": 0.0002054465858827555,
+  "sigma_boot": 1.1262922028844012e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.000410893171765511,
+  "syn_sid_scale": 0.0025795098776546536,
+  "orbital_period_days": 1330.0,
+  "power": 0.24917067313662725,
+  "power_weighted": 0.2638878852869677,
+  "threshold": 0.011643276462861828,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.25792067931270246,
+   "rms": 0.14952453980135344
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "8/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 7.628974996403712,
+    "power": 0.12211908338572952,
+    "power_weighted": 0.13315015077521924,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.2721845080485847,
+    "power": 0.013591381226818956,
+    "power_weighted": 0.01071667657225866,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 18.129368220254047,
+    "power": 0.012290413222386628,
+    "power_weighted": 0.009628936994864173,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 676.568935258778,
+    "power": 0.021431683459325685,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1353.5387302536174,
+    "power": 0.01986180258515348,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 9.074,
+    "same_family": true,
+    "rel_diff": 2.9105460983564247e-06
+   },
+   "P_av": {
+    "value": 9.074,
+    "same_family": true,
+    "rel_diff": 2.9105460983564247e-06
+   },
+   "P_fig": {
+    "value": 9.074,
+    "same_family": true,
+    "rel_diff": 2.9105460983564247e-06
+   }
+  },
+  "n": 2681,
+  "baseline_days": 8349.489290706813,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "T05c",
+   "703V",
+   "M22o",
+   "D29R",
+   "G96V",
+   "P07G",
+   "F51w",
+   "G45r",
+   "703G"
+  ],
+  "screened_out": [
+   "C57G (boundary G1/G2)",
+   "704V (chi2 > 3 chi2_ref)",
+   "I41r (chi2 > 3 chi2_ref)",
+   "691V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4239": {
+  "asteroid": 4239,
+  "table": 3,
+  "P": 23.13818050658784,
+  "sigma_P": 0.0011447279278269892,
+  "sigma_boot": 4.9446125497549575e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.0022894558556539784,
+  "syn_sid_scale": 0.01906607539727356,
+  "orbital_period_days": 1170.0,
+  "power": 0.26265259755280684,
+  "power_weighted": 0.291336702621721,
+  "threshold": 0.011166741170881388,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.5182410040315499,
+   "rms": 0.26643834380525955
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "14/14",
+   "single_datasets_agree": "10/13"
+  },
+  "alternatives_auto": [
+   {
+    "P": 11.775311140574054,
+    "power": 0.13030075345609857,
+    "power_weighted": 0.15014322150110923,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 15.612522229836152,
+    "power": 0.1269649804032282,
+    "power_weighted": 0.14745079332659092,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 46.168915061786684,
+    "power": 0.03509277279731986,
+    "power_weighted": 0.03047079849562985,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 5.770720123737459,
+    "power": 0.014509965745443061,
+    "power_weighted": 0.01486587300550508,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 688.1996179734648,
+    "power": 0.09823237550467939,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 344.1079477183182,
+    "power": 0.09311433672154631,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 15.612,
+    "same_family": false,
+    "rel_diff": 0.48207664018625673
+   },
+   "P_av": {
+    "value": 15.623,
+    "same_family": false,
+    "rel_diff": 0.48103312466157855
+   },
+   "P_fig": {
+    "value": 11.775,
+    "same_family": false,
+    "rel_diff": 0.9650259453577783
+   }
+  },
+  "n": 2790,
+  "baseline_days": 9743.497853308916,
+  "datasets_used": [
+   "T08o",
+   "704V",
+   "T05o",
+   "703V",
+   "G96V",
+   "T05c",
+   "W68o",
+   "P07G",
+   "M22o",
+   "703G",
+   "R17w",
+   "D29R",
+   "T08c",
+   "F51w"
+  ],
+  "screened_out": []
+ },
+ "3173": {
+  "asteroid": 3173,
+  "table": 3,
+  "P": 236.69244853018043,
+  "sigma_P": 3.036484574126833,
+  "sigma_boot": 3.036484574126833,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.27324868781691963,
+  "syn_sid_scale": 1.9616006719612082,
+  "orbital_period_days": 1190.0,
+  "power": 0.10400298512213862,
+  "power_weighted": 0.10282156804208961,
+  "threshold": 0.019695710669577003,
+  "famwin_u": 0.5233333333333333,
+  "famwin_w": 0.55,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (no double-peaked alternative with comparable power)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 1,
+   "minima": 1,
+   "amp": 0.20245202123499517,
+   "rms": 0.2147354974792901
+  },
+  "checks": {
+   "groups_agree": "0/2",
+   "leave_one_out_agree": "0/15",
+   "single_datasets_agree": "0/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 231.14540879953708,
+    "power": 0.09549722602496027,
+    "power_weighted": 0.09173597168064707,
+    "famwin_u": 0.27666666666666667,
+    "famwin_w": 0.23,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 49.9611681098185,
+    "power": 0.05521175569237753,
+    "power_weighted": 0.05800937504654563,
+    "famwin_u": 0.07,
+    "famwin_w": 0.09333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 227.1280880903827,
+    "power": 0.07757077473326529,
+    "power_weighted": 0.073945090309833,
+    "famwin_u": 0.06,
+    "famwin_w": 0.05333333333333334,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 219.80718208152686,
+    "power": 0.07151999494313084,
+    "power_weighted": 0.0689594480814805,
+    "famwin_u": 0.04,
+    "famwin_w": 0.03333333333333333,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1143.9953397762022,
+    "power": 0.5235605979121138,
+    "frac_above_best_primary": 1.0
+   },
+   {
+    "P": 572.0365473404905,
+    "power": 0.49356991709160514,
+    "frac_above_best_primary": 1.0
+   },
+   {
+    "P": 477.19711381271276,
+    "power": 0.18612870717009164,
+    "frac_above_best_primary": 0.97
+   },
+   {
+    "P": 464.42706840206444,
+    "power": 0.16964664017081932,
+    "frac_above_best_primary": 0.87
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 45.983,
+    "same_family": false,
+    "rel_diff": 4.147390307943815
+   },
+   "P_av": {
+    "value": 46.008,
+    "same_family": false,
+    "rel_diff": 4.144593299647461
+   },
+   "P_fig": {
+    "value": 45.983,
+    "same_family": false,
+    "rel_diff": 4.147390307943815
+   }
+  },
+  "n": 5958,
+  "baseline_days": 8542.785029576626,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "T05c",
+   "M22o",
+   "703G",
+   "703V",
+   "R17w",
+   "G45r",
+   "D29R",
+   "F51w",
+   "G96G",
+   "W68c",
+   "F52w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "I41r (boundary G1/G2)",
+   "T05w (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3216": {
+  "asteroid": 3216,
+  "table": 3,
+  "P": 187.82908326611226,
+  "sigma_P": 1.9098065853015576,
+  "sigma_boot": 1.9098065853015576,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.1939272691131856,
+  "syn_sid_scale": 1.080875138498411,
+  "orbital_period_days": 1360.0,
+  "power": 0.13278703045961607,
+  "power_weighted": 0.12797286824355153,
+  "threshold": 0.010231636047809136,
+  "famwin_u": 0.22,
+  "famwin_w": 0.21333333333333335,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (no double-peaked alternative with comparable power)",
+  "day_commensurate": false,
+  "tess_supports": false,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 1,
+   "minima": 1,
+   "amp": 0.30970593402032165,
+   "rms": 0.2458082318404219
+  },
+  "checks": {
+   "groups_agree": "0/2",
+   "leave_one_out_agree": "0/11",
+   "single_datasets_agree": "0/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 211.54248307754446,
+    "power": 0.11340874360823537,
+    "power_weighted": 0.10910620768517192,
+    "famwin_u": 0.17333333333333334,
+    "famwin_w": 0.16666666666666666,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 221.72203592790393,
+    "power": 0.11838251719334872,
+    "power_weighted": 0.11472007216461654,
+    "famwin_u": 0.13333333333333333,
+    "famwin_w": 0.13333333333333333,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 217.70699859922024,
+    "power": 0.127459841062949,
+    "power_weighted": 0.12371776536706519,
+    "famwin_u": 0.11666666666666667,
+    "famwin_w": 0.12333333333333334,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 182.7828089714562,
+    "power": 0.10498453389526723,
+    "power_weighted": 0.10290420489832462,
+    "famwin_u": 0.11333333333333333,
+    "famwin_w": 0.11333333333333333,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 633.3202045772175,
+    "power": 0.4362093003635735,
+    "frac_above_best_primary": 1.0
+   },
+   {
+    "P": 1266.5505089511435,
+    "power": 0.3897696659214425,
+    "frac_above_best_primary": 1.0
+   },
+   {
+    "P": 377.380342747001,
+    "power": 0.16623564402944827,
+    "frac_above_best_primary": 0.6333333333333333
+   },
+   {
+    "P": 432.2791060659943,
+    "power": 0.16616514345381075,
+    "frac_above_best_primary": 0.6033333333333334
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 46.157,
+    "same_family": false,
+    "rel_diff": 3.069352065041322
+   },
+   "P_av": {
+    "value": 46.407,
+    "same_family": false,
+    "rel_diff": 3.0474299839703556
+   },
+   "P_fig": {
+    "value": 46.157,
+    "same_family": false,
+    "rel_diff": 3.069352065041322
+   }
+  },
+  "n": 5444,
+  "baseline_days": 7580.110806901939,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "703V",
+   "P07G",
+   "G45r",
+   "W68o",
+   "F51w",
+   "M22o",
+   "R17w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703G (boundary G1/G2)",
+   "D29R (boundary G1/G2)"
+  ]
+ },
+ "3459": {
+  "asteroid": 3459,
+  "table": 3,
+  "P": 52.504711737260095,
+  "sigma_P": 0.006788130825728098,
+  "sigma_boot": 0.0005712762900815434,
+  "teeth_note": "",
+  "dP_resolution": 0.013576261651456195,
+  "syn_sid_scale": 0.09338566241913204,
+  "orbital_period_days": 1230.0,
+  "power": 0.12572106724366378,
+  "power_weighted": 0.12196388408405134,
+  "threshold": 0.009862188303319492,
+  "famwin_u": 0.8,
+  "famwin_w": 0.81,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.30744188107585835,
+   "rms": 0.2487357370116722
+  },
+  "checks": {
+   "groups_agree": "2/3",
+   "leave_one_out_agree": "0/13",
+   "single_datasets_agree": "5/12"
+  },
+  "alternatives_auto": [
+   {
+    "P": 177.7479675417879,
+    "power": 0.09318217407194213,
+    "power_weighted": 0.093587405049631,
+    "famwin_u": 0.07666666666666666,
+    "famwin_w": 0.1,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 25.050840712080426,
+    "power": 0.09958473301188756,
+    "power_weighted": 0.09387832054066443,
+    "famwin_u": 0.07666666666666666,
+    "famwin_w": 0.056666666666666664,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 44.053211155385505,
+    "power": 0.0924030565101016,
+    "power_weighted": 0.08583869840722637,
+    "famwin_u": 0.04666666666666667,
+    "famwin_w": 0.03333333333333333,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 13.156302793449088,
+    "power": 0.011402060130653528,
+    "power_weighted": 0.00988948869990236,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 547.4310099624905,
+    "power": 0.35822709543324643,
+    "frac_above_best_primary": 1.0
+   },
+   {
+    "P": 273.71201633242543,
+    "power": 0.35652170630716357,
+    "frac_above_best_primary": 1.0
+   },
+   {
+    "P": 535.5136235176408,
+    "power": 0.14753156691394614,
+    "frac_above_best_primary": 0.7666666666666667
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 547.543,
+    "same_family": false,
+    "rel_diff": -0.9041085143317327
+   },
+   "P_av": {
+    "value": 547.312,
+    "same_family": false,
+    "rel_diff": -0.9040680421089614
+   },
+   "P_fig": {
+    "value": 547.43,
+    "same_family": false,
+    "rel_diff": -0.9040887204989495
+   },
+   "P_lit": {
+    "value": 532.9,
+    "same_family": false,
+    "rel_diff": -0.9014736128030398
+   },
+   "P_text": {
+    "value": 547.212,
+    "same_family": false,
+    "rel_diff": -0.9040505110683609
+   }
+  },
+  "n": 3373,
+  "baseline_days": 8460.67700552987,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "T05c",
+   "703V",
+   "D29R",
+   "W68o",
+   "G45r",
+   "703G",
+   "P07G",
+   "F51w",
+   "M22o",
+   "R17w",
+   "M22c"
+  ],
+  "screened_out": [
+   "C57G (boundary G1/G2)",
+   "704V (chi2 > 3 chi2_ref)",
+   "W68c (boundary G1/G2)",
+   "G96G (boundary G1/G2)",
+   "T05w (boundary G1/G2)"
+  ]
+ },
+ "3567": {
+  "asteroid": 3567,
+  "table": 2,
+  "P": 8.120654598797367,
+  "sigma_P": 0.0006743719875194551,
+  "sigma_boot": 0.0006743719875194551,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.0003627422099322095,
+  "syn_sid_scale": 0.0016162997821806088,
+  "orbital_period_days": 1700.0,
+  "power": 0.10832713273429466,
+  "power_weighted": 0.09973972803634658,
+  "threshold": 0.013730423922497287,
+  "famwin_u": 0.7833333333333333,
+  "famwin_w": 0.6266666666666667,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.12937415553277987,
+   "rms": 0.11562996202997866
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "7/8",
+   "single_datasets_agree": "4/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 9.777316899388843,
+    "power": 0.09444092178903915,
+    "power_weighted": 0.09316085371103992,
+    "famwin_u": 0.16333333333333333,
+    "famwin_w": 0.2633333333333333,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 6.943445354290125,
+    "power": 0.09358880418042904,
+    "power_weighted": 0.09202733235149294,
+    "famwin_u": 0.05,
+    "famwin_w": 0.09666666666666666,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 12.285005151917437,
+    "power": 0.07014632393614355,
+    "power_weighted": 0.0737370298306554,
+    "famwin_u": 0.0033333333333333335,
+    "famwin_w": 0.013333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 16.216043666185268,
+    "power": 0.01546531853007163,
+    "power_weighted": 0.017206545423159227,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 242.97802984406425,
+    "power": 0.040721673874045024,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 485.9580393272,
+    "power": 0.04040077942739773,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 8.121,
+    "same_family": true,
+    "rel_diff": -4.2531856007037975e-05
+   },
+   "P_lit": {
+    "value": 8.17,
+    "same_family": false,
+    "rel_diff": -0.006039828788571927
+   }
+  },
+  "n": 1918,
+  "baseline_days": 7574.827396625653,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "T05c",
+   "703G",
+   "703V",
+   "W68o",
+   "G45r",
+   "F51w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3716": {
+  "asteroid": 3716,
+  "table": 3,
+  "P": 10.474341812309438,
+  "sigma_P": 0.0012864038384514396,
+  "sigma_boot": 0.0012864038384514396,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.0006030710230411816,
+  "syn_sid_scale": 0.0033612694975825295,
+  "orbital_period_days": 1360.0,
+  "power": 0.2290626477562461,
+  "power_weighted": 0.23063731168005175,
+  "threshold": 0.010541480671663056,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": false,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.290853045034563,
+   "rms": 0.16743342206308492
+  },
+  "checks": {
+   "groups_agree": "1/3",
+   "leave_one_out_agree": "16/16",
+   "single_datasets_agree": "6/12"
+  },
+  "alternatives_auto": [
+   {
+    "P": 8.593943176666702,
+    "power": 0.1293243996858316,
+    "power_weighted": 0.12589079013694573,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 13.405447773278995,
+    "power": 0.12154226847463172,
+    "power_weighted": 0.1069166677488873,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.6178108499284924,
+    "power": 0.02035544213941095,
+    "power_weighted": 0.015383693528561481,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 20.97588120822063,
+    "power": 0.013007149546669834,
+    "power_weighted": 0.013359248537823491,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 316.7038916523019,
+    "power": 0.025033533024174978,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 633.2746138505987,
+    "power": 0.022054086728397544,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 10.474,
+    "same_family": true,
+    "rel_diff": 3.263436217663578e-05
+   },
+   "P_av": {
+    "value": 10.743,
+    "same_family": false,
+    "rel_diff": -0.02500774343205455
+   },
+   "P_fig": {
+    "value": 10.474,
+    "same_family": true,
+    "rel_diff": 3.263436217663578e-05
+   }
+  },
+  "n": 3015,
+  "baseline_days": 7580.079861340113,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "D29R",
+   "703V",
+   "T05c",
+   "W68o",
+   "P07G",
+   "M22o",
+   "703G",
+   "G45r",
+   "C57G",
+   "G96V",
+   "F52w",
+   "F51w",
+   "M22c",
+   "R17w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3777": {
+  "asteroid": 3777,
+  "table": 3,
+  "P": 23.97299794004529,
+  "sigma_P": 0.008058076796304731,
+  "sigma_boot": 0.008058076796304731,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.0028854383757742153,
+  "syn_sid_scale": 0.01915682100778052,
+  "orbital_period_days": 1250.0,
+  "power": 0.16551897749174976,
+  "power_weighted": 0.13625218682183454,
+  "threshold": 0.012637490036667573,
+  "famwin_u": 0.5233333333333333,
+  "famwin_w": 0.85,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": true,
+  "tess_supports": null,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.28347172272643206,
+   "rms": 0.16656950325342276
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "14/14",
+   "single_datasets_agree": "7/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 47.830210239692654,
+    "power": 0.15801836744792175,
+    "power_weighted": 0.10424314452920491,
+    "famwin_u": 0.42333333333333334,
+    "famwin_w": 0.13,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 11.979051434044429,
+    "power": 0.1337564896499556,
+    "power_weighted": 0.07623684107053912,
+    "famwin_u": 0.05,
+    "famwin_w": 0.013333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 15.971105363921746,
+    "power": 0.1086096609496916,
+    "power_weighted": 0.06844605980666363,
+    "famwin_u": 0.0033333333333333335,
+    "famwin_w": 0.006666666666666667,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 655.2249556758292,
+    "power": 0.02199388316496709,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 409.00127693427305,
+    "power": 0.020597633247938906,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 47.831,
+    "same_family": true,
+    "rel_diff": -0.49879789383359563
+   },
+   "P_av": {
+    "value": 47.848,
+    "same_family": true,
+    "rel_diff": -0.49897596681062345
+   },
+   "P_fig": {
+    "value": 47.831,
+    "same_family": true,
+    "rel_diff": -0.49879789383359563
+   }
+  },
+  "n": 2755,
+  "baseline_days": 8298.92139120819,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "T05c",
+   "703V",
+   "703G",
+   "M22o",
+   "T05w",
+   "G45r",
+   "D29R",
+   "I41r",
+   "P07G",
+   "G96V",
+   "F51w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "691V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3858": {
+  "asteroid": 3858,
+  "table": 3,
+  "P": 7.088087733035718,
+  "sigma_P": 0.0007935704715435357,
+  "sigma_boot": 0.0007935704715435357,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.00029582127854046363,
+  "syn_sid_scale": 0.0017740461762433414,
+  "orbital_period_days": 1180.0,
+  "power": 0.35650419713569687,
+  "power_weighted": 0.37775203568895166,
+  "threshold": 0.024594426247701084,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.36076139760368164,
+   "rms": 0.16170809225415755
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "17/17",
+   "single_datasets_agree": "6/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 7.032227139039206,
+    "power": 0.05163401704384261,
+    "power_weighted": 0.053696669007208486,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 14.152384099196219,
+    "power": 0.005012289107281554,
+    "power_weighted": 0.004893719884644037,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.76935520597862,
+    "power": 0.0043339023393887035,
+    "power_weighted": 0.004146921043482675,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1081.0762528519685,
+    "power": 0.036213336840289226,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1187.9781276434003,
+    "power": 0.034015102724675124,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 7.09,
+    "same_family": true,
+    "rel_diff": -0.0002697132530721729
+   },
+   "P_av": {
+    "value": 7.092,
+    "same_family": true,
+    "rel_diff": -0.0005516450880261542
+   },
+   "P_fig": {
+    "value": 7.09,
+    "same_family": true,
+    "rel_diff": -0.0002697132530721729
+   }
+  },
+  "n": 6041,
+  "baseline_days": 7076.483809060417,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "703V",
+   "T08c",
+   "D29R",
+   "R17w",
+   "I41r",
+   "G45r",
+   "W68o",
+   "G96V",
+   "P07G",
+   "F51w",
+   "M22o",
+   "T05w",
+   "703G"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3891": {
+  "asteroid": 3891,
+  "table": 3,
+  "P": 92.75320816600575,
+  "sigma_P": 0.02350505824593418,
+  "sigma_boot": 0.0013932640607489037,
+  "teeth_note": "",
+  "dP_resolution": 0.04701011649186836,
+  "syn_sid_scale": 0.2635771331215195,
+  "orbital_period_days": 1360.0,
+  "power": 0.22931271551262736,
+  "power_weighted": 0.22574711640013312,
+  "threshold": 0.01593049894778196,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.32843742630940653,
+   "rms": 0.14579176841008806
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "4/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 31.589233359673518,
+    "power": 0.07994264009221372,
+    "power_weighted": 0.0744935430845753,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 31.38289600210681,
+    "power": 0.025696273951884126,
+    "power_weighted": 0.01809637275246439,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 729.4631795206053,
+    "power": 0.04403906887413474,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1458.6693417270653,
+    "power": 0.03964475880138954,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 31.589,
+    "same_family": false,
+    "rel_diff": 1.9362502189371538
+   },
+   "P_av": {
+    "value": 31.329,
+    "same_family": false,
+    "rel_diff": 1.9606182184559273
+   },
+   "P_fig": {
+    "value": 31.589,
+    "same_family": false,
+    "rel_diff": 1.9362502189371538
+   }
+  },
+  "n": 1606,
+  "baseline_days": 7625.271490388084,
+  "datasets_used": [
+   "T08o",
+   "W68o",
+   "T05o",
+   "G96V",
+   "T05c",
+   "703V",
+   "M22o",
+   "D29R",
+   "F51w",
+   "F52w",
+   "I41r",
+   "W68c"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703G (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "3954": {
+  "asteroid": 3954,
+  "table": 3,
+  "P": 2.8797801667230836,
+  "sigma_P": 2.028049922092878e-05,
+  "sigma_boot": 9.849120340259759e-07,
+  "teeth_note": "",
+  "dP_resolution": 4.056099844185756e-05,
+  "syn_sid_scale": 0.00030047586263230546,
+  "orbital_period_days": 1150.0,
+  "power": 0.20049727333571293,
+  "power_weighted": 0.22941113090942084,
+  "threshold": 0.012916288136411968,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.20833749841886728,
+   "rms": 0.1290181414124421
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "6/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 2.716495854555392,
+    "power": 0.05248577416751925,
+    "power_weighted": 0.0589855895194595,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.7428931723347576,
+    "power": 0.018628413833407482,
+    "power_weighted": 0.020998252448998122,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 660.1112268135921,
+    "power": 0.01835882814746007,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1320.3625659804077,
+    "power": 0.017919962779381078,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 2.88,
+    "same_family": true,
+    "rel_diff": -7.63309989292798e-05
+   },
+   "P_av": {
+    "value": 2.75,
+    "same_family": false,
+    "rel_diff": 0.04719278789930312
+   },
+   "P_fig": {
+    "value": 2.88,
+    "same_family": true,
+    "rel_diff": -7.63309989292798e-05
+   }
+  },
+  "n": 1890,
+  "baseline_days": 8519.199608029332,
+  "datasets_used": [
+   "T08o",
+   "W68o",
+   "T05c",
+   "703V",
+   "T05o",
+   "G45r",
+   "M22o",
+   "G96V",
+   "R17w",
+   "P07G",
+   "F51w",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "D29R (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4048": {
+  "asteroid": 4048,
+  "table": 3,
+  "P": 49.19712979872964,
+  "sigma_P": 0.05942564646257772,
+  "sigma_boot": 0.05942564646257772,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.011963480493870101,
+  "syn_sid_scale": 0.08266248567052774,
+  "orbital_period_days": 1220.0,
+  "power": 0.1948584182510152,
+  "power_weighted": 0.19025853836757728,
+  "threshold": 0.011579254413328889,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.2987624962557405,
+   "rms": 0.1995905000906167
+  },
+  "checks": {
+   "groups_agree": "2/3",
+   "leave_one_out_agree": "16/16",
+   "single_datasets_agree": "7/11"
+  },
+  "alternatives_auto": [
+   {
+    "P": 36.215002800572094,
+    "power": 0.0674462204926119,
+    "power_weighted": 0.07520094423168246,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 98.2427961798006,
+    "power": 0.0073272957725431225,
+    "power_weighted": 0.006402886116193409,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 974.7017803127113,
+    "power": 0.0458923566115714,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1144.8071137654365,
+    "power": 0.03747027309198041,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 49.115,
+    "same_family": true,
+    "rel_diff": 0.0016721938049402217
+   },
+   "P_av": {
+    "value": 49.259,
+    "same_family": true,
+    "rel_diff": -0.0012560182153588046
+   },
+   "P_fig": {
+    "value": 49.115,
+    "same_family": true,
+    "rel_diff": 0.0016721938049402217
+   }
+  },
+  "n": 4753,
+  "baseline_days": 8429.673335424159,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "M22o",
+   "D29R",
+   "T05c",
+   "703V",
+   "703G",
+   "G45r",
+   "G96V",
+   "F51w",
+   "R17w",
+   "M22c",
+   "G96G",
+   "W68c"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4129": {
+  "asteroid": 4129,
+  "table": 3,
+  "P": 145.52805800413864,
+  "sigma_P": 0.05076900084107559,
+  "sigma_boot": 0.005674584564305765,
+  "teeth_note": "",
+  "dP_resolution": 0.10153800168215119,
+  "syn_sid_scale": 0.5882893240682205,
+  "orbital_period_days": 1500.0,
+  "power": 0.36599646682583803,
+  "power_weighted": 0.38976847574305645,
+  "threshold": 0.013190467005899957,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (no double-peaked alternative with comparable power)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 1,
+   "minima": 1,
+   "amp": 0.47294219912038926,
+   "rms": 0.20008100308513557
+  },
+  "checks": {
+   "groups_agree": "1/2",
+   "leave_one_out_agree": "14/14",
+   "single_datasets_agree": "3/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 57.33642667925921,
+    "power": 0.17218941867491627,
+    "power_weighted": 0.19970529426349518,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 143.70143042622135,
+    "power": 0.15745222504480275,
+    "power_weighted": 0.16099509226450903,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 14.36101161808401,
+    "power": 0.03911423316358659,
+    "power_weighted": 0.043400976070624826,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 291.05799948863375,
+    "power": 0.36359878808098983,
+    "frac_above_best_primary": 0.4
+   },
+   {
+    "P": 287.40067801393326,
+    "power": 0.15743203643114856,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 57.338,
+    "same_family": false,
+    "rel_diff": 1.5380734940901086
+   },
+   "P_av": {
+    "value": 57.349,
+    "same_family": false,
+    "rel_diff": 1.5375866711562305
+   },
+   "P_fig": {
+    "value": 57.336,
+    "same_family": false,
+    "rel_diff": 1.5381620274197476
+   }
+  },
+  "n": 2310,
+  "baseline_days": 8690.677101019304,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "T05c",
+   "W68o",
+   "703V",
+   "G45r",
+   "M22o",
+   "D29R",
+   "F51w",
+   "P07G",
+   "703G",
+   "W68c",
+   "644R",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4245": {
+  "asteroid": 4245,
+  "table": 3,
+  "P": 19.79077631118739,
+  "sigma_P": 0.001213094039245784,
+  "sigma_boot": 5.105407573542342e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.002426188078491568,
+  "syn_sid_scale": 0.012178943625604973,
+  "orbital_period_days": 1340.0,
+  "power": 0.4543989163125479,
+  "power_weighted": 0.4666881218353099,
+  "threshold": 0.019172265711071043,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.48196186315833955,
+   "rms": 0.15181530883685893
+  },
+  "checks": {
+   "groups_agree": "2/3",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "4/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 33.67434103694605,
+    "power": 0.0807815072480972,
+    "power_weighted": 0.05586122126041351,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 4.959334931198119,
+    "power": 0.011646588476243296,
+    "power_weighted": 0.011024191074450565,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 39.48358361546646,
+    "power": 0.009085815159595551,
+    "power_weighted": 0.008827586292540523,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 612.796992805769,
+    "power": 0.02424205596875829,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 295.70688965574226,
+    "power": 0.022298536210873836,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 19.791,
+    "same_family": true,
+    "rel_diff": -1.130255230208628e-05
+   },
+   "P_av": {
+    "value": 19.809,
+    "same_family": true,
+    "rel_diff": -0.000919970155616703
+   },
+   "P_fig": {
+    "value": 19.791,
+    "same_family": true,
+    "rel_diff": -1.130255230208628e-05
+   }
+  },
+  "n": 3257,
+  "baseline_days": 6726.512508649845,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "D29R",
+   "T05c",
+   "P07G",
+   "W68o",
+   "G45r",
+   "F51w",
+   "703G",
+   "G96V",
+   "R17w",
+   "M22o"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4267": {
+  "asteroid": 4267,
+  "table": 3,
+  "P": 51.419789984716346,
+  "sigma_P": 0.006623852183083486,
+  "sigma_boot": 0.0007127578140397042,
+  "teeth_note": "",
+  "dP_resolution": 0.013247704366166973,
+  "syn_sid_scale": 0.08474342314334408,
+  "orbital_period_days": 1300.0,
+  "power": 0.13634632051575205,
+  "power_weighted": 0.1432283326951975,
+  "threshold": 0.010416926993323437,
+  "famwin_u": 0.9933333333333333,
+  "famwin_w": 0.9933333333333333,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.24885391784242472,
+   "rms": 0.16081604168054608
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "4/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 37.93946590926834,
+    "power": 0.08299958257178677,
+    "power_weighted": 0.08850975896698685,
+    "famwin_u": 0.006666666666666667,
+    "famwin_w": 0.006666666666666667,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 12.875172168411444,
+    "power": 0.020243615158086214,
+    "power_weighted": 0.016954628191011366,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 337.1664052792479,
+    "power": 0.05326711513947451,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 693.4669138433427,
+    "power": 0.050987350111919655,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 51.42,
+    "same_family": true,
+    "rel_diff": -4.084311234075495e-06
+   },
+   "P_av": {
+    "value": 51.505,
+    "same_family": true,
+    "rel_diff": -0.0016544027819368414
+   },
+   "P_fig": {
+    "value": 51.419,
+    "same_family": true,
+    "rel_diff": 1.5363673279305566e-05
+   }
+  },
+  "n": 3200,
+  "baseline_days": 8315.889835804235,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "G45r",
+   "T05c",
+   "703V",
+   "P07G",
+   "W68o",
+   "G96V",
+   "703G",
+   "F51w",
+   "M22o",
+   "G96G"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "D29R (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4270": {
+  "asteroid": 4270,
+  "table": 4,
+  "P": 10.868352101529585,
+  "sigma_P": 0.0003218492772239817,
+  "sigma_boot": 6.62791251782326e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.0006436985544479634,
+  "syn_sid_scale": 0.0037005350063540896,
+  "orbital_period_days": 1330.0,
+  "power": 0.11702801822939657,
+  "power_weighted": 0.09679310436290903,
+  "threshold": 0.013098564240958606,
+  "famwin_u": 0.9333333333333333,
+  "famwin_w": 0.89,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.20465606287168114,
+   "rms": 0.16195896463634746
+  },
+  "checks": {
+   "groups_agree": "0/2",
+   "leave_one_out_agree": "14/14",
+   "single_datasets_agree": "2/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 23.93490922638405,
+    "power": 0.07525842366748176,
+    "power_weighted": 0.05516582951687407,
+    "famwin_u": 0.06333333333333334,
+    "famwin_w": 0.09333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 4.428446521069348,
+    "power": 0.05899841947521345,
+    "power_weighted": 0.05349096172057341,
+    "famwin_u": 0.0033333333333333335,
+    "famwin_w": 0.016666666666666666,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 14.057658461548053,
+    "power": 0.05285741931320458,
+    "power_weighted": 0.04740127926319471,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 10.819874930874574,
+    "power": 0.02458952073065511,
+    "power_weighted": 0.026450152838385383,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1308.9964786376202,
+    "power": 0.020175219614882625,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 321.54484631965295,
+    "power": 0.018649198866933316,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 10.868,
+    "same_family": true,
+    "rel_diff": 3.2398006034615696e-05
+   },
+   "P_av": {
+    "value": 10.819,
+    "same_family": false,
+    "rel_diff": 0.0045616139689050456
+   },
+   "P_fig": {
+    "value": 14.058,
+    "same_family": false,
+    "rel_diff": -0.22689201155715005
+   }
+  },
+  "n": 1933,
+  "baseline_days": 7645.988210540265,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "703V",
+   "T05c",
+   "W68o",
+   "P07G",
+   "G45r",
+   "F52w",
+   "M22o",
+   "R17w",
+   "703G",
+   "T05w",
+   "I41r",
+   "T08w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "F51w (boundary G1/G2)",
+   "C57G (boundary G1/G2)"
+  ]
+ },
+ "4273": {
+  "asteroid": 4273,
+  "table": 4,
+  "P": 2.7625925141917067,
+  "sigma_P": 2.099580555055815e-05,
+  "sigma_boot": 7.591033745190642e-07,
+  "teeth_note": "",
+  "dP_resolution": 4.19916111011163e-05,
+  "syn_sid_scale": 0.00023555300615642148,
+  "orbital_period_days": 1350.0,
+  "power": 0.24384163955101903,
+  "power_weighted": 0.24246737085877812,
+  "threshold": 0.0128091165289519,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.23466182237476296,
+   "rms": 0.13783682410843592
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "5/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 2.61186100124543,
+    "power": 0.14491436977688327,
+    "power_weighted": 0.1643959329635699,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.9313022232096495,
+    "power": 0.1292001083900303,
+    "power_weighted": 0.13682698781943883,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 5.5206184388534725,
+    "power": 0.015156090433399933,
+    "power_weighted": 0.01388183477706228,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 949.3443343464739,
+    "power": 0.015163980940781382,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 416.4660047439903,
+    "power": 0.014570918416980322,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 2.763,
+    "same_family": true,
+    "rel_diff": -0.00014747948182887997
+   },
+   "P_av": {
+    "value": 2.762,
+    "same_family": true,
+    "rel_diff": 0.00021452360307990388
+   },
+   "P_fig": {
+    "value": 2.763,
+    "same_family": true,
+    "rel_diff": -0.00014747948182887997
+   }
+  },
+  "n": 2165,
+  "baseline_days": 7572.859196695965,
+  "datasets_used": [
+   "T08o",
+   "W68o",
+   "T05o",
+   "703V",
+   "T05c",
+   "M22o",
+   "R17w",
+   "G45r",
+   "F51w",
+   "G96V",
+   "P07G",
+   "W68c",
+   "F52w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "X05r (boundary G1/G2)",
+   "X05i (boundary G1/G2)",
+   "D29R (chi2 > 3 chi2_ref)",
+   "X05g (boundary G1/G2)"
+  ]
+ },
+ "4303": {
+  "asteroid": 4303,
+  "table": 4,
+  "P": 6.136254226973679,
+  "sigma_P": 0.00010234790111801288,
+  "sigma_boot": 2.8702385761923674e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.00020469580223602576,
+  "syn_sid_scale": 0.0013409407385346274,
+  "orbital_period_days": 1170.0,
+  "power": 0.6115415836186752,
+  "power_weighted": 0.6164036140628966,
+  "threshold": 0.034020978513155484,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.6034957712395688,
+   "rms": 0.15628405171717008
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "15/15",
+   "single_datasets_agree": "11/11"
+  },
+  "alternatives_auto": [
+   {
+    "P": 1.5366468792372554,
+    "power": 0.024525666218007124,
+    "power_weighted": 0.024874011021623604,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 12.293521597233424,
+    "power": 0.004021865240673861,
+    "power_weighted": 0.0038982544398215007,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1177.865292566872,
+    "power": 0.020658675136813253,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1263.0487932799,
+    "power": 0.019779256262179877,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 6.137,
+    "same_family": true,
+    "rel_diff": -0.00012152077991209166
+   },
+   "P_av": {
+    "value": 6.137,
+    "same_family": true,
+    "rel_diff": -0.00012152077991209166
+   },
+   "P_fig": {
+    "value": 6.136,
+    "same_family": true,
+    "rel_diff": 4.143203612759767e-05
+   }
+  },
+  "n": 4950,
+  "baseline_days": 7664.547328022309,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "W68o",
+   "M22o",
+   "703V",
+   "P07G",
+   "T05c",
+   "D29R",
+   "703G",
+   "G45r",
+   "F51w",
+   "R17w",
+   "W68c",
+   "G96V"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4320": {
+  "asteroid": 4320,
+  "table": 4,
+  "P": 2.768972219380378,
+  "sigma_P": 0.00011513811241971821,
+  "sigma_boot": 0.00011513811241971821,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 4.292331089266121e-05,
+  "syn_sid_scale": 0.0002684596341631756,
+  "orbital_period_days": 1190.0,
+  "power": 0.13567918906473184,
+  "power_weighted": 0.15260227329358342,
+  "threshold": 0.014091390628200442,
+  "famwin_u": 0.6566666666666666,
+  "famwin_w": 0.47333333333333333,
+  "decision": "unweighted winner; weighted periodogram prefers another family",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.20405111592373792,
+   "rms": 0.131159240680937
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "5/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 1.3846380793487674,
+    "power": 0.128133059199599,
+    "power_weighted": 0.1518804712103214,
+    "famwin_u": 0.3433333333333333,
+    "famwin_w": 0.5266666666666666,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 57.12317300434489,
+    "power": 0.03193511294379186,
+    "power_weighted": 0.021203058709057955,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 3.468438270032774,
+    "power": 0.028234417484213195,
+    "power_weighted": 0.026373673462013348,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.617926437542011,
+    "power": 0.025238681905805343,
+    "power_weighted": 0.0346191903334923,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 356.44272977384384,
+    "power": 0.022762578119413866,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 444.8941774941519,
+    "power": 0.022582427677965512,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 2.769,
+    "same_family": true,
+    "rel_diff": -1.0032726479614711e-05
+   },
+   "P_av": {
+    "value": 2.614,
+    "same_family": false,
+    "rel_diff": 0.05928547030618906
+   },
+   "P_fig": {
+    "value": 2.769,
+    "same_family": true,
+    "rel_diff": -1.0032726479614711e-05
+   }
+  },
+  "n": 1593,
+  "baseline_days": 7442.738176770043,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "F51w",
+   "P07G",
+   "D29R",
+   "W68o",
+   "G45r",
+   "R17w",
+   "703G",
+   "M22o",
+   "T05c",
+   "G96V"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4322": {
+  "asteroid": 4322,
+  "table": 4,
+  "P": 18.77822980883855,
+  "sigma_P": 0.0009479535968441899,
+  "sigma_boot": 3.806916533011108e-05,
+  "teeth_note": "",
+  "dP_resolution": 0.0018959071936883798,
+  "syn_sid_scale": 0.011754063825118424,
+  "orbital_period_days": 1250.0,
+  "power": 0.38834117650547345,
+  "power_weighted": 0.38852757328731113,
+  "threshold": 0.01429592819978135,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.40606505666932513,
+   "rms": 0.17351900028182368
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "4/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 30.883831210842185,
+    "power": 0.22938154500311933,
+    "power_weighted": 0.22408954529480968,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 4.704509278085759,
+    "power": 0.014762642255048176,
+    "power_weighted": 0.011682568374684928,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 452.523081114765,
+    "power": 0.0440951806090991,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 469.8439303883899,
+    "power": 0.03930128530517527,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 18.778,
+    "same_family": true,
+    "rel_diff": 1.2238195683823512e-05
+   },
+   "P_av": {
+    "value": 18.797,
+    "same_family": true,
+    "rel_diff": -0.0009985737703596886
+   },
+   "P_fig": {
+    "value": 18.778,
+    "same_family": true,
+    "rel_diff": 1.2238195683823512e-05
+   }
+  },
+  "n": 2360,
+  "baseline_days": 7749.630272151902,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "703V",
+   "T05c",
+   "703G",
+   "D29R",
+   "M22o",
+   "I41r",
+   "G96V",
+   "G45r",
+   "F51w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4331": {
+  "asteroid": 4331,
+  "table": 4,
+  "P": 147.5242043162002,
+  "sigma_P": 0.05342056574618313,
+  "sigma_boot": 0.0032502154473017858,
+  "teeth_note": "",
+  "dP_resolution": 0.10684113149236626,
+  "syn_sid_scale": 0.7494280598873274,
+  "orbital_period_days": 1210.0,
+  "power": 0.37362668213162564,
+  "power_weighted": 0.41409615207265404,
+  "threshold": 0.017589651071885915,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.26547929278541105,
+   "rms": 0.11315587479909801
+  },
+  "checks": {
+   "groups_agree": "2/3",
+   "leave_one_out_agree": "16/16",
+   "single_datasets_agree": "6/11"
+  },
+  "alternatives_auto": [
+   {
+    "P": 73.0790476706832,
+    "power": 0.16710355992810932,
+    "power_weighted": 0.22974737516743937,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 71.14747999571698,
+    "power": 0.13994600903788573,
+    "power_weighted": 0.18461982520204231,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 36.798156587133555,
+    "power": 0.009060838671812956,
+    "power_weighted": 0.009810638364980421,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 262.80978406022473,
+    "power": 0.028940553478860476,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 251.61488229866052,
+    "power": 0.021534839601528064,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 295.15956527056625,
+    "power": 0.006020715568882989,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 147.535,
+    "same_family": true,
+    "rel_diff": -7.317371335469335e-05
+   },
+   "P_av": {
+    "value": 147.207,
+    "same_family": true,
+    "rel_diff": 0.0021548181553881153
+   },
+   "P_fig": {
+    "value": 147.536,
+    "same_family": true,
+    "rel_diff": -7.995122410658726e-05
+   }
+  },
+  "n": 6043,
+  "baseline_days": 8487.442427811213,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "W68o",
+   "703V",
+   "M22o",
+   "D29R",
+   "I41r",
+   "F51w",
+   "R17w",
+   "G96G",
+   "G45r",
+   "P07G",
+   "W68c",
+   "Z22R"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703G (boundary G1/G2)"
+  ]
+ },
+ "4371": {
+  "asteroid": 4371,
+  "table": 4,
+  "P": 223.6092609254417,
+  "sigma_P": 0.9778160123406617,
+  "sigma_boot": 0.9778160123406617,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.1687477370639784,
+  "syn_sid_scale": 1.520714767993378,
+  "orbital_period_days": 1370.0,
+  "power": 0.10485760776543256,
+  "power_weighted": 0.09923017600650513,
+  "threshold": 0.009844772925677089,
+  "famwin_u": 0.8033333333333333,
+  "famwin_w": 0.7333333333333333,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.18467412091258417,
+   "rms": 0.19519941985679387
+  },
+  "checks": {
+   "groups_agree": "2/3",
+   "leave_one_out_agree": "15/15",
+   "single_datasets_agree": "2/11"
+  },
+  "alternatives_auto": [
+   {
+    "P": 225.93128316992588,
+    "power": 0.08055405577331902,
+    "power_weighted": 0.07984753317464385,
+    "famwin_u": 0.18,
+    "famwin_w": 0.22333333333333333,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 228.90952414813052,
+    "power": 0.05709893588080172,
+    "power_weighted": 0.06180791145049024,
+    "famwin_u": 0.016666666666666666,
+    "famwin_w": 0.043333333333333335,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 26.80991778548621,
+    "power": 0.025682481541944087,
+    "power_weighted": 0.026534220859867355,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 455.1177278444423,
+    "power": 0.057040367113202185,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 447.1588509809098,
+    "power": 0.08789393770330761,
+    "frac_above_best_primary": 0.01
+   },
+   {
+    "P": 452.4006906495952,
+    "power": 0.04724537678685586,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 447.316,
+    "same_family": true,
+    "rel_diff": -0.500108958934083
+   },
+   "P_av": {
+    "value": 447.231,
+    "same_family": true,
+    "rel_diff": -0.5000139504519103
+   },
+   "P_fig": {
+    "value": 26.809,
+    "same_family": false,
+    "rel_diff": 7.340828114642161
+   }
+  },
+  "n": 2848,
+  "baseline_days": 12346.116566653829,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "T05c",
+   "W68o",
+   "P07G",
+   "703V",
+   "703G",
+   "M22o",
+   "G96V",
+   "T08c",
+   "R17w",
+   "D29R",
+   "691V",
+   "F51w",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "C57G (boundary G1/G2)",
+   "G45r (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4396": {
+  "asteroid": 4396,
+  "table": 4,
+  "P": 30.688353893407424,
+  "sigma_P": 0.0024355397002981485,
+  "sigma_boot": 0.0001281477368150509,
+  "teeth_note": "",
+  "dP_resolution": 0.004871079400596297,
+  "syn_sid_scale": 0.0324302708225556,
+  "orbital_period_days": 1210.0,
+  "power": 0.36992578926701325,
+  "power_weighted": 0.35597106143828805,
+  "threshold": 0.01269286020357233,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.46643928256514755,
+   "rms": 0.1949295155709531
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "17/17",
+   "single_datasets_agree": "7/11"
+  },
+  "alternatives_auto": [
+   {
+    "P": 30.725646117089692,
+    "power": 0.1523487715156772,
+    "power_weighted": 0.14155319178080522,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 85.37764772964492,
+    "power": 0.11947225239689413,
+    "power_weighted": 0.12045261089033178,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 7.649464467534828,
+    "power": 0.024782249770202457,
+    "power_weighted": 0.025622892480788553,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 395.05802499827456,
+    "power": 0.03774338022133825,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 790.1267833871141,
+    "power": 0.037431450988227054,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 30.688,
+    "same_family": true,
+    "rel_diff": 1.153198016895779e-05
+   },
+   "P_av": {
+    "value": 30.786,
+    "same_family": true,
+    "rel_diff": -0.003171769849690689
+   },
+   "P_fig": {
+    "value": 30.688,
+    "same_family": true,
+    "rel_diff": 1.153198016895779e-05
+   }
+  },
+  "n": 3030,
+  "baseline_days": 8055.838237924967,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "D29R",
+   "703V",
+   "T05c",
+   "W68o",
+   "M22o",
+   "F51w",
+   "703G",
+   "G45r",
+   "G96V",
+   "T08c",
+   "T08w",
+   "M22c",
+   "G96G",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4456": {
+  "asteroid": 4456,
+  "table": 4,
+  "P": 7.033758804473314,
+  "sigma_P": 0.00044044330004869563,
+  "sigma_boot": 0.00044044330004869563,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.00027002652060871557,
+  "syn_sid_scale": 0.001538363274860257,
+  "orbital_period_days": 1340.0,
+  "power": 0.11403577013638685,
+  "power_weighted": 0.1252656316426339,
+  "threshold": 0.009440055121870041,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "strongest member (double-peaked)",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.14976949896955638,
+   "rms": 0.1123922549061525
+  },
+  "checks": {
+   "groups_agree": "1/2",
+   "leave_one_out_agree": "13/13",
+   "single_datasets_agree": "5/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 6.133200924009559,
+    "power": 0.0480248127688512,
+    "power_weighted": 0.04298102656311861,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 14.072541896039448,
+    "power": 0.03174726451782589,
+    "power_weighted": 0.03137236177456519,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.7544905269293054,
+    "power": 0.008172838487433382,
+    "power_weighted": 0.0051937017668296235,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 401.6376169775583,
+    "power": 0.01670719142107046,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 453.69796800685833,
+    "power": 0.01669978689601212,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 7.034,
+    "same_family": true,
+    "rel_diff": -3.428995261379654e-05
+   },
+   "P_av": {
+    "value": 7.04,
+    "same_family": true,
+    "rel_diff": -0.0008865334554951239
+   },
+   "P_fig": {
+    "value": 7.034,
+    "same_family": true,
+    "rel_diff": -3.428995261379654e-05
+   }
+  },
+  "n": 2802,
+  "baseline_days": 7634.090102208313,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "W68o",
+   "T05o",
+   "703V",
+   "M22o",
+   "T05c",
+   "G45r",
+   "703G",
+   "W68c",
+   "F52w",
+   "R17w",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4478": {
+  "asteroid": 4478,
+  "table": 4,
+  "P": 130.0009328397022,
+  "sigma_P": 0.035278953294970404,
+  "sigma_boot": 0.0012362651875316235,
+  "teeth_note": "",
+  "dP_resolution": 0.07055790658994081,
+  "syn_sid_scale": 0.5725014410295649,
+  "orbital_period_days": 1230.0,
+  "power": 0.4344522349169974,
+  "power_weighted": 0.47096545902747233,
+  "threshold": 0.011663599508589691,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.6559566422561947,
+   "rms": 0.2525436700967755
+  },
+  "checks": {
+   "groups_agree": "1/3",
+   "leave_one_out_agree": "17/17",
+   "single_datasets_agree": "5/12"
+  },
+  "alternatives_auto": [
+   {
+    "P": 75.8677967330123,
+    "power": 0.19838669623690086,
+    "power_weighted": 0.19153745222058896,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 35.00733279150805,
+    "power": 0.14190759876746767,
+    "power_weighted": 0.13149905947993293,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 361.38775113736403,
+    "power": 0.028535358632606506,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 366.71964057616424,
+    "power": 0.025149072841912135,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 259.38524427575175,
+    "power": 0.009683944432087756,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 35.007,
+    "same_family": false,
+    "rel_diff": 2.7135696529180504
+   },
+   "P_av": {
+    "value": 35.007,
+    "same_family": false,
+    "rel_diff": 2.7135696529180504
+   },
+   "P_fig": {
+    "value": 35.007,
+    "same_family": false,
+    "rel_diff": 2.7135696529180504
+   }
+  },
+  "n": 2983,
+  "baseline_days": 9980.125637213234,
+  "datasets_used": [
+   "T08o",
+   "704V",
+   "T05o",
+   "W68o",
+   "703V",
+   "T05c",
+   "P07G",
+   "D29R",
+   "G45r",
+   "T08c",
+   "F51w",
+   "R17w",
+   "I41r",
+   "G96V",
+   "M22c",
+   "F52w",
+   "703G"
+  ],
+  "screened_out": [
+   "M22o (boundary G1/G2)"
+  ]
+ },
+ "4482": {
+  "asteroid": 4482,
+  "table": 4,
+  "P": 105.01135313417365,
+  "sigma_P": 0.17898970313035426,
+  "sigma_boot": 0.17898970313035426,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.060305260602516654,
+  "syn_sid_scale": 0.3507437750340369,
+  "orbital_period_days": 1310.0,
+  "power": 0.1295556351831834,
+  "power_weighted": 0.13663401003682232,
+  "threshold": 0.009995050144421742,
+  "famwin_u": 0.8133333333333334,
+  "famwin_w": 0.93,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": false,
+  "quality_auto": "C",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.19579705127930325,
+   "rms": 0.1645765231223741
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "1/9",
+   "single_datasets_agree": "2/7"
+  },
+  "alternatives_auto": [
+   {
+    "P": 1.0000303693461956,
+    "power": 0.10085089092348917,
+    "power_weighted": 0.06462649043060573,
+    "famwin_u": 0.11666666666666667,
+    "famwin_w": 0.006666666666666667,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": true
+   },
+   {
+    "P": 105.47830720811453,
+    "power": 0.09864903484573663,
+    "power_weighted": 0.11290769934270167,
+    "famwin_u": 0.06,
+    "famwin_w": 0.06333333333333334,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 53.61538713415991,
+    "power": 0.06363714307895726,
+    "power_weighted": 0.04974120032049986,
+    "famwin_u": 0.01,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 26.3068205994776,
+    "power": 0.007917674348124727,
+    "power_weighted": 0.006897404116595998,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1416.1236692446282,
+    "power": 0.23537183955721525,
+    "frac_above_best_primary": 0.9566666666666667
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 105.467,
+    "same_family": false,
+    "rel_diff": -0.004320279005057057
+   },
+   "P_av": {
+    "value": 105.367,
+    "same_family": true,
+    "rel_diff": -0.0033753154766327054
+   },
+   "P_fig": {
+    "value": 105.011,
+    "same_family": true,
+    "rel_diff": 3.362830309686224e-06
+   },
+   "P_lit": {
+    "value": 3.043,
+    "same_family": false,
+    "rel_diff": 33.509153182442866
+   },
+   "P_text": {
+    "value": 105.567,
+    "same_family": false,
+    "rel_diff": -0.005263452270371867
+   }
+  },
+  "n": 3358,
+  "baseline_days": 7619.142023497261,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "T05o",
+   "T05c",
+   "703V",
+   "W68o",
+   "703G",
+   "M22o",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "T05w (boundary G1/G2)"
+  ]
+ },
+ "4556": {
+  "asteroid": 4556,
+  "table": 4,
+  "P": 36.079372530232746,
+  "sigma_P": 0.025758453054335197,
+  "sigma_boot": 0.025758453054335197,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.007604328234768748,
+  "syn_sid_scale": 0.042373734445810975,
+  "orbital_period_days": 1280.0,
+  "power": 0.20951953338928225,
+  "power_weighted": 0.21409046260609024,
+  "threshold": 0.011784809030199813,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.18299409442155223,
+   "rms": 0.11377203386225902
+  },
+  "checks": {
+   "groups_agree": "2/2",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "5/8"
+  },
+  "alternatives_auto": [
+   {
+    "P": 146.16364760558554,
+    "power": 0.07795316853816339,
+    "power_weighted": 0.06773033711511595,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 20.589767676693167,
+    "power": 0.05336744088467191,
+    "power_weighted": 0.05089542804419737,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 9.00430122356952,
+    "power": 0.02111278125196178,
+    "power_weighted": 0.027598438648270225,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 297.40843487294086,
+    "power": 0.023900375245448087,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1104.6436107699324,
+    "power": 0.01965590173336306,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 20.598,
+    "same_family": false,
+    "rel_diff": 0.7515959088373991
+   },
+   "P_av": {
+    "value": 20.598,
+    "same_family": false,
+    "rel_diff": 0.7515959088373991
+   },
+   "P_fig": {
+    "value": 36.133,
+    "same_family": true,
+    "rel_diff": -0.0014841687589532211
+   }
+  },
+  "n": 2326,
+  "baseline_days": 7132.566929797642,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "T05c",
+   "M22o",
+   "G45r",
+   "F52w",
+   "F51w",
+   "D29R",
+   "R17w",
+   "W68c",
+   "I41r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)",
+   "703V (chi2 > 3 chi2_ref)",
+   "703G (chi2 > 3 chi2_ref)",
+   "P07G (boundary G1/G2)",
+   "G96V (chi2 > 3 chi2_ref)",
+   "T05w (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4618": {
+  "asteroid": 4618,
+  "table": 4,
+  "P": 6.7811121467036575,
+  "sigma_P": 0.00011636571324958974,
+  "sigma_boot": 4.6200671185850435e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.00023273142649917947,
+  "syn_sid_scale": 0.0012361151060798893,
+  "orbital_period_days": 1550.0,
+  "power": 0.3258230480552715,
+  "power_weighted": 0.3315009194203739,
+  "threshold": 0.015600849843970786,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.3573625628967836,
+   "rms": 0.1610666021601633
+  },
+  "checks": {
+   "groups_agree": "1/1",
+   "leave_one_out_agree": "12/12",
+   "single_datasets_agree": "3/5"
+  },
+  "alternatives_auto": [
+   {
+    "P": 5.941701679323244,
+    "power": 0.19189019544896416,
+    "power_weighted": 0.20168270105732372,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 7.898538827267759,
+    "power": 0.16902805453818442,
+    "power_weighted": 0.17731946684341715,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.6948935654762323,
+    "power": 0.020653895820058825,
+    "power_weighted": 0.0205791840097312,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 13.56619119688473,
+    "power": 0.018086590387382025,
+    "power_weighted": 0.01910200855386055,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 316.9205435058644,
+    "power": 0.022218651757247087,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 633.9208267148598,
+    "power": 0.019912786330545756,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 6.781,
+    "same_family": true,
+    "rel_diff": 1.6538372460961267e-05
+   },
+   "P_av": {
+    "value": 6.782,
+    "same_family": true,
+    "rel_diff": -0.0001309131961578525
+   },
+   "P_fig": {
+    "value": 6.781,
+    "same_family": true,
+    "rel_diff": 1.6538372460961267e-05
+   }
+  },
+  "n": 2302,
+  "baseline_days": 8232.57281255303,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "C57G",
+   "T05c",
+   "W68o",
+   "703V",
+   "I41r",
+   "G45r",
+   "T05w",
+   "I41g",
+   "R17w",
+   "D29R"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4682": {
+  "asteroid": 4682,
+  "table": 4,
+  "P": 6.45556007835625,
+  "sigma_P": 0.0004896660464452553,
+  "sigma_boot": 0.0004896660464452553,
+  "teeth_note": "bootstrap jumps between comb teeth (cycle-count ambiguity)",
+  "dP_resolution": 0.00024986416181050654,
+  "syn_sid_scale": 0.0013891418641755649,
+  "orbital_period_days": 1250.0,
+  "power": 0.2046947487635351,
+  "power_weighted": 0.2070004092310396,
+  "threshold": 0.012343741190736834,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.24072122788348338,
+   "rms": 0.15389251442391605
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "17/17",
+   "single_datasets_agree": "7/10"
+  },
+  "alternatives_auto": [
+   {
+    "P": 6.519572600187957,
+    "power": 0.02193610715884122,
+    "power_weighted": 0.019557923430985256,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 1041.6875073425404,
+    "power": 0.025823195673885316,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 1080.100007118692,
+    "power": 0.024197317819132362,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 6.457,
+    "same_family": true,
+    "rel_diff": -0.00022300164840485906
+   },
+   "P_av": {
+    "value": 6.523,
+    "same_family": false,
+    "rel_diff": -0.01033878915280546
+   },
+   "P_fig": {
+    "value": 6.457,
+    "same_family": true,
+    "rel_diff": -0.00022300164840485906
+   }
+  },
+  "n": 5247,
+  "baseline_days": 6949.485342905391,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "G45r",
+   "M22o",
+   "W68o",
+   "T05o",
+   "703G",
+   "703V",
+   "F51w",
+   "R17w",
+   "T05c",
+   "D29R",
+   "P07G",
+   "G96V",
+   "O18g",
+   "W68c",
+   "O18r"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ },
+ "4761": {
+  "asteroid": 4761,
+  "table": 4,
+  "P": 5.09055744666004,
+  "sigma_P": 5.261368426694863e-05,
+  "sigma_boot": 3.2980392678330885e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.00010522736853389726,
+  "syn_sid_scale": 0.0008242294884779259,
+  "orbital_period_days": 1310.0,
+  "power": 0.318519943196862,
+  "power_weighted": 0.3916446009136433,
+  "threshold": 0.015579051021732696,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": true,
+  "quality_auto": "B",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.4390815167465032,
+   "rms": 0.19270569357707823
+  },
+  "checks": {
+   "groups_agree": "1/2",
+   "leave_one_out_agree": "9/10",
+   "single_datasets_agree": "6/9"
+  },
+  "alternatives_auto": [
+   {
+    "P": 4.601921604054565,
+    "power": 0.05899152330502471,
+    "power_weighted": 0.020333321208326538,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 1.2732247797301,
+    "power": 0.04078030201941841,
+    "power_weighted": 0.05656675669881605,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     1,
+     1
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 10.196665960954526,
+    "power": 0.005474500661714863,
+    "power_weighted": 0.003612132898598924,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 312.7241972325433,
+    "power": 0.012657620866037429,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 292.97569130714385,
+    "power": 0.010227668764365774,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 5.091,
+    "same_family": true,
+    "rel_diff": -8.692856805345271e-05
+   },
+   "P_av": {
+    "value": 5.09,
+    "same_family": true,
+    "rel_diff": 0.00010951800786644522
+   },
+   "P_fig": {
+    "value": 5.091,
+    "same_family": true,
+    "rel_diff": -8.692856805345271e-05
+   }
+  },
+  "n": 5236,
+  "baseline_days": 10261.024721513037,
+  "datasets_used": [
+   "T08o",
+   "C57G",
+   "W68o",
+   "T05o",
+   "703G",
+   "704V",
+   "M22o",
+   "703V",
+   "T05c",
+   "I41r"
+  ],
+  "screened_out": [
+   "F51w (boundary G1/G2)"
+  ]
+ },
+ "4777": {
+  "asteroid": 4777,
+  "table": 4,
+  "P": 9.733859470909717,
+  "sigma_P": 0.00026134458436471303,
+  "sigma_boot": 7.450173436634372e-06,
+  "teeth_note": "",
+  "dP_resolution": 0.0005226891687294261,
+  "syn_sid_scale": 0.0033742172435690457,
+  "orbital_period_days": 1170.0,
+  "power": 0.4554702254774096,
+  "power_weighted": 0.4621979255601468,
+  "threshold": 0.012329936461245848,
+  "famwin_u": 1.0,
+  "famwin_w": 1.0,
+  "decision": "unweighted bootstrap winner",
+  "rule": "double of the strongest (single-peaked) member",
+  "day_commensurate": false,
+  "tess_supports": null,
+  "quality_auto": "A",
+  "fold_n4": {
+   "maxima": 2,
+   "minima": 2,
+   "amp": 0.4667519354334093,
+   "rms": 0.16771570167877323
+  },
+  "checks": {
+   "groups_agree": "3/3",
+   "leave_one_out_agree": "15/15",
+   "single_datasets_agree": "10/12"
+  },
+  "alternatives_auto": [
+   {
+    "P": 8.092737713995055,
+    "power": 0.14235743730558018,
+    "power_weighted": 0.15141052545982772,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 2.427319019308308,
+    "power": 0.01617101900570863,
+    "power_weighted": 0.015966183646286335,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     2,
+     2
+    ],
+    "day_commensurate": false
+   },
+   {
+    "P": 19.482260554609525,
+    "power": 0.015175812306705777,
+    "power_weighted": 0.013554426208742238,
+    "famwin_u": 0.0,
+    "famwin_w": 0.0,
+    "n4_extrema": [
+     4,
+     4
+    ],
+    "day_commensurate": false
+   }
+  ],
+  "extended_candidates": [
+   {
+    "P": 302.08027465394946,
+    "power": 0.03187950333764388,
+    "frac_above_best_primary": 0.0
+   },
+   {
+    "P": 604.193823452721,
+    "power": 0.028898807730422818,
+    "frac_above_best_primary": 0.0
+   }
+  ],
+  "published": {
+   "P_c": {
+    "value": 9.734,
+    "same_family": true,
+    "rel_diff": -1.4436931403608598e-05
+   },
+   "P_av": {
+    "value": 9.735,
+    "same_family": true,
+    "rel_diff": -0.00011715758503155336
+   },
+   "P_fig": {
+    "value": 9.734,
+    "same_family": true,
+    "rel_diff": -1.4436931403608598e-05
+   }
+  },
+  "n": 2740,
+  "baseline_days": 7552.928989464883,
+  "datasets_used": [
+   "T08o",
+   "T05o",
+   "W68o",
+   "D29R",
+   "703V",
+   "703G",
+   "M22o",
+   "T05c",
+   "G96V",
+   "P07G",
+   "G45r",
+   "F51w",
+   "W68c",
+   "R17w",
+   "F52w"
+  ],
+  "screened_out": [
+   "704V (chi2 > 3 chi2_ref)"
+  ]
+ }
+}

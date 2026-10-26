@@ -1,0 +1,624 @@
+{
+ "out": "manuscript_revised\\fig_damit_shapes.pdf",
+ "pole_source": "table",
+ "skipped": [],
+ "asteroids": {
+  "1798": {
+   "areas_file": "damit_runs\\paper_1798\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_1798_areas_best_313a6054c6.txt",
+   "best_solution": {
+    "lambda": 231.1,
+    "beta": 51.3,
+    "P": 3.50628193,
+    "dev": 0.060472,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    231.09999999999997,
+    51.3
+   ],
+   "poles_table": [
+    [
+     230.79999999999998,
+     51.0
+    ]
+   ],
+   "pole_drawn": [
+    230.79999999999998,
+    51.0
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.3541371605888042,
+   "P_adopted": 3.50668,
+   "quality": "B",
+   "P_sid": 3.50628193,
+   "n_vertices": 1014,
+   "n_facets": 2024,
+   "competing_shown": [
+    11.97847,
+    47.97939
+   ],
+   "n_fold": 3644,
+   "n_points_drawn": 2068,
+   "fold_amplitude": 0.06251830062948294,
+   "phi_deg": 70.0,
+   "axis_angle_on_screen_deg": 51.0,
+   "axis_depth_component": -4.635304743338146e-19,
+   "n_visible_facets": 999
+  },
+  "1820": {
+   "areas_file": "damit_runs\\paper_1820\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_1820_areas_best_ab30574c17.txt",
+   "best_solution": {
+    "lambda": 201.0,
+    "beta": 95.5,
+    "P": 14.04490245,
+    "dev": 0.083417,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    21.000000000000014,
+    84.50000000000004
+   ],
+   "poles_table": [
+    [
+     216.1,
+     79.00000000000001
+    ],
+    [
+     70.9,
+     66.3
+    ]
+   ],
+   "pole_drawn": [
+    216.1,
+    79.00000000000001
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 16.372133882470344,
+   "P_adopted": 14.0518,
+   "quality": "A",
+   "P_sid": 14.04490245,
+   "n_vertices": 1004,
+   "n_facets": 2004,
+   "competing_shown": [
+    14.28991
+   ],
+   "n_fold": 7449,
+   "n_points_drawn": 2553,
+   "fold_amplitude": 0.3452715277015841,
+   "phi_deg": 112.0,
+   "axis_angle_on_screen_deg": 79.00000000000001,
+   "axis_depth_component": 4.366798132609222e-18,
+   "n_visible_facets": 989
+  },
+  "1942": {
+   "areas_file": "damit_runs\\paper_1942\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_1942_areas_best_8466695190.txt",
+   "best_solution": {
+    "lambda": 191.5,
+    "beta": -62.8,
+    "P": 8.91158173,
+    "dev": 0.089544,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    191.49999999999994,
+    -62.8
+   ],
+   "poles_table": [
+    [
+     191.29999999999998,
+     -62.900000000000006
+    ]
+   ],
+   "pole_drawn": [
+    191.29999999999998,
+    -62.900000000000006
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.135385164781897,
+   "P_adopted": 8.90903,
+   "quality": "A",
+   "P_sid": 8.91158173,
+   "n_vertices": 1020,
+   "n_facets": 2036,
+   "competing_shown": [
+    7.51433
+   ],
+   "n_fold": 2255,
+   "n_points_drawn": 1851,
+   "fold_amplitude": 0.327017979032032,
+   "phi_deg": 102.0,
+   "axis_angle_on_screen_deg": -62.900000000000006,
+   "axis_depth_component": -6.3607283806994586e-18,
+   "n_visible_facets": 1010
+  },
+  "1963": {
+   "areas_file": "damit_runs\\paper_1963\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_1963_areas_best_2ce9caf023.txt",
+   "best_solution": {
+    "lambda": 222.6,
+    "beta": 5.8,
+    "P": 18.16536595,
+    "dev": 0.065043,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    222.6,
+    5.8
+   ],
+   "poles_table": [
+    [
+     222.2,
+     4.9
+    ]
+   ],
+   "pole_drawn": [
+    222.2,
+    4.9
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.9841776623333797,
+   "P_adopted": 18.16526,
+   "quality": "A",
+   "P_sid": 18.16536595,
+   "n_vertices": 921,
+   "n_facets": 1838,
+   "competing_shown": [],
+   "n_fold": 4768,
+   "n_points_drawn": 2298,
+   "fold_amplitude": 0.2901661442917156,
+   "phi_deg": 38.0,
+   "axis_angle_on_screen_deg": 4.9,
+   "axis_depth_component": -3.8547362747763547e-17,
+   "n_visible_facets": 893
+  },
+  "2134": {
+   "areas_file": "damit_runs\\paper_2134\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_2134_areas_best_e6778195d5.txt",
+   "best_solution": {
+    "lambda": 126.7,
+    "beta": 43.4,
+    "P": 4.11491954,
+    "dev": 0.096795,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    126.7,
+    43.4
+   ],
+   "poles_table": [
+    [
+     126.8,
+     43.5
+    ]
+   ],
+   "pole_drawn": [
+    126.8,
+    43.5
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.12357341337041636,
+   "P_adopted": 4.11493,
+   "quality": "B",
+   "P_sid": 4.11491954,
+   "n_vertices": 968,
+   "n_facets": 1932,
+   "competing_shown": [
+    3.7894,
+    48.08619,
+    24.04406,
+    1.00065
+   ],
+   "n_fold": 2660,
+   "n_points_drawn": 1340,
+   "fold_amplitude": 0.12786894142634253,
+   "phi_deg": 86.0,
+   "axis_angle_on_screen_deg": 43.49999999999999,
+   "axis_depth_component": -6.951565280994225e-17,
+   "n_visible_facets": 967
+  },
+  "2150": {
+   "areas_file": "damit_runs\\paper_2150\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_2150_areas_best_5e7696fcfd.txt",
+   "best_solution": {
+    "lambda": 108.7,
+    "beta": -107.7,
+    "P": 6.12571211,
+    "dev": 0.083238,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    288.7,
+    -72.30000000000001
+   ],
+   "poles_table": [
+    [
+     296.2,
+     -72.40000000000002
+    ]
+   ],
+   "pole_drawn": [
+    296.2,
+    -72.40000000000002
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 2.2747280087738435,
+   "P_adopted": 6.12409,
+   "quality": "A",
+   "P_sid": 6.12571211,
+   "n_vertices": 998,
+   "n_facets": 1992,
+   "competing_shown": [
+    5.43115,
+    7.0214
+   ],
+   "n_fold": 3140,
+   "n_points_drawn": 2842,
+   "fold_amplitude": 0.5601348457941793,
+   "phi_deg": 20.0,
+   "axis_angle_on_screen_deg": -72.40000000000002,
+   "axis_depth_component": 3.0611704402785365e-18,
+   "n_visible_facets": 965
+  },
+  "2539": {
+   "areas_file": "damit_runs\\paper_2539\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_2539_areas_best_da94bd0760.txt",
+   "best_solution": {
+    "lambda": 15.6,
+    "beta": 56.2,
+    "P": 12.29141289,
+    "dev": 0.104913,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    15.6,
+    56.20000000000001
+   ],
+   "poles_table": [
+    [
+     14.900000000000002,
+     55.4
+    ]
+   ],
+   "pole_drawn": [
+    14.900000000000002,
+    55.4
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.891509571077516,
+   "P_adopted": 12.29639,
+   "quality": "A",
+   "P_sid": 12.29141289,
+   "n_vertices": 931,
+   "n_facets": 1858,
+   "competing_shown": [
+    16.54247,
+    9.78502
+   ],
+   "n_fold": 2233,
+   "n_points_drawn": 1807,
+   "fold_amplitude": 0.29674059304419664,
+   "phi_deg": 162.0,
+   "axis_angle_on_screen_deg": 55.4,
+   "axis_depth_component": 1.2455762645794902e-17,
+   "n_visible_facets": 948
+  },
+  "2817": {
+   "areas_file": "damit_runs\\paper_2817\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_2817_areas_best_dac2336ddf.txt",
+   "best_solution": {
+    "lambda": 258.1,
+    "beta": -70.7,
+    "P": 13.48773401,
+    "dev": 0.130006,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    258.1,
+    -70.7
+   ],
+   "poles_table": [
+    [
+     255.2,
+     -69.9
+    ],
+    [
+     51.3,
+     -71.6
+    ]
+   ],
+   "pole_drawn": [
+    255.2,
+    -69.9
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 1.2629709859858413,
+   "P_adopted": 13.48198,
+   "quality": "A",
+   "P_sid": 13.48773401,
+   "n_vertices": 1022,
+   "n_facets": 2040,
+   "competing_shown": [
+    10.52567,
+    18.76181,
+    5.26284
+   ],
+   "n_fold": 2061,
+   "n_points_drawn": 1564,
+   "fold_amplitude": 0.45790976343829826,
+   "phi_deg": 4.0,
+   "axis_angle_on_screen_deg": -69.9,
+   "axis_depth_component": 4.344599645007481e-18,
+   "n_visible_facets": 1016
+  },
+  "3716": {
+   "areas_file": "damit_runs\\paper_3716\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_3716_areas_best_2246fc3fa8.txt",
+   "best_solution": {
+    "lambda": 229.7,
+    "beta": 69.8,
+    "P": 10.47096758,
+    "dev": 0.11543,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    229.70000000000002,
+    69.80000000000001
+   ],
+   "poles_table": [
+    [
+     229.09999999999997,
+     69.49999999999999
+    ],
+    [
+     63.2,
+     58.60000000000001
+    ]
+   ],
+   "pole_drawn": [
+    229.09999999999997,
+    69.49999999999999
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.3654219496441455,
+   "P_adopted": 10.47434,
+   "quality": "B",
+   "P_sid": 10.47096758,
+   "n_vertices": 967,
+   "n_facets": 1930,
+   "competing_shown": [
+    13.40545,
+    8.59394
+   ],
+   "n_fold": 3015,
+   "n_points_drawn": 2095,
+   "fold_amplitude": 0.2785637823041931,
+   "phi_deg": 0.0,
+   "axis_angle_on_screen_deg": 69.49999999999999,
+   "axis_depth_component": -1.0795451256104764e-17,
+   "n_visible_facets": 950
+  },
+  "4048": {
+   "areas_file": "damit_runs\\paper_4048\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_4048_areas_best_d6fc202886.txt",
+   "best_solution": {
+    "lambda": 111.0,
+    "beta": 25.5,
+    "P": 49.11350586,
+    "dev": 0.156749,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    111.0,
+    25.5
+   ],
+   "poles_table": [
+    [
+     111.1,
+     25.2
+    ],
+    [
+     289.6,
+     18.0
+    ]
+   ],
+   "pole_drawn": [
+    111.1,
+    25.2
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.3133159312273527,
+   "P_adopted": 49.1971,
+   "quality": "A",
+   "P_sid": 49.11350586,
+   "n_vertices": 868,
+   "n_facets": 1732,
+   "competing_shown": [
+    36.215
+   ],
+   "n_fold": 4753,
+   "n_points_drawn": 2150,
+   "fold_amplitude": 0.3041556362975104,
+   "phi_deg": 152.0,
+   "axis_angle_on_screen_deg": 25.200000000000006,
+   "axis_depth_component": -4.6762145866141667e-17,
+   "n_visible_facets": 889
+  },
+  "4239": {
+   "areas_file": "damit_runs\\paper_4239\\poles\\areas_10",
+   "shape_file": "shapes_page_cache\\paper_4239_areas_10_d137510bdd.txt",
+   "best_solution": {
+    "lambda": 264.2,
+    "beta": -57.6,
+    "P": 23.15728096,
+    "dev": 0.188783,
+    "idx": 10
+   },
+   "pole_model_C": [
+    264.2,
+    -57.6
+   ],
+   "poles_table": [
+    [
+     264.2,
+     -57.6
+    ],
+    [
+     48.6,
+     -60.7
+    ]
+   ],
+   "pole_drawn": [
+    264.2,
+    -57.6
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.0,
+   "P_adopted": 23.13818,
+   "quality": "A",
+   "P_sid": 23.15728096,
+   "n_vertices": 992,
+   "n_facets": 1980,
+   "competing_shown": [],
+   "n_fold": 2790,
+   "n_points_drawn": 1641,
+   "fold_amplitude": 0.5058675325352908,
+   "phi_deg": 164.0,
+   "axis_angle_on_screen_deg": -57.6,
+   "axis_depth_component": -4.600401717195228e-18,
+   "n_visible_facets": 991
+  },
+  "4270": {
+   "areas_file": "damit_runs\\paper_4270\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_4270_areas_best_8b30d48d51.txt",
+   "best_solution": {
+    "lambda": 183.0,
+    "beta": 15.7,
+    "P": 10.86839689,
+    "dev": 0.109579,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    182.99999999999994,
+    15.7
+   ],
+   "poles_table": [
+    [
+     182.79999999999998,
+     15.9
+    ]
+   ],
+   "pole_drawn": [
+    182.79999999999998,
+    15.9
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.27755087687922664,
+   "P_adopted": 10.86835,
+   "quality": "A",
+   "P_sid": 10.86839689,
+   "n_vertices": 940,
+   "n_facets": 1876,
+   "competing_shown": [
+    23.93491,
+    47.83332,
+    14.05766
+   ],
+   "n_fold": 1933,
+   "n_points_drawn": 1255,
+   "fold_amplitude": 0.22793427666457156,
+   "phi_deg": 8.0,
+   "axis_angle_on_screen_deg": 15.9,
+   "axis_depth_component": 3.7884537175879304e-19,
+   "n_visible_facets": 902
+  },
+  "4618": {
+   "areas_file": "damit_runs\\paper_4618\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_4618_areas_best_ac1dbe266a.txt",
+   "best_solution": {
+    "lambda": 168.7,
+    "beta": -84.4,
+    "P": 6.78294843,
+    "dev": 0.115291,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    168.7,
+    -84.4
+   ],
+   "poles_table": [
+    [
+     167.8,
+     -84.6
+    ]
+   ],
+   "pole_drawn": [
+    167.8,
+    -84.6
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 0.21780355109183985,
+   "P_adopted": 6.78111,
+   "quality": "A",
+   "P_sid": 6.78294843,
+   "n_vertices": 996,
+   "n_facets": 1988,
+   "competing_shown": [
+    5.9417,
+    7.89854
+   ],
+   "n_fold": 2302,
+   "n_points_drawn": 1506,
+   "fold_amplitude": 0.3624549487169286,
+   "phi_deg": 66.0,
+   "axis_angle_on_screen_deg": -84.6,
+   "axis_depth_component": 3.2173096422686667e-18,
+   "n_visible_facets": 996
+  },
+  "4761": {
+   "areas_file": "damit_runs\\paper_4761\\poles\\areas_best",
+   "shape_file": "shapes_page_cache\\paper_4761_areas_best_63b27e9c46.txt",
+   "best_solution": {
+    "lambda": 173.8,
+    "beta": -75.9,
+    "P": 5.09072945,
+    "dev": 0.136102,
+    "idx": "best"
+   },
+   "pole_model_C": [
+    173.8,
+    -75.90000000000002
+   ],
+   "poles_table": [
+    [
+     174.7,
+     -77.80000000000001
+    ]
+   ],
+   "pole_drawn": [
+    174.7,
+    -77.80000000000001
+   ],
+   "pole_source": "table",
+   "sep_model_vs_table_deg": 1.910944050324883,
+   "P_adopted": 5.09056,
+   "quality": "B",
+   "P_sid": 5.09072945,
+   "n_vertices": 945,
+   "n_facets": 1886,
+   "competing_shown": [
+    4.60192
+   ],
+   "n_fold": 5236,
+   "n_points_drawn": 1483,
+   "fold_amplitude": 0.44448142162392656,
+   "phi_deg": 52.0,
+   "axis_angle_on_screen_deg": -77.80000000000001,
+   "axis_depth_component": -1.661333704758339e-18,
+   "n_visible_facets": 976
+  },
+  "_text_overlaps": []
+ }
+}

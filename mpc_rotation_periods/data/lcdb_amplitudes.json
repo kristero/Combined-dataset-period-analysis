@@ -1,0 +1,1620 @@
+{
+ "1706": {
+  "name": "Dieckvoss",
+  "summary": {
+   "period": 2.58944,
+   "amin": 0.12,
+   "amax": 0.16,
+   "U": "3-"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Bus 2002"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2015"
+   },
+   {
+    "period": 2.58944,
+    "amin": null,
+    "amax": 0.12,
+    "U": "3-",
+    "ref": "Oey 2016a                      2014-04-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-02-2"
+   },
+   {
+    "period": 2.5892,
+    "amin": null,
+    "amax": 0.16,
+    "U": "3-",
+    "ref": "Benishek 2020e                 2020-02-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "1717": {
+  "name": "Arlon",
+  "summary": {
+   "period": 5.1484,
+   "amin": 0.06,
+   "amax": 0.12,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Tholen 1984"
+   },
+   {
+    "period": 5.1484,
+    "amin": null,
+    "amax": 0.08,
+    "U": "3",
+    "ref": "Pravec 2005web                 2005-12-2"
+   },
+   {
+    "period": 5.1082,
+    "amin": null,
+    "amax": 0.08,
+    "U": "2+",
+    "ref": "Behrend 2006web                2006-01-1"
+   },
+   {
+    "period": 5.1484,
+    "amin": null,
+    "amax": 0.08,
+    "U": "3",
+    "ref": "Cooney 2006a"
+   },
+   {
+    "period": 5.148,
+    "amin": null,
+    "amax": null,
+    "U": "3",
+    "ref": "Cooney 2006b"
+   },
+   {
+    "period": 5.261,
+    "amin": null,
+    "amax": 0.12,
+    "U": "2",
+    "ref": "Behrend 2008web                2008-12-1"
+   },
+   {
+    "period": 5.148,
+    "amin": null,
+    "amax": 0.08,
+    "U": "3",
+    "ref": "Brinsfield 2009b               2008-11-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": 0.07,
+    "U": "1",
+    "ref": "Higgins 2011web                2010-05-1"
+   },
+   {
+    "period": 3.51482,
+    "amin": null,
+    "amax": 0.07,
+    "U": "3",
+    "ref": "Pravec 2011web                 2011-10-1"
+   },
+   {
+    "period": 5.1496,
+    "amin": null,
+    "amax": 0.09,
+    "U": "3",
+    "ref": "Pravec 2011web                 2011-10-3"
+   },
+   {
+    "period": 5.1477,
+    "amin": null,
+    "amax": 0.1,
+    "U": "3",
+    "ref": "Pravec 2011web                 2011-11-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2012"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Pravec 2012b"
+   },
+   {
+    "period": 5.148,
+    "amin": null,
+    "amax": 0.09,
+    "U": "2+",
+    "ref": "Oey 2014                       2013-05-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2016"
+   },
+   {
+    "period": 5.873,
+    "amin": null,
+    "amax": 0.06,
+    "U": "2",
+    "ref": "Behrend 2018web                2006-02-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Popescu 2018b"
+   },
+   {
+    "period": 5.1448,
+    "amin": null,
+    "amax": 0.1,
+    "U": "3-",
+    "ref": "Franco 2019f                   2019-02-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-02-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "AKARI"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "1798": {
+  "name": "Watts",
+  "summary": {
+   "period": 3.506,
+   "amin": null,
+   "amax": 0.06,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Bus 2002"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2012"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Simpson 2013                   2012-09-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": 3.506,
+    "amin": null,
+    "amax": 0.06,
+    "U": "3",
+    "ref": "Pray 2017e                     2017-02-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Popescu 2018b"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-01-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "AKARI"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "1820": {
+  "name": "Lohmann",
+  "summary": {
+   "period": 14.0554,
+   "amin": 0.4,
+   "amax": 0.55,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": 14.0554,
+    "amin": null,
+    "amax": 0.55,
+    "U": "3",
+    "ref": "Pravec 2011web                 2011-10-2"
+   },
+   {
+    "period": 14.046,
+    "amin": null,
+    "amax": 0.43,
+    "U": "3-",
+    "ref": "Pravec 2011web                 2011-09-1"
+   },
+   {
+    "period": 14.048,
+    "amin": null,
+    "amax": 0.4,
+    "U": "3-",
+    "ref": "Martinez 2012a                 2011-09-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": 14.04497,
+    "amin": null,
+    "amax": null,
+    "U": "2",
+    "ref": "Durech 2016"
+   },
+   {
+    "period": 14.0449,
+    "amin": null,
+    "amax": null,
+    "U": "2",
+    "ref": "Hanus 2016a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-05-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   }
+  ]
+ },
+ "1920": {
+  "name": "Sarmiento",
+  "summary": {
+   "period": 4.048,
+   "amin": 0.23,
+   "amax": 0.35,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Tholen 1984"
+   },
+   {
+    "period": 4.0501,
+    "amin": null,
+    "amax": 0.28,
+    "U": "3-",
+    "ref": "Warner 2007c                   2006-11-0"
+   },
+   {
+    "period": 4.038,
+    "amin": null,
+    "amax": 0.29,
+    "U": "3",
+    "ref": "Stephens 2014a                 2013-04-2"
+   },
+   {
+    "period": 4.048,
+    "amin": null,
+    "amax": 0.35,
+    "U": "3",
+    "ref": "Warner 2015j                   2014-10-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Lucas 2019                     2014-12-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-04-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": 4.043,
+    "amin": null,
+    "amax": null,
+    "U": "2",
+    "ref": "Podlewska-Gaca 2021            2016-05-2"
+   },
+   {
+    "period": 4.049,
+    "amin": null,
+    "amax": 0.23,
+    "U": "3",
+    "ref": "Stephens 2021e                 2021-03-2"
+   },
+   {
+    "period": 4.0472,
+    "amin": null,
+    "amax": 0.3,
+    "U": "3",
+    "ref": "Behrend 2022web                2022-11-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "1942": {
+  "name": "Jablunka",
+  "summary": {
+   "period": 8.91158,
+   "amin": null,
+   "amax": null,
+   "U": "2"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": 8.91158,
+    "amin": null,
+    "amax": null,
+    "U": "2",
+    "ref": "Durech 2016"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2016"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2017"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-07-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "AKARI"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "SIMPS"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "1949": {
+  "name": "Messina",
+  "summary": {
+   "period": 3.6491,
+   "amin": 0.32,
+   "amax": 0.45,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": 3.6491,
+    "amin": null,
+    "amax": 0.37,
+    "U": "3-",
+    "ref": "Bianchi 1921                   2014-11-2"
+   },
+   {
+    "period": 3.6491,
+    "amin": null,
+    "amax": 0.37,
+    "U": "3",
+    "ref": "Pravec 2014web                 2014-11-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": 3.649,
+    "amin": null,
+    "amax": 0.34,
+    "U": "2",
+    "ref": "Waszczak 2015                  2010-10-0"
+   },
+   {
+    "period": 3.635,
+    "amin": null,
+    "amax": 0.32,
+    "U": "2",
+    "ref": "Waszczak 2015                  2012-01-2"
+   },
+   {
+    "period": 3.649308,
+    "amin": null,
+    "amax": null,
+    "U": "2",
+    "ref": "Durech 2016"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-06-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": 3.6489,
+    "amin": null,
+    "amax": 0.45,
+    "U": "3",
+    "ref": "Pravec 2021web                 2021-08-2"
+   },
+   {
+    "period": 3.649,
+    "amin": null,
+    "amax": 0.45,
+    "U": "3",
+    "ref": "Benishek 2022b                 2021-08-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "1951": {
+  "name": "Lick",
+  "summary": {
+   "period": 5.3016,
+   "amin": 0.15,
+   "amax": 0.33,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": 0.05,
+    "U": "1",
+    "ref": "Velichko 1990"
+   },
+   {
+    "period": 5.3016,
+    "amin": null,
+    "amax": 0.31,
+    "U": "3",
+    "ref": "Pravec 1997web                 1997-12-3"
+   },
+   {
+    "period": 4.424,
+    "amin": null,
+    "amax": 0.27,
+    "U": "2",
+    "ref": "Wisniewski 1997                1988-02-1"
+   },
+   {
+    "period": 5.3008,
+    "amin": null,
+    "amax": 0.19,
+    "U": "3",
+    "ref": "Pravec 1998web                 1998-01-3"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": 0.15,
+    "U": "3",
+    "ref": "Pravec 1998web                 1998-02-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Bus 2002"
+   },
+   {
+    "period": 5.2974,
+    "amin": null,
+    "amax": 0.25,
+    "U": "3",
+    "ref": "Warner 2009b                   2008-07-0"
+   },
+   {
+    "period": 5.317,
+    "amin": null,
+    "amax": 0.33,
+    "U": "2",
+    "ref": "Lucas 2011                     2011-02-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Pravec 2012b"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Ali-Lagoa 2017                 2010-11-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Binzel 2019                    2008-07-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "3",
+    "ref": "Ryan"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "SIMPS"
+   }
+  ]
+ },
+ "1963": {
+  "name": "Bezovec",
+  "summary": {
+   "period": 18.16,
+   "amin": 0.15,
+   "amax": 0.6,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Tholen 1984"
+   },
+   {
+    "period": 18.154,
+    "amin": null,
+    "amax": 0.58,
+    "U": "2+",
+    "ref": "Behrend 2005web                2005-01-1"
+   },
+   {
+    "period": 18.16,
+    "amin": null,
+    "amax": 0.6,
+    "U": "3",
+    "ref": "Fauerbach 2005b                2005-01-2"
+   },
+   {
+    "period": 18.14,
+    "amin": null,
+    "amax": 0.15,
+    "U": "2",
+    "ref": "Behrend 2009web                2009-04-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2012"
+   },
+   {
+    "period": 18.1655,
+    "amin": null,
+    "amax": null,
+    "U": "2",
+    "ref": "Hanus 2013a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2016"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2017"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Popescu 2018b"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-04-1"
+   },
+   {
+    "period": 18.157,
+    "amin": null,
+    "amax": 0.47,
+    "U": "2",
+    "ref": "McNeill 2019"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": 18.163,
+    "amin": null,
+    "amax": 0.51,
+    "U": "2",
+    "ref": "Pal 2020                       2018-08-0"
+   },
+   {
+    "period": 18.16554,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Martikainen 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2021"
+   },
+   {
+    "period": 18.164,
+    "amin": null,
+    "amax": 0.39,
+    "U": "3",
+    "ref": "Behrend 2022web                2022-10-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "AKARI"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "SIMPS"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "2134": {
+  "name": "Dennispalm",
+  "summary": {
+   "period": 4.114,
+   "amin": 0.09,
+   "amax": 0.27,
+   "U": "2+"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Tholen 1984"
+   },
+   {
+    "period": 4.09,
+    "amin": null,
+    "amax": 0.24,
+    "U": "2+",
+    "ref": "Stephens 2003c                 2003-03-0"
+   },
+   {
+    "period": 4.114,
+    "amin": null,
+    "amax": 0.27,
+    "U": "2+",
+    "ref": "Pray 2004a                     2003-03-1"
+   },
+   {
+    "period": 4.5,
+    "amin": null,
+    "amax": 0.12,
+    "U": "2",
+    "ref": "Behrend 2007web                2007-02-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2012"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2016                   2011-01-2"
+   },
+   {
+    "period": 4.5029,
+    "amin": null,
+    "amax": 0.09,
+    "U": "2",
+    "ref": "Behrend 2020web                2020-02-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "AKARI"
+   }
+  ]
+ },
+ "2150": {
+  "name": "Nyctimene",
+  "summary": {
+   "period": 6.131,
+   "amin": 0.56,
+   "amax": 0.9,
+   "U": "3"
+  },
+  "details": [
+   {
+    "period": 6.125,
+    "amin": null,
+    "amax": 0.62,
+    "U": "3",
+    "ref": "Warner 2007a                   2006-09-1"
+   },
+   {
+    "period": 6.129,
+    "amin": null,
+    "amax": 0.59,
+    "U": "3-",
+    "ref": "Warner 2008m                   2008-05-0"
+   },
+   {
+    "period": 6.131,
+    "amin": null,
+    "amax": 0.62,
+    "U": "3",
+    "ref": "Warner 2012b                   2011-07-1"
+   },
+   {
+    "period": 6.124,
+    "amin": null,
+    "amax": 0.66,
+    "U": "3",
+    "ref": "Warner 2013o                   2013-06-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": 6.13,
+    "amin": null,
+    "amax": 0.76,
+    "U": "3-",
+    "ref": "Warner 2015d                   2014-08-1"
+   },
+   {
+    "period": 6.1259,
+    "amin": null,
+    "amax": 0.63,
+    "U": "3",
+    "ref": "Behrend 2016web                2016-07-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2016"
+   },
+   {
+    "period": 6.127,
+    "amin": null,
+    "amax": 0.9,
+    "U": "3",
+    "ref": "Stephens 2016i                 2016-03-2"
+   },
+   {
+    "period": 6.133,
+    "amin": null,
+    "amax": 0.58,
+    "U": "3-",
+    "ref": "Warner 2017b                   2016-08-1"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Lucas 2019                     2014-10-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-03-3"
+   },
+   {
+    "period": 6.1254,
+    "amin": null,
+    "amax": 0.56,
+    "U": "3",
+    "ref": "Stephens 2020a                 2019-07-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "AKARI"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "3459": {
+  "name": "Bodil",
+  "summary": {
+   "period": 532.9,
+   "amin": null,
+   "amax": 0.74,
+   "U": "2"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-03-1"
+   },
+   {
+    "period": 2.726,
+    "amin": null,
+    "amax": 0.05,
+    "U": "1",
+    "ref": "Behrend 2020web                2020-05-3"
+   },
+   {
+    "period": 52.572,
+    "amin": null,
+    "amax": null,
+    "U": "2",
+    "ref": "Erasmus 2020"
+   },
+   {
+    "period": 532.9,
+    "amin": null,
+    "amax": 0.74,
+    "U": "2",
+    "ref": "Polakis 2020e                  2020-06-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "3567": {
+  "name": "Alvema",
+  "summary": {
+   "period": 8.17,
+   "amin": 0.17,
+   "amax": 0.45,
+   "U": "3-"
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Bus 2002"
+   },
+   {
+    "period": 8.1216,
+    "amin": null,
+    "amax": 0.17,
+    "U": "2",
+    "ref": "Sergison 2010b                 2009-11-1"
+   },
+   {
+    "period": 8.13,
+    "amin": null,
+    "amax": 0.33,
+    "U": "2+",
+    "ref": "Behrend 2014web                2014-12-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2016"
+   },
+   {
+    "period": 8.17,
+    "amin": null,
+    "amax": 0.45,
+    "U": "3-",
+    "ref": "Behrend 2018web                2018-08-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-01-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "3777": {
+  "name": "McCauley",
+  "summary": {
+   "period": null,
+   "amin": null,
+   "amax": 0.1,
+   "U": ""
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": 0.1,
+    "U": "",
+    "ref": "Linville 2017                  2016-09-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   }
+  ]
+ },
+ "4456": {
+  "name": "Mawson",
+  "summary": {
+   "period": null,
+   "amin": null,
+   "amax": 0.2,
+   "U": ""
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Bus 2002"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": 0.2,
+    "U": "",
+    "ref": "Folberth 2012a                 2011-08-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2016"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-06-0"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Masiero 2020a"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mahlke 2021"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "AKARI"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ },
+ "4482": {
+  "name": "Frerebasile",
+  "summary": {
+   "period": null,
+   "amin": null,
+   "amax": 0.1,
+   "U": ""
+  },
+  "details": [
+   {
+    "period": null,
+    "amin": null,
+    "amax": 0.1,
+    "U": "",
+    "ref": "Folberth 2012a                 2011-08-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Veres 2015"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Nugent 2016"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Mainzer 2019                   2010-06-2"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "Colazo 2021d"
+   },
+   {
+    "period": null,
+    "amin": null,
+    "amax": null,
+    "U": "",
+    "ref": "WISE"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1636 @@
+[
+ {
+  "batch": [
+   1706,
+   1717,
+   1798,
+   1818,
+   1820,
+   1920,
+   1942,
+   1944,
+   1949,
+   1951
+  ],
+  "review": {
+   "results": [
+    {
+     "asteroid": 1706,
+     "adopted_P": 2.58937,
+     "sigma_P": 3.06e-05,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 1.29469,
+       "note": "Half period. Strongest peak (0.1354), but it folds into a single wave (n4 1/1, amp 0.083)."
+      },
+      {
+       "P": 2.45683,
+       "note": "Daily alias (the 1.2284 h family). Power 0.042, family fraction 0.00 in both periodograms. Preferred only by small single-site subsets."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 1.2947 h peak (power 0.136) and 2.5894 h peak (0.130) are one harmonic family, with bootstrap family fraction 1.00 in both the unweighted and weighted periodograms. The fold at 1.2947 h is a single wave (1/1). The fold at 2.5894 h is clearly double-peaked (2/2, amp 0.10 mag), so R2 gives 2.5894 h. TESS alone (alias-free) confirms the family: 1.293 h (0.244) and 2.584 h (0.231). All 13 leave-one-out subsets agree. The daily alias 1.228/2.457 h reaches only 0.04 and is chosen only by the P07G-only asia_australia group and a few single datasets.",
+     "paper_note": "",
+     "concerns": "Low-to-moderate amplitude (about 0.10 mag). Several single datasets (T05o, W68o, 703G, T05c, P07G, W68c) favour the daily alias 2.457/1.228 h when analysed alone."
+    },
+    {
+     "asteroid": 1717,
+     "adopted_P": 18.2137,
+     "sigma_P": 0.000676,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 5.14753,
+       "note": "Second, independent periodicity: neither a harmonic nor a daily alias of 18.21 h. Double-peaked (2/2, amp 0.081). Power 0.089 in the combined data, equal to 18.21 h in TESS alone (0.116 vs 0.117), and still present in ground-only data after prewhitening 18.21 h (0.055). Could be the primary rotation if the object is binary."
+      },
+      {
+       "P": 9.10682,
+       "note": "Half of 18.21 h. Single wave (1/1)."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest family is 18.2137 h (power 0.112, weighted 0.117). Its bootstrap family fraction is 0.98 unweighted and 0.99 weighted. Its fold is double-peaked (2/2, amp 0.113), and 3/3 longitude groups and 13/15 leave-one-out subsets agree. However, a second signal at 5.14753 h is also present: it is double-peaked (amp 0.081), unrelated to 18.21 h by harmonic or daily-alias relations, and TESS alone gives it the same power (0.116 vs 0.117). In the ground-only data it appears at exactly 5.14753 h, with power 0.046 before and 0.055 after prewhitening 18.21 h. I report 18.2137 h because it is the stronger signal. I give quality C because the data cannot tell which of the two periodicities is the rotation of the main body.",
+     "paper_note": "The object shows two independent periodicities, 18.2137 h (0.11 mag) and 5.1475 h (0.08 mag), in both the ground-based and TESS data, which suggests a binary system or non-principal-axis rotation; the stronger 18.21 h signal is listed.",
+     "concerns": "TESS supplies 5477 of 8398 points. The TESS visit trend gives a spurious 1280 h peak that beats the best primary candidate in 47% of bootstraps; it is a TESS-only artifact (ground data prefer 18.21 h). The two-period structure means a single-period model is inadequate."
+    },
+    {
+     "asteroid": 1798,
+     "adopted_P": 3.50668,
+     "sigma_P": 0.000369,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 11.97847,
+       "note": "Day-commensurate (2f close to 4 c/d). Unweighted family fraction 0.70 but weighted only 0.01, and it has no power in TESS (0.012). Most likely nightly zero-point offsets."
+      },
+      {
+       "P": 47.97939,
+       "note": "Day-commensurate member of the 24 h family. Weighted family fraction 0.01, not present in TESS."
+      },
+      {
+       "P": 7.0133,
+       "note": "Double of 3.5067 h. Lower power (0.024, TESS 0.076). Not needed, because 3.5067 h already folds double-peaked."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The unweighted periodogram is led by a day-commensurate family: 11.98, 5.99, 23.99 and 47.98 h, with ATLAS-only power at about 0.16. By R4 these need independent support, and they have none: the weighted family fraction is 0.01, and TESS alone shows 0.012 at 12 h. The noise-weighted periodogram prefers 3.5067 h (0.068, family fraction 0.97). TESS alone, which has no daily aliases, gives 3.505 h as its clearly strongest peak (0.147, 2nd/1st 0.57). Non-ATLAS ground data show a peak at exactly the same tooth (3.50668 h). The four-term fold at 3.5067 h is double-peaked but has low amplitude (0.06 mag). The bootstrap jumps between comb teeth, so sigma is the scatter over all teeth (3.7e-4 h).",
+     "paper_note": "The unweighted periodogram is dominated by day-commensurate peaks (12, 6, 24, 48 h) from nightly zero-point offsets; the noise-weighted periodogram and TESS alone both give 3.5067 h, with a low amplitude of 0.06 mag.",
+     "concerns": "The ground data (especially ATLAS) are dominated by day-commensurate artifacts, so the longitude-group and leave-one-out checks (0/3, 0/16) all follow those artifacts. Low amplitude (0.06 mag), and the bootstrap jumps between comb teeth."
+    },
+    {
+     "asteroid": 1818,
+     "adopted_P": 5.35614,
+     "sigma_P": 7.35e-05,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 4.37817,
+       "note": "Daily alias (rotation frequency differs by 1 c/d). Power 0.138 vs 0.412, family fraction 0.00."
+      },
+      {
+       "P": 5.53686,
+       "note": "Manuscript P_c (5.537 h). An insignificant peak (power 0.015, close to the 0.0144 threshold) with an incoherent fold."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "The 5.3561 h and 2.6781 h peaks (power 0.412 each) form one family with bootstrap family fraction 1.00 in both periodograms. The fold at 5.3561 h is strongly double-peaked (2/2, amp 0.51-0.55 mag), while 2.678 h is single-wave. All 3/3 longitude groups and 13/13 leave-one-out subsets agree. The manuscript's combined-dataset value 5.537 h sits on a peak with power 0.015 and folds into noise. The manuscript's separate-dataset value (P_av = 5.357 h) and the old figure's period (P_fig = 5.357 h) agree with 5.3561 h.",
+     "paper_note": "The combined-dataset period in the table (5.537 h) was wrong and is corrected to 5.3561 h, consistent with the separate-dataset value 5.357 h.",
+     "concerns": ""
+    },
+    {
+     "asteroid": 1820,
+     "adopted_P": 14.0518,
+     "sigma_P": 0.00163,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 7.02591,
+       "note": "Half period. Single wave (1/1)."
+      },
+      {
+       "P": 14.28991,
+       "note": "Minor side family. Power 0.049, family fraction 0.00."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 14.0518 h and 7.0259 h peaks (power 0.369 and 0.364) form one family with bootstrap family fraction 1.00 in both periodograms. The fold at 14.0518 h is clearly double-peaked (2/2, amp 0.35 mag); 7.026 h is single-wave, and 28.10 h repeats the curve (4/4). TESS alone confirms it (7.024 h 0.634, 14.044 h 0.610). All 3/3 groups, 17/17 leave-one-out subsets and 11/11 single datasets agree. Only 73% of resamplings stay in one comb tooth, so sigma is the scatter over teeth (0.0016 h, larger than P^2/2dT = 0.0005 h).",
+     "paper_note": "",
+     "concerns": "The comb-tooth (cycle-count) choice is not unique: the neighbouring tooth has 0.96 of the peak power."
+    },
+    {
+     "asteroid": 1920,
+     "adopted_P": 4.04705,
+     "sigma_P": 0.000271,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 3.46267,
+       "note": "Daily alias (1.7313 h family). Power 0.084 vs 0.264, family fraction 0.00, but the small Europe/Africa group ties on it."
+      },
+      {
+       "P": 2.02353,
+       "note": "Half period. Strongest peak but single-wave (1/1)."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 2.0235 h peak (power 0.273) folds into a single wave. Its double, 4.0470 h (0.264, comparable power), folds clearly double-peaked (2/2, amp 0.22-0.24 mag), so R2 gives 4.0470 h. The family fraction is 1.00 in both periodograms, and all 10 leave-one-out subsets agree. There is no TESS data. The only non-American longitude group (Europe/Africa, 303 points) ties with the daily alias 3.4627 h (2nd/1st 1.00), so the independent daily-alias check is not decisive. The bootstrap jumps between comb teeth (69% same tooth), so sigma is the scatter over all teeth.",
+     "paper_note": "",
+     "concerns": "No alias-free check is available: no TESS data, and the Europe/Africa group is small and ties with the alias. Comb-tooth ambiguity."
+    },
+    {
+     "asteroid": 1942,
+     "adopted_P": 8.90903,
+     "sigma_P": 0.000223,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 7.51433,
+       "note": "Daily alias (rotation frequency differs by 0.5 c/d). Power 0.12 (weighted 0.074) vs 0.27, family fraction 0.00, weaker fold (0.24 mag)."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 8.9090 h and 4.4545 h peaks (power 0.271 and 0.269) form one family with bootstrap family fraction 1.00 in both periodograms. The fold at 8.909 h is clearly double-peaked (2/2, amp 0.31-0.36 mag); 4.4545 h is single-wave. Both longitude groups (Americas and Europe/Africa) and 13/13 leave-one-out subsets agree. The daily alias 7.514 h is much weaker, especially in the weighted periodogram (0.074 vs 0.257).",
+     "paper_note": "",
+     "concerns": ""
+    },
+    {
+     "asteroid": 1944,
+     "adopted_P": 895.221,
+     "sigma_P": 2,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 447.621,
+       "note": "Half period. Same power (0.2545) but the four-term fold is a single wave (1/1)."
+      },
+      {
+       "P": 914.4,
+       "note": "Neighbouring comb tooth (457 h at half period). Preferred by ATLAS o-band data alone and by 9% of ground-only bootstraps."
+      },
+      {
+       "P": 45.47205,
+       "note": "Manuscript and algorithmic value (half: 22.7361 h). Exactly the daily alias of the long-period signal: 2f differs by 1.00197 c/d, which matches the spectral-window peak at 1.0019 c/d. Family fraction only 0.70/0.73, no signal in TESS alone, weaker than the long period in every ground subset."
+      },
+      {
+       "P": 184.018,
+       "note": "Minor primary-range peak (0.031), family fraction 0.26. Fold is weak (amp 0.13)."
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": true,
+     "rationale": "The extended-range pair 895.2/447.6 h (power 0.255) is four times stronger than the best primary peak (45.47/22.74 h, 0.061) and beats it in 100% of bootstraps. This holds without TESS: ground-only data give 895.2 h at 0.187 vs 0.148. Independent ground subsets agree: non-ATLAS stations give 894.8 h (0.207 vs 0.177 at 45.47 h), ATLAS o-band gives 448/457 h (0.21-0.23 vs 0.14), and the Europe/Africa group plus M22o, I41r and W68c alone give 895.2 h. The 45.47/22.74 h family is exactly the daily alias of this signal (2f differs by 1.00197 c/d, matching the spectral-window peak at 1.0019 c/d). TESS alone, observing continuously for 24 days, shows no power at 22.74 or 45.47 h (at most 0.02). The ground-only fold at 895.2 h is coherent and double-peaked across many datasets (amp about 0.3 mag), whereas 447.6 h folds into a single wave, so R1 (long period backed by several longitudes) and R2 give about 895 h. My own 200-sample night-block bootstrap keeps the 447.6 h tooth in 99% of resamplings (scatter 0.2 h), so sigma is set by P^2/(2dT) = 2.0 h.",
+     "paper_note": "The previously reported 45.47 h period is a daily alias of a slow-rotation signal; ground-based data from several longitudes give P = 895 +/- 2 h (about 37 d), with an adjacent cycle-count alternative near 914 h.",
+     "concerns": "TESS shows a strong trend and quantized magnitudes over its single 24-day visit, so the solution rests on ground-based data only. A long-period solution depends on accurate phase-curve reduction (phase angles up to 36 deg). The adjacent comb tooth (914 h) cannot be fully excluded. The Americas group alone still prefers the 22.74 h alias (2nd/1st 0.98)."
+    },
+    {
+     "asteroid": 1949,
+     "adopted_P": 3.64889,
+     "sigma_P": 3.64e-05,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 1.82445,
+       "note": "Half period. Single wave (1/1). Preferred by TESS and several single datasets only through near-equal power."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "Only one family is present: 3.6489 h and 1.8244 h (power 0.372 and 0.370), with bootstrap family fraction 1.00 in both periodograms. The fold at 3.649 h is clearly double-peaked (2/2, amp 0.32-0.33 mag); 1.824 h is single-wave and 7.298 h repeats the curve (4/4). TESS alone confirms it (1.825 h 0.539, 3.650 h 0.526). Both groups, 14/14 leave-one-out subsets and 9/10 single datasets agree.",
+     "paper_note": "",
+     "concerns": ""
+    },
+    {
+     "asteroid": 1951,
+     "adopted_P": 5.29954,
+     "sigma_P": 0.000192,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 10.5964,
+       "note": "Double period. Much lower power (0.086), and the fold is not coherent (four-term amp 0.13 vs 0.17)."
+      },
+      {
+       "P": 2.64977,
+       "note": "Half period. Single wave (1/1), power 0.210."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "5.2995 h is the strongest peak (0.286, weighted 0.292) and wins 100% of bootstraps in both periodograms. The fold is double-peaked with unequal minima (2/2, amp 0.17 mag). TESS alone gives 5.299 h as its dominant peak (0.493, 2nd/1st 0.51). Both groups, 9/9 leave-one-out subsets and 6/7 single datasets agree. The double (10.60 h) and half (2.65 h) are weaker, and neither folds better.",
+     "paper_note": "",
+     "concerns": "TESS alone shows extra peaks at 0.84-1.23 h, probably systematics. T05c alone gives a spurious long-period trend."
+    }
+   ]
+  },
+  "verify": {
+   "verdicts": [
+    {
+     "asteroid": 1717,
+     "verdict": "upheld",
+     "final_P": 18.2137,
+     "final_sigma_P": 0.000676,
+     "final_quality": "C",
+     "final_alternatives": [
+      5.14753
+     ],
+     "reason": "I could not refute 18.2137 h. It is the strongest family (0.1116; weighted 0.1165) with bootstrap family fractions of 0.98 unweighted and 0.99 weighted. All 3 longitude groups agree. The two leave-one-out subsets that disagree are driven by the TESS-only 1280 h trend, which R1 treats as an artifact. My fold_plot run gives a 2/2 fold with amplitude 0.113 mag. I also checked the ground data alone (2921 points): 18.2137 h has power 0.102 and 5.14753 h has 0.046. Prewhitening one period leaves the other at exactly the same period (5.14753 h at 0.055; 18.2137 h at 0.111). In TESS alone the two are equal (0.117 vs 0.115). Fitting both periods together gives amplitudes of 0.097 and 0.056 mag in the ground data and 0.130 and 0.101 mag in TESS. Both signals are present in every well-sampled apparition, with 18.21 h usually the stronger. 5.1475 h is neither a harmonic nor a daily alias of 18.21 h, and it folds cleanly into two maxima and two minima (amplitude 0.081). So the data contain two real, independent periodicities, which points to a binary or a non-principal-axis rotator. The rules favour 18.2137 h because it is the stronger signal and dominates the bootstrap. However, the data cannot show which periodicity is the rotation of the main body, so quality C is kept, with 5.14753 h as the competing solution. 9.1068 h is the single-wave half of 18.21 h, not an independent alternative. sigma_P = max(9.4e-5, P^2/(2 dT) = 6.76e-4) h."
+    },
+    {
+     "asteroid": 1818,
+     "verdict": "upheld",
+     "final_P": 5.35614,
+     "final_sigma_P": 7.35e-05,
+     "final_quality": "A",
+     "final_alternatives": [
+      4.37817
+     ],
+     "reason": "The 5.3561/2.6781 h family (power 0.412) has bootstrap family fractions of 1.00 in both the unweighted and weighted periodograms. The daily alias at 4.378 h (rotation frequency differs by 1 c/d) reaches only 0.138 and has family fraction 0.00. My fold_plot run (four-term model) shows a clean two-maxima, two-minima light curve at 5.35614 h with amplitude 0.514 mag, so doubling the period is excluded under R2. The 4.378 h fold is weaker (amplitude 0.30, rms 0.246 vs 0.202). The support is independent: 3 of 3 longitude groups and 13 of 13 leave-one-out subsets agree, and Gaia (P07G), which has no daily aliases, picks 2.6781 h. The single datasets that prefer the 4.378 h alias family are single-site sets whose top two peaks are nearly equal (2nd/1st 0.92-1.00). The manuscript P_c = 5.537 h sits on a peak of power 0.015, at the 5-sigma threshold of 0.0144, and folds into noise (amplitude 0.12). The manuscript's separate-dataset period P_av = 5.357 h agrees with 5.3561 h. sigma_P = max(2e-6, P^2/(2 dT) = 7.35e-5) h."
+    },
+    {
+     "asteroid": 1944,
+     "verdict": "upheld",
+     "final_P": 895.221,
+     "final_sigma_P": 2,
+     "final_quality": "B",
+     "final_alternatives": [
+      914.4,
+      45.47205,
+      447.621
+     ],
+     "reason": "I tried to rescue the primary-range value 45.47 h and could not. (1) Ground data alone (TESS excluded) prefer 895.2/447.6 h (0.186) over 45.47/22.74 h (0.147). The preference survives three tests that would remove a phase-angle systematic. With per-dataset offsets plus a global polynomial in phase angle, or a per-dataset quadratic, the long period stays at 0.186-0.19. With separate offsets for each dataset and apparition it still gives 0.173 vs 0.137. (2) Each apparition analysed separately gives a period near 445-458 h (twice that is about 890-915 h) as its best period, with power 0.39-0.60, beating the best short period every time. In the apparitions observed from several longitudes (South Africa M22o, Chile W68, Tenerife R17w, Gaia P07G), 22.74 h is weak (0.07-0.16), so the daily alias is broken. (3) TESS is an independent test. A long-period model fitted to the ground data only, without TESS, predicts the TESS 24-day brightness trend in phase and sign (correlation +0.80 to +0.85). The ground-only 45.47 h model does not (correlation 0.16). After a cubic detrend, TESS has power 0.005 at 45.47 h. Injecting the ground-fitted 45.47 h light curve into the TESS data would give power 0.19, far above the 99.9th percentile (0.055), so TESS excludes 45.47 h at that epoch. The 45.47 h family is exactly the 1.0019 c/d window alias of the long-period signal. Its family fraction is only 0.70/0.73, so it is not a satisfactory primary-range solution, and the long-period exception in R1 applies. Under R2, 447.6 h folds into a single wave (amplitude 0.34), while 895.2 h folds into two maxima and two minima (amplitude 0.31) with equal power, so 895.2 h is adopted. My 200-sample night-block bootstrap puts 99.5% of resamplings in the 895 h tooth for all data (scatter 0.41 h) and 89% for ground only, where 10.5% fall in the 914 h tooth. The long period beats 45.47/22.74 h in 100% of all-data resamplings and 94.5% of ground-only ones. Therefore sigma_P = P^2/(2 dT) = 2.0 h. Quality stays B, not A: the neighbouring 914 h tooth is not fully excluded in ground data, the Americas group alone still ties at 22.74 h, and the TESS data are quantized."
+    }
+   ]
+  }
+ },
+ {
+  "batch": [
+   1963,
+   2134,
+   2150,
+   2318,
+   3567,
+   2497,
+   2503,
+   2538,
+   2539
+  ],
+  "review": {
+   "results": [
+    {
+     "asteroid": 1963,
+     "adopted_P": 18.16526,
+     "sigma_P": 0.00069,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 9.08262,
+       "note": "Half-period member of the same family. The fold is a single wave (1/1), so it is not the rotation period."
+      },
+      {
+       "P": 18.04536,
+       "note": "Nearby alias (0.7 % away). Power 0.080, family bootstrap wins 0.00 (u and w), fold amplitude 0.16 mag. Rejected."
+      },
+      {
+       "P": 36.33301,
+       "note": "Double period. Power 0.0097 is below the 5-sigma threshold of 0.013. Rejected."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "18.1653 h is the strongest peak (power 0.254, about 20 times the 5-sigma threshold). Its four-term fold is clearly double-peaked (2/2, amplitude 0.27 mag). The equally strong 9.0826 h member folds into a single wave. The family bootstrap fraction is 1.00 in both the unweighted and weighted periodograms, and the checks agree: both longitude groups, TESS alone (18.155/9.079 h) and 12/12 leave-one-out runs. The 18.045 h alias (power 0.080) never wins a resampling, and 36.33 h (power 0.0097) is below the threshold.",
+     "paper_note": "",
+     "concerns": "Single datasets 689V and T05w alone give spurious long periods (1130 h and 1251 h). These never beat the primary solution in the bootstrap."
+    },
+    {
+     "asteroid": 2134,
+     "adopted_P": 4.11493,
+     "sigma_P": 0.00037,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 4.1142,
+       "note": "Neighbouring comb tooth (power ratio 0.98). It is the maximum of the noise-weighted periodogram. Only 55 % of resamplings stay in one tooth."
+      },
+      {
+       "P": 48.08619,
+       "note": "Day-commensurate (2f is close to 1 c/d). Double-peaked but incoherent fold (amplitude 0.13 mag). Family bootstrap wins 0.25 (u) and 0.31 (w). No support from TESS."
+      },
+      {
+       "P": 24.04406,
+       "note": "Single-wave member of the 48.09 h family and day-commensurate. Almost every single ground dataset prefers it. Most likely per-apparition (synodic-cycle) residuals aliased to 1 c/d."
+      },
+      {
+       "P": 1.00065,
+       "note": "Family wins 0.10. TESS alone peaks at 1.001 h, which is the second harmonic at the 30-min TESS cadence: a sampling artifact."
+      },
+      {
+       "P": 1137.79,
+       "note": "Beats the primary candidates in 98 % of bootstraps, but it is produced by TESS (C57G) trends. It disappears without C57G, where 24.04 h wins. Artifact under R1."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "No solution is secure. The strongest peak in the primary range, 4.1149 h (power 0.066, 5-sigma threshold 0.010), folds double-peaked but with only 0.11 mag amplitude. Its family fraction is 0.66 (u) and 0.58 (w), and no longitude group, leave-one-out run or single dataset reproduces it (0/2, 0/11, 0/8). The 24.04/48.09 h family is day-commensurate, has no TESS support and folds incoherently, so R4 rejects it. The 1137.8 h peak comes from TESS trends. The 4.115 h candidate is kept only as the best non-artifact solution.",
+     "paper_note": "Ambiguous: the best candidate, 4.115 h, has low amplitude (about 0.1 mag) and no subset confirms it; the day-commensurate 24.04/48.09 h peaks and the TESS-driven ~1140 h peak are considered artifacts.",
+     "concerns": "Low power and amplitude. The single ground datasets all peak at exactly 24.044 h, which points to nightly or apparition zero-point systematics. TESS (4 short visits) is dominated by trends and a 1.001 h cadence artifact. 704V was screened out (chi2)."
+    },
+    {
+     "asteroid": 2150,
+     "adopted_P": 6.12409,
+     "sigma_P": 0.0001,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 3.06204,
+       "note": "Half-period member. Single-wave fold, so it is not the rotation period."
+      },
+      {
+       "P": 5.43115,
+       "note": "Daily alias (rotation frequency differs by 0.5 c/d). Power 0.235, amplitude 0.36 mag, family bootstrap wins 0.00. Rejected."
+      },
+      {
+       "P": 7.0214,
+       "note": "Daily alias on the other side (0.5 c/d). Power 0.18. Rejected."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "6.1241 h is the strongest peak (power 0.622, 39 times the threshold). Its fold is a clean, double-peaked light curve with 0.57 mag amplitude, and 3.0620 h is its single-wave half. The family bootstrap fraction is 1.00 (u and w). Both longitude groups and 12/12 leave-one-out runs agree, and 8/10 single datasets agree. The daily aliases at 5.431 h and 7.021 h reach at most 0.24 power and never win a resampling.",
+     "paper_note": "",
+     "concerns": "C57G (TESS), 704V, W68c and T05w were screened out at the G1/G2 boundary, so there is no TESS check. T08o alone prefers the 5.43 h alias family."
+    },
+    {
+     "asteroid": 2318,
+     "adopted_P": 5.45703,
+     "sigma_P": 7.4e-05,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 2.72852,
+       "note": "Strongest peak (power 0.449) but a single-wave fold (1/1). Half of the adopted period."
+      },
+      {
+       "P": 6.15855,
+       "note": "Daily alias of 5.457 h (rotation frequency differs by 0.50 c/d). Power 0.086, amplitude 0.21 mag, family wins 0.00. The europe_africa group prefers it only weakly (ratio 0.92)."
+      },
+      {
+       "P": 5.01029,
+       "note": "Alias peak. Power 0.084, family wins 0.00. Rejected."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 2.7285 h (power 0.450), folds into a single wave. 5.4570 h has comparable power (0.426) and a clearly double-peaked fold with unequal minima (amplitude 0.50 mag), so R2 gives P = 5.45703 h. The family bootstrap fraction is 1.00 in both periodograms, and all 14 leave-one-out runs agree. The americas and asia_australia groups (D29R, 17 yr) break the daily alias in favour of this family. Only the small europe_africa group (465 points) prefers the 6.1585 h alias, and only weakly (ratio 0.92), at one-fifth of the power.",
+     "paper_note": "The rotation period is twice the strongest (single-wave) periodogram peak.",
+     "concerns": "C57G (TESS) screened out at the G1/G2 boundary and 704V by chi2. Single datasets W68o, M22o, 703V, F51w and G45r individually prefer the 6.1585 h daily alias."
+    },
+    {
+     "asteroid": 3567,
+     "adopted_P": 8.12065,
+     "sigma_P": 0.00067,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 9.77732,
+       "note": "Daily alias (rotation frequency differs by 0.50 c/d). Power 0.094, family wins 0.04 (u) and 0.07 (w). Double-peaked fold of almost equal quality (rms 0.1166 vs 0.1156). Wins when W68o is left out."
+      },
+      {
+       "P": 6.94345,
+       "note": "Daily alias on the other side (0.50 c/d). Power 0.094, family wins 0.03 (u) and 0.06 (w). Fold rms 0.1164."
+      },
+      {
+       "P": 4.06032,
+       "note": "Strongest peak (0.113) but a single-wave fold. Half of the adopted period."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 4.0603 h (power 0.113), is single-waved. 8.1207 h (power 0.108) is double-peaked with amplitude 0.13 mag, so R2 gives 8.12065 h. The family bootstrap fraction is 0.93 (u) and 0.86 (w), 7/8 leave-one-out runs agree, and the weighted periodogram ranks this family first. The daily aliases at 9.777 h and 6.943 h keep 87 % of the power and fold almost as well. All data come from the americas longitude group, and W68o (Chile) is what breaks the alias. Bootstrap resamplings jump between comb teeth (same tooth 0.47), so sigma is the scatter over all teeth, 0.00067 h.",
+     "paper_note": "Low amplitude (about 0.13 mag); the daily aliases at 9.78 h and 6.94 h cannot be fully excluded because all data come from American longitudes.",
+     "concerns": "No independent longitude group and no TESS. The result depends on W68o: without it the 9.777 h alias family wins (ratio 1.00). Cycle-count ambiguity between comb teeth. 704V screened out."
+    },
+    {
+     "asteroid": 2497,
+     "adopted_P": 77.6209,
+     "sigma_P": 0.0151,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 38.81042,
+       "note": "Half-period member. Single-wave fold."
+      },
+      {
+       "P": 78.52712,
+       "note": "Neighbouring alias family (1.2 % away). Power 0.103, amplitude 0.18 mag, family wins 0.02 (u) and 0.01 (w). Rejected."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "77.6209 h is the strongest peak (power 0.298, about 17 times the threshold). Its fold is double-peaked with 0.30 mag amplitude, and the 38.810 h member is its single-wave half. The family bootstrap fraction is 0.98 (u) and 0.99 (w). All three ground longitude groups, TESS alone (78.1/38.8 h) and 19/19 leave-one-out runs agree. The 78.527 h alias has one third of the power. This confirms the manuscript value of 77.623 h.",
+     "paper_note": "Slow rotator (P = 77.62 h), confirmed by TESS and by all three longitude groups.",
+     "concerns": "TESS covers a single 11-day visit (about 3.4 rotations)."
+    },
+    {
+     "asteroid": 2503,
+     "adopted_P": 102.8388,
+     "sigma_P": 0.14,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 102.61258,
+       "note": "Adjacent comb tooth (cycle-count alias, 0.22 % away). Power 0.302 vs 0.305. Night-block resamplings split about 45/45 % between the two teeth. It matches the manuscript's 102.617 h and the algorithmic proposal."
+      },
+      {
+       "P": 51.4186,
+       "note": "Half-period member. Single-wave fold."
+      },
+      {
+       "P": 104.06842,
+       "note": "Annual-type alias. Power 0.193, family wins 0.00. Rejected."
+      },
+      {
+       "P": 101.79345,
+       "note": "Alias. Power 0.189, family wins 0.00 (u) and 0.08 (w)."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest members, 51.42 h and 51.31 h, are single-waved. The ~102.8 h members have comparable power (0.305) and a double-peaked fold (amplitude 0.25 mag), so the rotation period is about 102.8 h (R2). The family bootstrap fraction is 1.00 (u) and 0.92 (w). TESS alone (51.6/103.0 h), the americas group and 10/10 leave-one-out runs agree. Two comb teeth compete: 102.8388 h is the maximum of the full-data unweighted (0.3048) and weighted periodograms, against 0.3017 at 102.6126 h. Resamplings split roughly evenly between them, so sigma is the scatter over all teeth, 0.14 h, which covers both.",
+     "paper_note": "Slow rotator (about 102.8 h) with a cycle-count ambiguity between 102.84 h and 102.61 h; the quoted uncertainty (0.14 h) covers both teeth.",
+     "concerns": "TESS makes up 2740 of 4495 points but covers only one 25-day visit. All ground-based data are from American longitudes. The comb-tooth ambiguity remains, and the weighted family fraction is only 0.92. 704V screened out."
+    },
+    {
+     "asteroid": 2538,
+     "adopted_P": 53.44548,
+     "sigma_P": 0.0079,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 26.72269,
+       "note": "Half-period member with equal power (0.3077 vs 0.3082). Single-wave fold. It would be the period only if the light curve were single-peaked."
+      },
+      {
+       "P": 52.33101,
+       "note": "Alias family (26.166/52.331 h). Power 0.071, family wins 0.00. It is the TESS window alias (0.038 c/d)."
+      },
+      {
+       "P": 467.22,
+       "note": "Long-period peak in single-site datasets (T05o, W68o, M22o, T05c), close to the daily alias of 53.45 h. Beats the primary solution in 0 % of bootstraps. Rejected under R1."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "53.4455 h and 26.7227 h have equal power (0.3082 and 0.3077, 26 times the threshold). The 26.72 h fold is a single wave, while 53.4455 h is double-peaked with slightly lower rms (0.0993 vs 0.1001) and 0.22 mag amplitude, so R2 gives 53.4455 h. The family bootstrap fraction is 1.00 in both periodograms, all comb teeth stay together (same tooth 1.00), and 16/16 leave-one-out runs agree. The americas group agrees, but the europe_africa group prefers a 467 h single-site alias. TESS alone peaks at 26.695/53.408 h, but its group analysis ties with the 26.17 h window alias, so the independent checks are not fully decisive.",
+     "paper_note": "Slow rotator (P = 53.45 h); adopted as the double-peaked member of a harmonic pair with equal power.",
+     "concerns": "Single ground datasets favour spurious ~460-470 h peaks. The two TESS sectors produce window aliases at 26.17 and 27.28 h. 704V, D29R and F51w were screened out (chi2)."
+    },
+    {
+     "asteroid": 2539,
+     "adopted_P": 12.29639,
+     "sigma_P": 0.00043,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 6.1482,
+       "note": "Half-period member. Single-wave fold."
+      },
+      {
+       "P": 16.54247,
+       "note": "Daily alias (rotation frequency differs by 0.50 c/d). Power 0.110, family wins 0.00, fold rms 0.158 vs 0.142."
+      },
+      {
+       "P": 9.78502,
+       "note": "Manuscript value. It is the daily alias of 12.296 h on the other side (0.50 c/d): power 0.095, family wins 0.00, fold rms 0.160 and amplitude 0.16 mag. Rejected."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "12.2964 h (power 0.284) and its single-wave half, 6.1482 h, dominate the periodogram. The 12.296 h fold is coherent and double-peaked with 0.27 mag amplitude. The manuscript's 9.785 h (power 0.095) and the 16.542 h peak (0.110) are its daily aliases, offset by 0.50 c/d in rotation frequency, and give worse folds (rms 0.160 and 0.158 vs 0.142). The family bootstrap fraction is 1.00 in both periodograms. All three longitude groups (americas, europe_africa, asia_australia) and 15/15 leave-one-out runs select the 12.296 h family. The old figure's periodogram also peaked at 12.296 h.",
+     "paper_note": "The manuscript period of 9.785 h is a daily alias; the combined data give 12.2964 h, confirmed by three independent longitude groups (the old periodogram figure already peaked at 12.296 h).",
+     "concerns": "Individual datasets cannot break the daily alias on their own: 5 of 9 prefer the 16.54 h family and 2 prefer 9.785 h. 703V and 704V were screened out (chi2), and there is no TESS."
+    }
+   ]
+  },
+  "verify": {
+   "verdicts": [
+    {
+     "asteroid": 2134,
+     "verdict": "upheld",
+     "final_P": 4.11493,
+     "final_sigma_P": 0.00037,
+     "final_quality": "B",
+     "final_alternatives": [
+      4.1142,
+      3.7894,
+      48.08619,
+      24.04406,
+      1.00065,
+      1137.79
+     ],
+     "reason": "The period of 4.11493 h holds up. I am raising the quality from C to B because the reviewer's claims of 'no TESS support' and 'no subset confirms it' are wrong. My checks were run in scratchpad with exact chi2 Lomb-Scargle. (1) TESS alone, which has no daily aliases: after detrending each visit, the strongest peak in 0.8-240 h is 4.1177 h (power 0.090), with its half 2.061 h second. The 1.0007 h peak disappears (0.006), and 24.04 h (0.018) and the daily alias 3.79 h (0.015) are negligible. Each usable visit peaks on its own at 4.114-4.120 h: 2018 at 4.114/2.057, 2020 at 4.120 and 2023 at 4.117. These visits used different cadences (30 and 20 min), so the peak is not a cadence effect. The TESS folds are double-peaked with minima near phases 0.25 and 0.75, but the data are quantized at 0.1 mag. (2) ZTF I41r alone has its top peaks at 2.0568 and 4.1142 h. (3) Ground data with the per-dataset nightly median removed: the 24.04/48.09 h family vanishes (0.006/0.004), which proves it comes from nightly zero-point offsets and rejects it under R4. The top peaks there are 2.0571 and 4.1142 h. The daily alias 3.789 h is weaker (0.026 vs 0.035), and TESS rules it out. (4) 1.00065 h is a TESS sampling artifact: 2f is about 48 c/d, the 30-min sampling frequency. 1137.8 h comes from TESS trends and is rejected under R1. (5) The double, 8.23 h, has power 0.0076, below the threshold. The 2.057 h fold is single-wave and the 4.115 h fold is double-peaked (2/2), so R2 selects 4.115 h. The quality is B rather than A because the family bootstrap fractions (0.66 u, 0.58 w) are pulled down by the artifact families, the amplitude is only about 0.11-0.16 mag, and the comb tooth is uncertain. The noise-weighted and nightly-demeaned ground data prefer the 4.1142 h tooth, and only 55 % of resamplings stay in one tooth. So sigma_P is the scatter over all teeth, 0.00037 h, which is larger than P^2/(2dT) = 4.1e-5 h. Note for the pipeline: its single-dataset periodograms appear to use fastchi2, which I found returns power > 1 on small subsets (for example 703G gave 1.56 with fastchi2 and 0.42 with exact chi2). That probably explains why every single dataset was reported at exactly 24.044 h."
+    },
+    {
+     "asteroid": 2539,
+     "verdict": "upheld",
+     "final_P": 12.29639,
+     "final_sigma_P": 0.00043,
+     "final_quality": "A",
+     "final_alternatives": [
+      6.1482,
+      16.54247,
+      9.78502
+     ],
+     "reason": "I could not refute 12.29639 h. The fold at 12.296 h is coherent and double-peaked, with 0.27 mag amplitude and unequal minima (14.53 and 14.60). The fold at 6.148 h, which has equal power, is a single wave, so R2 selects 12.296 h. Its double, 24.59 h, has no power (0.021), so doubling again is excluded. The family bootstrap fraction is 1.00 in both periodograms, and 100 % of resamplings stay in the same tooth. The one real concern was that single datasets and single-longitude groups do not break the 0.5 c/d daily alias. With exact chi2, Hawaii-only data give 0.368 at 16.54 h vs 0.350 at 12.30 h, Chile/Arizona/NM give 0.216 vs 0.159, and several datasets (T05o, T05c, D29R, G45r) prefer 16.54 h. I tested this. Instrument-independent multi-longitude partitions both strongly favour 12.296 h: ATLAS alone (5 sites) gives 0.306 vs 0.181 at 16.54 h and 0.092 at 9.785 h, and non-ATLAS surveys give 0.303 vs 0.099 at 16.54 h and 0.122 at 9.785 h. The 12.296 h power stays high when groups are combined (coherent), while the 16.54 h power collapses to 0.110 (incoherent). The Europe/Africa and Asia/Australia groups each lean to 12.296 h, and the ground data with nightly medians removed also rank the 12.30/6.148 h family first (0.016-0.017 vs 0.009 and 0.006). The manuscript's 9.785 h (power 0.095, bootstrap 0, fold rms 0.160 vs 0.142) and 16.542 h (0.110, rms 0.158) are daily aliases. The solution is not day-commensurate: 2f = 3.904 c/d. sigma_P = max(2.6e-5, P^2/(2dT) = 4.27e-4 h) = 0.00043 h."
+    }
+   ]
+  }
+ },
+ {
+  "batch": [
+   2583,
+   2607,
+   2614,
+   2817,
+   2968,
+   2971,
+   3081,
+   3172,
+   3173,
+   3216
+  ],
+  "review": {
+   "results": [
+    {
+     "asteroid": 2583,
+     "adopted_P": 7.79003,
+     "sigma_P": 0.0021,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 23.9582,
+       "note": "Strongest combined peak (0.061). Family bootstrap 0.96/0.98, but it is day-commensurate (2f = 2.003 c/d), its fold is only 0.10 mag with phase-clumped coverage, and TESS shows no power at 24 h (0.017)."
+      },
+      {
+       "P": 47.9236,
+       "note": "2P of the 24 h family: double-peaked fold, 0.074 mag. The same artifact family; it wins in the Americas group."
+      },
+      {
+       "P": 15.9715,
+       "note": "Manuscript P_c = 15.976 h. Weak (0.024), day-commensurate member (2P/3) of the 24 h family, 0 bootstrap wins."
+      },
+      {
+       "P": 3.89501,
+       "note": "P/2 of the adopted period. Single-peaked, and the strongest TESS peak (3.891 h)."
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": true,
+     "rationale": "The combined periodogram is dominated by a day-commensurate 48/k h comb (23.958 h at 0.061, plus 47.92 and 11.98 h; family bootstrap 0.96/0.98). The ground-only data reproduce this comb in full, and the 24 h fold is only 0.10 mag with phase-clumped coverage. TESS alone has no power near 24 h (0.017) but shows 3.891 and 7.783 h (0.069 and 0.064), with a double-peaked fold at 7.78 h of about 0.1 mag. The ground data independently contain 7.790 h (0.037) and its k=1 daily alias 6.70 h, which TESS rejects. A 7.79 h model fitted to the ground data predicts TESS (r=+0.19, scale 1.1); the 24 h model does not (r=+0.06). R4 therefore rejects the 24 h family, and 7.790 h is adopted as quality C because its combined bootstrap family fraction is only 0.04/0.02.",
+     "paper_note": "The combined periodogram of (2583) is dominated by a day-commensurate 24/48 h comb that TESS does not see, so we tentatively adopt the TESS-supported, non-commensurate 7.790 h (amplitude about 0.08-0.10 mag) and regard it as uncertain.",
+     "concerns": "Low amplitude (about 0.08-0.10 mag). Nightly zero-point offsets between ground datasets produce the 48/k h comb. 704V, 703G and D29R were screened out. The strongest TESS-alone peaks at 1.000 h are the Nyquist artifact of the 30-min cadence, and the 1300 h extended peak comes from TESS only (R1 artifact). At 7.79 h only 64 % of resamplings stay in one comb tooth, so sigma is the scatter over all teeth. The M22o cross-prediction at 7.79 h is negative (r=-0.25)."
+    },
+    {
+     "asteroid": 2607,
+     "adopted_P": 2.93564,
+     "sigma_P": 2.2e-05,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 2.76613,
+       "note": "k=1 daily alias (0.093), 0 bootstrap wins. Held-out M22o+R17w data anti-correlate (r=-0.42)."
+      },
+      {
+       "P": 3.1271,
+       "note": "Daily alias (0.046). Fails the held-out longitude tests."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "2.93564 h is the strongest peak (0.147, 14 times the 5-sigma threshold), with family bootstrap 1.00/1.00, 15/15 leave-one-out agreement and a double-peaked fold (n4 2/2, amp 0.175 mag). P/2 = 1.4678 h folds single-peaked, and 2P = 5.87 h has no power (0.013). Models fitted without each longitude group predict the held-out M22o+R17w (r=+0.39), P07G (r=+0.38) and W68o (r=+0.34) data at 2.9356 h, while the daily aliases 2.7661 h and 3.1271 h anti-correlate or fail. A few small single-site subsets prefer aliases, as expected for one-site data.",
+     "paper_note": "",
+     "concerns": "Single-site subsets (T08o, T05c and the small 165-point Europe/Africa group) on their own prefer daily aliases. 704V and D29R were screened out."
+    },
+    {
+     "asteroid": 2614,
+     "adopted_P": 2.96997,
+     "sigma_P": 5.7e-05,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 12.49986,
+       "note": "Unrelated 6.25/12.50 h family (0.034/0.027) with 0 bootstrap wins."
+      },
+      {
+       "P": 1.48498,
+       "note": "P/2, single-peaked fold."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "2.96997 h (0.101) dominates, with family bootstrap 1.00/1.00. It is recovered independently by TESS alone (2.971 h), by the ground data without TESS, by both longitude groups and by 12/12 leave-one-out subsets. The fold is double-peaked (n4 2/2, amp 0.097-0.11 mag); P/2 is single-peaked and 2P = 5.94 h folds into four maxima. The 6.25/12.50 h family has no bootstrap wins.",
+     "paper_note": "The amplitude is low (about 0.10 mag), but TESS alone confirms the period independently.",
+     "concerns": "Eight datasets were screened out (704V, 703V, 703G, D29R, T05w, G45r, F51w, P07G). TESS supplies 4030 of the 6199 points, although the ground data alone give the same period."
+    },
+    {
+     "asteroid": 2817,
+     "adopted_P": 13.482,
+     "sigma_P": 0.00052,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 18.7618,
+       "note": "Manuscript P_c = 18.762 h. k=1 daily alias (rotation frequency 1.2792 vs 1.7802 c/d, difference 0.501 c/d), power 0.130, 0 bootstrap wins, rejected by held-out longitudes."
+      },
+      {
+       "P": 10.5257,
+       "note": "The other k=1 daily alias (0.208), 0 bootstrap wins. Held-out M22o data anti-correlate (r=-0.72)."
+      },
+      {
+       "P": 6.741,
+       "note": "P/2, the strongest peak but single-peaked (n4 1/1)."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "The strongest pair, 6.741 h (0.374, single-peaked, n4 1/1) and 13.482 h (0.370, double-peaked, n4 2/2, amp 0.47 mag), is one family with bootstrap 1.00/1.00, 14/14 leave-one-out agreement and both longitude groups agreeing, so R2 gives 13.4820 h. The manuscript 18.762 h is a k=1 daily alias (rotation frequencies differ by 0.501 c/d), with power 0.130 and no bootstrap wins. Held-out-longitude tests confirm 13.482 h (M22o r=+0.72, P07G+D29R r=+0.57) and reject 18.762 h (r=-0.13 and -0.05) and 10.526 h.",
+     "paper_note": "The previously published 18.762 h is a daily alias (difference 0.5 c/d) of the true 13.482 h period, which data from South Africa and from Asia/Australia confirm independently.",
+     "concerns": ""
+    },
+    {
+     "asteroid": 2968,
+     "adopted_P": 23.9793,
+     "sigma_P": 0.028,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 3.83087,
+       "note": "Non-commensurate family (with 1.915 h), bootstrap 0.23/0.19, double-peaked fold of 0.12 mag. 4.163, 5.631 and 6.382 h are its daily aliases."
+      },
+      {
+       "P": 6.38178,
+       "note": "Daily alias of 3.831 h, bootstrap 0.07/0.04. Positive cross-prediction in all held-out groups but weak."
+      },
+      {
+       "P": 7.98722,
+       "note": "Day-commensurate, single-peaked (0.081), bootstrap 0.12/0.07. Its 2P = 15.985 h is also day-commensurate."
+      },
+      {
+       "P": 4.56,
+       "note": "Manuscript P_c. Not recovered: 4.547/4.586 h, power 0.040/0.037, bootstrap 0.00."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "No family dominates. The day-commensurate 24 h family (23.979 h at 0.080, with 11.99 and 48.01 h) wins only 0.56/0.66 of the bootstraps, the 3.831 h family 0.23/0.19, 7.987 h 0.12/0.07 and 6.382 h 0.07/0.04. All of these have powers only about 3 times the 5-sigma threshold (0.023) and folds of 0.12-0.15 mag. The 24 h family has no TESS or multi-longitude support: single-site subsets are degenerate near 24 h, W68o anti-correlates (r=-0.15), and the fold is phase-clumped. R4 and R5 therefore give quality C, and 23.979 h is kept only as the family the bootstrap prefers. The manuscript 4.56 h is not recovered (power 0.036-0.040, 0 bootstrap wins).",
+     "paper_note": "No reliable period for (2968) can be derived from the MPC survey photometry: the strongest (24 h) solution is day-commensurate and unconfirmed, and the previously published 4.56 h is not supported.",
+     "concerns": "Only 1068 points and powers near the threshold. 704V, 703V and G45G were screened out, and there are no TESS data. The non-commensurate alternatives (3.831, 4.163, 5.631, 6.382 h) are daily aliases of each other."
+    },
+    {
+     "asteroid": 2971,
+     "adopted_P": 4.49082,
+     "sigma_P": 0.00031,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 4.95434,
+       "note": "k=1 daily alias (0.100; weighted 0.117), bootstrap 0.00/0.02. Held-out M22o data anti-correlate (r=-0.28)."
+      },
+      {
+       "P": 5.52577,
+       "note": "k=2 daily alias (0.096), preferred only by single-site Hawaii ATLAS subsets. Held-out W68o data anti-correlate (r=-0.22)."
+      },
+      {
+       "P": 2.24541,
+       "note": "P/2, equal power but single-peaked (n4 1/1)."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "2.24541 h (0.139, single-peaked) and 4.49082 h (0.139, double-peaked, n4 2/2, amp 0.14 mag) are one family with bootstrap 0.99/0.97 and 9/9 leave-one-out agreement, so R2 gives 4.49082 h. The daily aliases 4.954 h and 5.526 h (0.100 and 0.096) win at most 0.02 of the bootstraps. Models fitted without each station group predict the held-out M22o (r=+0.34), W68o (+0.23), I41+703 (+0.38) and Hawaii (+0.39) data at 4.4908 h, while each alias fails for at least one group. Only 81 % of resamplings stay in the main comb tooth (4.4908 vs 4.4900 h), so sigma is the scatter over all teeth.",
+     "paper_note": "",
+     "concerns": "The comb-tooth ambiguity (4.4908 vs 4.4900 h) is included in sigma. C57G was screened out (G1/G2 boundary), so there is no TESS check. Single-site ATLAS subsets prefer the 5.526 h alias."
+    },
+    {
+     "asteroid": 3081,
+     "adopted_P": 8.00729,
+     "sigma_P": 0.00018,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 4.00364,
+       "note": "P/2, the strongest peak (0.386) but single-peaked."
+      },
+      {
+       "P": 6.86051,
+       "note": "Weak (0.089), 0 bootstrap wins."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "4.00364 h (0.386, single-peaked) and 8.00729 h (0.371, double-peaked, n4 2/2, amp 0.60 mag) are one family with bootstrap 1.00/1.00, so R2 gives 8.00729 h; 2P = 16.01 h has no power. 8.007 h is day-commensurate (2f = 5.994 c/d), but it has strong independent support. TESS alone gives 8.013 h (double-peaked, about 0.5 mag), the Europe/Africa group and the weighted periodogram agree, and models fitted to the ground data predict TESS (r=+0.43), M22o+R17w (r=+0.80) and D29R (r=+0.73). It is quality B only because of the day-commensurate flag (R4).",
+     "paper_note": "8.007 h is nearly commensurate with the day (2f close to 6 c/d), but TESS and stations outside the Americas confirm it independently.",
+     "concerns": ""
+    },
+    {
+     "asteroid": 3172,
+     "adopted_P": 47.9399,
+     "sigma_P": 0.046,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 23.9696,
+       "note": "The strongest peak (0.170), single-peaked. Same day-commensurate family."
+      },
+      {
+       "P": 15.9721,
+       "note": "Nearest peak to the manuscript P_c = 15.997 h (P_fig 15.976 h). Power 0.130, bootstrap 0.02, day-commensurate (2f = 3.005 c/d)."
+      },
+      {
+       "P": 31.9437,
+       "note": "96/3 h member of the comb (0.091), bootstrap 0.00-0.02."
+      },
+      {
+       "P": 96.0318,
+       "note": "96 h member of the comb (0.070), 0 bootstrap wins."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "The periodogram is a complete 96/k h comb (96, 47.94, 31.94, 23.97, 19.17, 15.97, 11.98, 9.58, 7.98 and 5.99 h), typical of nightly zero-point offsets. The 23.97/47.94 h family wins 0.98/0.96 of the bootstraps, and R2 favours the double-peaked 47.94 h (0.21 mag) over the single-peaked 23.97 h. However, the family is day-commensurate (2f = 1.0013 c/d), C57G (TESS) was screened out and only one longitude group exists. Models fitted to the American stations anti-correlate with the South African and Australian data (M22o+P07G r=-0.44 at 47.94 h and -0.41 at 23.97 h), and the folds show phase-clumped coverage, so R4 gives quality C. The manuscript 15.997 h is not a peak itself (the nearest tooth is 15.972 h, power 0.130, bootstrap 0.02) and is another day-commensurate member of the comb.",
+     "paper_note": "The MPC photometry of (3172) gives only day-commensurate solutions (47.94, 23.97 or 15.97 h) that stations outside the Americas do not confirm, so the period remains undetermined.",
+     "concerns": "C57G was screened out (G1/G2 boundary), as were 704V, D29R and 691V. More than 90 % of the points come from American longitudes. The M22o and P07G data anti-correlate with the preferred model. The bootstrap jumps between comb teeth (same tooth 0.74), so sigma is the scatter over all teeth."
+    },
+    {
+     "asteroid": 3173,
+     "adopted_P": 1144,
+     "sigma_P": 3.2,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 572.037,
+       "note": "P/2 (0.494), single-peaked (1/1 with both 2 and 4 terms). Predicts held-out data equally well."
+      },
+      {
+       "P": 236.692,
+       "note": "Top primary-range peak, driven by TESS (TESS alone 237.3 h). Single-peaked, 0/2 groups agree, fails cross-validation. An R1 artifact."
+      },
+      {
+       "P": 46.066,
+       "note": "Tooth nearest the manuscript P_c = 45.983 h (power 0.048, bootstrap 0.02). A daily alias of the 572 h harmonic; fails cross-validation (r=-0.18)."
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": true,
+     "rationale": "The primary-range peaks (236.7, 231.1, 227.1 h and others) are a TESS-driven, single-peaked comb: 0/2 groups, 0/15 leave-one-out subsets and 0/10 single datasets agree, and the cross-validation r is about 0, so R1 allows the long-period family. 1144.0 h (0.524) and 572.0 h (0.494) beat the best primary candidate in 100 % of the bootstraps. They are recovered independently by the ground data without TESS (0.41/0.42), by Hawaii ATLAS alone (1144.6 h), by M22o+R17w alone (1147 h, 0.79) and by TESS. Models fitted to the American stations predict the stations in the Eastern Hemisphere (r=+0.73) and TESS (r=+0.65). 572 h folds single-peaked and 1144 h double-peaked (2/2, amp 0.52 mag), so R2 gives 1144 h. The manuscript 45.98 h is a daily alias of the 572 h harmonic (46.066 h: 2f' - 1 c/d gives 571.7 h).",
+     "paper_note": "(3173) is a slow rotator with P close to 1144 h (47.7 d, amplitude about 0.5 mag), confirmed by independent ground stations at different longitudes; the previously published 46 h is a daily alias of its second harmonic.",
+     "concerns": "The harmonic choice (1144 vs 572 h) rests on fold shape, since both predict held-out data equally well. The TESS data (2854 of 5958 points) show trends. Sigma is set by P^2/(2 dT) = 3.2 h; the bootstrap scatter is 0.24 h. 704V, I41r and T05w were screened out."
+    },
+    {
+     "asteroid": 3216,
+     "adopted_P": 1266.55,
+     "sigma_P": 4.4,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 633.32,
+       "note": "P/2 with the higher power (0.436). Single-waved with 2 terms in the ground data, with only a weak secondary maximum; predicts held-out data about as well."
+      },
+      {
+       "P": 187.829,
+       "note": "Strongest primary-range peak, part of a TESS-driven comb (with 221.7 and 217.7 h). Bootstrap at most 0.22, 0/11 leave-one-out agreement. An R1 artifact."
+      },
+      {
+       "P": 46.186,
+       "note": "Tooth nearest the manuscript P_c = 46.157 h (power 0.027, bootstrap 0.00). Daily alias of the about 611 h long-period tooth; fails cross-validation."
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": true,
+     "rationale": "The primary-range peaks (187.8, 217.7, 185.0, 214.6 and 221.7 h) are a TESS-driven comb (TESS alone 214.5 h) with 0/2 groups and 0/11 leave-one-out subsets agreeing, bootstrap fractions of at most 0.22 and no cross-validation (r about 0.04), so R1 allows the long-period solution. 633.3 h (0.436) and 1266.6 h (0.390) beat the primary candidates in 100 % of the bootstraps. They appear in every ground subset: without TESS, Hawaii ATLAS alone, M22o+R17w+P07G, and W68o+703V+G45r. Models fitted to the American stations predict the stations in the Eastern Hemisphere (r=+0.65 to +0.72) and TESS (r=+0.84 to +0.89). Without TESS the 633 h fold is single-waved, while 1266 h is clearly double-peaked (unequal maxima, about 0.45-0.5 mag), so R2 gives 1266.6 h and leaves 633.3 h as the harmonic alternative. The manuscript 46.16 h (power 0.027, bootstrap 0.00) lies in the daily-alias comb of the long-period signal and fails cross-validation.",
+     "paper_note": "(3216) is a slow rotator with P close to 1267 h (52.8 d, or 633 h if the light curve is single-waved) and amplitude about 0.5 mag; the previously published 46.16 h is not supported.",
+     "concerns": "There is a harmonic ambiguity between 1266 and 633 h: 633 h has the higher power and a slightly better 2-term cross-prediction. The TESS data (3466 of 5444 points) show trends and turn the combined 4-term fold at 1266 h into 4/4. 704V, 703G and D29R were screened out. Sigma is set by P^2/(2 dT) = 4.4 h; the bootstrap scatter is 1.2 h."
+    }
+   ]
+  },
+  "verify": {
+   "verdicts": [
+    {
+     "asteroid": 2583,
+     "verdict": "upheld",
+     "final_P": 7.79003,
+     "final_sigma_P": 0.0021,
+     "final_quality": "C",
+     "final_alternatives": [
+      23.9582,
+      47.9236,
+      6.7005,
+      15.9715,
+      3.89501
+     ],
+     "reason": "Survives my checks. The two TESS visits, taken 4 years apart, each find the 7.78/3.89 h pair as their top peaks on their own (visit 1: 7.784 h, power 0.138; visit 2: 7.778 h, 0.073). Neither visit shows power near 24 h (0.02-0.03). A 7.79 h model fitted to the ground data predicts TESS with r=+0.19 (random periods: sd 0.03, maximum 0.10) at scale 1.1. A 24 h model predicts TESS at scale only 0.17, so the 24/48 h comb is a ground-only effect. It is coherent between the Americas and M22o (r=+0.64), which shows that ground systematics are shared across sites, not that the object rotates in 24 h. I subtracted 20-day medians from each dataset to remove slow variations. After that the 24/48/12 h family and 6.70 h drop below 0.008, while 7.787-7.790 h and 3.894 h (0.042) remain the only significant peaks. TESS rejects the k=1 daily alias 6.70 h (0.006), although the ground data rank it slightly above 7.79 h. The 7.79 h fold is double-peaked, so R2 gives 7.79 h rather than 3.895 h. Quality stays C (R5): amplitude is only about 0.08 mag, the combined bootstrap family fraction is 0.04/0.02, and M22o anti-correlates (r=-0.24). On sigma: the bootstrap scatter over all teeth is 0.0013 h, but after the 20-day filtering the 7.7865, 7.7874 and 7.7900 h teeth are almost equally strong, so I keep the more conservative 0.0021 h."
+    },
+    {
+     "asteroid": 2817,
+     "verdict": "upheld",
+     "final_P": 13.48198,
+     "final_sigma_P": 0.00052,
+     "final_quality": "A",
+     "final_alternatives": [
+      6.741,
+      10.52567,
+      18.76181,
+      5.26284
+     ],
+     "reason": "Confirmed. 6.741 h (0.374) folds into a single 0.47 mag wave (1/1), while 13.482 h (0.370) is double-peaked (2/2) with slightly unequal minima. R2 therefore gives 13.482 h, and a 0.47 mag amplitude also requires a double-peaked light curve. The family bootstrap is 1.00/1.00, with 14/14 leave-one-out subsets and 2/2 longitude groups agreeing. My own cross-predictions confirm it. Models fitted to the Americas predict M22o at r=+0.73 (scale 1.1) and P07G+D29R at r=+0.57. Models fitted to Hawaii predict all other stations at r=+0.58. The k=1 daily aliases fail: 10.526 h and 5.263 h give r=-0.72 on M22o, and the manuscript's 18.762 h gives r=-0.19/-0.10/-0.13. The three single datasets that pick an alias (T08o, T05o, 703V) are each at one longitude and cannot break daily aliases. Sigma is P^2/(2dT) = 0.00052 h; the within-tooth scatter is only 2.3e-5 h."
+    },
+    {
+     "asteroid": 2968,
+     "verdict": "downgraded",
+     "final_P": 3.83087,
+     "final_sigma_P": 0.00039,
+     "final_quality": "C",
+     "final_alternatives": [
+      4.1634,
+      23.97928,
+      4.5596,
+      6.38178,
+      7.98722
+     ],
+     "reason": "Quality stays C, but 23.979 h is not the more plausible solution. Its bootstrap preference (0.56/0.66) comes entirely from the Hawaii data (T08o/T05o/T05c/T08c/F51w). My night-block bootstrap gives the 24 h family 0.96 on the Hawaii data but only 0.19 on the 418 non-Hawaii points (W68o, M22o, G45r, 703G). On those points the 3.831 h pair (0.26) and its k=1 daily alias 4.163 h (0.32) win together in 0.58 of resamplings. A 24 h model fitted to Hawaii does not predict W68o+M22o (r=-0.05, random periods sd 0.08). The 3.831 and 4.163 h models do (r=+0.16/+0.18), and Americas models at 3.83/4.16 h predict M22o at r=+0.44/+0.45 (random periods sd 0.12). The 24 h fold is phase-clumped and day-commensurate, with no TESS data (R4). After removing slow variations (20-day medians per dataset), 1.915/3.831 h is the strongest family (0.057/0.056), ahead of 2.082/4.163 h (0.048). The day-commensurate 7.987 h falls to 0.011. R2 picks 3.831 h, which is double-peaked (0.12 mag, full phase coverage), over the single-peaked 1.915 h. The alias ambiguity with 4.163 h (double-peaked, 0.12 mag, top in the weighted periodogram) is unresolved, so the quality stays C. The manuscript's 4.56 h (4.5596 h tooth) belongs to the same alias chain: rotation frequencies 6.265, 5.765 and 5.264 c/d are spaced by 0.5 c/d, so 4.56 h is the k=2 daily alias of 3.831 h. Sigma is the scatter over all teeth (only 0.59 of resamplings stay in one tooth) = 0.00039 h, larger than P^2/(2dT) = 0.00007 h."
+    },
+    {
+     "asteroid": 3172,
+     "verdict": "upheld",
+     "final_P": 47.93985,
+     "final_sigma_P": 0.046,
+     "final_quality": "C",
+     "final_alternatives": [
+      23.96956,
+      15.97205,
+      31.94372,
+      3.5281
+     ],
+     "reason": "C and 'period undetermined' are correct, and the evidence is stronger than the reviewer stated. The whole 96/k h comb is the daily alias of a slow brightness variation at the orbital period, not a rotation signal. The comb frequency is f=1.001270 c/d (2f=2.002540). The spectral-window peaks minus 1/P_orb (1380 d) are 1.001278 and 2.002518 c/d, within 2e-5 c/d of the comb (resolution 1.3e-4). A low-frequency periodogram peaks at about 1290-1380 d (power 0.25-0.33). The station-to-station correlations follow the longitude differences, as nightly sampling of a non-rotational variation predicts. At 47.94/23.97 h, T08o predicts M22o at r=-0.66 and W68o at about 0; at 11.98 h, T08o predicts M22o at +0.65 and W68o at -0.50. A genuine rotation would correlate positively at every station. Subtracting 20-day medians per dataset removes the entire comb (47.94 h: 0.003; 15.97 h: 0.007). That filter would also suppress a real day-commensurate signal, so this step alone is not decisive. What is left is only a marginal 1.764/3.528 h pair (0.018/0.015, about 0.05 mag, cross-subset r +0.08 to +0.10). The 15.97 h member (near the manuscript's 15.997/15.976 h) correlates between Hawaii and Chile (r=+0.45) but not with M22o, and it vanishes with the rest of the comb. No alternative is better supported, so the bootstrap-preferred, double-peaked 47.94 h is kept as a nominal value at quality C. Sigma is the scatter over all teeth (0.046 h)."
+    },
+    {
+     "asteroid": 3173,
+     "verdict": "upheld",
+     "final_P": 1144,
+     "final_sigma_P": 3.2,
+     "final_quality": "B",
+     "final_alternatives": [
+      572.037,
+      236.692,
+      46.066
+     ],
+     "reason": "R1 is satisfied. The primary-range comb (236.7, 231.1, 227.1 h, ...) comes from TESS, is single-peaked and fails every independent check (0/2 groups, 0/15 leave-one-out, 0/10 single datasets). The 572/1144 h signal comes from many ground datasets at different longitudes: without TESS, W68o, M22o, 703V, G45r, T05o and R17w each on their own. My cross-predictions give Americas to M22o+R17w+D29R r=+0.74 and ground to TESS r=+0.6 to +0.65 (scale about 0.9-1.0). 46.066 h (manuscript 45.98 h) and 24.98/49.96 h are daily aliases of the long-period harmonic (2f = 1.0027 - 0.042 or 1.0 + 0.042 c/d). On the harmonic: 1144 h is the strongest peak (0.524) and double-peaked (2/2), while 572 h (0.494) is a single 0.47 mag wave in every subset with both 2 and 4 terms. R2 and the large amplitude therefore give 1144 h. The ground data alone give equal power at the two periods (0.412/0.414), so the two halves of the light curve are not shown to differ; the choice rests on fold shape and amplitude. Quality B is appropriate. Sigma is P^2/(2dT) = 3.2 h."
+    },
+    {
+     "asteroid": 3216,
+     "verdict": "upheld",
+     "final_P": 1266.55,
+     "final_sigma_P": 4.4,
+     "final_quality": "B",
+     "final_alternatives": [
+      633.32,
+      187.829,
+      46.186
+     ],
+     "reason": "R1 is satisfied. The primary-range peaks are a TESS-driven, single-peaked comb with no independent support. The 633/1266 h signal appears in T08o, T05o, T05c, 703V, P07G, G45r and W68o individually. My cross-predictions give Americas to P07G+M22o+R17w r=+0.65 to +0.72 and ground to TESS r=+0.84 to +0.89, so the signal is real. 46.19 h (manuscript 46.16 h) is weak (0.027) and not confirmed. On the harmonic: 633 h is the strongest peak (0.436), but its fold is essentially a single wave. It is 1/1 in the ground-only 2-term fold, and in the combined fold the second maximum is only about 0.1 mag against about 0.45 mag for the main wave. A single-waved 0.5 mag light curve is physically implausible, and 1266 h (0.390, ratio 0.89, comparable) is double-peaked, so R2 gives 1266.55 h. One caveat: the long TESS visit covers 1510 h (1.2 cycles of 1266 h) and fits 633 h as well as 1266 h (rms 0.0889 vs 0.0915 with 2 terms; 0.0875 vs 0.0870 with 4). The two halves of the 1266 h light curve are therefore nearly identical, not 'clearly unequal' as the reviewer stated. This is still consistent with a normal double-peaked light curve, but 633 h remains the harmonic alternative. Quality B. Sigma is P^2/(2dT) = 4.4 h."
+    }
+   ]
+  }
+ },
+ {
+  "batch": [
+   3459,
+   3473,
+   3716,
+   3777,
+   3858,
+   3891,
+   3954,
+   4048,
+   4129
+  ],
+  "review": {
+   "results": [
+    {
+     "asteroid": 3459,
+     "adopted_P": 547.431,
+     "sigma_P": 0.74,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 535.51,
+       "note": "Adjacent inter-apparition comb tooth. Power 0.148-0.155 against 0.358 for the adopted tooth."
+      },
+      {
+       "P": 531.31,
+       "note": "Comb tooth (power about 0.14) that is the best period in the D29R and P07G single-dataset runs. It is the closest tooth to Polakis (2020), 532.9 h (synodic, one apparition)."
+      },
+      {
+       "P": 52.50471,
+       "note": "Best primary-range candidate (algorithmic proposal). It is the double of 26.25 h, which is a 1.0019 c/d window alias of 2f of 547.4 h. It is beaten by 547.4 h in 100% of bootstraps."
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": false,
+     "rationale": "The 547.431 h peak (power 0.358) is 2.8 times stronger than anything in 0.8-240 h (max 0.130) and beats the best primary candidate in 100% of bootstraps. Every one of the 13 leave-one-dataset-out runs returns 547.431 h. All primary-range peaks are window aliases of this signal: 26.25, 12.53 and 22.03 h are 2f(547 h) = 0.0877 c/d moved by the 1.0019 and 2.0038 c/d window peaks, and 25.05 h is the same shift of f. The 547.43 h fold is cleanly double-peaked (4-term amplitude 0.49 mag, bin-mean amplitude 0.60 mag) and consistent across 13 ground-based datasets from several longitudes; TESS was screened out. 273.71 h folds into a single wave, so R1 (long-period exception, with external support) and R2 give 547.43 h.",
+     "paper_note": "Slow rotator: the 0.8-240 h peaks (26.25, 52.50, 12.53, 22.03 h) are daily-window aliases of the 547.4 h double-peaked signal. The 2.7% difference from Polakis (2020; 532.9 h, synodic, one apparition) is comparable to the synodic-sidereal scale P^2/P_orb of about 10 h.",
+     "concerns": "No bootstrap tooth statistics exist for the extended range. Neighbouring comb teeth at 535.5 and 531.3 h have about 40% of the power, and 531.3 h wins in the single D29R and P07G runs. Single-longitude subsets (Europe/Africa, Asia/Australia, T08o, T05c, M22o, G45r) favour the 26.25 h alias. C57G was screened out, so there is no TESS check."
+    },
+    {
+     "asteroid": 3473,
+     "adopted_P": 9.07403,
+     "sigma_P": 0.000205,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 7.62897,
+       "note": "Daily alias family. Power 0.122, bootstrap family fraction 0.00 (unweighted and weighted). Favoured only by the single D29R and G96V runs."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 4.537/9.074 h harmonic family wins 100% of bootstraps in both the unweighted and weighted periodograms (power 0.249 against 0.122 for the 7.629/3.814 h alias). All three longitude groups and 12/12 leave-one-out runs return this family. 4.537 h folds into a single wave (1/1). 9.074 h is clearly double-peaked (2/2, amplitude 0.26 mag), so under R2 it is the rotation period. The comb tooth is stable (same-tooth fraction 1.00).",
+     "paper_note": "",
+     "concerns": "The single-dataset runs for D29R and G96V favour the 7.63 h alias, and 703V favours 18.13 h. These are noisy sparse datasets, and leaving any of them out does not change the result."
+    },
+    {
+     "asteroid": 3716,
+     "adopted_P": 10.47434,
+     "sigma_P": 0.0013,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 10.4714,
+       "note": "Adjacent comb tooth (second tooth ratio 0.93). The strongest tooth in the noise-weighted periodogram (5.2357/10.4714 h)."
+      },
+      {
+       "P": 13.40545,
+       "note": "Daily alias. Power 0.122, bootstrap 0.00. Favoured by the Asia/Australia group and the W68o run."
+      },
+      {
+       "P": 8.59394,
+       "note": "Daily alias. Power 0.129, bootstrap 0.00."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 5.237/10.474 h family wins 100% of bootstraps (unweighted and weighted), with power 0.235/0.229 against about 0.13 for the 8.59, 13.41 and 6.70 h daily aliases. All 16 leave-one-out runs and all_but_TESS agree. The 3-day TESS visit alone peaks at 10.605/5.306 h, which matches 10.474 h within its resolution (about 0.7 h) and rules out the daily aliases. 5.237 h is single-waved and 10.474 h is double-peaked (amplitude 0.29 mag). Only 63-76% of resamplings stay in one comb tooth, so sigma is the scatter over teeth (0.0013 h). Quality is B because two of the three longitude groups favour aliases and the tooth is ambiguous.",
+     "paper_note": "The separate-dataset value P_av = 10.743 h printed in the manuscript has no periodogram support (power 0.013) and is probably a digit transposition of 10.474 h.",
+     "concerns": "The comb tooth is ambiguous: the weighted periodogram prefers 10.4714 h. The Americas and Asia/Australia groups favour the 6.70 and 13.41 h aliases (ratios 0.95-0.96). The TESS visit lasts only 3 days."
+    },
+    {
+     "asteroid": 3777,
+     "adopted_P": 23.973,
+     "sigma_P": 0.0081,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 47.8302,
+       "note": "Manuscript value. Separate family: bootstrap 0.24 unweighted, 0.28 weighted. Double-peaked 0.25 mag fold. Favoured by the Americas group and the 703V run. Day-commensurate."
+      },
+      {
+       "P": 47.946,
+       "note": "Exact double of 23.973 h. Power 0.125 (n=2), untidy 3/3 fold. Second family in the weighted periodogram (47.9454 h)."
+      },
+      {
+       "P": 11.97905,
+       "note": "Half-day alias. Bootstrap 0.03/0.02. Becomes the best peak when W68o is left out."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "Every significant peak (23.97, 47.83, 11.98, 15.97, 7.99, 5.99, 95.67 h) sits at 2f near a multiple of 0.5 c/d. The two leading solutions, 23.973 h (2f = 2.002 c/d) and 47.830 h, are both day-commensurate. 23.973 h has the higher power (0.166 against 0.158) and the higher bootstrap family fraction (0.73/0.68 against 0.24/0.28), leads the weighted periodogram (0.135 against 0.104) and is favoured by the Europe/Africa and Asia/Australia groups. The Americas group prefers 47.83 h. The 4-term fold at 23.973 h has 2/2 extrema (amplitude 0.28 mag), but a single wave dominates it, so a double period (47.83 or 47.95 h) cannot be excluded. The family fraction is below 0.8 and there is no TESS data, so R4 gives quality C.",
+     "paper_note": "Day-commensurate and ambiguous: P about 24 h and P about 48 h cannot be separated with ground-based survey data. We adopt 23.973 h (bootstrap 0.73) instead of the previously printed 47.831 h, which remains a viable alternative.",
+     "concerns": "Nightly zero-point offsets between datasets could produce part of the signal. The fold at 23.97 h is dominated by one wave. Leaving out W68o flips the best peak to 11.98 h. The comb has 32 teeth within 1% (second tooth 1.00), so the tooth is unstable (same-tooth fraction 0.45). There is no TESS data."
+    },
+    {
+     "asteroid": 3858,
+     "adopted_P": 7.08809,
+     "sigma_P": 0.00079,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 7.09,
+       "note": "Adjacent comb tooth, preferred by the weighted periodogram (7.0900 h). Covered by sigma."
+      },
+      {
+       "P": 7.03223,
+       "note": "Weak alias. Power 0.052, bootstrap 0.00."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 7.088/3.544 h family dominates with power 0.356 (next family 0.052) and wins 100% of bootstraps in both periodograms. All longitude groups, 17/17 leave-one-out runs, all_but_TESS and TESS alone (7.088 h, 0.552) agree. 3.544 h folds into a single wave. 7.088 h is double-peaked with amplitude 0.36 mag. Only 78% of resamplings stay in one tooth, so sigma is the scatter over teeth (0.0008 h).",
+     "paper_note": "",
+     "concerns": "TESS supplies 3488 of 6041 points, but the result does not depend on it (all_but_TESS gives the same period). The comb tooth is ambiguous between 7.0881 and 7.0900 h."
+    },
+    {
+     "asteroid": 3891,
+     "adopted_P": 92.7532,
+     "sigma_P": 0.0235,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 31.5892,
+       "note": "Manuscript P_c. Its rotation frequency differs by 0.5 c/d, making it the 1 c/d daily alias of 2f. Power 0.080 against 0.229, bootstrap 0.00. Favoured only by the single M22o run."
+      },
+      {
+       "P": 46.3767,
+       "note": "Half period. Single-waved fold (1/1), power 0.176."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "92.753 h is the strongest peak (0.229; weighted 0.226) and its family wins 100% of bootstraps in both periodograms. The manuscript's 31.589 h has power 0.080 and 0% of bootstraps; it is the daily alias of 92.75 h (2f shifted by 1.002 c/d). All 12 leave-one-out runs return 92.753 h, as do the T08o, W68o and T05c runs; the T05o run returns the half period. 46.38 h folds into a single wave, while 92.75 h is clearly double-peaked (4-term amplitude 0.33 mag). It is not day-commensurate (2f = 0.52 c/d), and the tooth is stable (same-tooth fraction 1.00).",
+     "paper_note": "Alias correction: the previously printed 31.589 h is the 1 c/d daily alias of the second harmonic of the true 92.75 h period, which wins 100% of bootstraps with 2.9 times the power.",
+     "concerns": "Americas datasets supply 1414 of 1606 points, so longitude diversity cannot break the daily aliases. The single M22o run (South Africa) cannot tell 31.59 h from 92.75 h (ratio 0.99)."
+    },
+    {
+     "asteroid": 3954,
+     "adopted_P": 2.87978,
+     "sigma_P": 2e-05,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 2.7165,
+       "note": "Daily alias. Power 0.052, bootstrap 0.00, amplitude 0.10 mag."
+      },
+      {
+       "P": 5.75956,
+       "note": "Double period. Power 0.069, and its two halves are identical in the 4-term fold, so it is not the rotation period."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "2.8798 h is the strongest peak (0.201; weighted 0.230) and wins 100% of bootstraps with a stable tooth (same-tooth fraction 1.00). Both longitude groups and 12/12 leave-one-out runs agree. The 4-term fold is double-peaked (2/2, amplitude 0.21 mag) with unequal maxima. 1.44 h folds into a single wave, and the 5.76 h fold repeats the same curve twice.",
+     "paper_note": "The separate-dataset value P_av = 2.75 h printed in the manuscript has no support in the combined data (power 0.012 at 2.7495 h). The combined value is 2.8798 h.",
+     "concerns": "D29R was screened out. The single G45r and G96V runs show only long-period noise, and 703V favours the double period."
+    },
+    {
+     "asteroid": 4048,
+     "adopted_P": 49.1971,
+     "sigma_P": 0.059,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 49.12,
+       "note": "Adjacent inter-apparition comb tooth (power about 0.17), matching the manuscript P_c of 49.115 h. Within 1.4 sigma."
+      },
+      {
+       "P": 49.015,
+       "note": "Another comb tooth, power 0.171."
+      },
+      {
+       "P": 36.215,
+       "note": "Separate family (36.2/72.4 h). Power 0.067, bootstrap 0.00."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The 24.60/49.20 h family wins 100% of bootstraps (unweighted and weighted), with power 0.196 against 0.067 for the next family. TESS alone gives 49.13 h (0.325), which agrees within its resolution of about 0.7 h, and all_but_TESS and all 16 leave-one-out runs agree. 24.60 h folds into a single wave. 49.197 h is clearly double-peaked (amplitude 0.30 mag) and not day-commensurate. Tooth stability is 78%, so sigma is the scatter over teeth (0.059 h). The manuscript's 49.115 h is an adjacent tooth of the same family.",
+     "paper_note": "The comb tooth moves from 49.115 h to 49.197 h (0.17%, within sigma). The period is confirmed by TESS alone (49.13 h).",
+     "concerns": "The inter-apparition tooth is ambiguous (49.197, 49.12 and 49.015 h have similar power). TESS supplies 2190 of 4753 points. The Europe/Africa group and several single datasets give a spurious 974.7 h peak."
+    },
+    {
+     "asteroid": 4129,
+     "adopted_P": 291.058,
+     "sigma_P": 0.2,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 145.528,
+       "note": "Half period (algorithmic proposal). Strongest peak, but folds into a single wave (1/1) with 0.47 mag amplitude."
+      },
+      {
+       "P": 287.401,
+       "note": "Adjacent comb tooth (2 x 143.70 h). Power 0.157. Favoured by the single M22o run."
+      },
+      {
+       "P": 57.3364,
+       "note": "Manuscript P_c. Double of 28.668 h, which is the 1.002 c/d daily alias of 2f(291 h). Power 0.172, bootstrap 0.00, fold rms 0.228 against 0.199 mag. Favoured by the Asia/Australia group."
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": true,
+     "rationale": "The 145.53/291.06 h family dominates: power 0.366/0.364 against 0.173 for the 28.67/57.34 h alias family, 100% of bootstraps in both periodograms, and 14/14 leave-one-out runs. 145.53 h folds into a single wave with a 0.47 mag amplitude, which is physically implausible. 291.058 h has comparable power and is clearly double-peaked (4-term amplitude 0.49 mag, rms 0.199), so R2 gives 2P. Several ground-based datasets support it (Americas group, W68o Chile, G45r, 703V, and the without-T05o and without-W68o runs), which satisfies the R1 long-period exception. The manuscript's 57.34 h is the daily alias of 2f(291 h) (28.668 h = 1/(1.0021 - 0.1649 c/d)). Sigma = P^2/(2dT) = 0.20 h.",
+     "paper_note": "Slow rotator, corrected from the previously printed 57.34 h (a daily alias of the second harmonic) to 291.06 h. The strongest 145.5 h peak is the half period, since its single-wave 0.5 mag fold is unphysical.",
+     "concerns": "The adopted period is above the 240 h primary range. The single T08o, T05o and T05c runs (ATLAS Hawaii) and the Asia/Australia group favour the 28.67/57.34 h alias, and M22o favours the 287.4 h tooth. There is no TESS data."
+    }
+   ]
+  },
+  "verify": {
+   "verdicts": [
+    {
+     "asteroid": 3459,
+     "verdict": "upheld",
+     "final_P": 547.431,
+     "final_sigma_P": 0.74,
+     "final_quality": "B",
+     "final_alternatives": [
+      535.51,
+      531.31,
+      52.50471
+     ],
+     "reason": "I could not refute 547.431 h. It has power 0.358 (weighted 0.353) against 0.130 for the best primary-range peak, and it beats the best primary candidate in 100% of bootstraps. The 26.25, 12.53 and 22.03 h peaks are the 547 h second harmonic (0.0877 c/d) shifted by the 1.0019 and 2.0038 c/d window peaks. The 52.50 h fold is weak (rms 0.249 against 0.2135 at 547.43 h). The 4-term fold at 547.43 h is clean and double-peaked (2/2, amplitude 0.49 mag); 273.71 h is a single wave. So R1 (long-period exception, with Polakis as external support) and R2 both give 547.43 h. My own checks fill the reviewer's gaps. (1) Every ground-based dataset on its own has a strong peak at 530-550 h (power 0.33-0.68), including T08o, T05o, T05c, W68o, M22o, D29R, P07G and R17w, so several longitudes support it. The largest datasets (T08o, T05o, T05c) put it at 547.4-547.6 h. (2) A night-block bootstrap I ran over 500-600 h (200 resamplings) kept the 547.4 h tooth in 100% of cases, with scatter 0.03 h. (3) The neighbouring teeth are weaker than the reviewer stated: power 0.148 at 535.51 h, 0.072 at 531.31 h and only 0.023 at Polakis's 532.9 h. Sigma = P^2/(2dT) = 0.74 h. I keep quality B rather than A because the period is above 240 h and the 2.7% offset from the single-apparition value of Polakis (2020) is attributed to synodic-sidereal drift but has not been shown to be."
+    },
+    {
+     "asteroid": 3777,
+     "verdict": "downgraded",
+     "final_P": 47.8302,
+     "final_sigma_P": 0.055,
+     "final_quality": "C",
+     "final_alternatives": [
+      23.973,
+      47.946,
+      11.97905
+     ],
+     "reason": "Quality C is correct, but 23.973 h is not the more plausible member under R2, which comes before R3. In the 2-term fit at 23.973 h the first harmonic dominates (A1 = 0.083 mag against A2 = 0.055 mag). The 4-term 2/2 count comes from a weak, irregular secondary hump (minima 0.31 apart in phase), so the fold is not clearly double-peaked. The double of that period is present with comparable power: 47.830 h has power 0.158, which is 95% of 0.166. It is labelled 2P in the peak families and is the strongest comb tooth within 0.24% of 2 x 23.973 h; the exact double, 47.946 h, has power 0.125 and folds 3/3. At 47.83 h the second harmonic dominates (A2/A1 = 1.6, with negligible A3 and A4), giving a regular double-peaked curve. Fitting each of the 14 datasets on its own gives the same pattern in 13 of them: the best peak near 24 h is dominated by a single wave (A2/A1 < 1), while the best peak near 48 h is double-peaked (A2/A1 > 1). The separate-dataset manuscript value (47.848 h) agrees. The case for 23.973 h is statistical only: bootstrap 0.73/0.68 against 0.24/0.28 and weighted power 0.136 against 0.104. That is why this is a downgrade to C, not a clear overturn. R4 keeps it at C in any case: both solutions are day-commensurate, there is no TESS data, and the global model explains variance in the Hawaii and Arizona datasets (T05c, T05o, T08o, 703G, G45r, about +0.3 to +0.4) but not in W68o (Chile), M22o (South Africa) or P07G, so the signal lacks cross-longitude support. Sigma: only 62% of resamplings stay in the 47.83 h tooth. My bootstrap over the 48 h comb gives a scatter of 0.055 h over all teeth, which is larger than P^2/(2dT) = 0.006 h."
+    },
+    {
+     "asteroid": 3891,
+     "verdict": "upheld",
+     "final_P": 92.7532,
+     "final_sigma_P": 0.0235,
+     "final_quality": "A",
+     "final_alternatives": [
+      31.5892,
+      46.3767
+     ],
+     "reason": "92.753 h survives. It has power 0.229 (weighted 0.226), its family wins 100% of bootstraps in both periodograms, all 12 leave-one-out runs agree, and the tooth is stable (same tooth 1.00, second tooth 0.54). The 4-term fold is clearly double-peaked (2/2, amplitude 0.33 mag, A2/A1 = 1.6). The half, 46.38 h, is a single sinusoid (A2/A1 = 0.3). The double, 185.5 h, has power 0.059 and an irregular 4/4 fold. The manuscript's 31.589 h is the 1.002 c/d alias of 2f (power 0.080, bootstrap 0). The reviewer worried that longitude coverage is too narrow to break this alias, so I tested it directly. The global 92.75 h model explains variance in every one of the 12 datasets (+0.10 to +0.37), including the non-American M22o (+0.12) and D29R (+0.12). The 31.59 h model makes both worse (M22o -0.49, D29R -0.20), so the South African and Chinese data reject the alias even though their single-dataset periodograms cannot separate the two. The solution is not day-commensurate (2f = 0.52 c/d), so quality A is justified. Sigma = P^2/(2dT) = 0.0235 h, larger than the tooth scatter of 0.0014 h."
+    },
+    {
+     "asteroid": 4129,
+     "verdict": "upheld",
+     "final_P": 291.058,
+     "final_sigma_P": 0.2,
+     "final_quality": "B",
+     "final_alternatives": [
+      145.528,
+      287.401,
+      57.3364
+     ],
+     "reason": "291.058 h survives. The 145.53 h peak is a pure single sinusoid: A1 = 0.220 mag, A2 = 0.034 mag, a 0.47 mag single wave. Under R2 that is not an acceptable rotation solution, and the double has equal power (0.363 against 0.366; weighted 0.383 against 0.389) and folds 2/2 with amplitude 0.49 mag. So R2 gives 2P, and no satisfactory double-peaked primary-range solution remains apart from the alias family. The manuscript's 57.34/28.67 h family is the 1.0021 c/d alias of 2f(291 h): power 0.172, bootstrap 0. The reviewer's concern that some subsets favour the alias does not hold up. On their own, M22o (South Africa) prefers 145.50 h to 28.74 h (0.704 against 0.653) and W68o (Chile) prefers 145.52 h to 28.67 h; D29R and P07G peak at 292.8 and 294.7 h. The global 145.5/291 h model explains variance in all non-Hawaii datasets (M22o +0.52, D29R +0.32, P07G +0.29, W68o +0.59). The 57.34 h model makes M22o (-0.83) and D29R (-0.34) worse. Only the Hawaii ATLAS datasets prefer the alias, which is expected from a single longitude. This satisfies the R1 exception for several longitudes with a coherent fold. The 291.06 h tooth is secure: 287.40 h has power 0.157 and 294.8 h has 0.138, and my bootstrap over 280-300 h kept 100% in the 291.04-291.06 h tooth (scatter 0.013 h). Sigma = P^2/(2dT) = 0.20 h. I keep B rather than A because the period is above 240 h and the choice of P or 2P rests on the R2 shape argument: A1 at 291 h is only 0.03 mag, so the data barely distinguish the two halves of the light curve."
+    }
+   ]
+  }
+ },
+ {
+  "batch": [
+   4239,
+   4245,
+   4267,
+   4270,
+   4273,
+   4303,
+   4320,
+   4322,
+   4331,
+   4371
+  ],
+  "review": {
+   "results": [
+    {
+     "asteroid": 4239,
+     "adopted_P": 23.1382,
+     "sigma_P": 0.00114,
+     "quality": "A",
+     "alternatives": [],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "The strongest peak, 11.5691 h (power 0.268), folds into a single wave (n4 1/1). Its double, 23.1382 h, has nearly the same power (0.263 unweighted, 0.292 weighted) and folds into a clear double-peaked curve (n4 2/2, amplitude 0.52 mag). The bootstrap family fraction is 1.00 in both periodograms, with same tooth 1.00. All three longitude groups (americas, europe_africa, asia_australia) and 14/14 leave-one-out subsets select the 11.569/23.138 h family. The manuscript P_c = 15.612 h is a daily alias (its rotation frequency is 0.5 c/d away) with power 0.127 and family win 0.00; the old-figure 11.775 h also has family win 0.00.",
+     "paper_note": "The period is revised from 15.612 h (a daily alias) to 23.138 h; every longitude group and every leave-one-dataset-out subset selects the 11.569/23.138 h harmonic family.",
+     "concerns": "Some single datasets pick aliases (T08o: 15.61 h, T05o: 5.89 h, T05c: 11.78 h). 704V (LINEAR, the largest dataset) has a large scatter with many outliers."
+    },
+    {
+     "asteroid": 4245,
+     "adopted_P": 19.7908,
+     "sigma_P": 0.00121,
+     "quality": "A",
+     "alternatives": [],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 9.8954 h (power 0.460), folds into a single wave. Its double, 19.7908 h (power 0.454), is double-peaked with unequal maxima (n4 2/2, amplitude 0.48 mag). The bootstrap family fraction is 1.00 unweighted and weighted, and 13/13 leave-one-out subsets agree. TESS alone independently gives 9.888/19.764 h (power 0.69/0.67). The only other family is the daily alias 16.84/33.67 h (power 0.08, family win 0), preferred only by the small europe_africa group and a few single datasets.",
+     "paper_note": "",
+     "concerns": "704V and 703V were screened out (chi2). The europe_africa group (n=168) and several single datasets (T05o, T05c, 703G, G96V) prefer the 16.84/33.67 h daily alias."
+    },
+    {
+     "asteroid": 4267,
+     "adopted_P": 51.4198,
+     "sigma_P": 0.0066,
+     "quality": "A",
+     "alternatives": [],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 25.7100 h (power 0.149), folds into a single wave (n4 1/1). Its double, 51.4198 h (power 0.136, 92% of the strongest), is double-peaked with unequal maxima (n4 2/2, amplitude 0.25 mag). The bootstrap family fraction is 0.99 unweighted and weighted, with same tooth 0.95. Both longitude groups, all 13 leave-one-out subsets, the ground-only data and TESS alone (25.715/51.473 h) agree. The next family, 37.94 h, has power 0.083 and family win 0.01.",
+     "paper_note": "Slow rotator (51.42 h), independently confirmed by TESS and by the ground-based data alone.",
+     "concerns": "TESS contributes 1252 of 3200 points and cannot separate its inter-visit teeth (25.715 vs 26.232 h). Several single ground datasets (T05c, 703V, 703G, G96V) peak at 337/693 h, probably from trends."
+    },
+    {
+     "asteroid": 4270,
+     "adopted_P": 10.86835,
+     "sigma_P": 0.00032,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 23.93491,
+       "note": "Day-commensurate family (with 11.968 and 47.833 h). Family win 0.06 unweighted / 0.16 weighted; top peak of the europe_africa group and of T08o, T05c and M22o alone. The fold is dominated by offsets between datasets."
+      },
+      {
+       "P": 47.83332,
+       "note": "Same day-commensurate family (2f = 1.0035 c/d); top peak of the americas group. Amplitude 0.16 mag, weak fold."
+      },
+      {
+       "P": 14.05766,
+       "note": "Daily alias of 10.868 h (2f differs by 1 c/d); the period in the old figure. Power 0.053, family win 0."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "10.8684 h has the highest power in the full data (0.117; 5.434 h is its single-wave half) and folds into a coherent double-peaked curve (n4 2/2, amplitude 0.20 mag, lowest rms). The bootstrap family fraction is 0.93 unweighted and 0.82 weighted, and 14/14 leave-one-out subsets keep this family. However, both longitude groups on their own prefer the day-commensurate 23.93/47.83 h family. R4 flags that family as likely produced by nightly zero-point offsets, and it has only 0.06/0.16 family win. The daily alias 14.058 h shown in the old figure has family win 0.",
+     "paper_note": "The 14.058 h shown in the earlier figure is a daily alias of 10.868 h. A day-commensurate 23.9/47.8 h alternative, favoured by the individual longitude groups, cannot be fully excluded.",
+     "concerns": "Longitude groups agree 0/2 and single datasets 2/9. F51w and C57G were screened out (G1/G2 boundary), so there is no TESS check. The amplitude is modest (about 0.2 mag)."
+    },
+    {
+     "asteroid": 4273,
+     "adopted_P": 2.76259,
+     "sigma_P": 2.1e-05,
+     "quality": "A",
+     "alternatives": [],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "2.76259 h is the strongest peak (power 0.244) and is double-peaked with unequal minima (n4 2/2, amplitude 0.235 mag). Its half, 1.3813 h, is a single wave. The bootstrap family fraction is 1.00 unweighted and weighted, with same tooth 1.00. Both longitude groups and 13/13 leave-one-out subsets agree. The daily aliases 2.612 h (power 0.145) and 2.931 h (power 0.129) have family win 0.",
+     "paper_note": "",
+     "concerns": "T08o, the largest single dataset, prefers the 2.612 h alias family on its own, and W68o alone prefers 2.931 h. These are single-dataset alias confusions that the combined data resolve."
+    },
+    {
+     "asteroid": 4303,
+     "adopted_P": 6.13625,
+     "sigma_P": 0.0001,
+     "quality": "A",
+     "alternatives": [],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 3.0681 h (power 0.631), folds into a single wave. Its double, 6.13625 h (power 0.612), has a large-amplitude double-peaked light curve (n4 2/2, amplitude 0.60 mag). The bootstrap family fraction is 1.00 in both periodograms. All longitude groups, all 15 leave-one-out subsets, all 11 single datasets and TESS alone (3.069/6.136 h) agree, and no other family exceeds power 0.025.",
+     "paper_note": "",
+     "concerns": ""
+    },
+    {
+     "asteroid": 4320,
+     "adopted_P": 2.76897,
+     "sigma_P": 0.00012,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 2.76928,
+       "note": "Adjacent comb tooth (twice the 1.38464 h tooth, which the weighted periodogram marginally prefers). A cycle-count ambiguity within the same solution."
+      },
+      {
+       "P": 1.38464,
+       "note": "Half period. Single-wave fold (amplitude 0.16 mag), and below the spin barrier for an asteroid of this size; not preferred."
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The harmonic pair 2.769/1.385 h dominates the periodogram (power 0.136/0.128; no other peak exceeds 0.032). The bootstrap split (0.59/0.41 unweighted, 0.45/0.55 weighted) is between P and a neighbouring comb tooth of P/2, not between different solutions. The 2.769 h fold is double-peaked (n4 2/2, amplitude 0.20 mag), whereas 1.385 h is a single wave. All three longitude groups and 12/12 leave-one-out subsets select this harmonic family. Quality B because only 83% of resamplings stay in one tooth (2.76897 vs 2.76928 h); sigma is the scatter across teeth. The manuscript P_av = 2.614 h is a weak daily alias (power 0.025).",
+     "paper_note": "The 1.385 h half-period is rejected because its fold is a single wave. The separate-dataset value of 2.614 h is a daily alias.",
+     "concerns": "703V and 704V were screened out. There is a comb-tooth (cycle-count) ambiguity at the 3e-4 h level. The amplitude is modest (about 0.2 mag)."
+    },
+    {
+     "asteroid": 4322,
+     "adopted_P": 18.7782,
+     "sigma_P": 0.00095,
+     "quality": "A",
+     "alternatives": [],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "18.7782 h is the strongest peak (power 0.389) and folds into a coherent double-peaked curve (n4 2/2, amplitude 0.41 mag, rms 0.174 against 0.197 for the alias). The bootstrap family fraction is 1.00 unweighted and weighted, and 12/12 leave-one-out subsets agree. The daily alias family 15.44/30.88 h (power 0.233) has family win 0.00, and its fold is noisier. M22o (Africa), 703V, I41r and the americas group all select 18.778 h.",
+     "paper_note": "",
+     "concerns": "6 of 10 single datasets (including T08o, T05o, T05c, 703G, D29R, G96V) prefer the 15.44/30.88 h alias family. Only one longitude group has enough data for a group check. 704V was screened out."
+    },
+    {
+     "asteroid": 4331,
+     "adopted_P": 147.524,
+     "sigma_P": 0.053,
+     "quality": "A",
+     "alternatives": [],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 147.524 h (power 0.373, weighted 0.415), is double-peaked (n4 2/2, amplitude 0.27 mag). Its half, 73.76 h, is a single wave. The bootstrap family fraction is 1.00 unweighted and weighted, with same tooth 1.00. All 16 leave-one-out subsets agree, the ground-only data give 147.524 h, and TESS alone gives 146.5/73.7 h. The neighbouring teeth and aliases (145.77, 71.15, 73.08 h) have power at most 0.17 and family win 0.",
+     "paper_note": "Slow rotator (147.5 h), confirmed independently by TESS and by the ground-based data alone.",
+     "concerns": "TESS contributes 2860 of 6043 points. The asia_australia group (dominated by D29R) prefers 73.08 h. 703G was screened out."
+    },
+    {
+     "asteroid": 4371,
+     "adopted_P": 447.159,
+     "sigma_P": 2.9,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 223.609,
+       "note": "Strongest primary-range peak (power 0.105), i.e. the half period. It folds into a single wave with the two-term model and has 0.00 unweighted bootstrap wins. It is adopted instead only if a single-humped light curve is accepted."
+      },
+      {
+       "P": 225.931,
+       "note": "Algorithmic choice; bootstrap-preferred neighbouring comb tooth (family win 0.72 unweighted, 0.46 weighted, same tooth 0.15). The fold is essentially a single wave; its double would be about 451.9 h."
+      },
+      {
+       "P": 228.91,
+       "note": "Another comb tooth (family win 0.28 / 0.19), preferred by T05o, T05c, W68o and the europe_africa group; its double would be about 457.8 h."
+      },
+      {
+       "P": 455.118,
+       "note": "Extended-range tooth (power 0.057)."
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 223.61 h (power 0.105; strongest in both periodograms, 15/15 leave-one-out subsets, americas and asia groups), folds into a single wave with the two-term model (1/1, amplitude 0.19 mag); the n4 secondary maximum is only a few hundredths of a magnitude. Its double, 447.16 h, has comparable power (0.088, 84%), folds into a double-peaked curve (2/2, amplitude 0.18-0.20 mag), and is the top peak of M22o alone. R2 therefore selects 447.16 h, with ground-based support from several longitudes and no TESS involvement. The night-block bootstrap, however, prefers the neighbouring comb teeth 225.93 h (0.72 u / 0.46 w) and 228.91 h (0.28 / 0.19) over 223.61 h (0.00 / 0.35), so the cycle count across apparitions is unresolved. Sigma is the between-teeth scatter doubled (2 x 1.45 h). The old-figure 26.81 h has power 0.026 and family win 0, so it is not supported.",
+     "paper_note": "Very slow rotator: about 447 h (twice the single-wave 223.6 h signal), with comb-tooth aliases at about 452-458 h (226-229 h) not excluded; the 26.81 h shown in the earlier figure is not supported by the new data.",
+     "concerns": "No TESS data (C57G screened out; G45r and 704V also screened). The bootstrap and the leave-one-out/longitude-group checks disagree on the comb tooth. The amplitude is low (about 0.2 mag) relative to a scatter of about 0.195 mag. The long period is near the limit that the survey cadence can constrain."
+    }
+   ]
+  },
+  "verify": {
+   "verdicts": [
+    {
+     "asteroid": 4239,
+     "verdict": "upheld",
+     "final_P": 23.13818,
+     "final_sigma_P": 0.00114,
+     "final_quality": "A",
+     "final_alternatives": [],
+     "reason": "I tried to refute it and could not. I re-ran fold_plot.py with n=4 at 11.5691, 23.13818 and 15.61252 h. At 11.5691 h the fold is a single wave (1/1) of 0.51 mag, which is not credible as a shape-driven light curve. At 23.13818 h the fold is clearly double-peaked (2/2, 0.52 mag) with the same power (0.262 vs 0.267; weighted 0.292), so R2 selects 23.138 h. Twice that period is not warranted because the fold is already double-peaked. Bootstrap family fraction is 1.00 in both periodograms and same tooth is 1.00. I checked the bootstrap code: here the candidates' search windows do not overlap, so these fractions are valid. The comb tooth is secure: the neighbouring teeth reach only about 0.66 of the peak and none wins. All 3 longitude groups and 14/14 leave-one-dataset-out subsets select the 11.569/23.138 h family. The period is not day-commensurate (2f = 2.075 c/d). The manuscript's 15.612 h is a daily alias (power 0.127, family win 0.00) with a lower-amplitude fold of 0.34 mag. The old-figure 11.775 h also has family win 0.00. The extended-range 344/688 h peaks never beat the primary peak (0.00). Sigma = P^2/(2 dT) = 0.00114 h, larger than the within-tooth bootstrap scatter of 5e-5 h. Quality A is justified."
+    },
+    {
+     "asteroid": 4371,
+     "verdict": "upheld",
+     "final_P": 447.159,
+     "final_sigma_P": 3.1,
+     "final_quality": "C",
+     "final_alternatives": [
+      225.931,
+      455.118,
+      223.609,
+      228.91
+     ],
+     "reason": "447.16 h survives as the most plausible period, but part of the reviewer's rationale is wrong. The bootstrap fractions in the evidence file are an artifact of a bug. In rebootstrap.py each candidate is searched within +/-20/base (0.0016 c/d). The window of 225.93 h (f=0.10623 c/d) contains the stronger 223.61 h peak (f=0.10733). Both windows then return the same maximum, and np.argmax gives the tie to candidate index 0 (225.93 h). That is why 225.93 h shows win_u 0.71 but same_tooth only 0.15, while 223.61 h has same_tooth 0.79 but win_u 0.00. I re-ran 200 night-block resamplings taking the single global maximum over 0.095-0.12 and 0.19-0.23 c/d. The 223.61 h tooth (the 447 h family) wins 0.71 unweighted and 0.65 weighted. The competitors are 225.93 h (0.14/0.20), 227.56 h (0.13/0.13) and 228.91 h (0.02/0.03). The 223.61 h peak is also the strongest in both periodograms, in 15/15 leave-one-out subsets, and in the americas group and the asia_australia band. In the europe group, 447.2 h is about as strong as the best peak (0.39 vs 0.41), and M22o alone picks it. Several ground-based datasets at different longitudes therefore support it; TESS is not involved. I measured harmonic amplitudes at exact periods. At 223.61 h the first harmonic (0.084 mag) dominates the second (0.042), so the fold is a single wave. The n4 secondary maximum is about 0.02 mag, so the fold is not clearly double-peaked. R2 therefore doubles it to 447.16 h, whose power is comparable (0.088 two-term, 0.103 four-term vs 0.106) and whose fold is double-peaked (0.085 mag second harmonic, 0.18-0.20 mag amplitude). Its two halves are identical: the odd harmonics are about 0.01 mag. So the doubling rests on R2, not on direct evidence. The main primary-range competitor is 225.93 h. Its fold is double-peaked (0.046/0.069 mag) because its power comes mostly from a separate 113 h signal. It is backed by no longitude group and no leave-one-out subset, and wins only 0.14/0.20 in the corrected bootstrap. 455.12 h is the double of the single-wave 227.56 h tooth. 223.61 h is the rotation period only if a single-humped curve is accepted. 26.81 h is not supported (power 0.026). Quality stays C: the family fraction is 0.65-0.71, below 0.8, and the cycle count is unresolved. Sigma uses the scatter over all teeth: my bootstrap winners scatter by 1.54 h (weighted 1.61 h) around 224.5 h, doubled to about 3.1 h. That is far above P^2/(2 dT) = 0.34 h. The reviewer's 2.9 h came from the buggy 225.93 h window."
+    }
+   ]
+  }
+ },
+ {
+  "batch": [
+   4396,
+   4456,
+   4478,
+   4482,
+   4556,
+   4618,
+   4682,
+   4761,
+   4777
+  ],
+  "review": {
+   "results": [
+    {
+     "asteroid": 4396,
+     "adopted_P": 30.6884,
+     "sigma_P": 0.0024,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 30.72565,
+       "note": "nearby comb tooth/side family, bootstrap family fraction 0.01 (u) / 0.01 (w)"
+      },
+      {
+       "P": 85.37765,
+       "note": "42.69/85.38 h daily-alias family, preferred only by single datasets T08o, 703V, F51w, G96V; bootstrap fraction 0.00"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 15.3442 h (power 0.384), folds into a single wave (4-term 1/1). Its double, 30.6884 h (power 0.370, weighted 0.356), is double-peaked with an amplitude of 0.47 mag, so R2 gives 30.688 h. The family's bootstrap fraction is 0.99 in both the unweighted and weighted periodograms, with same tooth 1.00. All 3 longitude groups, 17/17 leave-one-out subsets and TESS alone (15.342 h) agree. sigma is set by the resolution limit P^2/(2dT) = 0.0024 h.",
+     "paper_note": "",
+     "concerns": "Single ground-based datasets (T08o, 703V, F51w, G96V) prefer the 42.69/85.38 h daily alias, but the combined, multi-longitude data resolve it; 704V was screened out."
+    },
+    {
+     "asteroid": 4456,
+     "adopted_P": 7.03376,
+     "sigma_P": 0.00044,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 6.1332,
+       "note": "0.5 c/d daily alias of the second harmonic; marginally preferred by the americas group (2nd/1st 0.98), bootstrap fraction 0.00, absent from TESS alone"
+      },
+      {
+       "P": 14.0725,
+       "note": "double period, weak (power 0.032), not needed because the 7.034 h fold is already double-peaked"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "7.0338 h is the strongest peak (power 0.114, weighted 0.125, 12x the 5-sigma threshold) and folds double-peaked (2/2, amplitude 0.15 mag); 3.517 h is its single-wave half. Family bootstrap fraction is 1.00 in both periodograms, leave-one-out 13/13 agree, and TESS alone (free of daily aliases) gives 7.039 h. The americas group marginally prefers the 0.5 c/d alias 6.133 h (ratio 0.98), so the quality is B. Resamplings jump between comb teeth (same tooth 0.86), so sigma is the all-teeth scatter, 0.00044 h.",
+     "paper_note": "TESS photometry breaks the 0.5 c/d alias ambiguity (6.133 h) in favour of 7.034 h.",
+     "concerns": "Modest amplitude (0.15 mag). Comb-tooth jumps in the bootstrap. 703V and G45r alone give spurious ~400-450 h peaks."
+    },
+    {
+     "asteroid": 4478,
+     "adopted_P": 130.001,
+     "sigma_P": 0.035,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 75.8678,
+       "note": "mirror daily alias (f' = 1.0019 c/d - f) of the 65/130 h family, power 0.198 vs 0.434; preferred by the asia_australia group, T05o and D29R; bootstrap fraction 0.00"
+      },
+      {
+       "P": 35.0073,
+       "note": "manuscript value; 0.5 c/d daily alias of the 130 h second harmonic, power 0.142, bootstrap fraction 0.00, fold rms 0.312 vs 0.253"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "The strongest peak, 65.0005 h (power 0.439), is single-waved (1/1). Its double, 130.001 h (power 0.434, weighted 0.472), gives a clean double-peaked fold with an amplitude of 0.66 mag and the lowest rms (0.2525 vs 0.30-0.31 for the alias periods). The family's bootstrap fraction is 1.00 in both periodograms and 17/17 leave-one-out subsets agree. The manuscript's 35.007 h differs from 130.0 h by 0.501 c/d in rotation frequency, which makes it a daily alias (power 0.142, fraction 0.00). Only 1 of 3 longitude groups and 5 of 12 single datasets pick this family (the small groups tie with daily aliases), so the quality is B.",
+     "paper_note": "The previously published 35.007 h is a daily alias. The combined data show a slow rotator with P = 130.00 h and a large amplitude (0.66 mag).",
+     "concerns": "No TESS data. The small europe_africa and asia_australia groups and several single datasets (including the reference T08o) cannot break the daily alias and favour the 37.93/75.87 h mirror alias."
+    },
+    {
+     "asteroid": 4482,
+     "adopted_P": 105.011,
+     "sigma_P": 0.18,
+     "quality": "C",
+     "alternatives": [
+      {
+       "P": 105.478,
+       "note": "adjacent comb tooth (0.44 %), unweighted bootstrap winner (0.73) but unstable (same tooth 0.05); preferred by T05o, T05c, 703V, 703G; equals manuscript P_c 105.467"
+      },
+      {
+       "P": 3.043,
+       "note": "literature value (Fekete et al. 2024, dense photometry); not detected in the survey data: power 0.003-0.005 < 5-sigma threshold 0.010, amplitude 0.04 mag"
+      },
+      {
+       "P": 53.6154,
+       "note": "further comb tooth of the ~52.5/105 h cluster, preferred by W68o alone"
+      }
+     ],
+     "agrees_with_algorithm": false,
+     "differs_from_manuscript": true,
+     "rationale": "The strongest primary-range peak, 52.5055 h (power 0.132, weighted 0.141), is single-waved. Its double, 105.011 h (power 0.130, weighted 0.137), is double-peaked with an amplitude of 0.20 mag. Every ground-based dataset (T08o, T05o, T05c, 703V, 703G, M22o, W68o) independently lands in this ~105 h cluster. Within it, 105.011 h is the full-data peak in both periodograms, the TESS-free peak, the weighted-bootstrap winner (0.64) and the stable tooth (0.74, vs 0.05 for 105.478 h), so the comb-tooth ambiguity is covered by the all-teeth scatter of 0.18 h. The 1416 h peak comes only from TESS (space group) and is a trend artifact. However, the dense-photometry 3.043 h of Fekete et al. (2024) is neither confirmed nor excluded (survey amplitude < 0.05 mag there), so the quality is C.",
+     "paper_note": "The survey data show a double-peaked ~105.0 h, 0.2 mag signal in all ground-based datasets. This conflicts with the 3.043 h found from dense photometry by Fekete et al. (2024), which is below our detection limit, so the period remains uncertain. Note also that the manuscript quotes four inconsistent values (105.011-105.624 h) for this object.",
+     "concerns": "TESS (C57G, 2001 of 3358 points) has strong intra-visit trends and quantised magnitudes. These produce the 1416 h and 1.000 h artifacts and make every leave-one-out subset (0/9) jump to 1416 h. The unweighted and weighted bootstraps disagree on the comb tooth (105.48 vs 105.01 h). Literature conflict."
+    },
+    {
+     "asteroid": 4556,
+     "adopted_P": 36.0794,
+     "sigma_P": 0.026,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 36.1316,
+       "note": "adjacent comb tooth preferred by the noise-weighted periodogram (manuscript P_fig 36.133), within 2 sigma"
+      },
+      {
+       "P": 146.164,
+       "note": "1 c/d daily-alias family (73.09/146.16 h), power 0.078, preferred by single Hawaii datasets T08o, T05o, T05c; bootstrap fraction 0.00"
+      },
+      {
+       "P": 20.5898,
+       "note": "manuscript P_c 20.598; 0.5 c/d daily alias of the 36.08 h second harmonic, power 0.053, fraction 0.00"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": true,
+     "rationale": "The strongest peak, 18.0397 h (power 0.213), is single-waved. Its double, 36.0794 h (power 0.209, weighted 0.214), folds double-peaked with an amplitude of 0.18 mag. The family's bootstrap fraction is 1.00 in both periodograms, and both longitude groups and 12/12 leave-one-out subsets agree. The manuscript table's 20.598 h differs by 0.500 c/d in rotation frequency (a daily alias) and has only a quarter of the power (0.053, fraction 0.00). The weighted periodogram prefers the adjacent tooth 36.132 h (same tooth 0.63), so sigma is the all-teeth scatter, 0.026 h.",
+     "paper_note": "The tabulated 20.598 h was a 0.5 c/d daily alias; the combined data give 36.08 h, consistent with the period shown in the old figure (36.133 h, a neighbouring comb tooth).",
+     "concerns": "Single-site datasets (T08o, T05o, T05c, G45r) favour the 1 c/d alias 73/146 h. Many datasets were screened out (704V, 703V, 703G, P07G, G96V, T05w). Comb-tooth ambiguity between 36.079 and 36.132 h."
+    },
+    {
+     "asteroid": 4618,
+     "adopted_P": 6.78111,
+     "sigma_P": 0.00012,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 5.9417,
+       "note": "daily alias, power 0.192, bootstrap fraction 0.00"
+      },
+      {
+       "P": 7.89854,
+       "note": "daily alias, power 0.169, preferred only by W68o alone; fraction 0.00"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 3.3906 h (power 0.331), is single-waved. Its double, 6.7811 h (power 0.326, weighted 0.332), is clearly double-peaked with an amplitude of 0.36 mag and the lowest rms (0.161 vs 0.177-0.179 for the aliases). The family's bootstrap fraction is 1.00 in both periodograms, with same tooth 0.99. The longitude group, 12/12 leave-one-out subsets and TESS alone (6.782 h) agree. sigma is the resolution limit P^2/(2dT) = 0.00012 h.",
+     "paper_note": "",
+     "concerns": ""
+    },
+    {
+     "asteroid": 4682,
+     "adopted_P": 6.45556,
+     "sigma_P": 0.00049,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 6.51957,
+       "note": "weak separate peak (power 0.021, amplitude 0.09 mag, fraction 0.00); corresponds to the manuscript P_av 6.523 h, which is not supported"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 3.2278 h (power 0.230), folds as a single wave (1/1). Its double, 6.4556 h (power 0.204, weighted 0.207), has comparable power and is double-peaked with an amplitude of 0.24 mag, so R2 gives 6.4556 h. The family's bootstrap fraction is 1.00 in both periodograms. All 3 ground-based longitude groups, 17/17 leave-one-out subsets and TESS alone (3.228/6.456 h, equal power) agree. Resamplings jump between comb teeth (same tooth 0.63), so sigma is the all-teeth scatter, 0.00049 h.",
+     "paper_note": "The separate-dataset value 6.523 h given in the manuscript corresponds to a weak spurious peak and should be replaced by the combined solution 6.4556 h.",
+     "concerns": "TESS supplies 54 % of the points. Comb-tooth jumps in the bootstrap. The two halves of the 6.456 h fold are nearly identical, so the double-period choice rests on R2 rather than on visible asymmetry."
+    },
+    {
+     "asteroid": 4761,
+     "adopted_P": 5.09056,
+     "sigma_P": 5.3e-05,
+     "quality": "B",
+     "alternatives": [
+      {
+       "P": 4.60192,
+       "note": "1 c/d daily alias (2.301/4.602 h), power 0.059 but weighted 0.020; favoured by the noisy 704V and 703V datasets, by T05c, by the americas group and by all_but_TESS; bootstrap fraction 0.00"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 2.5453 h (power 0.321), is single-waved. Its double, 5.0906 h (power 0.318, weighted 0.392), is double-peaked with an amplitude of 0.44 mag (rms 0.193 vs 0.228 at the alias). The family's bootstrap fraction is 1.00 in both periodograms, same tooth 0.97. TESS alone (5.091 h) and the good-quality single datasets from several longitudes (T08o, T05o, W68o, M22o, 703G, I41r) support it. The americas group and the ground-only data tie with the 1 c/d alias 2.301/4.602 h in the unweighted periodogram, so the quality is B. sigma is the resolution limit P^2/(2dT) = 0.000053 h.",
+     "paper_note": "The noise-weighted periodogram and TESS resolve the 1 c/d alias (4.602 h) that the unweighted ground-based data alone cannot exclude.",
+     "concerns": "The alias is driven by noisy LINEAR (704V) and Catalina (703V) data. TESS supplies 64 % of the points."
+    },
+    {
+     "asteroid": 4777,
+     "adopted_P": 9.73386,
+     "sigma_P": 0.00026,
+     "quality": "A",
+     "alternatives": [
+      {
+       "P": 8.09274,
+       "note": "daily alias, power 0.142 vs 0.455, fold rms 0.212 vs 0.168; preferred only by T05c alone; fraction 0.00"
+      }
+     ],
+     "agrees_with_algorithm": true,
+     "differs_from_manuscript": false,
+     "rationale": "The strongest peak, 4.8669 h (power 0.463), is single-waved. Its double, 9.7339 h (power 0.455, weighted 0.463), is clearly double-peaked with an amplitude of 0.47 mag. The family's bootstrap fraction is 1.00 in both periodograms, with same tooth 0.99. All 3 longitude groups, 15/15 leave-one-out subsets and 10/12 single datasets agree. sigma is the resolution limit P^2/(2dT) = 0.00026 h.",
+     "paper_note": "",
+     "concerns": ""
+    }
+   ]
+  },
+  "verify": {
+   "verdicts": [
+    {
+     "asteroid": 4478,
+     "verdict": "upheld",
+     "final_P": 130.001,
+     "final_sigma_P": 0.035,
+     "final_quality": "B",
+     "final_alternatives": [
+      75.8678,
+      35.0073
+     ],
+     "reason": "The 130.001 h period holds up. The strongest peak, 65.0005 h, folds as a single wave (1/1). Its double, 130.001 h, has comparable power (0.434 vs 0.439; weighted 0.471) and folds cleanly double-peaked with an amplitude of 0.66 mag, so R2 gives 130 h. Its fold rms is 0.2525, against 0.3011 at the 75.868 h mirror alias and 0.3119 at the manuscript's 35.007 h. The alternatives have much less power: 0.198 and 0.142 unweighted, 0.19 and 0.13 weighted. The family's bootstrap fraction is 1.00 in both periodograms, and all 17 leave-one-out subsets agree. I re-ran the bootstrap resolving individual comb teeth: 100 % of resamplings, unweighted and weighted, stay in the 130.001 h tooth (the next tooth, 129.33 h, has power 0.27). The subsets that pick the 37.93/75.87 h mirror alias are ties, not contradictions: europe_africa 0.779 vs 0.780, asia_australia 0.426 vs 0.429, T08o 0.609 vs 0.644, T05o 0.385 vs 0.487. Each covers too narrow a range of longitude to break a daily alias, and combining longitudes suppresses the alias (Americas group 0.425 vs 0.337; all data 0.434 vs 0.198). The manuscript's 35.007 h differs by 0.501 c/d in rotation frequency, which makes it a daily alias; its bootstrap fraction is 0.00. The long-period peaks (361 h and 367 h, power 0.03) never beat the primary candidate. Quality stays B rather than A: only 1 of 3 longitude groups picks this family on its own (the other two tie with the mirror alias), and there are no TESS data. sigma = P^2/(2dT) = 0.0353 h, which is larger than the bootstrap scatter of 0.0012 h."
+    },
+    {
+     "asteroid": 4482,
+     "verdict": "upheld",
+     "final_P": 105.011,
+     "final_sigma_P": 0.18,
+     "final_quality": "C",
+     "final_alternatives": [
+      105.478,
+      3.043
+     ],
+     "reason": "105.011 h holds up, and the evidence for it over the adjacent tooth at 105.478 h is stronger than the reviewer stated. The '0.73 unweighted bootstrap win' for 105.478 h is a pipeline artefact. In rebootstrap.py each candidate is searched over +/-20/baseline, a window wide enough to contain the neighbouring tooth (0.0010 c/d away). When two candidates' windows find the same maximum, np.argmax gives the win to the first-listed candidate, which here is 105.478 h. That is why 105.478 h shows win 0.68 but same-tooth 0.05, while 105.011 h shows win 0.00. I re-ran the bootstrap over one 103.5-107.5 h window, with no ties possible: the 105.011 h tooth wins 71 % (unweighted) and 80 % (weighted); 105.478 h wins only 6 % and 11 %. The per-dataset preferences in the evidence have the same problem: mpc_redo.py searches +/-3/baseline of each subset, and for the shorter subsets these windows overlap. Measured at each tooth separately, T05o, T05c, 703G, M22o and W68o prefer 105.011 h; 703V, I41r and T08o (the last marginally) prefer 105.478 h. All 9 leave-one-out subsets prefer 105.011 h (unweighted). Full-data power: 105.011 h 0.1295, weighted 0.1369; 105.478 h 0.0987, weighted 0.1132. The fold at 105.011 h is double-peaked (2/2) with an amplitude of 0.20 mag; 52.505 h is single-waved (1/1). The ground data alone give the same result (52.50 and 105.01 h strongest; 2/2 fold, 0.195 mag). TESS alone, which has no daily aliases, also peaks at about 105/52.5 h (power 0.135) within 20-240 h, so the ~105 h family is independently confirmed. The 1416 h peak comes only from TESS (C57G): its fold is made of the quantised, trending TESS tracks. The 1.000 h peak is also a TESS artefact. Both are rejected under R1. The quality stays C for two reasons. First, the comb-tooth fraction is 0.71 unweighted and 0.80 weighted. Second, the 3.043 h of Fekete et al. (2024) from dense photometry is not detected in the survey data (power 0.005-0.02, amplitude about 0.05 mag, below the 0.010 threshold and below random peaks) but cannot be excluded either. sigma: fewer than 90 % of resamplings stay in one tooth, so the all-teeth scatter from the evidence (0.179 h) applies; it exceeds P^2/(2dT) = 0.030 h."
+    },
+    {
+     "asteroid": 4556,
+     "verdict": "upheld",
+     "final_P": 36.0794,
+     "final_sigma_P": 0.026,
+     "final_quality": "B",
+     "final_alternatives": [
+      36.1316,
+      146.164,
+      20.5898
+     ],
+     "reason": "The 36.08 h family is secure, but the exact comb tooth is not, so I lower the quality from A to B. The strongest peak, 18.0397 h, is single-waved (1/1). Its double, 36.0794 h (power 0.209), folds double-peaked with an amplitude of 0.18 mag and an rms of 0.1138. The 146.164 h alternative is weaker: power 0.078, amplitude 0.11 mag, rms 0.1232. The manuscript table's 20.590 h has power 0.053, and both 146.16 h and 20.59 h differ from 36.08 h by 0.50 c/d in rotation frequency (daily aliases); their bootstrap fractions are 0.00. The family's bootstrap fraction is 1.00 in both periodograms, both longitude groups agree, and 12/12 leave-one-out subsets agree. The single Hawaii ATLAS datasets (T08o, T05o, T05c) favour the 73/146 h alias, but all three nearly tie (ratios 0.91-0.99); one site cannot break a daily alias, and Pan-STARRS F51w/F52w, from the same longitude, prefer 18/36 h. The comb tooth is where the checks disagree. Unweighted, 36.0795 h is higher (0.2092 vs 0.2023 at 36.1326 h), wins 63 % of my tooth-resolved bootstrap, and is preferred by 10/12 leave-one-out subsets. Weighted, 36.1325 h is higher (0.2222 vs 0.2141), wins 71 %, and is preferred by 11/12 leave-one-out subsets. Single datasets split 4 vs 6 in favour of 36.13 h, and 36.13 h matches the old figure's 36.133 h. This is exactly the case A excludes (R3: the weighted periodogram disagrees), so the quality is B. The two teeth are 0.15 % apart, 2 sigma with the all-teeth scatter. I keep 36.0794 h, the peak of the primary unweighted periodogram and the unweighted bootstrap winner. sigma = all-teeth bootstrap scatter, 0.026 h (confirmed by my re-run: 0.026 unweighted, 0.024 weighted); it is larger than P^2/(2dT) = 0.004 h."
+    }
+   ]
+  }
+ }
+]

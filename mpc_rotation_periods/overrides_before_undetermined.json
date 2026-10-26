@@ -1,0 +1,30 @@
+{
+    "1944":  {
+                 "quality":  "C",
+                 "alternatives":  [
+                                      447.621,
+                                      45.47205
+                                  ],
+                 "override_reason":  "The 895/448 h signal is four times stronger than any primary-range peak and survives phase-angle detrending tests, but the combined fold is dominated by TESS visit ramps, the periodogram near 895 h has many peaks of comparable power, and a period comparable to the length of an apparition can arise from slow non-rotational brightness changes (residual phase-curve or aspect effects) that all stations see. The 45.47 h peak is the daily alias of this long-period signal. Quality lowered from B to C."
+             },
+    "3173":  {
+                 "quality":  "C",
+                 "alternatives":  [
+                                      572.037,
+                                      46.066
+                                  ],
+                 "override_reason":  "The 572/1144 h signal is present in many ground-based datasets and in TESS, but cross-prediction between stations cannot distinguish rotation from a slow non-rotational brightness change common to all observers; 1144 h (48 d) is comparable to the length of an apparition, and the harmonic choice rests only on fold shape. The 46.07 h peak is the daily alias of the long-period signal. Quality lowered from B to C."
+             },
+    "3216":  {
+                 "quality":  "C",
+                 "alternatives":  [
+                                      633.32,
+                                      46.186
+                                  ],
+                 "override_reason":  "Same situation as (3173): a 633/1267 h signal common to all stations, comparable to the length of an apparition, with the two halves of the 1267 h light curve nearly identical (633 h fits equally well). Rotation is not established. Quality lowered from B to C."
+             },
+    "3891":  {
+                 "quality":  "B",
+                 "override_reason":  "92.75 h wins all bootstrap samples, but 1414 of 1606 points come from American longitudes: no independent longitude group exists and the only non-American dataset (M22o) cannot separate 92.75 h from the daily alias 31.59 h. As for (3567), the daily-alias choice lacks an independent test; quality lowered from A to B."
+             }
+}

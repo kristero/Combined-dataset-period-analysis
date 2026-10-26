@@ -1,0 +1,349 @@
+{
+ "3216": {
+  "adopted_P": 1264.9647726729704,
+  "quality": "C",
+  "subsets": {
+   "all": {
+    "n_points": 5612,
+    "n_trials": 3648,
+    "P_best": 631.616487,
+    "dev_min": 0.116113,
+    "dev_median": 0.21427800000000002,
+    "threshold": 1.0094651824741496,
+    "minima_within_threshold": [
+     631.616487
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "1264.96": 1.3496174835601478,
+     "632.482": 1.0,
+     "2529.93": 2.3867167098505417
+    }
+   },
+   "odd": {
+    "n_points": 3997,
+    "n_trials": 3192,
+    "P_best": 631.409258,
+    "dev_min": 0.084065,
+    "dev_median": 0.1767665,
+    "threshold": 1.0112281614111005,
+    "minima_within_threshold": [
+     631.409258
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "1264.96": 1.3648932176006174,
+     "632.482": 1.0,
+     "2529.93": 3.1974876652933126
+    }
+   },
+   "even": {
+    "n_points": 1607,
+    "n_trials": 3648,
+    "P_best": 631.431936,
+    "dev_min": 0.145156,
+    "dev_median": 0.2345555,
+    "threshold": 1.0178117624969774,
+    "minima_within_threshold": [
+     631.431936
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "1264.96": 1.353988662413523,
+     "632.482": 1.0,
+     "2529.93": 2.0433224928953737
+    }
+   }
+  }
+ },
+ "3173": {
+  "adopted_P": 1143.9953397762022,
+  "quality": "C",
+  "subsets": {
+   "all": {
+    "n_points": 5956,
+    "n_trials": 4104,
+    "P_best": 1191.072029,
+    "dev_min": 0.084502,
+    "dev_median": 0.1902505,
+    "threshold": 1.0091863042434925,
+    "minima_within_threshold": [
+     1191.072029
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "1144": 2.04846004850107,
+     "571.998": 2.0812796447120157,
+     "2287.99": 3.5627668177675194
+    }
+   },
+   "odd": {
+    "n_points": 4567,
+    "n_trials": 3672,
+    "P_best": 1191.066857,
+    "dev_min": 0.068951,
+    "dev_median": 0.1812475,
+    "threshold": 1.0104990131391451,
+    "minima_within_threshold": [
+     1191.066857
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "1144": 1.698181187325281,
+     "571.998": 1.4049835257794319,
+     "2287.99": 4.007719344817371
+    }
+   },
+   "even": {
+    "n_points": 1378,
+    "n_trials": 3888,
+    "P_best": 595.621035,
+    "dev_min": 0.106131,
+    "dev_median": 0.185473,
+    "threshold": 1.0192664280213228,
+    "minima_within_threshold": [
+     595.621035,
+     1191.038529
+    ],
+    "n_minima_within_threshold": 2,
+    "chi2_ratio_at_adopted_family": {
+     "1144": 1.2186365887890396,
+     "571.998": 1.2346237378226435,
+     "2287.99": 1.5720605657561808
+    }
+   }
+  }
+ },
+ "1944": {
+  "adopted_P": 895.22118272797,
+  "quality": "C",
+  "subsets": {
+   "all": {
+    "n_points": 4091,
+    "n_trials": 4008,
+    "P_best": 922.879394,
+    "dev_min": 0.13707,
+    "dev_median": 0.18296,
+    "threshold": 1.0110974190404618,
+    "minima_within_threshold": [
+     922.879394,
+     454.342585
+    ],
+    "n_minima_within_threshold": 2,
+    "chi2_ratio_at_adopted_family": {
+     "895.221": 1.1585246973484915,
+     "447.611": 1.1479167508086425,
+     "1790.44": 1.3193053896334606
+    }
+   },
+   "odd": {
+    "n_points": 3024,
+    "n_trials": 3792,
+    "P_best": 923.074238,
+    "dev_min": 0.135421,
+    "dev_median": 0.177389,
+    "threshold": 1.0129250324984194,
+    "minima_within_threshold": [
+     923.074238
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "895.221": 1.0712749082765536,
+     "447.611": 1.0618185363617314,
+     "1790.44": 1.195437630724523
+    }
+   },
+   "even": {
+    "n_points": 1067,
+    "n_trials": 4008,
+    "P_best": 454.126307,
+    "dev_min": 0.121732,
+    "dev_median": 0.180018,
+    "threshold": 1.0219687387581873,
+    "minima_within_threshold": [
+     454.126307,
+     922.71014
+    ],
+    "n_minima_within_threshold": 2,
+    "chi2_ratio_at_adopted_family": {
+     "895.221": 1.2058974143606542,
+     "447.611": 1.0934171514224895,
+     "1790.44": 1.7783400773879894
+    }
+   }
+  }
+ },
+ "3459": {
+  "adopted_P": 547.4310099624905,
+  "quality": "B",
+  "subsets": {
+   "all": {
+    "n_points": 3325,
+    "n_trials": 4080,
+    "P_best": 537.456511,
+    "dev_min": 0.149175,
+    "dev_median": 0.2287765,
+    "threshold": 1.0123203545159096,
+    "minima_within_threshold": [
+     537.456511
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "547.431": 1.5330149867509106,
+     "273.716": 1.0878416586348092,
+     "1094.86": 1.7239377539542173
+    }
+   },
+   "odd": {
+    "n_points": 1334,
+    "n_trials": 3408,
+    "P_best": 537.408497,
+    "dev_min": 0.130962,
+    "dev_median": 0.213795,
+    "threshold": 1.0195890238190333,
+    "minima_within_threshold": [
+     537.408497
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "547.431": 1.2230675747721491,
+     "273.716": 1.137650721567291,
+     "1094.86": 1.8988074837964384
+    }
+   },
+   "even": {
+    "n_points": 1991,
+    "n_trials": 4080,
+    "P_best": 537.426566,
+    "dev_min": 0.148128,
+    "dev_median": 0.227822,
+    "threshold": 1.0159719141249985,
+    "minima_within_threshold": [
+     537.426566
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "547.431": 1.2879295589587416,
+     "273.716": 1.1306858176854955,
+     "1094.86": 1.7515913506589453
+    }
+   }
+  }
+ },
+ "4371": {
+  "adopted_P": 447.1588509809098,
+  "quality": "C",
+  "subsets": {
+   "all": {
+    "n_points": 2845,
+    "n_trials": 5928,
+    "P_best": 226.740907,
+    "dev_min": 0.144618,
+    "dev_median": 0.1839365,
+    "threshold": 1.0133297791993683,
+    "minima_within_threshold": [
+     226.740907
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "447.159": 1.3600141889245452,
+     "223.579": 1.1958060228496172,
+     "894.318": 1.483629717188456
+    }
+   },
+   "odd": {
+    "n_points": 1223,
+    "n_trials": 4032,
+    "P_best": 226.736736,
+    "dev_min": 0.132484,
+    "dev_median": 0.160479,
+    "threshold": 1.020480798012976,
+    "minima_within_threshold": [
+     226.736736
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "447.159": 1.2520495788502464,
+     "223.579": 1.1414155684618237,
+     "894.318": 1.2921630326216924
+    }
+   },
+   "even": {
+    "n_points": 1613,
+    "n_trials": 5808,
+    "P_best": 226.733076,
+    "dev_min": 0.148111,
+    "dev_median": 0.1890795,
+    "threshold": 1.0177779533633695,
+    "minima_within_threshold": [
+     226.733076
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "447.159": 1.317013907967105,
+     "223.579": 1.1067640619312085,
+     "894.318": 1.4634577805377713
+    }
+   }
+  }
+ },
+ "4129": {
+  "adopted_P": 291.05799948863375,
+  "quality": "C",
+  "subsets": {
+   "all": {
+    "n_points": 2290,
+    "n_trials": 4176,
+    "P_best": 288.765308,
+    "dev_min": 0.147662,
+    "dev_median": 0.21438649999999998,
+    "threshold": 1.014877394755915,
+    "minima_within_threshold": [
+     288.765308,
+     144.961195
+    ],
+    "n_minima_within_threshold": 2,
+    "chi2_ratio_at_adopted_family": {
+     "291.058": 1.0,
+     "145.529": 1.0115186705630708,
+     "582.116": 1.6400411741475172
+    }
+   },
+   "odd": {
+    "n_points": 1369,
+    "n_trials": 3984,
+    "P_best": 288.754803,
+    "dev_min": 0.143694,
+    "dev_median": 0.20591350000000003,
+    "threshold": 1.0193311168256765,
+    "minima_within_threshold": [
+     288.754803,
+     144.953386
+    ],
+    "n_minima_within_threshold": 2,
+    "chi2_ratio_at_adopted_family": {
+     "291.058": 1.0,
+     "145.529": 1.0106339919327056,
+     "582.116": 1.6815751008159034
+    }
+   },
+   "even": {
+    "n_points": 921,
+    "n_trials": 3960,
+    "P_best": 144.964192,
+    "dev_min": 0.136255,
+    "dev_median": 0.202234,
+    "threshold": 1.023702273156999,
+    "minima_within_threshold": [
+     144.964192
+    ],
+    "n_minima_within_threshold": 1,
+    "chi2_ratio_at_adopted_family": {
+     "291.058": 1.0513717566237084,
+     "145.529": 1.0,
+     "582.116": 1.6043390881647752
+    }
+   }
+  }
+ }
+}

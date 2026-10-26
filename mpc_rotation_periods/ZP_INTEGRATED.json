@@ -1,0 +1,11 @@
+{
+ "date": "2026-10-07 17:38",
+ "split": "703 and G96 at JD 2458300.5, parts < 30 points dropped",
+ "code_snapshot": "\ufeffSnapshot of the analysis classes as used by the September 2026 MPC_redo runs (the repository working copy has since changed):\n  Asteroid_pickle.py = paper_figures/previous_versions/Asteroid_pickle_before_lighttime_fix.py (50899 bytes, mtime 2026-09-16 15:31:50),\n                       identical in size and mtime to the source recorded in __pycache__/Asteroid_pickle.cpython-312.pyc (compiled 2026-09-16 15:32)\n  asteroid_ls.pyc    = __pycache__/asteroid_ls.cpython-312.pyc (compiled from asteroid_ls.py of 2026-09-16 15:13:45, 83303 bytes; no source copy exists),\n                       imported sourceless by CPython 3.12 (Anaconda 3.12.7, same magic number cb0d0d0a)\n  phases_and_phi.txt = repository HEAD (unchanged)\nA pyc that was still valid on 2026-10-06 shows the sources were not changed between 2026-09-16 and the September runs.\n",
+ "kept": [
+  "results_unsplit",
+  "results_geo_unsplit",
+  "data_unsplit",
+  "unsplit_snapshot"
+ ]
+}
