@@ -435,9 +435,12 @@ def summarize():
                             "frac_mpc_within_1dP": float(np.mean([p["dP_mpc_in_dP"] <= 1 for p in prow])) if prow else None,
                             "frac_E2_within_1dP": float(np.mean([p["dP_E2_in_dP"] <= 1 for p in prow])) if prow else None,
                             "rows": prow}
-    # epochs: model amplitude / literature amplitude
+    # epochs: model amplitude / literature amplitude (not for the runs whose published solutions and dense amplitudes
+    # belong to a different period)
+    mism = {x["asteroid"] for x in S.get("period_mismatch", [])}
+    Eep = {k: r for k, r in E.items() if k not in mism}
     for m in ("A_E1", "A_C", "A_E2"):
-        pairs = [(p[m], p["A_lit"]) for r in E.values() for p in r["epochs"] if p.get(m) is not None and p[m] > 0]
+        pairs = [(p[m], p["A_lit"]) for r in Eep.values() for p in r["epochs"] if p.get(m) is not None and p[m] > 0]
         lr = np.log10(np.array([a / b for a, b in pairs])) if pairs else np.array([np.nan])
         S.setdefault("epoch_amplitude_ratio", {})[m] = {
             "n": len(pairs), "median_ratio": float(10 ** np.median(lr)),
@@ -448,7 +451,7 @@ def summarize():
         out = {}
         for m in ("A_E1", "A_C", "A_E2"):
             hits, n_obj = [], 0
-            for r in E.values():
+            for r in Eep.values():
                 if not cond(r):
                     continue
                 pr = [p for p in r["epochs"] if p.get(m) is not None]

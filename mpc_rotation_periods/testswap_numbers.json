@@ -752,41 +752,41 @@
    "4761"
   ],
   "poles": {
-   "n": 68,
-   "median_distance": 12.236648362832355,
-   "random_median": 40.258176851100416,
-   "frac_within_30": 0.8676470588235294,
-   "random_frac_within_30": 0.3256617647058824
+   "n": 66,
+   "median_distance": 12.149563538820331,
+   "random_median": 39.89776509837146,
+   "frac_within_30": 0.8787878787878788,
+   "random_frac_within_30": 0.3312878787878788
   },
   "epoch_amplitudes": {
    "all": {
     "aspect_model": {
-     "n": 421,
-     "median_ratio": 0.7840693776059138,
-     "rms_dex": 0.18263293286629348,
-     "scatter_dex": 0.09822612411787408
+     "n": 413,
+     "median_ratio": 0.7814217089865668,
+     "rms_dex": 0.18321470839613527,
+     "scatter_dex": 0.09419793843258507
     },
     "per_apparition_mean": {
-     "n": 421,
-     "median_ratio": 0.8895031655443507,
-     "rms_dex": 0.17159034652143174,
-     "scatter_dex": 0.12131194978968961
+     "n": 413,
+     "median_ratio": 0.8849448417182367,
+     "rms_dex": 0.1707537930797129,
+     "scatter_dex": 0.12183677975828781
     },
     "n_objects_with_varying_lit_amp": 72,
     "frac_model_predicts_direction": 0.8194444444444444
    },
    "dBIC>10": {
     "aspect_model": {
-     "n": 164,
-     "median_ratio": 0.7575726792986887,
-     "rms_dex": 0.1865608436140607,
-     "scatter_dex": 0.11170654971815043
+     "n": 163,
+     "median_ratio": 0.7591656570272668,
+     "rms_dex": 0.18518883171908518,
+     "scatter_dex": 0.11120637289545349
     },
     "per_apparition_mean": {
-     "n": 164,
-     "median_ratio": 0.8989130166592293,
-     "rms_dex": 0.19494495739786438,
-     "scatter_dex": 0.17146110434564127
+     "n": 163,
+     "median_ratio": 0.904309377714345,
+     "rms_dex": 0.19266826945700882,
+     "scatter_dex": 0.1713630703202298
     },
     "n_objects_with_varying_lit_amp": 32,
     "frac_model_predicts_direction": 0.875
@@ -953,8 +953,8 @@
   },
   "preferred": {
    "M0": 61,
-   "Mp": 37,
    "Map": 19,
+   "Mp": 37,
    "Ma": 60
   }
  },
@@ -975,7 +975,7 @@
    },
    "E2": {
     "n": 67,
-    "median": 11.732786587972788,
+    "median": 11.73278658797279,
     "frac_within_30": 0.8656716417910447,
     "frac_within_20": 0.746268656716418
    },
@@ -1054,22 +1054,22 @@
   ],
   "epoch_amplitude_ratio": {
    "A_E1": {
-    "n": 427,
-    "median_ratio": 0.783887828780066,
-    "scatter_dex": 0.0983752309500913,
-    "rms_dex": 0.1819476273462402
+    "n": 421,
+    "median_ratio": 0.785077684560115,
+    "scatter_dex": 0.09406951651107334,
+    "rms_dex": 0.1605901437888171
    },
    "A_C": {
-    "n": 427,
-    "median_ratio": 0.9263616424885449,
-    "scatter_dex": 0.058358525477281424,
-    "rms_dex": 0.13544823828323416
+    "n": 421,
+    "median_ratio": 0.9291453485702186,
+    "scatter_dex": 0.0578333746458123,
+    "rms_dex": 0.11326013426487068
    },
    "A_E2": {
-    "n": 427,
-    "median_ratio": 0.7568137898310247,
-    "scatter_dex": 0.0990554368521096,
-    "rms_dex": 0.2783126626146285
+    "n": 421,
+    "median_ratio": 0.7601506365517368,
+    "scatter_dex": 0.09833438431856352,
+    "rms_dex": 0.25785621487775323
    }
   },
   "fit": {
@@ -1077,7 +1077,7 @@
    "median_dev_E2": 0.10009870527252257,
    "median_dev_ratio_E2_over_C": 1.0476150342157653,
    "frac_C_better_by_BIC": 0.42777777777777776,
-   "median_delta_BIC": -42.758226298147775,
+   "median_delta_BIC": -42.758226298147804,
    "scan_unique_frac": 0.95,
    "pole_unique_frac": 0.8111111111111111,
    "dark_lt1_frac": 0.4722222222222222

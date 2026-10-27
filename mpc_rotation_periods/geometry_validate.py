@@ -38,7 +38,7 @@ def run(job):
         return f"{s}:{n}", None
     par = G.fit(tp["rows"])
     out = {"APP_TPL_wmean": tp["wmean"], "windows": [{k: v for k, v in r.items() if k != "idx"} for r in tp["rows"]],
-           "geometry": par}
+           "geometry": par, "P": d["P"]}
     if par is None:
         return f"{s}:{n}", out
     # model amplitude of every window (fit quality)
@@ -49,8 +49,12 @@ def run(job):
     out["window_model_M"] = Mw.tolist()
     # predictions at the epochs of the dense LCDB amplitudes
     dense = json.load(open(os.path.join(ROOT, "data", "lcdb_dense_refs.json"), encoding="utf-8")).get(n)
+    # the dense amplitudes belong to the LCDB summary period; for the paper sample use them only if that period is in
+    # the family of ours (P, 2P, P/2 within 3 %, as amp_data.load)
+    lp = (D.LCDB_PAPER.get(n) or {}).get("summary", {}).get("period") if s == "paper" else None
+    same = lp is None or any(abs(lp - q * d["P"]) <= 0.03 * lp for q in (1, 2, 0.5))
     preds = []
-    if dense and dense.get("amps") and os.path.exists(eph_path(s, n)):
+    if dense and dense.get("amps") and same and os.path.exists(eph_path(s, n)):
         eph = pd.read_csv(eph_path(s, n))
         jd = eph["jd"].to_numpy()
         lon = np.degrees(np.unwrap(np.radians(eph["pab_lon"].to_numpy())))
@@ -102,6 +106,11 @@ def main():
             continue
         sols = [p for e in poles[n] for p in e["poles"]]
         if not sols:                     # latitude-only published solutions (lcdb_poles.json "lat_only")
+            continue
+        sid = [e["sid_per"] for e in poles[n] if e.get("sid_per")]
+        if sid and r.get("P") and min(abs(x - r["P"]) / x for x in sid) > 0.005:
+            # published solutions of a different period (same criterion as damit_eval.summarize): not compared
+            val.setdefault("period_mismatch", []).append(k)
             continue
         g = r["geometry"]
         dd = min(G.pole_distance(g["lambda"], g["beta"], l, b) for l, b in sols)
