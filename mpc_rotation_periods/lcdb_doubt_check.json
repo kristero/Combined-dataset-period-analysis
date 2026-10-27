@@ -1,0 +1,46 @@
+{
+ "2564": {
+  "blind": {
+   "P_start": 2.958527,
+   "P_final": 2.95852807,
+   "dev": 0.112405,
+   "lambda": 313.6,
+   "beta": -0.5,
+   "dark_pct": 1.23,
+   "angle_best": 88.24116185651224
+  },
+  "lcdb": {
+   "P_start": 3.01,
+   "P_final": 3.00999836,
+   "dev": 0.147482,
+   "lambda": 348.5,
+   "beta": 12.3,
+   "dark_pct": 1.52,
+   "angle_best": 27.625358385189493
+  },
+  "threshold": 1.0086130120318695,
+  "chi2_ratio_lcdb_over_blind": 1.7214990086939084
+ },
+ "2993": {
+  "blind": {
+   "P_start": 4.408213,
+   "P_final": 4.40824057,
+   "dev": 0.125125,
+   "lambda": 194.9,
+   "beta": 30.7,
+   "dark_pct": 0.0,
+   "angle_best": 76.84811142866963
+  },
+  "lcdb": {
+   "P_start": 4.456,
+   "P_final": 4.45600266,
+   "dev": 0.191408,
+   "lambda": 240.8,
+   "beta": -22.3,
+   "dark_pct": 1.4,
+   "angle_best": 7.142518951672571
+  },
+  "threshold": 1.008463642113319,
+  "chi2_ratio_lcdb_over_blind": 2.3400869237615534
+ }
+}

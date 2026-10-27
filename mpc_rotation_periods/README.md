@@ -75,3 +75,13 @@ models (`convex_only`), and (2150) remains an injection template.
   that fail the inertia check; for the asteroids flagged by `synsid_check.py`, the periodogram on a fine grid with a
   night-block bootstrap, a fine period scan and the 60-pole grid at both candidate sidereal periods.
 - `darkfacet_albedo.py`: dark facet of the convex models against the SBDB albedo (no correlation).
+
+## Co-author decisions (2026-10-27)
+
+- The dominant-dataset condition is part of `quality_rule.py` (K_ROT = 5 rotations in each of at least two visits,
+  visits split at gaps > 15 d; K_ROT = 3 gives the same grades). It changes only (870), B to C. `finalize.py` then
+  rebuilt `adopted.json`, which differs from before only in the quality fields of (870); `make_figures.py` redrew the
+  period-diameter figure, and `check_no_quantized.py` (HPC), `testswap_litcompare.py`, `testswap_numbers.py` and
+  `vb_evaluate.py` were rerun. Copies of the previous outputs: `backup_before_check1/`.
+- `lcdb_doubt_check.py` (`hpc/lcdb_doubt.sbatch`, `lcdb_doubt_check.json`): convex models of (2564) and (2993) from 60
+  initial poles at our blind periods and at the LCDB summary periods.

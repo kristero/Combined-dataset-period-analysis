@@ -14,12 +14,19 @@ inter-apparition comb teeth; the choice of tooth is reflected in the uncertainty
      P/2 member wins >= 90% within the primary range), is selected by all leave-one-out subsets, and is confirmed
      independently (longitude groups or TESS as for A, or dense photometry from the literature).
   C: otherwise.
+Dominant dataset (added in the revision after the failure for (870), 27 October 2026): when one dataset holds more
+than half of the measurements, A or B also requires that the leave-one-out subset without it or a majority of the
+longitude groups selects the alias family, unless the dataset alone covers at least K_ROT rotations in each of at
+least two visits (visits split at gaps > VISIT_GAP days); otherwise the grade is C. (K_ROT = 3 gives the same grades.)
 Documented exceptions (review judgement, see paper): EXCEPTIONS below.
 """
 import json
 import os
 
+import numpy as np
+
 ROOT = os.path.dirname(os.path.abspath(__file__))
+K_ROT, VISIT_GAP = 5, 15.0
 A = json.load(open(os.path.join(ROOT, "adopted.json"), encoding="utf-8"))
 EXCEPTIONS = {
     "1717": ("C", "two independent periodicities (18.21 and 5.1475 h); the literature period is the weaker one"),
@@ -42,8 +49,39 @@ def day_comm(P, tol=0.01):
     return round(f2) >= 1 and abs(f2 - round(f2)) < tol
 
 
-def grade(num, ad, v):
-    """Quality grade and uncertainty of asteroid num with adopted entry ad from rebootstrap2 output v."""
+def visit_rotations(arrays, dataset, P):
+    """Rotations of period P covered by each visit of dataset (results arrays: t in days, sheet names)."""
+    a = np.load(arrays)
+    t = np.sort(a["t"][a["sheet"].astype(str) == dataset])
+    if len(t) < 2:
+        return []
+    return [float((s[-1] - s[0]) * 24.0 / P) for s in np.split(t, np.where(np.diff(t) > VISIT_GAP)[0] + 1)]
+
+
+def dominant_dataset(v, ok, groups, arrays, P):
+    """The dataset with more than half of the measurements (from the leave-one-out subsets), or None, with the tests of
+    the dominant-dataset condition."""
+    loo = {k.split(":", 1)[1]: s for k, s in v["subsets"].items() if k.startswith("without:")}
+    if not loo:
+        return None
+    D = min(loo, key=lambda d: loo[d]["n"])
+    share = 1 - loo[D]["n"] / v["n"]
+    if share <= 0.5:
+        return None
+    if not (arrays and os.path.exists(arrays)):
+        # callers without the arrays path: the dataset times are the same in every results tree
+        num = str(v.get("asteroid", ""))
+        arrays = next((p for p in (os.path.join(ROOT, s, num, f"{num}_arrays.npz") for s in ("results_geo", "results"))
+                       if os.path.exists(p)), None)
+    rot = visit_rotations(arrays, D, P) if arrays else []
+    return {"dataset": D, "share": round(share, 3), "without_ok": bool(ok(loo[D])),
+            "groups_majority": sum(map(ok, groups)) > len(groups) / 2, "visit_rotations": [round(r, 1) for r in rot],
+            "covered": sum(r >= K_ROT for r in rot) >= 2}
+
+
+def grade(num, ad, v, arrays=None):
+    """Quality grade and uncertainty of asteroid num with adopted entry ad from rebootstrap2 output v (arrays: the
+    results arrays of the same tree, for the visit coverage of a dominant dataset)."""
     P = ad["P"]
     prim, ext = v["primary"], v["extended"]
     fam_u = sum(c["win_u"] for c in prim if in_family(c["P"], P))
@@ -70,6 +108,9 @@ def grade(num, ad, v):
         half_prim = max((c["win_u"] for c in prim if in_family(c["P"], P)), default=0.0)
         strong = beat >= 0.90 or fam_u >= 0.90 or half_prim >= 0.90
         q = "B" if (strong and loo_ok == len(loo) and (num in INDEPENDENT_SUPPORT_LONG or indep)) else "C"
+    dom = dominant_dataset(v, ok, groups, arrays, P)
+    if dom and q in ("A", "B") and not (dom["without_ok"] or dom["groups_majority"] or dom["covered"]):
+        q = "C"
     rule_q = q
     reason = "rule"
     if num in EXCEPTIONS:
@@ -90,7 +131,7 @@ def grade(num, ad, v):
             "quality_adopted_before": ad["quality"], "quality_rule": rule_q, "quality_final": q,
             "reason": reason, "fam_u": round(fam_u, 3), "fam_w": round(fam_w, 3),
             "groups": f"{g_ok}/{len(groups)}", "loo": f"{loo_ok}/{len(loo)}", "tess": t_ok, "day_comm": dc,
-            "independent_alias_test": indep}
+            "independent_alias_test": indep, "dominant_dataset": dom}
 
 
 if __name__ == "__main__":
@@ -100,7 +141,7 @@ if __name__ == "__main__":
         geo = os.path.join(ROOT, "results_geo", num, f"{num}_rebootstrap2.json")
         src = geo if os.path.exists(geo) else os.path.join(ROOT, "results", num, f"{num}_rebootstrap2.json")
         v = json.load(open(src, encoding="utf-8"))
-        out[num] = grade(num, ad, v)
+        out[num] = grade(num, ad, v, os.path.join(os.path.dirname(src), f"{num}_arrays.npz"))
         out[num]["geometry_corrected"] = os.path.exists(geo)
     json.dump(out, open(os.path.join(ROOT, "quality_final.json"), "w"), indent=1)
     for num, r in out.items():

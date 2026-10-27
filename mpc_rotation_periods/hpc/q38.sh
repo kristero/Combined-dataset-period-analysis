@@ -1,0 +1,1 @@
+ssh -q -o BatchMode=yes luhpc 'squeue -u $USER -o "%.10i %.12j %.8T %.10M"; tail -6 ~/mpc_redo/hpc/lcdb_doubt.out | cut -c1-400; for d in ~/mpc_redo/damit_runs/val_*_lc*; do echo "$d $(ls $d/poles 2>/dev/null | grep -c ^par_)"; done' 2>&1 | grep -v "micromamba/bin/micromamba: No such"

@@ -86,7 +86,7 @@
    ],
    [
     "870",
-    "B",
+    "C",
     "C57G",
     0.55,
     false,
@@ -175,11 +175,6 @@
   ],
   "paper_changed": [
    [
-    "870",
-    "B",
-    "C"
-   ],
-   [
     "4761",
     "B",
     "C"
@@ -187,13 +182,7 @@
   ],
   "revised_k3": {
    "validation_changed": [],
-   "paper_changed": [
-    [
-     "870",
-     "B",
-     "C"
-    ]
-   ],
+   "paper_changed": [],
    "validation_exempt": 19,
    "paper_exempt": [
     "1820",
@@ -206,13 +195,7 @@
   },
   "revised_k5": {
    "validation_changed": [],
-   "paper_changed": [
-    [
-     "870",
-     "B",
-     "C"
-    ]
-   ],
+   "paper_changed": [],
    "validation_exempt": 19,
    "paper_exempt": [
     "1820",
@@ -3414,7 +3397,7 @@
    "num": "870",
    "table": 2,
    "P": 171.72154304694178,
-   "quality": "B",
+   "quality": "C",
    "quality_capped": "C",
    "quality_capped_k3": "C",
    "quality_capped_k5": "C",

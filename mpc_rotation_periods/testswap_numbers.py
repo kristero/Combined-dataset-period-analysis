@@ -264,7 +264,7 @@ def grades_unc_geo(sig):
         g = []
         for sub in ("results", "results_geo"):
             v = J(sub, n, f"{n}_rebootstrap2.json")
-            g.append(Q.grade(n, A[n], v)["quality_final"])
+            g.append(Q.grade(n, A[n], v, os.path.join(ROOT, sub, n, f"{n}_arrays.npz"))["quality_final"])
         out[n] = g
     return out
 

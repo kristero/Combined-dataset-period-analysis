@@ -13,6 +13,8 @@ Revised rule (co-author comment, 27 October): a dominant dataset that by itself 
 at least two visits (k = 3 or 5; visits split at gaps > 15 d) is sufficient for B; the rule then applies only to
 datasets whose visits are short compared with the period, as the TESS visits of (870).
 The rule is applied to the blind validation grades and, for comparison, to the 58 asteroids of the paper.
+Since 27 October the revised rule (k = 5) is part of quality_rule.py, so the paper grades read here already include it
+((870) is C); the paper comparison then shows only what the variant without the coverage exemption would change.
 Usage: python vb_evaluate.py      Writes vb_evaluate.json
 """
 import json

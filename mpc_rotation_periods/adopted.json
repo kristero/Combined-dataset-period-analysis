@@ -74,7 +74,7 @@
   "table": 2,
   "P": 171.72154304694178,
   "sigma_P": 0.37,
-  "quality": "B",
+  "quality": "C",
   "alternatives": [
    172.96,
    172.19,
@@ -113,7 +113,7 @@
   "syn_sid_scale": 0.9524991146669898,
   "baseline_days": 7707.785695609171,
   "P_review": 171.7247,
-  "quality_rule": "B",
+  "quality_rule": "C",
   "quality_reason": "rule"
  },
  "1600": {
