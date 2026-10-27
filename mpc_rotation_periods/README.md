@@ -59,3 +59,15 @@ models (`convex_only`), and (2150) remains an injection template.
   number of the manuscript (`testswap_numbers.json`).
 - Pole and sidereal-period comparisons (`damit_eval.py`) use only published solutions whose sidereal period agrees with
   ours within 0.5 %.
+- `manto_report.py` makes the diagnostic figures of the (870) failure (`review/manto/`, `manto_numbers.json`).
+
+## Checks suggested by the (870) failure (2026-10-27, not applied to the grades)
+
+- Blind validation run: `vb_setup.py` builds `vb/` (the 120 validation asteroids, LCDB periods removed from the SBDB
+  copy), `hpc/vb_blind.sbatch` runs the period search, bootstrap, algorithmic proposal (`vb_autofinal.py`, no review),
+  subset tests and quality rule. `vb_evaluate.py` compares the blind periods with the LCDB periods by grade and applies
+  the dominant-dataset rule to the validation and paper samples (`vb_evaluate.json`).
+- Inertia check: `inertia_validation.py` (validation models at their LCDB periods), `review_alt_period.py` (models at
+  the competing periods of (3716) and (4239); `--collect` rebuilds the summary from finished runs),
+  `inertia_sensitivity.py` (validation models at the strongest wrong candidate of the blind run).
+- Synodic-sidereal consistency: `synsid_check.py` (`synsid_check.json`).

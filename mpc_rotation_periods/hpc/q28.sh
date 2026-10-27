@@ -1,0 +1,1 @@
+ssh -q -o BatchMode=yes luhpc 'squeue -u $USER -o "%.10i %.12j %.8T %.10M"; grep -c P_lcdb ~/mpc_redo/hpc/inertia_sens.out; grep -v "^start" ~/mpc_redo/hpc/inertia_sens.out | tail -4 | cut -c1-400' 2>&1 | grep -v "micromamba/bin/micromamba: No such"

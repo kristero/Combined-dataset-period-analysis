@@ -1,0 +1,1 @@
+ssh -q -o BatchMode=yes luhpc 'for i in $(seq 1 120); do squeue -h -j 136439 2>/dev/null | grep -q 136439 || break; sleep 20; done; cd ~/mpc_redo; tail -2 hpc/vb_blind.out; tail -12 vb/quality_rule.log' 2>&1 | grep -v "micromamba/bin/micromamba: No such"

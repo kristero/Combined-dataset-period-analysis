@@ -1,0 +1,1 @@
+ssh -q -o BatchMode=yes luhpc 'cd ~/mpc_redo && squeue -u $USER -o "%.10i %.12j %.8T %.10M"; grep -c "P_top" hpc/vb_blind.out; tail -4 hpc/vb_blind.out; echo; tail -3 hpc/alt_collect.out 2>/dev/null' 2>&1 | grep -v "micromamba/bin/micromamba: No such"

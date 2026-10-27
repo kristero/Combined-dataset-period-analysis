@@ -1,0 +1,1 @@
+ssh -q -o BatchMode=yes luhpc 'sleep 540; cd ~/mpc_redo; squeue -u $USER -o "%.10i %.12j %.8T %.10M"; echo sens done: $(grep -c P_lcdb hpc/inertia_sens.out); grep -E "^(inertia|synsid) " hpc/fine_checks.out | cut -c1-260' 2>&1 | grep -v "micromamba/bin/micromamba: No such"

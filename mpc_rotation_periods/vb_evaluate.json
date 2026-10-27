@@ -1,0 +1,4410 @@
+{
+ "summary": {
+  "n": 120,
+  "missing": [],
+  "recovery": {
+   "same": 108,
+   "wrong": 8,
+   "harmonic": 4
+  },
+  "by_grade": {
+   "A": {
+    "n": 83,
+    "same": 80,
+    "wrong": 2,
+    "harmonic": 1
+   },
+   "B": {
+    "n": 26,
+    "same": 24,
+    "wrong": 1,
+    "harmonic": 1
+   },
+   "C": {
+    "n": 11,
+    "harmonic": 2,
+    "wrong": 5,
+    "same": 4
+   }
+  },
+  "by_grade_with_rule": {
+   "A": {
+    "n": 83,
+    "same": 80,
+    "wrong": 2,
+    "harmonic": 1
+   },
+   "B": {
+    "n": 26,
+    "same": 24,
+    "wrong": 1,
+    "harmonic": 1
+   },
+   "C": {
+    "n": 11,
+    "harmonic": 2,
+    "wrong": 5,
+    "same": 4
+   }
+  },
+  "n_dominant": 23,
+  "dominant_datasets": {
+   "C57G": 23
+  },
+  "downgraded": [],
+  "downgraded_correct": 0,
+  "downgraded_wrong": 0,
+  "AB_wrong_not_caught": [
+   [
+    "1141",
+    "B",
+    47.94524436355406,
+    2.848
+   ],
+   [
+    "2564",
+    "A",
+    2.958527028511483,
+    3.01
+   ],
+   [
+    "2993",
+    "A",
+    4.408213249440617,
+    4.456
+   ]
+  ],
+  "paper_n_dominant": 12,
+  "paper_dominant": [
+   [
+    "249",
+    "A",
+    "C57G",
+    0.54,
+    true,
+    "2/2"
+   ],
+   [
+    "870",
+    "B",
+    "C57G",
+    0.55,
+    false,
+    "1/3"
+   ],
+   [
+    "1717",
+    "C",
+    "C57G",
+    0.65,
+    true,
+    "3/3"
+   ],
+   [
+    "1820",
+    "A",
+    "C57G",
+    0.57,
+    true,
+    "3/3"
+   ],
+   [
+    "1949",
+    "A",
+    "C57G",
+    0.54,
+    true,
+    "2/2"
+   ],
+   [
+    "2503",
+    "A",
+    "C57G",
+    0.61,
+    true,
+    "1/1"
+   ],
+   [
+    "2614",
+    "A",
+    "C57G",
+    0.64,
+    true,
+    "2/2"
+   ],
+   [
+    "3216",
+    "C",
+    "C57G",
+    0.62,
+    true,
+    "1/2"
+   ],
+   [
+    "3858",
+    "A",
+    "C57G",
+    0.58,
+    true,
+    "3/3"
+   ],
+   [
+    "4482",
+    "C",
+    "C57G",
+    0.6,
+    true,
+    "1/1"
+   ],
+   [
+    "4682",
+    "A",
+    "C57G",
+    0.54,
+    true,
+    "3/3"
+   ],
+   [
+    "4761",
+    "B",
+    "C57G",
+    0.66,
+    false,
+    "1/2"
+   ]
+  ],
+  "paper_changed": [
+   [
+    "870",
+    "B",
+    "C"
+   ],
+   [
+    "4761",
+    "B",
+    "C"
+   ]
+  ],
+  "revised_k3": {
+   "validation_changed": [],
+   "paper_changed": [
+    [
+     "870",
+     "B",
+     "C"
+    ]
+   ],
+   "validation_exempt": 19,
+   "paper_exempt": [
+    "1820",
+    "2614",
+    "3858",
+    "4482",
+    "4682",
+    "4761"
+   ]
+  },
+  "revised_k5": {
+   "validation_changed": [],
+   "paper_changed": [
+    [
+     "870",
+     "B",
+     "C"
+    ]
+   ],
+   "validation_exempt": 19,
+   "paper_exempt": [
+    "1820",
+    "2614",
+    "3858",
+    "4682",
+    "4761"
+   ]
+  },
+  "paper_visit_rotations": {
+   "249": [
+    8.2
+   ],
+   "870": [
+    1.3,
+    3.8,
+    1.6
+   ],
+   "1717": [
+    101.1
+   ],
+   "1820": [
+    40.4,
+    41.4
+   ],
+   "1949": [
+    238.5
+   ],
+   "2503": [
+    5.9
+   ],
+   "2614": [
+    205.3,
+    79.9
+   ],
+   "3216": [
+    0.4,
+    0.5,
+    0.2
+   ],
+   "3858": [
+    89.0,
+    85.4
+   ],
+   "4482": [
+    6.2,
+    4.5,
+    3.0
+   ],
+   "4682": [
+    158.7,
+    55.2
+   ],
+   "4761": [
+    110.3,
+    124.1
+   ]
+  },
+  "validation_visit_rotations": {
+   "290": [
+    41.2,
+    30.0,
+    47.2
+   ],
+   "553": [
+    48.0,
+    16.2,
+    88.1,
+    43.3
+   ],
+   "802": [
+    37.7,
+    416.4
+   ],
+   "905": [
+    82.5,
+    16.9
+   ],
+   "933": [
+    54.9,
+    40.3,
+    114.3,
+    131.7
+   ],
+   "1405": [
+    545.0,
+    1868.5
+   ],
+   "1608": [
+    109.1,
+    116.5,
+    137.8
+   ],
+   "1946": [
+    0.9,
+    61.8
+   ],
+   "2022": [
+    32.7,
+    12.1,
+    45.2,
+    20.1,
+    15.6
+   ],
+   "2079": [
+    101.6,
+    10.4,
+    180.0,
+    106.9
+   ],
+   "2334": [
+    23.9,
+    104.4,
+    129.5
+   ],
+   "2408": [
+    114.6,
+    139.9,
+    280.8,
+    40.3
+   ],
+   "2564": [
+    341.1,
+    84.4
+   ],
+   "2964": [
+    13.6,
+    46.3,
+    50.8
+   ],
+   "2993": [
+    425.7
+   ],
+   "3388": [
+    28.5,
+    582.4
+   ],
+   "3493": [
+    102.0
+   ],
+   "3706": [
+    147.2
+   ],
+   "4148": [
+    26.4,
+    27.8
+   ],
+   "4375": [
+    94.3,
+    177.6,
+    94.0
+   ],
+   "5215": [
+    112.6,
+    37.0,
+    14.9,
+    100.7
+   ],
+   "5484": [
+    17.9,
+    41.9,
+    42.8
+   ],
+   "5598": [
+    186.5,
+    576.3
+   ]
+  }
+ },
+ "validation": [
+  {
+   "num": "228",
+   "P": 6.485083252490249,
+   "sigma_P": 0.00034,
+   "P_lcdb": 6.484,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18085428657982427,
+    "without_ok": true,
+    "without_P": 3.2425416629298027,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 0.993,
+   "groups": "0/2",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "290",
+   "P": 13.799392807554709,
+   "sigma_P": 0.0004,
+   "P_lcdb": 13.807,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6827150749802684,
+    "without_ok": true,
+    "without_P": 13.799392807554709,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     41.1971635477524,
+     29.953477467053432,
+     47.164452850062666
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "11/11",
+   "tess": true
+  },
+  {
+   "num": "553",
+   "P": 12.601698473463049,
+   "sigma_P": 0.0025,
+   "P_lcdb": 12.605,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.7791250430589046,
+    "without_ok": true,
+    "without_P": 6.3008528055936495,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     47.98331472916058,
+     16.21564249996822,
+     88.10181353277636,
+     43.27464245073277
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "13/13",
+   "tess": true
+  },
+  {
+   "num": "594",
+   "P": 4.968965343996075,
+   "sigma_P": 0.00039,
+   "P_lcdb": 4.966,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.21286520991897862,
+    "without_ok": true,
+    "without_P": 2.484482490229008,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "16/16",
+   "tess": true
+  },
+  {
+   "num": "689",
+   "P": 6.422589038435573,
+   "sigma_P": 8.5e-05,
+   "P_lcdb": 6.425,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.17559979581419094,
+    "without_ok": true,
+    "without_P": 3.211294452187233,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "20/20",
+   "tess": null
+  },
+  {
+   "num": "802",
+   "P": 4.389440866536461,
+   "sigma_P": 3.9e-05,
+   "P_lcdb": 4.392,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6064130066613977,
+    "without_ok": true,
+    "without_P": 2.1947199728127966,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     37.7421790090567,
+     416.36571569004514
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "17/17",
+   "tess": true
+  },
+  {
+   "num": "822",
+   "P": 3.346127577079213,
+   "sigma_P": 2.2e-05,
+   "P_lcdb": 3.345,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1904169259489732,
+    "without_ok": true,
+    "without_P": 1.6730638840138752,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": null
+  },
+  {
+   "num": "864",
+   "P": 3.2322004440743495,
+   "sigma_P": 2.1e-05,
+   "P_lcdb": 3.2324,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.17750596658711215,
+    "without_ok": true,
+    "without_P": 3.2322004440743495,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "17/17",
+   "tess": null
+  },
+  {
+   "num": "902",
+   "P": 10.117656991735522,
+   "sigma_P": 0.00026,
+   "P_lcdb": 10.168,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1867741935483871,
+    "without_ok": true,
+    "without_P": 5.058830429707533,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": null
+  },
+  {
+   "num": "905",
+   "P": 14.242961095863366,
+   "sigma_P": 0.0004,
+   "P_lcdb": 14.238,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6402323125659979,
+    "without_ok": true,
+    "without_P": 14.242961095863366,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     82.53726898823157,
+     16.908783060908952
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "13/13",
+   "tess": true
+  },
+  {
+   "num": "933",
+   "P": 4.622400234387036,
+   "sigma_P": 4.3e-05,
+   "P_lcdb": 4.6222,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6645831329935571,
+    "without_ok": true,
+    "without_P": 4.622400234387036,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     54.91431575073197,
+     40.27720782364807,
+     114.3415837242102,
+     131.74848691925914
+    ]
+   },
+   "fam_u": 0.917,
+   "fam_w": 0.96,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": true
+  },
+  {
+   "num": "1056",
+   "P": 15.035409570125779,
+   "sigma_P": 0.00045,
+   "P_lcdb": 15.032,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1870655787246902,
+    "without_ok": true,
+    "without_P": 7.517707901784991,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": null
+  },
+  {
+   "num": "1090",
+   "P": 2.7190034988500957,
+   "sigma_P": 9.9e-05,
+   "P_lcdb": 2.719,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.22809863724853996,
+    "without_ok": true,
+    "without_P": 2.7190034988500957,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 0.923,
+   "fam_w": 0.913,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": null
+  },
+  {
+   "num": "1126",
+   "P": 3.6484496010710274,
+   "sigma_P": 2.7e-05,
+   "P_lcdb": 3.64808,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4672219651395959,
+    "without_ok": true,
+    "without_P": 1.8242249571928144,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "17/17",
+   "tess": true
+  },
+  {
+   "num": "1141",
+   "P": 47.94524436355406,
+   "sigma_P": 0.048,
+   "P_lcdb": 2.848,
+   "recovery": "wrong",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3245098039215686,
+    "without_ok": true,
+    "without_P": 23.973063334510712,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 0.81,
+   "fam_w": 0.653,
+   "groups": "3/3",
+   "loo": "15/16",
+   "tess": true
+  },
+  {
+   "num": "1151",
+   "P": 2.4661337473456615,
+   "sigma_P": 0.0003,
+   "P_lcdb": 4.93115,
+   "recovery": "harmonic",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.49613800205973224,
+    "without_ok": true,
+    "without_P": 4.931605008411021,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.62,
+   "fam_w": 0.48,
+   "groups": "0/2",
+   "loo": "12/12",
+   "tess": true
+  },
+  {
+   "num": "1219",
+   "P": 5.574480883138103,
+   "sigma_P": 6.2e-05,
+   "P_lcdb": 5.575,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.1913023363405043,
+    "without_ok": true,
+    "without_P": 5.574480883138103,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "19/19",
+   "tess": true
+  },
+  {
+   "num": "1396",
+   "P": 3.0820693397466363,
+   "sigma_P": 2e-05,
+   "P_lcdb": 3.08158,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.34354407836153156,
+    "without_ok": true,
+    "without_P": 3.0820693397466363,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "16/16",
+   "tess": true
+  },
+  {
+   "num": "1405",
+   "P": 1.0000432842035,
+   "sigma_P": 3.1e-05,
+   "P_lcdb": 6.051,
+   "recovery": "wrong",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6224428759420984,
+    "without_ok": false,
+    "without_P": 23.96027647216773,
+    "groups": "0/3",
+    "groups_majority": false,
+    "visit_rotations": [
+     544.9763331743421,
+     1868.5112350847983
+    ]
+   },
+   "fam_u": 0.663,
+   "fam_w": 0.42,
+   "groups": "0/3",
+   "loo": "13/14",
+   "tess": true
+  },
+  {
+   "num": "1422",
+   "P": 3.5050457902150103,
+   "sigma_P": 3.3e-05,
+   "P_lcdb": 3.5051,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.252039627039627,
+    "without_ok": true,
+    "without_P": 1.7525232467405698,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "18/18",
+   "tess": null
+  },
+  {
+   "num": "1494",
+   "P": 5.349583039452017,
+   "sigma_P": 5.7e-05,
+   "P_lcdb": 5.35011,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1658433309809456,
+    "without_ok": true,
+    "without_P": 2.6747913486451145,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": null
+  },
+  {
+   "num": "1531",
+   "P": 25.515462127929208,
+   "sigma_P": 0.0013,
+   "P_lcdb": 25.62,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.388686481303931,
+    "without_ok": false,
+    "without_P": 23.968987420746238,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.937,
+   "fam_w": 1.0,
+   "groups": "0/2",
+   "loo": "17/18",
+   "tess": true
+  },
+  {
+   "num": "1559",
+   "P": 4.304915351458665,
+   "sigma_P": 4.6e-05,
+   "P_lcdb": 4.302,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3038624693011833,
+    "without_ok": true,
+    "without_P": 4.304915351458665,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "1568",
+   "P": 6.674592628822674,
+   "sigma_P": 8.1e-05,
+   "P_lcdb": 6.6746,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.23185078909612622,
+    "without_ok": true,
+    "without_P": 6.674592628822674,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.837,
+   "fam_w": 1.0,
+   "groups": "1/2",
+   "loo": "15/16",
+   "tess": null
+  },
+  {
+   "num": "1608",
+   "P": 5.346153600384027,
+   "sigma_P": 5.1e-05,
+   "P_lcdb": 5.3456,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6383067459076217,
+    "without_ok": true,
+    "without_P": 2.673647410344253,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     109.0815486268578,
+     116.47791871533953,
+     137.79779023112874
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "19/19",
+   "tess": true
+  },
+  {
+   "num": "1713",
+   "P": 2.5283602225629864,
+   "sigma_P": 1.1e-05,
+   "P_lcdb": 2.52826,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.47436377245508987,
+    "without_ok": true,
+    "without_P": 2.5283602225629864,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "17/17",
+   "tess": false
+  },
+  {
+   "num": "1715",
+   "P": 11.084857262716838,
+   "sigma_P": 0.00025,
+   "P_lcdb": 11.087,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4101148409893993,
+    "without_ok": true,
+    "without_P": 11.084857262716838,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "13/13",
+   "tess": true
+  },
+  {
+   "num": "1739",
+   "P": 2.8215066144838135,
+   "sigma_P": 0.00011,
+   "P_lcdb": 2.8219,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.49294354838709675,
+    "without_ok": false,
+    "without_P": 23.96222002991523,
+    "groups": "1/3",
+    "groups_majority": false
+   },
+   "fam_u": 0.72,
+   "fam_w": 1.0,
+   "groups": "1/3",
+   "loo": "17/18",
+   "tess": true
+  },
+  {
+   "num": "1756",
+   "P": 3.8533301979834467,
+   "sigma_P": 3.7e-05,
+   "P_lcdb": 3.8527,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.19346367084913918,
+    "without_ok": true,
+    "without_P": 1.9266655823327508,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "1785",
+   "P": 3.269702758987151,
+   "sigma_P": 2.7e-05,
+   "P_lcdb": 3.2693,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1888695652173913,
+    "without_ok": true,
+    "without_P": 1.634851305739643,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": null
+  },
+  {
+   "num": "1823",
+   "P": 11.978831345137255,
+   "sigma_P": 0.0003,
+   "P_lcdb": 4.4864,
+   "recovery": "wrong",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2252066115702479,
+    "without_ok": true,
+    "without_P": 11.978831345137255,
+    "groups": "1/3",
+    "groups_majority": false
+   },
+   "fam_u": 0.673,
+   "fam_w": 0.77,
+   "groups": "1/3",
+   "loo": "10/13",
+   "tess": null
+  },
+  {
+   "num": "1884",
+   "P": 2.894562602638825,
+   "sigma_P": 0.00013,
+   "P_lcdb": 2.8887,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.49669749009247033,
+    "without_ok": false,
+    "without_P": 47.80060675939144,
+    "groups": "0/3",
+    "groups_majority": false
+   },
+   "fam_u": 0.99,
+   "fam_w": 1.0,
+   "groups": "0/3",
+   "loo": "13/14",
+   "tess": true
+  },
+  {
+   "num": "1945",
+   "P": 3.5471002578247632,
+   "sigma_P": 2.1e-05,
+   "P_lcdb": 3.5473,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.21618204804045515,
+    "without_ok": true,
+    "without_P": 1.77355048049643,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "21/21",
+   "tess": true
+  },
+  {
+   "num": "1946",
+   "P": 10.206745936810126,
+   "sigma_P": 0.00022,
+   "P_lcdb": 10.21,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5210272873194222,
+    "without_ok": true,
+    "without_P": 5.103375523121639,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     0.9307627867427262,
+     61.77428480178633
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "2002",
+   "P": 5.993690043190248,
+   "sigma_P": 8.8e-05,
+   "P_lcdb": 5.9929,
+   "recovery": "same",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20693641618497105,
+    "without_ok": true,
+    "without_P": 5.993690043190248,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": null
+  },
+  {
+   "num": "2022",
+   "P": 14.14461100823717,
+   "sigma_P": 0.00055,
+   "P_lcdb": 14.14,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6330025986298133,
+    "without_ok": true,
+    "without_P": 7.072301725283634,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     32.662967696860626,
+     12.113771125158728,
+     45.190927293218046,
+     20.06720001714698,
+     15.565272005834819
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "18/18",
+   "tess": true
+  },
+  {
+   "num": "2050",
+   "P": 6.13697631276057,
+   "sigma_P": 0.0013,
+   "P_lcdb": 3.066,
+   "recovery": "harmonic",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.31416772554002537,
+    "without_ok": false,
+    "without_P": 24.01535835275133,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.067,
+   "fam_w": 0.993,
+   "groups": "0/2",
+   "loo": "2/11",
+   "tess": true
+  },
+  {
+   "num": "2079",
+   "P": 5.939396399234406,
+   "sigma_P": 8.9e-05,
+   "P_lcdb": 5.941,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6759689922480621,
+    "without_ok": true,
+    "without_P": 2.9696982150426874,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     101.61038705284022,
+     10.35526588159865,
+     179.99743980765928,
+     106.85828587646662
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "2156",
+   "P": 5.623145282656543,
+   "sigma_P": 7.8e-05,
+   "P_lcdb": 5.6228,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.34069185252617207,
+    "without_ok": true,
+    "without_P": 2.8115722685355737,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "16/16",
+   "tess": true
+  },
+  {
+   "num": "2185",
+   "P": 21.066628161217118,
+   "sigma_P": 0.0012,
+   "P_lcdb": 21.089,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.41227272727272724,
+    "without_ok": false,
+    "without_P": 23.92039108298169,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/2",
+   "loo": "15/16",
+   "tess": false
+  },
+  {
+   "num": "2189",
+   "P": 4.929115423960288,
+   "sigma_P": 0.00049,
+   "P_lcdb": 4.92815,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2517934002869441,
+    "without_ok": true,
+    "without_P": 4.929115423960288,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.993,
+   "fam_w": 1.0,
+   "groups": "1/2",
+   "loo": "12/12",
+   "tess": null
+  },
+  {
+   "num": "2334",
+   "P": 5.858653846553358,
+   "sigma_P": 8.5e-05,
+   "P_lcdb": 5.858,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5220658778381836,
+    "without_ok": true,
+    "without_P": 5.858653846553358,
+    "groups": "2/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     23.89620442493964,
+     104.37636579839396,
+     129.4695089549564
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "2373",
+   "P": 9.449293887497586,
+   "sigma_P": 0.00024,
+   "P_lcdb": 9.44,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20385906040268453,
+    "without_ok": true,
+    "without_P": 4.724644576294716,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "17/17",
+   "tess": true
+  },
+  {
+   "num": "2381",
+   "P": 3.9856195303572615,
+   "sigma_P": 4.5e-05,
+   "P_lcdb": 3.989,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.22868826675055054,
+    "without_ok": true,
+    "without_P": 1.9928095897182119,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "2408",
+   "P": 3.6747327502357785,
+   "sigma_P": 0.00026,
+   "P_lcdb": 3.67381,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.7045894387614045,
+    "without_ok": true,
+    "without_P": 3.6747327502357785,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     114.56769947897743,
+     139.8747897981702,
+     280.79354524393574,
+     40.29386334379432
+    ]
+   },
+   "fam_u": 0.99,
+   "fam_w": 0.993,
+   "groups": "3/3",
+   "loo": "13/13",
+   "tess": true
+  },
+  {
+   "num": "2433",
+   "P": 7.2280187081814775,
+   "sigma_P": 0.00016,
+   "P_lcdb": 7.234,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.22892720306513414,
+    "without_ok": true,
+    "without_P": 7.2280187081814775,
+    "groups": "1/3",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/3",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "2511",
+   "P": 4.140236268243923,
+   "sigma_P": 4.3e-05,
+   "P_lcdb": 4.144,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20794317081046176,
+    "without_ok": true,
+    "without_P": 2.070118324483261,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": null
+  },
+  {
+   "num": "2512",
+   "P": 7.300980688392098,
+   "sigma_P": 0.00013,
+   "P_lcdb": 7.296,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.17882187938288918,
+    "without_ok": true,
+    "without_P": 7.300980688392098,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "2527",
+   "P": 6.102624981071565,
+   "sigma_P": 9.2e-05,
+   "P_lcdb": 6.1025,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2102713178294574,
+    "without_ok": true,
+    "without_P": 6.102624981071565,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "18/18",
+   "tess": null
+  },
+  {
+   "num": "2544",
+   "P": 4.7497385996578245,
+   "sigma_P": 0.00023,
+   "P_lcdb": 4.75,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.27496839443742094,
+    "without_ok": true,
+    "without_P": 2.3750394872489253,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "0/2",
+   "loo": "14/14",
+   "tess": false
+  },
+  {
+   "num": "2564",
+   "P": 2.958527028511483,
+   "sigma_P": 2.4e-05,
+   "P_lcdb": 3.01,
+   "recovery": "wrong",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5294117647058824,
+    "without_ok": true,
+    "without_P": 2.958527028511483,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     341.06936046580967,
+     84.44784923801427
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": true
+  },
+  {
+   "num": "2573",
+   "P": 4.932976189525359,
+   "sigma_P": 6.1e-05,
+   "P_lcdb": 4.9355,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3542458808618505,
+    "without_ok": true,
+    "without_P": 4.932976189525359,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": true
+  },
+  {
+   "num": "2575",
+   "P": 8.619724476047216,
+   "sigma_P": 0.0002,
+   "P_lcdb": 8.605,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.22524271844660193,
+    "without_ok": true,
+    "without_P": 4.309864293450389,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "18/18",
+   "tess": true
+  },
+  {
+   "num": "2648",
+   "P": 3.5644100914513417,
+   "sigma_P": 3.4e-05,
+   "P_lcdb": 3.5641,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2832189644416718,
+    "without_ok": true,
+    "without_P": 3.5644100914513417,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "2741",
+   "P": 4.096210062405671,
+   "sigma_P": 4.8e-05,
+   "P_lcdb": 4.098,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1951151817929503,
+    "without_ok": true,
+    "without_P": 4.096210062405671,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": true
+  },
+  {
+   "num": "2897",
+   "P": 2.6014985755208797,
+   "sigma_P": 8e-05,
+   "P_lcdb": 2.6009,
+   "recovery": "same",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4236299229006043,
+    "without_ok": false,
+    "without_P": 47.98568795572001,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.387,
+   "fam_w": 0.533,
+   "groups": "1/2",
+   "loo": "11/14",
+   "tess": false
+  },
+  {
+   "num": "2954",
+   "P": 4.687811509130561,
+   "sigma_P": 6e-05,
+   "P_lcdb": 4.691,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2068721218561813,
+    "without_ok": true,
+    "without_P": 4.687811509130561,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 0.903,
+   "fam_w": 0.993,
+   "groups": "2/3",
+   "loo": "14/14",
+   "tess": null
+  },
+  {
+   "num": "2960",
+   "P": 5.305858707175304,
+   "sigma_P": 7e-05,
+   "P_lcdb": 5.3027,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1988527724665392,
+    "without_ok": true,
+    "without_P": 2.652929395027197,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": null
+  },
+  {
+   "num": "2964",
+   "P": 12.615070702401058,
+   "sigma_P": 0.0037,
+   "P_lcdb": 12.53,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.686037921694164,
+    "without_ok": true,
+    "without_P": 12.615070702401058,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     13.594904641156734,
+     46.26803321546111,
+     50.83757676495459
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "2984",
+   "P": 9.025471691238419,
+   "sigma_P": 0.00022,
+   "P_lcdb": 9.0232,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2314814814814815,
+    "without_ok": true,
+    "without_P": 4.512738225502281,
+    "groups": "1/1",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/1",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "2993",
+   "P": 4.408213249440617,
+   "sigma_P": 5.3e-05,
+   "P_lcdb": 4.456,
+   "recovery": "wrong",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5378657487091222,
+    "without_ok": true,
+    "without_P": 4.408213249440617,
+    "groups": "2/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     425.70763640541963
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "18/18",
+   "tess": true
+  },
+  {
+   "num": "3084",
+   "P": 5.227400335438063,
+   "sigma_P": 0.00025,
+   "P_lcdb": 5.227,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.17628650904033383,
+    "without_ok": true,
+    "without_P": 5.227400335438063,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 0.963,
+   "fam_w": 0.997,
+   "groups": "2/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "3146",
+   "P": 5.053867018925969,
+   "sigma_P": 0.00025,
+   "P_lcdb": 5.054,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20729872084273893,
+    "without_ok": true,
+    "without_P": 2.5269344572034633,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "14/14",
+   "tess": null
+  },
+  {
+   "num": "3224",
+   "P": 33.13028057925202,
+   "sigma_P": 0.0027,
+   "P_lcdb": 33.047,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4111977971546581,
+    "without_ok": false,
+    "without_P": 47.97187537657972,
+    "groups": "0/3",
+    "groups_majority": false
+   },
+   "fam_u": 0.993,
+   "fam_w": 1.0,
+   "groups": "0/3",
+   "loo": "18/19",
+   "tess": true
+  },
+  {
+   "num": "3382",
+   "P": 4.253705352111355,
+   "sigma_P": 8.1e-05,
+   "P_lcdb": 4.258,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21840107190710134,
+    "without_ok": true,
+    "without_P": 4.253705352111355,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/2",
+   "loo": "11/11",
+   "tess": null
+  },
+  {
+   "num": "3388",
+   "P": 3.2578411321670733,
+   "sigma_P": 0.00015,
+   "P_lcdb": 3.257,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.7616020984665053,
+    "without_ok": true,
+    "without_P": 3.2578411321670733,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     28.495452156024268,
+     582.3577848199
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "11/11",
+   "tess": true
+  },
+  {
+   "num": "3417",
+   "P": 2.7343540162191267,
+   "sigma_P": 0.00024,
+   "P_lcdb": 5.4694,
+   "recovery": "harmonic",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.23474865788189359,
+    "without_ok": true,
+    "without_P": 5.468706129113251,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.97,
+   "fam_w": 0.973,
+   "groups": "0/2",
+   "loo": "11/11",
+   "tess": null
+  },
+  {
+   "num": "3455",
+   "P": 8.079445633647028,
+   "sigma_P": 0.00016,
+   "P_lcdb": 8.111,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.16249254621347642,
+    "without_ok": true,
+    "without_P": 8.079445633647028,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "18/18",
+   "tess": null
+  },
+  {
+   "num": "3493",
+   "P": 6.111053180416441,
+   "sigma_P": 9.4e-05,
+   "P_lcdb": 6.112,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.544799176107106,
+    "without_ok": true,
+    "without_P": 3.055526816154764,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     101.97487176718334
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "3497",
+   "P": 7.177817941528814,
+   "sigma_P": 0.00022,
+   "P_lcdb": 7.181,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.215087890625,
+    "without_ok": true,
+    "without_P": 7.177817941528814,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "3511",
+   "P": 6.225303976575303,
+   "sigma_P": 0.00011,
+   "P_lcdb": 6.2279,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18721590909090913,
+    "without_ok": true,
+    "without_P": 3.1126518802364465,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "3605",
+   "P": 2.7210433995214234,
+   "sigma_P": 2e-05,
+   "P_lcdb": 2.72,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18921775898520088,
+    "without_ok": true,
+    "without_P": 1.3605216200852366,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": null
+  },
+  {
+   "num": "3609",
+   "P": 15.634910829659606,
+   "sigma_P": 0.0042,
+   "P_lcdb": 15.624,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3274647887323944,
+    "without_ok": true,
+    "without_P": 7.817453469522587,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "13/13",
+   "tess": true
+  },
+  {
+   "num": "3686",
+   "P": 6.731527377754123,
+   "sigma_P": 0.00011,
+   "P_lcdb": 6.734,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2438942790230847,
+    "without_ok": true,
+    "without_P": 6.731527377754123,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": null
+  },
+  {
+   "num": "3706",
+   "P": 4.037409230179051,
+   "sigma_P": 3.6e-05,
+   "P_lcdb": 4.038,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5104514315826454,
+    "without_ok": true,
+    "without_P": 2.0187048993153827,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     147.1653526570986
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "19/19",
+   "tess": true
+  },
+  {
+   "num": "3767",
+   "P": 6.577658202009432,
+   "sigma_P": 0.00013,
+   "P_lcdb": 6.581,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.24524774072919908,
+    "without_ok": true,
+    "without_P": 6.577658202009432,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "14/14",
+   "tess": null
+  },
+  {
+   "num": "3773",
+   "P": 6.979575583421329,
+   "sigma_P": 0.00012,
+   "P_lcdb": 6.9804,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.16640253565768626,
+    "without_ok": true,
+    "without_P": 3.4897869902646073,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "18/18",
+   "tess": true
+  },
+  {
+   "num": "3893",
+   "P": 7.22452315295163,
+   "sigma_P": 0.0022,
+   "P_lcdb": 14.443,
+   "recovery": "harmonic",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3932086614173228,
+    "without_ok": true,
+    "without_P": 14.442541540665776,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "3896",
+   "P": 4.003319122476383,
+   "sigma_P": 4.3e-05,
+   "P_lcdb": 4.009,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.2251028806584362,
+    "without_ok": true,
+    "without_P": 2.0016600443675365,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "3915",
+   "P": 9.417253159697358,
+   "sigma_P": 0.00025,
+   "P_lcdb": 9.418,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2037105751391466,
+    "without_ok": true,
+    "without_P": 4.7086253981630195,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": null
+  },
+  {
+   "num": "3996",
+   "P": 7.192488878486422,
+   "sigma_P": 0.00013,
+   "P_lcdb": 7.193,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21211072664359865,
+    "without_ok": true,
+    "without_P": 7.192488878486422,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "4005",
+   "P": 6.4121514229908,
+   "sigma_P": 7.2e-05,
+   "P_lcdb": 6.4,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.2889511796309273,
+    "without_ok": true,
+    "without_P": 6.4121514229908,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "18/18",
+   "tess": true
+  },
+  {
+   "num": "4148",
+   "P": 20.76364972642359,
+   "sigma_P": 0.0012,
+   "P_lcdb": 20.737,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5001443001443002,
+    "without_ok": true,
+    "without_P": 20.76364972642359,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     26.442396530356564,
+     27.79797722752163
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "18/18",
+   "tess": false
+  },
+  {
+   "num": "4188",
+   "P": 2.5752116490653316,
+   "sigma_P": 1.6e-05,
+   "P_lcdb": 2.582,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1954464813719693,
+    "without_ok": true,
+    "without_P": 2.5752116490653316,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "4285",
+   "P": 6.148887628005455,
+   "sigma_P": 9.5e-05,
+   "P_lcdb": 6.1501,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1679487179487179,
+    "without_ok": true,
+    "without_P": 3.0744441158784794,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "4338",
+   "P": 3.169166742474809,
+   "sigma_P": 3.7e-05,
+   "P_lcdb": 3.16915,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4848417298261257,
+    "without_ok": true,
+    "without_P": 1.584583497258375,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/2",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "4369",
+   "P": 30.589547110647658,
+   "sigma_P": 0.02,
+   "P_lcdb": 30.573,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.48795850314931455,
+    "without_ok": true,
+    "without_P": 30.589547110647658,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "4375",
+   "P": 6.4699194702148715,
+   "sigma_P": 0.00012,
+   "P_lcdb": 6.4709,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.7329108664034906,
+    "without_ok": true,
+    "without_P": 6.4699194702148715,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     94.30935368274403,
+     177.57765742587523,
+     94.02478729018574
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "12/12",
+   "tess": true
+  },
+  {
+   "num": "4563",
+   "P": 12.416518883120045,
+   "sigma_P": 0.0022,
+   "P_lcdb": 12.416,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3547738693467337,
+    "without_ok": true,
+    "without_P": 6.208259665967692,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "4672",
+   "P": 4.3769478515783575,
+   "sigma_P": 0.00021,
+   "P_lcdb": 4.3782,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.48431509236667825,
+    "without_ok": false,
+    "without_P": 23.968890627040484,
+    "groups": "1/3",
+    "groups_majority": false
+   },
+   "fam_u": 0.94,
+   "fam_w": 1.0,
+   "groups": "1/3",
+   "loo": "16/17",
+   "tess": true
+  },
+  {
+   "num": "4935",
+   "P": 2.901697452039147,
+   "sigma_P": 2.1e-05,
+   "P_lcdb": 2.90192,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21009771986970682,
+    "without_ok": true,
+    "without_P": 1.4508490374783336,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "5026",
+   "P": 4.4247013551198195,
+   "sigma_P": 5e-05,
+   "P_lcdb": 4.4243,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.24444444444444446,
+    "without_ok": true,
+    "without_P": 4.4247013551198195,
+    "groups": "1/3",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "5150",
+   "P": 5.196022774679813,
+   "sigma_P": 6.8e-05,
+   "P_lcdb": 5.1953,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.2830769230769231,
+    "without_ok": true,
+    "without_P": 5.196022774679813,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "16/16",
+   "tess": true
+  },
+  {
+   "num": "5215",
+   "P": 3.8163229412160447,
+   "sigma_P": 3.9e-05,
+   "P_lcdb": 3.8156,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5441958041958042,
+    "without_ok": true,
+    "without_P": 3.8163229412160447,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     112.62821359671327,
+     36.9934482551478,
+     14.937114306732395,
+     100.66366999694877
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "5235",
+   "P": 2.4522105667193546,
+   "sigma_P": 3.9e-05,
+   "P_lcdb": 2.4523,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.27812745869394173,
+    "without_ok": true,
+    "without_P": 2.4522105667193546,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "10/10",
+   "tess": null
+  },
+  {
+   "num": "5484",
+   "P": 14.133481432652456,
+   "sigma_P": 0.00054,
+   "P_lcdb": 14.1479,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.601772252347573,
+    "without_ok": true,
+    "without_P": 14.133481432652456,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     17.854572660781084,
+     41.888917082771236,
+     42.78255941576097
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "5598",
+   "P": 2.921921389545803,
+   "sigma_P": 2.1e-05,
+   "P_lcdb": 2.9226,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6613020454781435,
+    "without_ok": true,
+    "without_P": 1.4609607830534843,
+    "groups": "1/1",
+    "groups_majority": true,
+    "visit_rotations": [
+     186.51764002157984,
+     576.2526831837033
+    ]
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/1",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "5619",
+   "P": 5.064969874370823,
+   "sigma_P": 0.00067,
+   "P_lcdb": 5.0643,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.2762550881953867,
+    "without_ok": true,
+    "without_P": 5.064969874370823,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "12/12",
+   "tess": true
+  },
+  {
+   "num": "5703",
+   "P": 3.457272259413795,
+   "sigma_P": 3.2e-05,
+   "P_lcdb": 3.4566,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.267205169628433,
+    "without_ok": true,
+    "without_P": 1.728636326262302,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "12/12",
+   "tess": true
+  },
+  {
+   "num": "5754",
+   "P": 8.900122209504474,
+   "sigma_P": 0.00019,
+   "P_lcdb": 8.9021,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2346580156799135,
+    "without_ok": true,
+    "without_P": 4.45006154160225,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": null
+  },
+  {
+   "num": "5875",
+   "P": 5.550285194285771,
+   "sigma_P": 9.2e-05,
+   "P_lcdb": 5.551,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.22650771388499302,
+    "without_ok": true,
+    "without_P": 2.775142480515157,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "13/13",
+   "tess": null
+  },
+  {
+   "num": "6136",
+   "P": 16.474276427426204,
+   "sigma_P": 0.00074,
+   "P_lcdb": 16.476,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20472665148063784,
+    "without_ok": true,
+    "without_P": 8.237135206504995,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "17/17",
+   "tess": null
+  },
+  {
+   "num": "6179",
+   "P": 9.406285499376422,
+   "sigma_P": 0.00022,
+   "P_lcdb": 9.403,
+   "recovery": "same",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3820545339251744,
+    "without_ok": false,
+    "without_P": 23.959058784950674,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.76,
+   "fam_w": 0.46,
+   "groups": "0/2",
+   "loo": "9/10",
+   "tess": true
+  },
+  {
+   "num": "6361",
+   "P": 9.114402447324169,
+   "sigma_P": 0.00023,
+   "P_lcdb": 9.1122,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18906685236768805,
+    "without_ok": true,
+    "without_P": 4.557198826802664,
+    "groups": "2/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "6556",
+   "P": 2.5158390723285797,
+   "sigma_P": 2.7e-05,
+   "P_lcdb": 2.5158,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.25644504748982366,
+    "without_ok": true,
+    "without_P": 2.5158390723285797,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/2",
+   "loo": "11/11",
+   "tess": null
+  },
+  {
+   "num": "6843",
+   "P": 47.83278365059276,
+   "sigma_P": 0.046,
+   "P_lcdb": 8.2865,
+   "recovery": "wrong",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.24027237354085607,
+    "without_ok": true,
+    "without_P": 23.915839298587105,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 0.99,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "12/12",
+   "tess": false
+  },
+  {
+   "num": "6949",
+   "P": 3.6335890784874416,
+   "sigma_P": 5e-05,
+   "P_lcdb": 3.6336,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20963472736897826,
+    "without_ok": true,
+    "without_P": 1.8167943546907195,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "12/12",
+   "tess": null
+  },
+  {
+   "num": "7288",
+   "P": 4.889594299979342,
+   "sigma_P": 6.4e-05,
+   "P_lcdb": 4.8889,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1795580110497238,
+    "without_ok": true,
+    "without_P": 4.889594299979342,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "1/2",
+   "loo": "14/14",
+   "tess": null
+  },
+  {
+   "num": "7998",
+   "P": 6.501272500992406,
+   "sigma_P": 8.6e-05,
+   "P_lcdb": 6.502,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.22812311406155705,
+    "without_ok": true,
+    "without_P": 3.2506363182478295,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "15/15",
+   "tess": true
+  },
+  {
+   "num": "8120",
+   "P": 5.86083316872009,
+   "sigma_P": 6.8e-05,
+   "P_lcdb": 5.86,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "704V",
+    "share": 0.2558320373250389,
+    "without_ok": true,
+    "without_P": 5.86083316872009,
+    "groups": "0/1",
+    "groups_majority": false
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "0/1",
+   "loo": "9/9",
+   "tess": null
+  },
+  {
+   "num": "8356",
+   "P": 23.96562134078388,
+   "sigma_P": 0.0016,
+   "P_lcdb": 3.04303,
+   "recovery": "wrong",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20831168831168834,
+    "without_ok": true,
+    "without_P": 23.96562134078388,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "9/9",
+   "tess": null
+  },
+  {
+   "num": "10997",
+   "P": 3.208996441314381,
+   "sigma_P": 3.1e-05,
+   "P_lcdb": 3.209,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18838526912181308,
+    "without_ok": true,
+    "without_P": 1.6044983512482962,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "11842",
+   "P": 3.6862983332110786,
+   "sigma_P": 0.00032,
+   "P_lcdb": 3.68578,
+   "recovery": "same",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4162303664921466,
+    "without_ok": true,
+    "without_P": 3.6862983332110786,
+    "groups": "1/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.597,
+   "fam_w": 0.67,
+   "groups": "1/2",
+   "loo": "7/8",
+   "tess": false
+  },
+  {
+   "num": "16935",
+   "P": 6.274253040797614,
+   "sigma_P": 9.6e-05,
+   "P_lcdb": 6.298,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2103648141834299,
+    "without_ok": true,
+    "without_P": 3.137126797121213,
+    "groups": "3/3",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "3/3",
+   "loo": "15/15",
+   "tess": null
+  },
+  {
+   "num": "18418",
+   "P": 3.469861847254368,
+   "sigma_P": 3e-05,
+   "P_lcdb": 3.47,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2453077258838935,
+    "without_ok": true,
+    "without_P": 3.469861847254368,
+    "groups": "0/2",
+    "groups_majority": false
+   },
+   "fam_u": 0.797,
+   "fam_w": 0.917,
+   "groups": "0/2",
+   "loo": "11/12",
+   "tess": null
+  },
+  {
+   "num": "20691",
+   "P": 23.923802198634714,
+   "sigma_P": 0.015,
+   "P_lcdb": 2.699,
+   "recovery": "wrong",
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.261727078891258,
+    "without_ok": true,
+    "without_P": 23.923802198634714,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "10/10",
+   "tess": null
+  },
+  {
+   "num": "23233",
+   "P": 3.731577606121989,
+   "sigma_P": 0.00025,
+   "P_lcdb": 3.732,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21722846441947563,
+    "without_ok": true,
+    "without_P": 3.731577606121989,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "13/13",
+   "tess": true
+  },
+  {
+   "num": "26110",
+   "P": 9.192892264308272,
+   "sigma_P": 0.00024,
+   "P_lcdb": 9.192,
+   "recovery": "same",
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.414620378210556,
+    "without_ok": true,
+    "without_P": 9.192892264308272,
+    "groups": "2/2",
+    "groups_majority": true
+   },
+   "fam_u": 1.0,
+   "fam_w": 1.0,
+   "groups": "2/2",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "46436",
+   "P": 3.8837232191556508,
+   "sigma_P": 0.00033,
+   "P_lcdb": 3.884,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21937686726419126,
+    "without_ok": true,
+    "without_P": 1.941861307453628,
+    "groups": "0/1",
+    "groups_majority": false
+   },
+   "fam_u": 0.897,
+   "fam_w": 0.507,
+   "groups": "0/1",
+   "loo": "14/14",
+   "tess": true
+  },
+  {
+   "num": "88462",
+   "P": 5.528132841759228,
+   "sigma_P": 8.5e-05,
+   "P_lcdb": 5.5274,
+   "recovery": "same",
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2477440525020509,
+    "without_ok": true,
+    "without_P": 5.528132841759228,
+    "groups": "1/1",
+    "groups_majority": true
+   },
+   "fam_u": 0.963,
+   "fam_w": 1.0,
+   "groups": "1/1",
+   "loo": "9/10",
+   "tess": null
+  }
+ ],
+ "paper": [
+  {
+   "num": "249",
+   "table": 2,
+   "P": 85.22114184244144,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5415389578964349,
+    "without_ok": true,
+    "without_P": 85.22114184244144,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     8.249749203530191
+    ]
+   }
+  },
+  {
+   "num": "486",
+   "table": 2,
+   "P": 65.28583077941505,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.34294280442804426,
+    "without_ok": true,
+    "without_P": 32.642911871696576,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "870",
+   "table": 2,
+   "P": 171.72154304694178,
+   "quality": "B",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5539164032314717,
+    "without_ok": false,
+    "without_P": 61.32369842575392,
+    "groups": "1/3",
+    "groups_majority": false,
+    "visit_rotations": [
+     1.28308097178142,
+     3.7777022585214297,
+     1.5646088020518152
+    ]
+   }
+  },
+  {
+   "num": "1600",
+   "table": 2,
+   "P": 3.200978256534935,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4877700410640957,
+    "without_ok": true,
+    "without_P": 3.200978256534935,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "1700",
+   "table": 2,
+   "P": 9.114772133687792,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.28097868981846885,
+    "without_ok": false,
+    "without_P": 11.25683559142041,
+    "groups": "0/2",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "1706",
+   "table": 2,
+   "P": 2.58937006799072,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.19188667095943335,
+    "without_ok": true,
+    "without_P": 1.2946849114991446,
+    "groups": "2/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "1717",
+   "table": 2,
+   "P": 18.213699595667784,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6526453765490944,
+    "without_ok": true,
+    "without_P": 18.213699595667784,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     101.09237978522941
+    ]
+   }
+  },
+  {
+   "num": "1798",
+   "table": 2,
+   "P": 3.506679786544696,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.2664654226125137,
+    "without_ok": false,
+    "without_P": 5.989223481642235,
+    "groups": "0/3",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "1818",
+   "table": 3,
+   "P": 5.356141241116103,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2240613645538958,
+    "without_ok": true,
+    "without_P": 5.356141241116103,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "1820",
+   "table": 2,
+   "P": 14.051836125626199,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5685326889515372,
+    "without_ok": true,
+    "without_P": 14.051836125626199,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     40.38791324295236,
+     41.35878463995722
+    ]
+   }
+  },
+  {
+   "num": "1920",
+   "table": 2,
+   "P": 4.0470511145276875,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21036585365853655,
+    "without_ok": true,
+    "without_P": 2.023525384289062,
+    "groups": "1/2",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "1942",
+   "table": 2,
+   "P": 8.909036966078999,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18808359270787012,
+    "without_ok": true,
+    "without_P": 8.909036966078999,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "1944",
+   "table": 3,
+   "P": 895.22118272797,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3945245661207528,
+    "without_ok": true,
+    "without_P": 447.6211709153357,
+    "groups": "1/2",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "1949",
+   "table": 2,
+   "P": 3.6488943627968116,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5404210153900584,
+    "without_ok": true,
+    "without_P": 3.6488943627968116,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     238.47404858318404
+    ]
+   }
+  },
+  {
+   "num": "2497",
+   "table": 3,
+   "P": 77.62089631241916,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.314495254529767,
+    "without_ok": true,
+    "without_P": 77.62089631241916,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "2503",
+   "table": 3,
+   "P": 102.8388,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6086183918258552,
+    "without_ok": true,
+    "without_P": 51.30551091616132,
+    "groups": "1/1",
+    "groups_majority": true,
+    "visit_rotations": [
+     5.878231745757464
+    ]
+   }
+  },
+  {
+   "num": "2538",
+   "table": 3,
+   "P": 53.44548153593135,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.40468625893566323,
+    "without_ok": true,
+    "without_P": 26.722693242016266,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "2539",
+   "table": 3,
+   "P": 12.296393396969368,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21674876847290636,
+    "without_ok": true,
+    "without_P": 12.296393396969368,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "2583",
+   "table": 3,
+   "P": 7.790034879078774,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.36585365853658536,
+    "without_ok": true,
+    "without_P": 3.8950149159652123,
+    "groups": "1/2",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "2607",
+   "table": 3,
+   "P": 2.9356358712491355,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T05o",
+    "share": 0.2292603187576624,
+    "without_ok": true,
+    "without_P": 2.9356358712491355,
+    "groups": "1/2",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "2614",
+   "table": 3,
+   "P": 2.9699667888590695,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6393780739330477,
+    "without_ok": true,
+    "without_P": 2.9699667888590695,
+    "groups": "2/2",
+    "groups_majority": true,
+    "visit_rotations": [
+     205.32950042135835,
+     79.85514485980312
+    ]
+   }
+  },
+  {
+   "num": "2817",
+   "table": 3,
+   "P": 13.481981662023687,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.22211253701875622,
+    "without_ok": true,
+    "without_P": 6.740996028399583,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "2968",
+   "table": 3,
+   "P": 3.8308746430338947,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2612359550561798,
+    "without_ok": false,
+    "without_P": 4.1633843747781425,
+    "groups": "0/1",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "2971",
+   "table": 3,
+   "P": 4.4908231415231965,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2968810165575664,
+    "without_ok": true,
+    "without_P": 2.2454114888108223,
+    "groups": "1/1",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3081",
+   "table": 3,
+   "P": 8.007285674701077,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.28257328990228014,
+    "without_ok": true,
+    "without_P": 4.003643155679052,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3172",
+   "table": 3,
+   "P": 47.93985155322714,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21445783132530116,
+    "without_ok": true,
+    "without_P": 47.93985155322714,
+    "groups": "1/1",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3173",
+   "table": 3,
+   "P": 1143.9953397762022,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4791806581598388,
+    "without_ok": true,
+    "without_P": 572.0047242953071,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3216",
+   "table": 3,
+   "P": 1264.9647726729704,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6176051318602993,
+    "without_ok": true,
+    "without_P": 633.3641707945033,
+    "groups": "1/2",
+    "groups_majority": false,
+    "visit_rotations": [
+     0.40594252137529546,
+     0.46643158597621626,
+     0.19816090654174345
+    ]
+   }
+  },
+  {
+   "num": "3459",
+   "table": 3,
+   "P": 547.4310099624905,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21624060150375934,
+    "without_ok": true,
+    "without_P": 547.4310099624905,
+    "groups": "1/3",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "3473",
+   "table": 3,
+   "P": 9.074018167859498,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2350523168908819,
+    "without_ok": true,
+    "without_P": 4.537010333448702,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3567",
+   "table": 2,
+   "P": 8.120654598797367,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2451545311681509,
+    "without_ok": true,
+    "without_P": 4.060323460594538,
+    "groups": "1/1",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3716",
+   "table": 3,
+   "P": 10.474341812309438,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18718884832392968,
+    "without_ok": true,
+    "without_P": 5.237171133974584,
+    "groups": "1/3",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "3777",
+   "table": 3,
+   "P": 47.82952108505999,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.19621405169275574,
+    "without_ok": true,
+    "without_P": 23.972784894383214,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3858",
+   "table": 3,
+   "P": 7.088087733035718,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5778661365142479,
+    "without_ok": true,
+    "without_P": 7.090029598215257,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     88.95103858064884,
+     85.44892008544262
+    ]
+   }
+  },
+  {
+   "num": "3891",
+   "table": 3,
+   "P": 92.75320535383537,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18746268656716414,
+    "without_ok": true,
+    "without_P": 92.75320535383537,
+    "groups": "1/1",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "3954",
+   "table": 3,
+   "P": 2.8797801667230836,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1603174603174603,
+    "without_ok": true,
+    "without_P": 2.8797801667230836,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4048",
+   "table": 3,
+   "P": 49.196412000373016,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4607616242373238,
+    "without_ok": true,
+    "without_P": 49.196412000373016,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4129",
+   "table": 3,
+   "P": 291.05799948863375,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20218340611353713,
+    "without_ok": true,
+    "without_P": 145.52805800413864,
+    "groups": "1/2",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "4239",
+   "table": 3,
+   "P": 23.13818050658784,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "704V",
+    "share": 0.20021489971346706,
+    "without_ok": true,
+    "without_P": 23.13818050658784,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4245",
+   "table": 3,
+   "P": 19.790776456323275,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.30409356725146197,
+    "without_ok": true,
+    "without_P": 9.895378397841261,
+    "groups": "2/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4267",
+   "table": 3,
+   "P": 51.419789984716346,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.39235349420244436,
+    "without_ok": true,
+    "without_P": 25.71000777710964,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4270",
+   "table": 4,
+   "P": 10.868352101529585,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18210036213140202,
+    "without_ok": true,
+    "without_P": 5.434175374894484,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4273",
+   "table": 4,
+   "P": 2.7625925141917067,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1939953810623557,
+    "without_ok": true,
+    "without_P": 2.7625925141917067,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4303",
+   "table": 4,
+   "P": 6.136254226973679,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4628282828282828,
+    "without_ok": true,
+    "without_P": 3.0681287853520396,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4320",
+   "table": 4,
+   "P": 2.768972219380378,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.18966603654694392,
+    "without_ok": true,
+    "without_P": 2.768972219380378,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4322",
+   "table": 4,
+   "P": 18.77822980883855,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2778716216216216,
+    "without_ok": true,
+    "without_P": 18.77822980883855,
+    "groups": "1/1",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4331",
+   "table": 4,
+   "P": 147.52206752452085,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.4636083644026584,
+    "without_ok": true,
+    "without_P": 147.52206752452085,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4371",
+   "table": 4,
+   "P": 447.1588509809098,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.2133567662565905,
+    "without_ok": true,
+    "without_P": 223.6092609254417,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4396",
+   "table": 4,
+   "P": 30.688353893407424,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.15977505788951374,
+    "without_ok": true,
+    "without_P": 15.344169214475667,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4456",
+   "table": 4,
+   "P": 7.033758804473314,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.2815845824411135,
+    "without_ok": true,
+    "without_P": 7.033758804473314,
+    "groups": "1/2",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "4478",
+   "table": 4,
+   "P": 130.0009328397022,
+   "quality": "B",
+   "quality_capped": "B",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.17331545424069728,
+    "without_ok": true,
+    "without_P": 65.00049855720601,
+    "groups": "1/3",
+    "groups_majority": false
+   }
+  },
+  {
+   "num": "4482",
+   "table": 4,
+   "P": 105.01135313417365,
+   "quality": "C",
+   "quality_capped": "C",
+   "quality_capped_k3": "C",
+   "quality_capped_k5": "C",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.595890410958904,
+    "without_ok": true,
+    "without_P": 52.50547323688591,
+    "groups": "1/1",
+    "groups_majority": true,
+    "visit_rotations": [
+     6.237393263608719,
+     4.536088407312339,
+     2.9506737160801344
+    ]
+   }
+  },
+  {
+   "num": "4556",
+   "table": 4,
+   "P": 36.079372985127755,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.20802315963606288,
+    "without_ok": true,
+    "without_P": 18.039688632645838,
+    "groups": "2/2",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4618",
+   "table": 4,
+   "P": 6.7811121467036575,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.21633362293657687,
+    "without_ok": true,
+    "without_P": 3.390556133885526,
+    "groups": "1/1",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "4682",
+   "table": 4,
+   "P": 6.45556007835625,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.5423340961098397,
+    "without_ok": true,
+    "without_P": 6.45556007835625,
+    "groups": "3/3",
+    "groups_majority": true,
+    "visit_rotations": [
+     158.68616116113935,
+     55.199183832318056
+    ]
+   }
+  },
+  {
+   "num": "4761",
+   "table": 4,
+   "P": 5.09055744666004,
+   "quality": "B",
+   "quality_capped": "C",
+   "quality_capped_k3": "B",
+   "quality_capped_k5": "B",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.6574292452830188,
+    "without_ok": false,
+    "without_P": 4.601921604054565,
+    "groups": "1/2",
+    "groups_majority": false,
+    "visit_rotations": [
+     110.33490473638928,
+     124.08335161598026
+    ]
+   }
+  },
+  {
+   "num": "4777",
+   "table": 4,
+   "P": 9.733859470909717,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "T08o",
+    "share": 0.1839416058394161,
+    "without_ok": true,
+    "without_P": 4.866930620540403,
+    "groups": "3/3",
+    "groups_majority": true
+   }
+  },
+  {
+   "num": "7750",
+   "table": 2,
+   "P": 27.809184204757926,
+   "quality": "A",
+   "quality_capped": "A",
+   "quality_capped_k3": "A",
+   "quality_capped_k5": "A",
+   "dominant": {
+    "dataset": "C57G",
+    "share": 0.3092537313432836,
+    "without_ok": true,
+    "without_P": 13.904563690168853,
+    "groups": "1/1",
+    "groups_majority": true
+   }
+  }
+ ]
+}
