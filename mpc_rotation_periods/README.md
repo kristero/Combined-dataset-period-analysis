@@ -71,3 +71,7 @@ models (`convex_only`), and (2150) remains an injection template.
   the competing periods of (3716) and (4239); `--collect` rebuilds the summary from finished runs),
   `inertia_sensitivity.py` (validation models at the strongest wrong candidate of the blind run).
 - Synodic-sidereal consistency: `synsid_check.py` (`synsid_check.json`).
+- Finer analyses (`fine_checks.py`, `hpc/fine_checks.sbatch`, `fine_checks.json`): 60 initial poles for the models
+  that fail the inertia check; for the asteroids flagged by `synsid_check.py`, the periodogram on a fine grid with a
+  night-block bootstrap, a fine period scan and the 60-pole grid at both candidate sidereal periods.
+- `darkfacet_albedo.py`: dark facet of the convex models against the SBDB albedo (no correlation).
